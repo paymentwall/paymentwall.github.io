@@ -11,15 +11,15 @@ Get started with Paymentwall by using the documentation provided in this site.
 
 Choose the product which is most suitable for you and start integration with us!
 
-> This page is hosted by Github pages, you can also view it on [Github](https://github.com/paymentwall/paymentwall.github.io).
+> This page is paylet by Github pages, you can also view it on [Github](https://github.com/paymentwall/paymentwall.github.io).
 
 ## Desktop
 
-+ [Hosted Checkout](/hosted-home).
-    - [Stored product](/hosted/stored-products). 
-    - [Custom price](/hosted/custom-price).
-    - [Invoice](/hosted/invoice). 
-    - [Offerwall](/hosted/offerwall-home).
++ [Paylet](/paylet-home).
+    - [Stored product](/paylet/stored-products). 
+    - [Custom price](/paylet/custom-price).
+    - [Invoice](/paylet/invoice). 
+    - [Offerwall](/paylet/offerwall-home).
 + [Direct API](/direct-home). 
     - [Brick](/direct/brick-home).
     - [Mobiamo](/direct/mobiamo-home).

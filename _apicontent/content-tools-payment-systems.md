@@ -25,7 +25,7 @@ Check below for the description of response attributes.
 
 | Name | Description|
 |---|---|
-|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-hosted-optional-parameter).|
+|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-paylet-optional-parameter).|
 |name| Payment system name.|
 |new_window| Payment methods require opening a new window or redirecting users to a new url.|
 |img_url| URL of the payment system logo.|

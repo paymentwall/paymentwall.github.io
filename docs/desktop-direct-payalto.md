@@ -21,6 +21,6 @@ PayAlto is a local payment methods aggregation which includes all the [gateways]
 
 All the gateways can be simply turned on in **Payment system** section of your project.  Some of them may need additional on boarding flow as required by our partners. The required time varies depending on our partners. 
 
-## PayAlto in hosted checkout
+## PayAlto in paylet
 
-* PayAlto has been integrated in [hosted checkout](/hosted-home). All its gateways can be selected as available payment methods in widget.
+* PayAlto has been integrated in [paylet](/paylet-home). All its gateways can be selected as available payment methods in widget.

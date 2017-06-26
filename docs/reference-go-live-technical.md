@@ -15,9 +15,9 @@ You will see technical integration part on the left side. Check all the checkbox
 
 > The url where Paymentwall widget is placed should be provided along with a test account on your website. If you are using our product on mobile, please replace the url with a downloadable link of your application.
 
-## Hosted Checkout check points
+## Paylet check points
 
-Below is the check points for merchants who are using [Hosted Checkout](/hosted-home).
+Below is the check points for merchants who are using [Paylet](/paylet-home).
 
 * Integrate a payment widget. It should be accessible on your website/application.
 
