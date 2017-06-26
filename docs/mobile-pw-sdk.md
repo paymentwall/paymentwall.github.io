@@ -48,7 +48,7 @@ Paymentwall SDK consists of two parts: Core SDK and Plugin SDK. For more informa
 
 * Include [core SDK](/mobile/core) in your application. Choose one or more payment options according to your needs.
 
-* [Custom price](/hosted/custom-price). Set up product details in core SDK, which is required. To maximize the needs of payment customization and improvements of user experience, Paymentwall SDK is designed to display one product for each request.
+* [Custom price](/paylet/custom-price). Set up product details in core SDK, which is required. To maximize the needs of payment customization and improvements of user experience, Paymentwall SDK is designed to display one product for each request.
 
 * Include payment options which you want to use through plugin SDK (optional).
 

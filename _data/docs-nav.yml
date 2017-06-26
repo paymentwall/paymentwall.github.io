@@ -4,36 +4,36 @@
 - id: nav-desktop
   title: Desktop
   items:
-    - id: nav-desktop-hosted
-      title: Hosted Checkout
-      path: /hosted-home
+    - id: nav-desktop-paylet
+      title: Paylet
+      path: /paylet-home
       subitems:
-        - id: nav-desktop-hosted-stored
+        - id: nav-desktop-paylet-stored
           title: Stored product
-          path: /hosted/stored-products
+          path: /paylet/stored-products
           leaves:
-            - id: nav-desktop-hosted-stored-dg
+            - id: nav-desktop-paylet-stored-dg
               title: Digital Goods
-              path: /hosted/stored/dg
-            - id: nav-desktop-hosted-stored-vc
+              path: /paylet/stored/dg
+            - id: nav-desktop-paylet-stored-vc
               title: Virtual Currency
-              path: /hosted/stored/vc
-        - id: nav-desktop-hosted-custom
+              path: /paylet/stored/vc
+        - id: nav-desktop-paylet-custom
           title: Custom price
-          path: /hosted/custom-price
+          path: /paylet/custom-price
           leaves:
-            - id: nav-desktop-hosted-custom-onetime
+            - id: nav-desktop-paylet-custom-onetime
               title: Onetime
-              path: /hosted/custom/onetime
-            - id: nav-desktop-hosted-custom-subscription
+              path: /paylet/custom/onetime
+            - id: nav-desktop-paylet-custom-subscription
               title: Subscription
-              path: /hosted/custom/subscription
-        - id: nav-desktop-hosted-invoice
+              path: /paylet/custom/subscription
+        - id: nav-desktop-paylet-invoice
           title: Invoice
-          path: /hosted/invoice
-        - id: nav-desktop-hosted-offerwall
+          path: /paylet/invoice
+        - id: nav-desktop-paylet-offerwall
           title: Offerwall
-          path: /hosted/offerwall-home
+          path: /paylet/offerwall-home
     - id: nav-desktop-direct
       title: Direct API
       path: /direct-home

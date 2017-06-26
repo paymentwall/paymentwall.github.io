@@ -4,36 +4,36 @@
       title: Introduction
 - title: HOSTED CHECKOUT
   items:
-    - name: section-hosted-stored
+    - name: section-paylet-stored
       title: Stored product
       subitems:
-        - name: section-hosted-stored-dg
+        - name: section-paylet-stored-dg
           title: Digital Goods
-        - name: section-hosted-stored-vc
+        - name: section-paylet-stored-vc
           title: Virtual Currency
-    - name: section-hosted-custom
+    - name: section-paylet-custom
       title: Custom price
       subitems:
-        - name: section-hosted-custom-onetime
+        - name: section-paylet-custom-onetime
           title: Onetime
-        - name: section-hosted-custom-subscription
+        - name: section-paylet-custom-subscription
           title: Subscription
-        - name: section-hosted-custom-server_side
+        - name: section-paylet-custom-server_side
           title: Server-side
-    - name: section-hosted-optional-parameter
+    - name: section-paylet-optional-parameter
       title: Optional Parameter
-    - name: section-hosted-invoice
+    - name: section-paylet-invoice
       title: Invoice
       subitems:
-        - name: section-hosted-invoice-contacts
+        - name: section-paylet-invoice-contacts
           title: Contacts
-        - name: section-hosted-invoice-items
+        - name: section-paylet-invoice-items
           title: Items
-        - name: section-hosted-invoice-tax_invoice
+        - name: section-paylet-invoice-tax_invoice
           title: Invoice tax/discount
-        - name: section-hosted-invoice-tax_item
+        - name: section-paylet-invoice-tax_item
           title: Iteam tax/discount
-        - name: section-hosted-invoice-response
+        - name: section-paylet-invoice-response
           title: Response attributes
 - title: BRICK
   items:

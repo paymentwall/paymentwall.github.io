@@ -9,7 +9,7 @@ permalink: direct/mint-home
 
 Mint is an online prepaid payment solution for purchasing digital goods and services.
 
-It has been integrated in [Hosted Checkout](/hosted-home) as an available payment method.
+It has been integrated in [Paylet](/paylet-home) as an available payment method.
 
 ## Direct Integration
 
