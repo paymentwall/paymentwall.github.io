@@ -86,6 +86,9 @@
         - id: nav-mobile-sdk-plugin
           title: Plugin
           path: /mobile/plugin
+        - id: nav-mobile-sdk-support_ps
+          title: Optimized payment methods
+          path: /mobile/support_ps
 - id: nav-smarttv
   title: Smart TV
   items:
