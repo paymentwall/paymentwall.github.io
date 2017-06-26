@@ -7,7 +7,7 @@ permalink: mobile-sdk
 
 # Paymentwall SDK
 
-Paymentwall SDK is a mobile payment solution for the [payment methods](https://www.paymentwall.com/payment-methods) provided by Paymentwall and our partners. It aims to provide better payment experience for mobile users. Below is payment process of credit card. 
+Paymentwall SDK is a mobile payment solution for the [payment methods](https://www.paymentwall.com/payment-methods) provided by Paymentwall and our partners. It aims to provide better payment experience for mobile users. Below is payment process of credit card.
 
 <div class="docs-img">
   <img src="/textures/pic/pw-sdk/choose-ps.png" style="width: 15%">
@@ -22,8 +22,8 @@ For some payment methods, we have made improvement on its UI and method of calli
 | :--: | :--: |
 |Indomog |<img src="https://api.paymentwall.com/images/developers/pm_indomog.gif?6" style="width: 12%">|
 |Paysbuy |<img src="https://api.paymentwall.com/images/developers/pm_paysbuy.gif?6 " style="width: 12%">|
-|KBC |<img src="https://api.paymentwall.com/images/developers/pm_kbc.gif?6 " style="width: 12%">| 
-|Mister Cash |<img src=" https://api.paymentwall.com/images/developers/pm_bancontact.gif?6" style="width: 12%">| 
+|KBC |<img src="https://api.paymentwall.com/images/developers/pm_kbc.gif?6 " style="width: 12%">|
+|Mister Cash |<img src=" https://api.paymentwall.com/images/developers/pm_bancontact.gif?6" style="width: 12%">|
 |Web Money |<img src="https://api.paymentwall.com/images/developers/pm_webmoney.gif?6 " style="width: 12%">|
 |Liqpay | <img src="https://api.paymentwall.com/images/developers/pm_liqpay.gif?6 " style="width: 12%">|
 |Sofort Bank Transfer | <img src="https://api.paymentwall.com/images/developers/pm_sofortbanktransfer.gif?6 " style="width: 12%">|
@@ -34,13 +34,13 @@ For some payment methods, we have made improvement on its UI and method of calli
 |Union Pay|<img src="https://api.paymentwall.com/images/developers/pm_unionpay.gif?6" style="width: 10%">|
 |WeChat|<img src="https://api.paymentwall.com/images/developers/pm_wechatpayments.gif?6" style="width: 18%">|
 
-For the rest payment methods, we also provide a view which is suitable for mobile users. 
+For the rest payment methods, we also provide a view which is suitable for mobile users.
 
 ## Components
 
 Paymentwall SDK consists of two parts: Core SDK and Plugin SDK. For more information about each part, please click the links for details.
 
-* [Core SDK](/mobile/core). The required part of Paymentwall SDK. 
+* [Core SDK](/mobile/core). The required part of Paymentwall SDK.
 
 * [Plugin SDK](/mobile/plugin). Local payment options which can be a plugin to core SDK. It provides better experience for some payment methods, which will improve on UI and loading speed.
 
