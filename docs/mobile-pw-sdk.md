@@ -16,23 +16,7 @@ Paymentwall SDK is a mobile payment solution for the [payment methods](https://w
   <img src="/textures/pic/pw-sdk/result-success.png" style="width: 15%">
 </div>
 
-For some payment methods, we have made improvement on its UI and method of calling, which could make the payment process smooth and easy. Your customers don't need to waste their time on loading webviews anymore. Once the item is chosen, they can start typing payment information immediately. Please take the table below for reference.
-
-|Payment Methods|Logo|
-| :--: | :--: |
-|Indomog |<img src="https://api.paymentwall.com/images/developers/pm_indomog.gif?6" style="width: 12%">|
-|Paysbuy |<img src="https://api.paymentwall.com/images/developers/pm_paysbuy.gif?6 " style="width: 12%">|
-|KBC |<img src="https://api.paymentwall.com/images/developers/pm_kbc.gif?6 " style="width: 12%">| 
-|Mister Cash |<img src=" https://api.paymentwall.com/images/developers/pm_bancontact.gif?6" style="width: 12%">| 
-|Web Money |<img src="https://api.paymentwall.com/images/developers/pm_webmoney.gif?6 " style="width: 12%">|
-|Liqpay | <img src="https://api.paymentwall.com/images/developers/pm_liqpay.gif?6 " style="width: 12%">|
-|Sofort Bank Transfer | <img src="https://api.paymentwall.com/images/developers/pm_sofortbanktransfer.gif?6 " style="width: 12%">|
-|Mint | <img src=" https://api.paymentwall.com/images/developers/pm_epinpaymentsystem.gif?6" style="width: 12%">|
-|Credit Card |<img src="https://api.paymentwall.com/images/developers/pm_allthegate.gif?6 " style="width: 12%">|
-|Mobiamo |<img src="https://api.paymentwall.com/images/developers/pm_mobilegateway.gif?6 " style="width: 8%;">|
-|Alipay|<img src="https://api.paymentwall.com/images/developers/pm_alipay.gif?6 " style="width: 12%">|
-|Union Pay|<img src="https://api.paymentwall.com/images/developers/pm_unionpay.gif?6" style="width: 10%">|
-|WeChat|<img src="https://api.paymentwall.com/images/developers/pm_wechatpayments.gif?6" style="width: 18%">|
+We have made improvement for [optimized payment methods](/mobile/support_ps) on their UI and method of calling, which could make the payment process smooth and easy. Your customers don't need to waste their time on loading webviews anymore. Once the item is chosen, they can start typing payment information immediately.
 
 For the rest payment methods, we also provide a view which is suitable for mobile users. 
 
