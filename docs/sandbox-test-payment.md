@@ -52,6 +52,6 @@ Upon clicking the Buy button, a Thank You page is displayed to the user. An exam
 When Buy button in the widget is clicked for Test Payment method, a test pingback is sent. It has the actual parameters that are being passed into the widget or defined in the widget:
 
 | uid | According to the value passed in uid parameter of the widget URL | 
-| currency, goodsid, slength, speriod | According to the selection in the widget or according to widget params in case of custom price widget call for Digital Goods API |
+| currency, goodsid, slength, speriod | According to the selection in the widget or according to widget params in case of Custom Price widget call for Digital Goods API |
 | ref | Defined as t unix timestamp, e.g. t1356510177 |
 | | any custom parameters that are passed into the widget if such parameters are configured |

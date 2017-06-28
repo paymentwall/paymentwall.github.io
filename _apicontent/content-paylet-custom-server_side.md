@@ -3,7 +3,7 @@ category: section-paylet-custom-server_side
 ---
 ## Server-side 
 
-Using server-side API allows you to send all the requested parameters in [custom price](#section-paylet-custom) via server side and get a widget session key, a token that can be used for loading widget. Therefore the sending data won't be visible via the browser, such as unique order ID. 
+Using server-side API allows you to send all the requested parameters in [Custom Price](#section-paylet-custom) via server side and get a widget session key, a token that can be used for loading widget. Therefore the sending data won't be visible via the browser, such as unique order ID. 
 Your user can then be redirected to the widget using the generated widget session key. 
 
 > This feature can be activated by contacting us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).

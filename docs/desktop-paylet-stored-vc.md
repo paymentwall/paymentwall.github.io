@@ -55,7 +55,7 @@ You will also see how much virtual currency the customer is purchasing (this is 
  
 ## API Call
 
-See [stored product for virtual currency](/API-Reference#section-paylet-stored-vc).
+See [Stored Product for virtual currency](/API-Reference#section-paylet-stored-vc).
 
 ## Next Step
 
@@ -63,6 +63,6 @@ Once you have successfully integrated our widget, you can then continue with pin
 
 > [Pingbacks for virtual currency API](/default-pingback-vc).
 
-Alternatively, you can also see digital goods of stored product.
+Alternatively, you can also see digital goods of Stored Product.
 
 > [Digital goods](/paylet/stored/dg).

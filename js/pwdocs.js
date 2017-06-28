@@ -23,8 +23,13 @@ function goto(url, addEntry, id){
         $result = $(result);
         $result.find("script").appendTo('.maincontent');
         $.getScript("/js/pwdocs-load.js");
-        $('.showbox').css('display','none'); 
+        $('.showbox').css('display','none');
     });
+
+    // Scroll page to its start part if no anchor present at url
+    if (url.indexOf('#') < 0 ){
+        $('body').animate({scrollTop:0},'slow');
+    }
 
     $.get(url, function(e){
     	var title = $(e).filter('title').text();

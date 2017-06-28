@@ -44,7 +44,7 @@ You can set different settings for each product like specific regions you want t
  
 ## API Call
 
-See [stored product for digital goods](/API-Reference#section-paylet-stored-dg) to perform API Call.
+See [Stored Product for digital goods](/API-Reference#section-paylet-stored-dg) to perform API Call.
 
 ## Next Step
 
@@ -52,6 +52,6 @@ Once you have successfully integrated our widget, you can then continue with pin
 
 > [Pingbacks for digital goods API](/default-pingback-dg).
 
-Alternatively, you can also see virtual currency of stored product.
+Alternatively, you can also see virtual currency of Stored Product.
 
 > [Virtual currency](/paylet/stored/vc).

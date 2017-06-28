@@ -11,6 +11,8 @@ permalink: paylet/widget/reference
 
 * [Client side callback](#client-side-callback).
 
+* [Deep-linked payment system](#deep-linked-payment-system).
+
 ## Additional parameters
 
 There are two main categories for additional parameters:
@@ -77,3 +79,23 @@ window.addEventListener('message', function(event) {
 ```
 
 > This feature can be activated for your project if you email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) with your project key.
+
+## Deep-linked payment system
+
+Deep-linked payment system means the pages of desired payment method are displayed into our widgets directly. 
+
+It requires more operations, that is, you will need to build product selection page and payment methods selection page in your own application, but has a better payment experience for your customers. 
+
+> We recommend you to use [Custom Price](/paylet/custom-price) with deep-linked payment system.
+
+Product selection page should be fairly easy to be finished on your side. Paymentwall provides [payment system API](/API-Reference#section-tools-payment-systems) which can help you with payment system selection page. Below are the steps:
+
+* Obtain the country code of your customer by ip address. You can also assign a static country code if your customer are all from a same country.
+
+* Use [payment system API](/API-Reference#section-tools-payment-systems) with the obtained country code to retrieve the list of payment methods activated in your project for the specific country.
+
+* In your payment methods selection page, combine using  ```img_url```, ```name``` with *radio button* or your preferred way to create available payment methods list.
+
+* Bind each available payment method with ```id```. When you are building widget, add ```ps``` in [optional parameter](/API-Reference#section-paylet-optional-parameter) as an additional parameter and set the value as ```id```.
+
+That's it, you have integrated deep-linked payment system into your application.
