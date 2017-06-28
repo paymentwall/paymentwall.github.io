@@ -8,66 +8,32 @@ permalink: pingback-custom-parameters
 # Custom Parameters
 
 You can get additional parameters via Pingback easily.<br> 
-In Project > Settings area, 'Custom Pingback Parameters' is where you can add custom parameters which you would like to receive from Pingback request.
+In **Project** > **Settings area**, **Custom Pingback Parameters** is where you can add custom parameters which you would like to receive from Pingback request.
 
 ## Parameter with own value
 
+Parameter with OWN value are always the one which you have passed to us as custom parameters and want us to communicate it back to you via pingback. In this way, you can manage your custom data based on processed transactions.
+
 | Value | Description |
 |---|---|
-|**OWN**| Your custom parameter which you passed via Paymentwall Widget Call. |
+|**OWN**| Your custom parameter which you passed when build widget. |
 
-Set the value as OWN and receive additional parameter values of Paymentwall Widget Call.
-In this way, you can manage your custom data based on processed transactions.
+To use OWN custom parameter, please add your custom parameter as [addtional parameter](/paylet/widget/reference#additional-parameters).
 
-## Use own parameters
+Here we added ```my_custom_param``` as a parameter name and ```my custom value``` as a value that we want to get back from pingback request.
 
-To use OWN custom parameter, please add custom parameter at Widget Call.
-Here we added "my_custom_param" as a parameter name and "test value" as a value that we want to get back from pingback request.
-
-```php
-<?php
-require_once('/path/to/paymentwall-php/lib/paymentwall.php');
-Paymentwall_Base::setApiType(Paymentwall_Base::API_GOODS);
-Paymentwall_Base::setAppKey('YOUR_PROJECT_KEY'); // available in your Paymentwall merchant area
-Paymentwall_Base::setSecretKey('YOUR_SECRET_KEY'); // available in your Paymentwall merchant area
-
-$widget = new Paymentwall_Widget(
-    'user40012', // id of the end-user who's making the payment
-    'p1_1', // widget code, e.g. p1; can be picked inside of your merchant account
-    array( // product details for Non-Stored Product Widget Call. To let users select the product on Paymentwall's end, leave this array empty
-        new Paymentwall_Product(
-            'product301', // id of the product in your system
-            9.99, // price
-            'USD', // currency code
-            'Gold Membership', // product name
-            Paymentwall_Product::TYPE_SUBSCRIPTION, // this is a time-based product; for one-time products, use Paymentwall_Product::TYPE_FIXED and omit the following 3 array elements
-            1, // duration is 1
-            Paymentwall_Product::PERIOD_TYPE_MONTH, // month
-            true // recurring
-        )
-    ),
-array( // additional parameters array
-        'email' => 'user@hostname.com',
-        'history[registration_date]' => '1445950321',
-        'my_custom_param' => 'my custom value'
-    )
-);
-echo $widget->getHtmlCode();
-?>
-```
-
-Once additional parameter is added on Widget Call script, go to Project > Settings to add custom parameter "my_custom_param".
+Once additional parameter is added, go to **Project** > **Settings** to add custom parameter ```my_custom_param```.
 
 <div class="docs-img">
     <img src="/textures/pic/pingback/customparameter_sample.png">
 </div>
 
-Done! When you receive pingback, you will find your custom parameter "my_custom_param" is also included having "my custom value" as a value in it. 
+Done! When you receive pingback, you will find your custom parameter ```my_custom_param``` is also included having ```my custom value``` as a value in it. 
 ```
 http://www.yourserver.com/anypath?goodsid=gold_membershipis_test=1my_custom_param=my custom valueref=b1493096790sign_version=2slength=1speriod=monthtype=0uid=pwuserac785c67092b858c5de5b7981e81a7db
 ```
 
-> Please check [Android SDK](https://github.com/paymentwall/paymentwall-android-sdk) and [iOS SDK](https://github.com/paymentwall/paymentwall-ios-sdk) to check sample codes of how to add custom parameters at Widget Call.
+> Please check [Android SDK](https://github.com/paymentwall/paymentwall-android-sdk) and [iOS SDK](https://github.com/paymentwall/paymentwall-ios-sdk) to check sample codes of how to add custom parameters.
 
 ## Parameter with value Paymentwall provides
 
