@@ -2,7 +2,7 @@
   items:
     - name: section-head
       title: Introduction
-- title: HOSTED CHECKOUT
+- title: PAYLET
   items:
     - name: section-paylet-stored
       title: Stored product

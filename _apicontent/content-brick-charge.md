@@ -7,7 +7,7 @@ category: section-brick-charge
 
 | Name | Description|
 |---|---|
-| amount <br> *required*<br>**number** | Amount to be charged. Default region is from 0.5 USD to 500 USD or equivalent currency. 2 decimal places is expected.|
+| amount <br> *required*<br>**number** | Amount to be charged. Default region is from 0.3 USD to 500 USD or equivalent currency. 2 decimal places is expected.|
 | currency <br> *required* <br> **string** | Code of the currency, [ISO 4217](http://en.wikipedia.org/wiki/ISO_4217#Active_codes) format.|
 | browser_ip <br> **string** | IP address of End-user. |
 | browser_domain <br> **string** | Domain of the website where the payment is originating from. |

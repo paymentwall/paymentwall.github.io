@@ -3,7 +3,7 @@ category: section-paylet-optional-parameter
 ---
 ## Optional Parameter
 
-Optional parameters could be added as additional information for extra needs. 
+Optional parameters could be added as additional parameters in [Paylet API request](#section-paylet-stored) for extra needs. 
 
 ##### Parameters
 
@@ -16,3 +16,4 @@ Optional parameters could be added as additional information for extra needs.
 |lang<br> **string**| Language code to override the default geo-targeted language of the widget. 2 letters. eg: en. See [language codes](/lang).|
 |evaluation<br> **integer**|The value could be either 1 or 0. For test environment only.<br> If 1, everyone can see the content without being logged into the merchant account in the same browser session.|
 |country_code <br> **string** | The length must be 2-character according to [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country. Overrides the default geological location of user. Requires widget signature.|
+|merchant_order_id<br> **string** | Our widget allows users to refresh the website to re-do payments by default, which may be conflict if you prefer to have your own ```orderId``` associated with only one transaction. Using ```merchant_order_id``` can help you to prevent duplicate orders. This feature also need to be activated by email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).|

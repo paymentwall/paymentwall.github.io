@@ -19,28 +19,7 @@ Here is a sample using Paylet widget.
 
 ## Features
 
-There will be only one product in our widget while using Custom price as it doesn't have the products selection step, which means you need to create it by your own in your application. 
-
-Since payment methods selection step can also be defined by using ```ps``` param as [optional parameter](/API-Reference#section-paylet-optional-parameter), deep-linked payment system is doable for Custom prices.
-
-* Use widget
-
-Our widget provides a default payment methods selection step for your customers.
-
-* Deep-linked payment system
-
-Alternatively, our widget can also show the target payment method directly at the main page while it is requested. 
-
-In this case, you need to create your own payment methods selection step by using our [payment system API](/API-Reference#section-tools-payment-systems). And embed the ```id``` ( which is ```ps```) from the response of payment system API into the widget call. 
-
-
-## Widget support
-
-Integration with stored products supports below widgets.
-
-* pw, Paylet widget. The latest published payment widget for better payment experience.
-
-* all the widgets supported in [stored product](/paylet/stored-products#widget-support). 
+There will be only one product in our widget while using custom price as it doesn't have the products selection step, which means you need to create it by your own in your application. 
 
 ## Product type
 
