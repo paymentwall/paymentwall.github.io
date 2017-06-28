@@ -22,7 +22,7 @@ product = Product(
 widget = Widget(
     'user4522', # uid
     'fp', # widget
-    [product], # product details for custom price widget call
+    [product], # product details for Custom Price widget call
     {
       'email' => 'user@hostname.com',
       'timestamp' => 'transaction_current_timestamp',

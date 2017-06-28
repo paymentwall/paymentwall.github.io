@@ -20,11 +20,13 @@ Here is a sample using m2 widget.
 
 ## Features
 
-By using stored products:
+By using Stored Products:
 
 * It is easy to manage your inventory in Paymentwall side. You can freely add, edit or remove products from your project without having to change the integration or source code of your application.
 
 * You can provide the users with various products they can choose.
+
+> See [widget reference](/paylet/widget/reference) for more features.
 
 ## Choosing API
 
