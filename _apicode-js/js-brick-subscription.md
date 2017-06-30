@@ -1,14 +1,12 @@
 ---
 category: section-brick-subscription
 ---
-Subscription Request
-<br>
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription
 ```
 
-Code sample
+Sample Request
 
 ```javascript
 // We are using Express framework in this sample
@@ -49,40 +47,5 @@ var subscription = new Paymentwall.Subscription(
 
 subscription.createSubscription(function(brick_response){
   // Handle response
-});
-```
-
-<br>
-Get Subscription details
-
-Request endpoint
-```
-GET https://api.paymentwall.com/api/brick/subscription/$id
-```
-
-Code sample
-
-```javascript
-var subscription = new Paymentwall.Subscription();
-subscription.otherOperation(subscriptionid,'detail',function(response){
-  response.getFullResponse('JSON');
-});
-```
-
-<br>
-Cancel a Subscription
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/subscription/$id/cancel
-```
-
-Code sample
-
-```javascript
-var subscription = new Paymentwall.Subscription();
-subscription.otherOperation(subscriptionid,'cancel',function(response){
-  // response is a new Response Object Entity (defined in paymentwall/lib/Response/Abstract)
-  response.getFullResponse('JSON');
 });
 ```

@@ -1,20 +1,14 @@
 ---
-category: section-brick-onetime-token
+category: section-brick-onetime_token
 ---
-Request endpoint
-
-For live credentials
+Endpoint
 ```
- POST https://pwgateway.com/api/token
-```
-
-For test credentials
-
-```
- POST https://api.paymentwall.com/api/brick/token
+ POST https://pwgateway.com/api/token (Live environment)
+ 
+ POST https://api.paymentwall.com/api/brick/token (Sandbox environment)
 ```
 
-Code sample
+Sample Request
 {% raw  %}
 ```java
 OneTimeToken token = new OneTimeToken();

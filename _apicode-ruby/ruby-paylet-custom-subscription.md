@@ -1,12 +1,12 @@
 ---
 category: section-paylet-custom-subscription
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```
 
-Code sample
+Sample Request
 ```ruby
 var widget = new Paymentwall.Widget(
   'user40012', # uid

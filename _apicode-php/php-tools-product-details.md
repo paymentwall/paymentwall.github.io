@@ -2,13 +2,13 @@
 category: section-tools-product-details
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/rest/product/
 ```
 
-Request example
+Sample Request
 ```php
 <?php
 require_once('/path/to/paymentwall-php/lib/paymentwall.php');
@@ -29,7 +29,7 @@ $payment_systems = json_decode(file_get_contents($url));
 ?>
 ```
 
-Response 
+Sample Response 
 
 ```json
 {

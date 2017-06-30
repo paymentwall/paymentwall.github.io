@@ -37,39 +37,45 @@
           title: Response attributes
 - title: BRICK
   items:
-    - name: section-brick-onetime-token
+    - name: section-brick-onetime_token
       title: Onetime token
-      subitems: 
-        - name: section-brick-onetime-token-object
-          title: Onetime token object 
+      subitems:
+        - name: section-brick-onetime_token-object
+          title: The onetime token object
     - name: section-brick-charge
       title: Charge
-      subitems: 
+      subitems:
         - name: section-brick-charge-object
-          title: Response object
+          title: The charge object
+        - name: section-brick-charge-get
+          title: Obtain charge details
+        - name: section-brick-charge-refund
+          title: Refund a charge
+        - name: section-brick-charge-capture
+          title: Capture a charge
+        - name: section-brick-charge-void
+          title: Void a charge
     - name: section-brick-subscription
       title: Subscription
       subitems:
         - name: section-brick-subscription-object
-          title: Response object
+          title: The subscription object
+        - name: section-brick-subscription-get
+          title: Obtain subscription details
+        - name: section-brick-subscription-cancel
+          title: Cancel a subscription
 - title: MOBIAMO
   items:
     - name: section-mobiamo-pricepoint
       title: Pricepoint
     - name: section-mobiamo-pinless
       title: Pinless
-      subitems:
-        - name: section-mobiamo-pinless-object
-          title: Response Object
 - title: MINT
   items:
-    - name: section-mint-reseller
-      title: MINT reseller
-      subitems:
-        - name: section-mint-reseller-generate
-          title: Generate ePIN
-        - name: section-mint-reseller-balance
-          title: Get ePIN balance 
+    - name: section-mint-generate
+      title: Generate ePIN
+    - name: section-mint-balance
+      title: Get ePIN balance
     - name: section-mint-redemption
       title: MINT redemption
 - title: TOOLS

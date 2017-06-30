@@ -9,7 +9,7 @@ permalink: direct/brick/create-form
 
 This tutorial helps you to create a form to collect payment details and generate one-time token. by using Brick.js. 
 
-See [one-time token API](/API-Reference#section-brick-onetime-token) as an alternative way to obtain one-time token.
+See [one-time token API](/apis#section-brick-onetime_token) as an alternative way to obtain one-time token.
 
 You can choose either using Brick [default form](#tokenize-payment-details-with-default-form) or creating your [own form](#tokenize-payment-details-with-your-own-form) on your front end to get following parameters:
 

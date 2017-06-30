@@ -1,14 +1,12 @@
 ---
 category: section-brick-subscription
 ---
-Subscription request
-
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription
 ```
 
-Code sample
+Sample Request
 ```php
 <?php
 Paymentwall_Config::getInstance()->set(array(
@@ -36,49 +34,5 @@ $subscriptionInfo = array(
 
 $subscription = new Paymentwall_Subscription();
 $subscription->create($subscriptionInfo);
-?>
-```
-<br>
-
-Get Subscription details
-
-Request endpoint
-```
-GET https://api.paymentwall.com/api/brick/subscription/$subscriptionid
-```
-
-Code sample
-```php
-<?php
-require_once('path/to/lib/paymentwall.php');
-Paymentwall_Config::getInstance()->set(array(
-    'private_key' => 'YOUR_PRIVATE_KEY'
-));
-$subscription = new Paymentwall_Subscription($subscriptionid);
-$subscription->get();
-$response=$subscription->getRawResponseData();
-echo $response;
-?>
-```
-
-<br>
-Cancel a Subscription
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/subscription/$id/cancel
-```
-
-Code sample
-```php
-<?php
-require_once('path/to/lib/paymentwall.php');
-Paymentwall_Config::getInstance()->set(array(
-    'private_key' => 'YOUR_PRIVATE_KEY'
-));
-$subscription = new Paymentwall_Subscription($subscriptionid);
-$subscription->cancel();
-$response=$subscription->getRawResponseData();
-echo $response;
 ?>
 ```

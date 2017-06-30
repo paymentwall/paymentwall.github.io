@@ -2,13 +2,13 @@
 category: section-tools-payment-systems
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/payment-systems/
 ```
 
-Response
+Sample Response
 
 ```json
 [

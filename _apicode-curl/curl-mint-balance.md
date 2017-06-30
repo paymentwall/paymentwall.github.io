@@ -1,12 +1,12 @@
 ---
-category: section-mint-reseller-balance
+category: section-mint-balance
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/pwapi/mint-balances
 ```
 
-Response
+Sample Response
 
 ```
 {

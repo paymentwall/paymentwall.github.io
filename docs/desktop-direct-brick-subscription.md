@@ -11,7 +11,7 @@ This tutorial helps you to setup Brick subscription into your payment system.
 
 ## Subscription request
 
-We assume that you have collected [one-time token](/direct/brick/create-form) and [fingerprint](/direct/brick/create-form) on your backend side. You can then use our [Subscription API](/API-Reference#section-brick-subscription) to define subscription for your product.
+We assume that you have collected [one-time token](/direct/brick/create-form) and [fingerprint](/direct/brick/create-form) on your backend side. You can then use our [Subscription API](/apis#section-brick-subscription) to define subscription for your product.
 
 {% assign codeId = "desktop-brick-subscription-request" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -119,7 +119,7 @@ If you want to provide a trial period for your customers, you can add a trial su
 
 ## Subscription response object
 
-Once a subscription request is successfully performed, you will get a subscription response object which contains the subscription details. See [subscription response attributes](/API-Reference#section-brick-subscription-object) for more details.
+Once a subscription request is successfully performed, you will get a subscription response object which contains the subscription details. See [subscription response attributes](/apis#section-brick-subscription-object) for more details.
 
 Each subscription has several charge id which represents the payments in subscription histroy.
 
@@ -139,7 +139,7 @@ Once the last charge happens Paymentwall will send a pingback with pingback ```t
 
 ## Subscription failure
 
-If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 reattempts (3 attempts in total) to charge the user. [Payment Status API](/API-Reference#section-tools-payment-status) will report active status of the subscription and ```date_next``` will contain the date of the next attempt.
+If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 reattempts (3 attempts in total) to charge the user. [Payment Status API](/apis#section-tools-payment-status) will report active status of the subscription and ```date_next``` will contain the date of the next attempt.
 
 If all of the attempts fail, Paymentwall will stop the subscription.
 
@@ -149,7 +149,7 @@ For this event Paymentwall will send a pingback with ```type=14```, means subscr
 
 ## Subscription cancellation
 
-You can also cancel the subscription by using scripts below or using our [cancellation API](/API-Reference#section-tools-cancellation).
+You can also cancel the subscription by using scripts below or using our [cancellation API](/apis#section-tools-cancellation).
 
 {% assign codeId = "desktop-brick-subscription-cancellation" %}
 <div class="docs-code" id="{{ codeId }}">

@@ -1,13 +1,13 @@
 ---
 category: section-paylet-stored-vc
 ---
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/ps/?
 ```
 
-Code sample
+Sample Request
 {% raw %}
 ```java
 Config.getInstance().setLocalApiType(Config.API_VC);

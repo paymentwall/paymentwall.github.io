@@ -1,13 +1,13 @@
 ---
 category: section-mint-redemption
 ---
-Request endpoint
+Endpoint
 
 ```
 POST https://api.paymentwall.com/api/pure-mint/payment
 ```
 
-Code sample
+Sample Request
 ```
 curl https://api.paymentwall.com/api/pure-mint/payment \ 
 -d "amount=0.12" \
@@ -17,7 +17,7 @@ curl https://api.paymentwall.com/api/pure-mint/payment \
 -d "user_id=[YOUR-USER-ID]"
 ```
 
-Response
+Sample Response
 
 ```json
 {

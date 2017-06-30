@@ -13,7 +13,7 @@ sectionid: docs
 
 Mobiamo offers support only for fixed price points per country and also per mobile carrier. Therefore it won't be available if the price point mismatch. Refer to [Mobiamo coverage](http://www.mobiamo.com/coverage) for details.
 
-You can also pull the list of Mobiamo active price points for a project in a specific country via [price point API](/API-Reference#section-mobiamo-pricepoint).
+You can also pull the list of Mobiamo active price points for a project in a specific country via [price point API](/apis#section-mobiamo-pricepoint).
 
 > We provide [price points discovery mechanic](#price-points-discovery-mechanic) to rearrange your product price so that Mobiamo can be an available payment method for your customers.
 

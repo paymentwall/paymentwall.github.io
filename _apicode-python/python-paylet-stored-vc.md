@@ -1,13 +1,13 @@
 ---
 category: section-paylet-stored-vc
 ---
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/ps/?
 ```
 
-Code sample
+Sample Request
 ```python
 from paymentwall import *
 Paymentwall.set_api_type(Paymentwall.API_VC)

@@ -1,7 +1,7 @@
 ---
 category: section-paylet-custom
 ---
-Init Digital Goods:
+Initialization:
 ```python
 from paymentwall import *
 Paymentwall.set_api_type(Paymentwall.API_GOODS)

@@ -3,7 +3,7 @@ category: section-brick-subscription
 ---
 Subscription Request
 <br>
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription
 ```
@@ -11,7 +11,7 @@ POST https://api.paymentwall.com/api/brick/subscription
 <br>
 Get Subscription details
 
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/brick/subscription/$id
 ```
@@ -19,7 +19,7 @@ GET https://api.paymentwall.com/api/brick/subscription/$id
 <br>
 Cancel a Subscription
 
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription/$id/cancel
 ```

@@ -2,13 +2,13 @@
 category: section-tools-product-details
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/rest/product/
 ```
 
-Response 
+Sample Response 
 
 ```json
 {

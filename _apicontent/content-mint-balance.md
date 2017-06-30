@@ -1,5 +1,5 @@
 ---
-category: section-mint-reseller-balance
+category: section-mint-balance
 ---
 
 ## Get available balances

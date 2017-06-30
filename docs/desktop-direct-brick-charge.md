@@ -11,7 +11,7 @@ With [one-time token](/direct/brick/create-form) and [fingerprint](/direct/brick
 
 ## Charge request
 
-In charge request, you can define the price and currency of your product. See [charge API](/API-Reference#section-brick-charge) for the format of each parameter.
+In charge request, you can define the price and currency of your product. See [charge API](/apis#section-brick-charge) for the format of each parameter.
 
 {% assign codeId = "desktop-brick-charge-request" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -67,7 +67,7 @@ In charge request, you can define the price and currency of your product. See [c
 
 ## Charge response object
 
-Once a charge request is successfully performed, you will get a charge response object which contains the payment information to help you verify your end users. See [attributes](/API-Reference#section-brick-charge-object) for more details.
+Once a charge request is successfully performed, you will get a charge response object which contains the payment information to help you verify your end users. See [attributes](/apis#section-brick-charge-object) for more details.
 
 Each charge has its own id which could be used for authorizing and capturing actions later.
 

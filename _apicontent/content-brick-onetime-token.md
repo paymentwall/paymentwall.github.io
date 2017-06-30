@@ -1,5 +1,5 @@
 ---
-category: section-brick-onetime-token
+category: section-brick-onetime_token
 ---
 ## Onetime token
 
@@ -16,3 +16,4 @@ You will need to add ```browser_ip``` and ```browser_domain``` by your own in [C
 | card[exp_month]<br>  *required* <br>  **number** | Expiration month, 2 digits from 01 to 12.|
 | card[exp_year]<br>  *required*<br> **number** | Expiration year, 4 digits.|
 | card[cvv]<br> *required*<br> **number** | CVC/CVV, 3-4 digits depends on the type of credit cards.|
+

@@ -2,13 +2,13 @@
 category: section-tools-product-details
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/rest/product/
 ```
 
-Request example
+Sample Request
 ```
 curl https://api.paymentwall.com/api/rest/product \
 -d "key=[YOUR_PROJECT_API_KEY]" \
@@ -17,7 +17,7 @@ curl https://api.paymentwall.com/api/rest/product \
 -d "sign=[SIGNATURE]" \
 ```
 
-Response 
+Sample Response 
 
 ```json
 {

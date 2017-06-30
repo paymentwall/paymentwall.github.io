@@ -2,13 +2,13 @@
 category: section-tools-coupon-create
 ---
 
-Request endpoint
+Endpoint
 
 ```
 POST https://api.paymentwall.com/api/coupon
 ```
 
-Response
+Sample Response
 
 ```json
 {

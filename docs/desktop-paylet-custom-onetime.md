@@ -11,7 +11,7 @@ By using onetime payments of Custom Prices, your customer do a instant payment f
 
 ## API Call
 
-The parameter ```ag_type``` should be set as ```fixed``` in API call. See code sample for [onetime payments](/API-Reference#section-paylet-custom-onetime) to perform API Call.
+The parameter ```ag_type``` should be set as ```fixed``` in API call. See code sample for [onetime payments](/apis#section-paylet-custom-onetime) to perform API Call.
 
 ## Next Step
 

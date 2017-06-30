@@ -2,13 +2,13 @@
 category: section-tools-cancellation
 ---
 
-Request endpoint
+Endpoint
 
 ```
 POST https://api.paymentwall.com/developers/api/ticket
 ```
 
-Request example
+Sample Request
 ```
 curl https://api.paymentwall.com/developers/api/ticket \
 -d "key=[YOUR_PROJECT_API_KEY]" \
@@ -21,16 +21,8 @@ curl https://api.paymentwall.com/developers/api/ticket \
 -d "sign=[SIGNATURE]" \
 ```
 
-Response:
-
-Success example
+Sample Response
 
 ```json
 {"result":1}
-```
-
-Error example
-
-```json
-{"result":0,"errors":["Either ref or uid is required"]}
 ```

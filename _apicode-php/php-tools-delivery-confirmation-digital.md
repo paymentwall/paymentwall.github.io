@@ -2,13 +2,7 @@
 category: section-tools-delivery-confirmation-digital
 ---
 
-Request endpoint
-
-```
-POST https://api.paymentwall.com/api/delivery
-```
-
-Request example
+Sample Request
 ```php
 <?php
 require_once('/path/to/paymentwall-php/lib/paymentwall.php');
@@ -40,20 +34,9 @@ if (isset($response['success'])) {
 ?>
 ```
 
-Response
-
-Success example
+Sample Response
 ```json
 {
 	"success": 1
-}
-```
-
-Error example
-```json
-{	
-	"error_code":2,
-	"error":"Wrong parameters passed",
-	"notices":["You don't have access to this delivery"]
 }
 ```

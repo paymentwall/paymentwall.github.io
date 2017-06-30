@@ -2,20 +2,20 @@
 category: section-tools-payment-status
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/rest/payment
 ```
 
-Request example
+Sample Request
 ```php
 <?php
 require_once('/path/to/paymentwall-php/lib/paymentwall.php');
 $params = array(
     'key' => 'YOUR_PUBLIC_KEY',
-    'uid' => 'user_200255',
-    'ag_external_id' => 'product_100244',
+    'uid' => 'user40012',
+    'ag_external_id' => 'product_123',
     'sign_version' => 2
 );
 
@@ -30,19 +30,32 @@ $payment_systems = json_decode(file_get_contents($url));
 ?>
 ```
 
-Response:
+Sample Response:
 
 ```json
-{
-	"object":"payment",
-	"id":"b111260108",
-	"created":1488521465,
-	"amount":"0.5000",
-	"currency":"USD",
-	"refunded":false,
-	"risk":"approved",
-	"uid":"testuser",
-	"product_id":"or_123456",
-	"payment_system":"credit card"
+{  
+   "object":"payment",
+   "id":"t1234",
+   "created":1490101573,
+   "amount":"100.00",
+   "currency":"USD",
+   "refunded":false,
+   "risk":"approved",
+   "uid":"user40012",
+   "product_id":"product_123",
+   "payment_system":"gateway",
+   "subscription":{  
+      "object":"subscription",
+      "id":"subs_id_123",
+      "period":"month",
+      "period_duration":1,
+      "payments_limit":12,
+      "is_trial":0,
+      "started":1,
+      "expired":0,
+      "active":0,
+      "date_started":1490101633,
+      "date_next":1492780033
+   }
 }
 ```

@@ -7,7 +7,7 @@ permalink: paylet/custom-price
 
 # Custom Price
 
-Custom Price means that you are sending your products details through [our API](/API-Reference#section-paylet-custom), and not storing it in Paymentwall side.
+Custom Price means that you are sending your products details through [our API](/apis#section-paylet-custom), and not storing it in Paymentwall side.
 
 Here is a sample using Paylet widget.
 

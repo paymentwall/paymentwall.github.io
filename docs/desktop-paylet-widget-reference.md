@@ -19,17 +19,17 @@ There are two main categories for additional parameters:
 
 * Optional parameters.
 
-We provide a set of reserved parameters, see [optional parameter](/API-Reference#section-paylet-optional-parameter) in API call for description of each parameter.
+We provide a set of reserved parameters, see [optional parameter](/apis#section-paylet-optional-parameter) in API call for description of each parameter.
 
 * Custom parameters
 
 Paylet API allows you to add your own parameter as additional parameters while building widget. We can help you to do parameter transmission and communicate it back to your server side via pingback. See [custom pingback parameter with own value](/pingback-custom-parameters#parameter-with-own-value) for more details.
 
-> Check [Paylet API](/API-Reference#section-paylet-stored) and find the code sample about how to add additional parameters.
+> Check [Paylet API](/apis#section-paylet-stored) and find the code sample about how to add additional parameters.
 
 ## Client side callback
 
-If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/API-Reference#section-paylet-optional-parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
+If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-paylet-optional-parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
 
 For specific events we send a client-side callback via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our widget is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc. 
 
@@ -88,14 +88,14 @@ It requires more operations, that is, you will need to build product selection p
 
 > We recommend you to use [Custom Price](/paylet/custom-price) with deep-linked payment system.
 
-Product selection page should be fairly easy to be finished on your side. Paymentwall provides [payment system API](/API-Reference#section-tools-payment-systems) which can help you with payment system selection page. Below are the steps:
+Product selection page should be fairly easy to be finished on your side. Paymentwall provides [payment system API](/apis#section-tools-payment-systems) which can help you with payment system selection page. Below are the steps:
 
 * Obtain the country code of your customer by ip address. You can also assign a static country code if your customer are all from a same country.
 
-* Use [payment system API](/API-Reference#section-tools-payment-systems) with the obtained country code to retrieve the list of payment methods activated in your project for the specific country.
+* Use [payment system API](/apis#section-tools-payment-systems) with the obtained country code to retrieve the list of payment methods activated in your project for the specific country.
 
 * In your payment methods selection page, combine using  ```img_url```, ```name``` with *radio button* or your preferred way to create available payment methods list.
 
-* Bind each available payment method with ```id```. When you are building widget, add ```ps``` in [optional parameter](/API-Reference#section-paylet-optional-parameter) as an additional parameter and set the value as ```id```.
+* Bind each available payment method with ```id```. When you are building widget, add ```ps``` in [optional parameter](/apis#section-paylet-optional-parameter) as an additional parameter and set the value as ```id```.
 
 That's it, you have integrated deep-linked payment system into your application.

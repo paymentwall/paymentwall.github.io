@@ -2,7 +2,7 @@
 category: section-paylet-invoice
 ---
 
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/developers/invoice-api/invoice
 ```

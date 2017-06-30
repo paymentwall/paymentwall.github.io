@@ -1,12 +1,12 @@
 ---
 category: section-paylet-custom-onetime
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```
 
-Code sample
+Sample Request
 ```php
 <?php
 $widget = new Paymentwall_Widget(

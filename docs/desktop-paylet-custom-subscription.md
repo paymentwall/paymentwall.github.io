@@ -11,7 +11,7 @@ You can also setup subscription for your customers while using Custom price.
 
 ## API Call
 
-The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/API-Reference#section-paylet-custom-subscription) to perform API Call.
+The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/apis#section-paylet-custom-subscription) to perform API Call.
 
 ## Subscription payment methods 
 
@@ -39,7 +39,7 @@ Once the last charge happens Paymentwall will send a pingback with pingback ```t
 
 ## Subscription failure
 
-If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 reattempts (3 attempts in total) to charge the user. [Payment Status API](/API-Reference#section-tools-payment-status) will report active status of the subscription and ```date_next``` will contain the date of the next attempt.
+If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 reattempts (3 attempts in total) to charge the user. [Payment Status API](/apis#section-tools-payment-status) will report active status of the subscription and ```date_next``` will contain the date of the next attempt.
 
 If all of the attempts fail, Paymentwall will stop the subscription.
 
@@ -49,7 +49,7 @@ For this event Paymentwall will send a pingback with ```type=14```, means subscr
 
 ## Subscription Cancellation
 
-See [cancellation API](/API-Reference#section-tools-cancellation) to stop subscription for your customers.
+See [cancellation API](/apis#section-tools-cancellation) to stop subscription for your customers.
 
 ## Next Step
 

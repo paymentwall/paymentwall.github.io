@@ -2,7 +2,7 @@
 category: section-mint-redemption
 ---
 
-Request endpoint
+Endpoint
 
 ```
 POST https://api.paymentwall.com/api/pure-mint/payment

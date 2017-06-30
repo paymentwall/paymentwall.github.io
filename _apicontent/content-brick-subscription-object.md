@@ -2,7 +2,7 @@
 category: section-brick-subscription-object
 ---
 
-## Subscription response object
+## The subscription object
 
 The array ```trail``` will be included in if trail product is enabled for its post-tail subscription. 
 

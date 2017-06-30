@@ -15,7 +15,7 @@ category: section-brick-charge
 | email <br> *required*<br> **string** | Email of end-users. |
 | timestamp <br> *required* <br> **timestamp** | Unix timestamp of the transaction date. Length limitation is 10.|
 | fingerprint <br> *required* <br> **string** | Paymentwall-generated unique fingerprint of a purchase, used for fraud protection as well as advanced analytics. This field is automatically added as a hidden field to your credit card form when brick.js is used on [frontend](/direct/brick/create-form). |
-| token <br> *required* <br> **string** | [Onetime token](#section-brick-onetime-token-object) generated for the card or [permanent token](#section-brick-charge-object) returned in ```card.token``` in [charge object](#section-brick-charge-object).|
+| token <br> *required* <br> **string** | [Onetime token](#section-brick-onetime_token-object) generated for the card or [permanent token](#section-brick-charge-object) returned in ```card.token``` in [charge object](#section-brick-charge-object).|
 | lang <br> **string**  | Language code for email receipt localization, format ISO alpha-2, [supported languages](/lang).|
 | options[capture] <br> **boolean**  | Whether or not to immediately capture the charge. Default is true. To not capture, you can pass ```options[capture]=0```. By default merchants have 7 days to either capture or void an non captured authorized charge. |
 | plan<br> **string**  | Identifies the product ID, send back as ```goodsid``` parameter in [pingbacks](/default-pingback-dg).|

@@ -2,7 +2,7 @@
 category: section-paylet-custom
 ---
 
-Init Digital Goods
+Initialization
 ```php
 <?php
 require_once('lib/paymentwall.php');

@@ -1,20 +1,15 @@
 ---
-category: section-brick-onetime-token
+category: section-brick-onetime_token
 ---
-Request url
-
-For live credentials
-```
- POST https://pwgateway.com/api/token
-```
-
-For test credentials
+Endpoint
 
 ```
- POST https://api.paymentwall.com/api/brick/token
+ POST https://pwgateway.com/api/token (Live environment)
+ 
+ POST https://api.paymentwall.com/api/brick/token (Sandbox environment)
 ```
 
-Code sample
+Sample Request
 ```php
 <?php
 $tokenModel = new Paymentwall_OneTimeToken();

@@ -1,8 +1,8 @@
 ---
-category: section-brick-onetime-token-object
+category: section-brick-onetime_token-object
 ---
 
-Onetime token example
+Sample onetime token
 
 ```json
 {  

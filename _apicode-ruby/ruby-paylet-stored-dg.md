@@ -1,12 +1,12 @@
 ---
 category: section-paylet-stored-dg
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```
 
-Code sample
+Sample Request
 ```ruby
 require 'paymentwall' # alternatively, require_relative '/path/to/paymentwall-ruby/lib/paymentwall.rb'
 Paymentwall::Base::setApiType(Paymentwall::Base::API_GOODS)

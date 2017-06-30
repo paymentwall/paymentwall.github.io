@@ -1,12 +1,12 @@
 ---
 category: section-brick-charge
 ---
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/charge
 ```
 
-Code sample
+Sample Request
 ```javascript
 // We are using Express framework in this sample
 
@@ -34,64 +34,4 @@ var charge = new Paymentwall.Charge(
 );
 
 charge.createCharge(function(brick_response){ }
-```
-<br>
-Get charge details
-
-Request endpoint
-```
-GET https://api.paymentwall.com/api/brick/charge/$chargeid
-```
-
-Code sample
-```javascript
-var charge = new Paymentwall.Charge();
-charge.otherOperation(chargeid,'detail',function(brick_response){
-  brick_response.getFullResponse('JSON');
-});
-```
-<br>
-Refund a charge
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/charge/$chargeid/refund
-```
-
-Code sample
-```javascript
-var charge = new Paymentwall.Charge();
-charge.otherOperation(chargeid,'refund',function(brick_response){
-  brick_response.getFullResponse('JSON');
-});
-```
-<br>
-Capture a charge
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/charge/$chargeid/capture
-```
-
-Code sample
-```javascript
-var charge = new Paymentwall.Charge();
-charge.otherOperation(chargeid,'capture',function(brick_response){
-  brick_response.getFullResponse('JSON');
-});
-```
-<br>
-Void a charge
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/charge/$chargeid/void
-```
-
-Code sample
-```javascript
-var charge = new Paymentwall.Charge();
-charge.otherOperation(chargeid,'void',function(brick_response){
-  brick_response.getFullResponse('JSON');
-});
 ```

@@ -112,7 +112,6 @@ const main = {
                 if (scrollPosition >= sectionTop) {
                     var currentSectionId = currentSection.attr('name');
                     var $navigationLink = sectionIdTonavigationLink[currentSectionId];
-
                     var $parent = $navigationLink;
 
                     if ($navigationLink.hasClass('leaf')) {
@@ -124,9 +123,9 @@ const main = {
                             }
                         }
                         var parentName = currentSectionId.substring(0, currentSectionId.length - count);
-
                         $parent = $('a[name=' + parentName + ']');
                     }
+
 
                     $navigationLinks.removeClass('is-active');
                     $navigationExpandLinks.not($parent).each(function(){
