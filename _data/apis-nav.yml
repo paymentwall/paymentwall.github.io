@@ -35,10 +35,6 @@
           title: Iteam tax/discount
         - name: section-paylet-invoice-response
           title: Response attributes
-- title: PAY
-  items:
-    - name: section-pay
-      title: Unified request
 - title: BRICK
   items:
     - name: section-brick-onetime_token

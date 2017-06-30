@@ -4,9 +4,6 @@
 - id: nav-desktop
   title: Desktop
   items:
-    - id: nav-desktop-pay
-      title: Pay API
-      path: /pay-home
     - id: nav-desktop-paylet
       title: Paylet
       path: /paylet-home
