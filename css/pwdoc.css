@@ -1108,6 +1108,13 @@ p {
     word-wrap: break-word;
 }
 
+@media only screen and (max-width: 768px) {
+    .highlight code{
+        font-size:10px;
+    }
+}
+
+
 #payment-form-container {
     float: right;
     padding: 0 10px;
