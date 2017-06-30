@@ -1,15 +1,15 @@
 ---
 id: desktop-bridge
-permalink: bridge-home
+permalink: pay-home
 sectionsId: docs
-title: Bridge 
+title: Pay API 
 ---
 
-# Bridge 
+# Pay API
 
-Bridge connects you with the [payment methods](https://www.paymentwall.com/payment-methods) provided by us and our partners together by using the [Pay API](). 
+Pay API connects you with the [payment methods](https://www.paymentwall.com/payment-methods) provided by us and our partners together. 
 
-Steps to integrate Bridge into your application:
+Steps to integrate it into your application:
 
 * [Build a payment methods selection form](#build-a-payment-selection-form).
 
@@ -65,27 +65,31 @@ Once the user decides which payment method he wants to use, you can use pay API 
 ```php
 <?php
     require_once('/path/to/paymentwall-php/lib/paymentwall.php');
+    Paymentwall_Base::setApiType(Paymentwall_Base::API_GOODS);
+    Paymentwall_Base::setAppKey('[Your_project_key]'); 
+    Paymentwall_Base::setSecretKey('[Your_secret_key]'); 
 
-    $params = array(
-        'key' => '[Your_project_key]',
-        'user_id' => '[Your_customer_user_id]',
-        'amount' => '[Your_product_price]',
-        'currency' => '[Your_product_price_currency_code]',
-        'item_name' => '[Your_product_name]',
-        'item_id' => '[Your_product_id]',
-        'timestamp' => '[Current_timestamp]',
-        'success_url' => '[Your_success_url]',
-        'ps' => '[id]', // The id returned in payment system API
-        'sign_version' => '3'
+    $widget = new Paymentwall_Widget(
+      'user40012', // uid
+      'p1_1', // widget
+      array(
+        new Paymentwall_Product(
+          'product301', // ag_external_id
+          9.99, // amount
+          'USD', // currencyCode
+          'Gold Membership', // ag_name
+          Paymentwall_Product::TYPE_FIXED // ag_type
+        )
+        ),
+      array(
+          'email' => 'user@hostname.com', 
+          'timestamp' => 'transaction_current_timestamp',
+          'addtional_param_name' => 'addtional_param_value',
+          'ps' => '[id]', // The id returned in payment system API
+      )
     );
     
-    Paymentwall_Config::getInstance()->set(array('private_key' => 'YOUR_PRIVATE_KEY'));
-    $params['sign'] = (new Paymentwall_Signature_Widget())->calculate(
-        $params,
-        $params['sign_version']
-    );
-    
-    $url = 'https://api.paymentwall.com/api/pay/?'. http_build_query($params);
+    $url = $widget.getUrl();
 ?>
 ```
 
