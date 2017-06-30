@@ -1,8 +1,8 @@
 ---
-category: section-brick-onetime-token-object
+category: section-brick-onetime_token-object
 ---
 
-## Onetime token object
+## The onetime token object 
 
 ##### Attributes
 

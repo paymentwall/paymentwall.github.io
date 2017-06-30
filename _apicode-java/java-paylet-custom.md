@@ -1,7 +1,7 @@
 ---
 category: section-paylet-custom
 ---
-Init Digital Goods
+Initialization
 ```java
 Config.getInstance().setLocalApiType(Config.API_GOODS);
 Config.getInstance().setPublicKey("YOUR_APPLICATION_KEY");

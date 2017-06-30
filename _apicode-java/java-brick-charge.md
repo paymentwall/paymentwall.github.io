@@ -1,14 +1,12 @@
 ---
 category: section-brick-charge
 ---
-Charge Request
-<br>
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/charge
 ```
 
-Code sample
+Sample Request
 ```java
 Config.getInstance().setPublicKey("YOUR_APPLICATION_KEY");
 Config.getInstance().setPrivateKey("YOUR_SECRET_KEY");
@@ -23,20 +21,4 @@ chargemap.put("description", "description");
 chargemap.put("additional_parameter_name", "additonal_parameter_value");
 Charge charge = new Charge();
 charge = (Charge)charge.create(chargemap);
-```
-
-<br>
-
-Refund a charge
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/charge/$chargeid/refund
-```
-
-Code sample
-```java
-Charge charge = new Charge("CHARGE_ID");
-charge = (Charge)charge.refund();
-return charge.isRefunded();
 ```

@@ -1,13 +1,13 @@
 ---
 category: section-mobiamo-pricepoint
 ---
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/price-points/
 ```
 
-Response example
+Sample Response
 
 ```json
 [{

@@ -291,8 +291,6 @@ p {
 	float:left;
 	min-height:1px;
 	position:relative;
-	padding-left:15px;
-	padding-right:15px
 }
 @media only screen and (min-width:320px) {
 	.row .col-xs-1 {
@@ -1036,6 +1034,8 @@ p {
 	position:fixed;
 	overflow-y:scroll;
 	overflow-x:hidden;
+	border-right: 0.5px solid;
+	border-color: #ebf1f3;
 }
 
 #section-icon .icon{
@@ -1472,7 +1472,7 @@ p {
 	left: 0; !important;
 }
 .section-sidebar {
-	padding:20px 10px 0px 10px;
+	padding:20px 0px 0px 0px;
 	overflow-y:auto;
 	max-height:100%
 }
@@ -1590,9 +1590,7 @@ p {
 	background-size:54.7% 100%,100% 100%;
 	background-position:0 0,0 bottom;
 	background-image:linear-gradient(to right,#fff,#fff),linear-gradient(#21252b,#21252b);
-	padding:0 0 0 25px;
-	border-left: 0.5px solid;
-	border-color: #ebf1f3;
+	padding:20px 0;
 	display:flex;
 	flex-flow:row wrap;
 	justify-content:flex-start;
@@ -1625,11 +1623,11 @@ p {
 	font-size: 16px;
 	max-width:100%;
 	line-height:1.6;
-	/*padding:15px 25px 15px 0 !important;*/
+	padding: 0 30px;
 }
 @media only screen and (max-width:992px) {
 	.reference-col--content {
-		flex-basis:100%
+		flex-basis:100%;
 	}
 }
 
@@ -1647,12 +1645,12 @@ p {
 .reference-col--code {
 	flex-basis:46%;
 	max-width:100%;
-	padding-top: 30px;
+	margin: 0.6em 0;
+	padding: 0px 30px 20px 30px;
 }
 
 @media only screen and (max-width: 992px) {
 	.reference-col--code {
-		padding-top: 0px;
 		background-color: #21252b;
 		flex-basis: 100%;
 		margin-top: 10px;
@@ -1805,7 +1803,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0;
 	color:#474747;
-	margin-top: 10px;
+	margin-top: 30px;
 	line-height:1;
 	padding: 5px 0 5px 0;
 }
@@ -1817,15 +1815,22 @@ p {
 }
 
 .reference-col__tab {
-	padding:30px 0;
 	display:none
 }
 .reference-col__tab p {
 	font-weight:700;
 	font-size:16px;
 	color:#fff;
-	line-height:1.875
+	line-height:1.875;
+	padding-top: 51px;
 }
+
+@media only screen and (max-width: 992px) {
+	.reference-col__tab p {
+		padding-top: 20px;
+	}
+}
+
 .reference-col__tab strong{
 	font-size: 20px;
 	font-weight: 700;
@@ -1850,6 +1855,13 @@ p {
 .reference-col__tab.is-active {
 	display:block;
 }
+
+@media only screen and (max-width: 992px) {
+	.reference-col__tab.is-active:empty {
+		display:none;
+	}
+}
+
 .section-code {
 	background:#21252b;
 	position:relative

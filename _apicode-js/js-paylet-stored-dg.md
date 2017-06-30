@@ -1,12 +1,12 @@
 ---
 category: section-paylet-stored-dg
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```
 
-Code sample
+Sample Request
 ```javascript
 var Paymentwall = require('paymentwall');
 Paymentwall.Configure(

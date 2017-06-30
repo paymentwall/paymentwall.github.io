@@ -2,7 +2,7 @@
 category: section-brick-charge-object
 ---
 
-## Charge response object
+## The charge object
 
 ##### Attributes
 

@@ -2,13 +2,13 @@
 category: section-tools-cancellation
 ---
 
-Request endpoint
+Endpoint
 
 ```
 POST https://api.paymentwall.com/developers/api/ticket
 ```
 
-Request example
+Sample Request
 ```php
 <?php
 require_once('/path/to/paymentwall-php/lib/paymentwall.php');
@@ -34,16 +34,8 @@ $payment_systems = json_decode(file_get_contents($url));
 ?>
 ```
 
-Response:
-
-Success example
+Sample Response
 
 ```json
 {"result":1}
-```
-
-Error example
-
-```json
-{"result":0,"errors":["Either ref or uid is required"]}
 ```

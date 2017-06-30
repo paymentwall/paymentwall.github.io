@@ -3,12 +3,12 @@ category: section-brick-subscription
 ---
 Subscription Request
 <br>
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription
 ```
 
-Code sample
+Sample Request
 ```java
 Config.getInstance().setPublicKey("YOUR_APPLICATION_KEY");
 Config.getInstance().setPrivateKey("YOUR_SECRET_KEY");
@@ -37,7 +37,7 @@ subscription = (Subscription) subscription.create(subscriptionmap);
 
 Cancel a Subscription
 
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription/$id/cancel
 ```

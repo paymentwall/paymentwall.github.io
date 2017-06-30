@@ -1,12 +1,12 @@
 ---
 category: section-paylet-custom-onetime
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```
 
-Code sample
+Sample Request
 {% raw %}
 ```java
 WidgetBuilder widgetBuilder = new WidgetBuilder("USER_ID", "WIDGET_CODE");

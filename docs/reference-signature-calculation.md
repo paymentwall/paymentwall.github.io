@@ -35,7 +35,7 @@ Let's exercise how to calculate signature using signature version 2 for Payment 
 
 Below table is showing mandatory parameters to call Payment Systems API.
 
-> Please refer [Payment Systems API](/API-Reference#section-tools-payment-systems) for more detailed information about this API.
+> Please refer [Payment Systems API](/apis#section-tools-payment-systems) for more detailed information about this API.
 
 | Name | Format|
 |---|---|

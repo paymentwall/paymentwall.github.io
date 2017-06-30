@@ -5,7 +5,6 @@ category: section-tools-payment-systems
 
 Payment system API can retrieve the list of payment systems activated for a project in a specific country along with their names, logos and shortcodes.
 
-
 ##### Parameters
 
 | Name | Description|
@@ -17,9 +16,8 @@ Payment system API can retrieve the list of payment systems activated for a proj
 |sign_version<br> *required*<br> **integer**| Signature version. Version 2 uses MD5 and version 3 represents SHA256.|
 |sign<br> *required*<br> **string**| The signature of widget.<br> Refer to [signature calculation](/signature-calculation) for more details.|
 
-<br> 
 
-Check below for the description of response attributes. 
+### Payment system response
 
 ##### Attributes
 

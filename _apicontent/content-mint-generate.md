@@ -1,8 +1,10 @@
 ---
-category: section-mint-reseller-generate
+category: section-mint-generate
 ---
 
 ## Generate ePIN
+
+You can use this api to generate ePin if you are a [MINT reseller](http://www.mintprepaid.com/).
 
 ##### Parameters
 

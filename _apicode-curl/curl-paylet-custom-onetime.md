@@ -1,7 +1,7 @@
 ---
 category: section-paylet-custom-onetime
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```

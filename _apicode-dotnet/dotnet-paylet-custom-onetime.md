@@ -1,12 +1,12 @@
 ---
 category: section-paylet-custom-onetime
 ---
-Request endpoint
+Endpoint
 ```
 GET https://api.paymentwall.com/api/subscription
 ```
 
-Code sample
+Sample Request
 ```c#
 List<Paymentwall_Product> productList = new List<Paymentwall_Product>();
 Paymentwall_Product product = new Paymentwall_Product(

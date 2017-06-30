@@ -23,3 +23,16 @@ Pinless API can help you to build your own mobiamo payment form. It is activated
 |ts<br> *required*<br> **string**| Unix timestamp when the request was initiated, in seconds. |
 |sign_version<br> *required*<br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
 |sign<br> *required*<br> **string lowercase**| The signature of widget. Refer to [signature calculation](/signature-calculation) for more details.|
+
+### Pinless response
+
+##### Attributes
+
+| Name| Description|
+|---|---|
+| transaction_id | The order ID of mobile operator.|
+| keyword | The keyword which needs to be sent to mobile operator in the SMS message. |
+| shortcode | A number where the mobile operator SMS message needs to be sent. |
+| regulatory_text | The text which is required by carriers to be shown to your users before purchasing.|
+| amount | Your product price amount. |
+| currency | Your product currency. |

@@ -2,13 +2,13 @@
 category: section-tools-coupon-info
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/coupon
 ```
 
-Response
+Sample Response
 
 ```json
 {

@@ -1,20 +1,15 @@
 ---
-category: section-brick-onetime-token
+category: section-brick-onetime_token
 ---
-Request endpoint
-
-For live credentials
-```
- POST https://pwgateway.com/api/token
-```
-
-For test credentials
+Endpoint
 
 ```
- POST https://api.paymentwall.com/api/brick/token
+ POST https://pwgateway.com/api/token (Live environment)
+ 
+ POST https://api.paymentwall.com/api/brick/token (Sandbox environment)
 ```
 
-Code sample
+Sample Request
 ```javascript
 var onetimetoken = new Paymentwall.Onetimetoken(
   4000000000000002, // Card number

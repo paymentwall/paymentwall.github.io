@@ -1,19 +1,14 @@
 ---
-category: section-mint-reseller-generate
+category: section-mint-generate
 ---
 
-Request endpoint
-
-For MINT app
+Endpoint
 ```
-POST  https://api.paymentwall.com/pwapi/partners-mint
-```
-For MINT reseller
-```
-POST: https://api.paymentwall.com/pwapi/mint
+POST  https://api.paymentwall.com/pwapi/partners-mint (MINT app)
+POST: https://api.paymentwall.com/pwapi/mint (MINT reseller)
 ```
 
-Response
+Sample Response
 
 ```json
 {

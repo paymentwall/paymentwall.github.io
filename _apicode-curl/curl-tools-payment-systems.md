@@ -2,13 +2,13 @@
 category: section-tools-payment-systems
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/payment-systems/
 ```
 
-Request example
+Sample Request
 ```
 curl https://api.paymentwall.com/api/payment-systems/ \
 -d "key=[YOUR_PROJECT_API_KEY]" \
@@ -17,7 +17,7 @@ curl https://api.paymentwall.com/api/payment-systems/ \
 -d "sign=[SIGNATURE]" \
 ```
 
-Response:
+Sample Response:
 
 ```json
 [

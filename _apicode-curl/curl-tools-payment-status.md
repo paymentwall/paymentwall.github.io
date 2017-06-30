@@ -2,13 +2,13 @@
 category: section-tools-payment-status
 ---
 
-Request endpoint
+Endpoint
 
 ```
 GET https://api.paymentwall.com/api/rest/payment
 ```
 
-Request example
+Sample Request
 ```
 curl https://api.paymentwall.com/api/rest/payment \
 -d "key=[YOUR_PROJECT_API_KEY]" \
@@ -17,9 +17,7 @@ curl https://api.paymentwall.com/api/rest/payment \
 -d "sign=[SIGNATURE]" \
 ```
 
-Response:
-
-Success example
+Sample Response
 
 ```json
 {  
@@ -47,10 +45,4 @@ Success example
       "date_next":1492780033
    }
 }
-```
-
-Error example
-
-```json
-{"type":"Error","object":"Error","error":"Request signature is invalid","code":4009}
 ```

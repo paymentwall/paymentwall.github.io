@@ -3,12 +3,12 @@ category: section-brick-subscription
 ---
 Subscription request
 
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/api/brick/subscription
 ```
 
-Code sample
+Sample Request
 ```html
 curl https://api.paymentwall.com/api/brick/subscription \
 -H "X-ApiKey: [YOUR_PRIVATE_KEY]" \
@@ -22,33 +22,4 @@ curl https://api.paymentwall.com/api/brick/subscription \
 -d "plan=product_123" \
 -d "period=week" \
 -d "period_duration=2"
-```
-
-<br>
-
-Get Subscription details
-
-Request endpoint
-```
-GET https://api.paymentwall.com/api/brick/subscription/$subscriptionid
-```
-
-Code sample
-```html
-curl https://api.paymentwall.com/api/brick/subscription/s123456 \
--H "X-ApiKey: [YOUR_PRIVATE_KEY]" \
-```
-
-<br>
-Cancel a Subscription
-
-Request endpoint
-```
-POST https://api.paymentwall.com/api/brick/subscription/$id/cancel
-```
-
-Code sample
-```html
-curl https://api.paymentwall.com/api/brick/subscription/s123456/cancel \
--H "X-ApiKey: [YOUR_PRIVATE_KEY]" \
 ```

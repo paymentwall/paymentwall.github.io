@@ -1,7 +1,7 @@
 ---
 category: section-paylet-custom
 ---
-Init Digital Goods:
+Initialization:
 ```c#
 using Paymentwall;
 

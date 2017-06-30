@@ -1,7 +1,7 @@
 ---
 category: section-paylet-custom
 ---
-Init Digital Goods
+Initialization
 ```javascript
 var Paymentwall = require('paymentwall');
 Paymentwall.Configure(

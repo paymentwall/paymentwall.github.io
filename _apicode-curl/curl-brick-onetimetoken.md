@@ -1,20 +1,14 @@
 ---
-category: section-brick-onetime-token
+category: section-brick-onetime_token
 ---
-Request url
-
-For live credentials
+Endpoint
 ```
- POST https://pwgateway.com/api/token
-```
-
-For test credentials
-
-```
- POST https://api.paymentwall.com/api/brick/token
+ POST https://pwgateway.com/api/token (Live environment)
+ 
+ POST https://api.paymentwall.com/api/brick/token (Sandbox environment)
 ```
 
-Code sample
+Sample Request
 ```php
 curl https://pwgateway.com/api/token \
 -d "public_key=YOUR_PUBLIC_API_KEY" \
@@ -23,3 +17,4 @@ curl https://pwgateway.com/api/token \
 -d "card[exp_year]=2021" \
 -d "card[cvv]=123"
 ```
+

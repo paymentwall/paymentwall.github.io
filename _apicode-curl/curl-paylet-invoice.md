@@ -2,12 +2,12 @@
 category: section-paylet-invoice
 ---
 
-Request endpoint
+Endpoint
 ```
 POST https://api.paymentwall.com/developers/invoice-api/invoice
 ```
 
-Code sample
+Sample Request
 ```html
 curl https://api.paymentwall.com/developers/invoice-api/invoice \
 -H "X-ApiKey: [YOUR_PRIVATE_KEY]" \

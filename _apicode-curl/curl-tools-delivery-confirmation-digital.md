@@ -2,13 +2,7 @@
 category: section-tools-delivery-confirmation-digital
 ---
 
-Request endpoint
-
-```
-POST https://api.paymentwall.com/api/delivery
-```
-
-Request example
+Sample Request
 ```
 curl https://api.paymentwall.com/api/delivery \
 -H "X-ApiKey: [YOUR_PRIVATE_API_KEY]" \
@@ -25,20 +19,9 @@ curl https://api.paymentwall.com/api/delivery \
 -d "reason=none"
 ```
 
-Response
-
-Success example
+Sample Response
 ```json
 {
 	"success": 1
-}
-```
-
-Error example
-```json
-{	
-	"error_code":2,
-	"error":"Wrong parameters passed",
-	"notices":["You don't have access to this delivery"]
 }
 ```

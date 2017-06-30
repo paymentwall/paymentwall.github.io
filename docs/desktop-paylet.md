@@ -43,7 +43,7 @@ For the payment methods provided by our partners, please refer to [supported pay
 
 We assume that you have created a Paymentwall project.
 
-* Build the payment widget by using [Paylet API](/API-Reference#section-paylet-stored). 
+* Build the payment widget by using [Paylet API](/apis#section-paylet-stored). 
 
 + Display our payment widget. You can use refer to the 2 options below on how to handle the ```widget``` object.
     - ```widget.getHtmlcode()```, which returns an **iframe** html code with default width and height. 

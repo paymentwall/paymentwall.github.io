@@ -10,7 +10,7 @@ permalink: ps-codes
 List of payment system shortcodes supported in the Paymentwall.
 You can use this for deeplinking customers for a specific payment method.
 
-To deeplink to one of the payment methods below, you must pass an [optional parameter](/API-Reference#section-paylet-optional-parameter) ```ps``` with the payment system code as value, e.g. ```ps=cc``` for Credit Cards.
+To deeplink to one of the payment methods below, you must pass an [optional parameter](/apis#section-paylet-optional-parameter) ```ps``` with the payment system code as value, e.g. ```ps=cc``` for Credit Cards.
 
 
 |Payment Type|PS Name|PS Shortcode|Logo|

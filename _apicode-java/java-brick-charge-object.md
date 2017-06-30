@@ -1,7 +1,7 @@
 ---
 category: section-brick-charge-object
 ---
-Charge response object example
+Sample charge object
 
 ```json
 {
