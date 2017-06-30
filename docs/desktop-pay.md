@@ -7,21 +7,21 @@ title: Pay API
 
 # Pay API
 
-Pay API connects you with the [payment methods](https://www.paymentwall.com/payment-methods) provided by us and our partners together. 
+Paymentwall provides one single API to process payments with all [payment methods](https://www.paymentwall.com/en/documentation/Payment-System-Shortcodes/2044) supported by Paymentwall.
 
-Steps to integrate it into your application:
+The page contains code samples in PHP. You can also find the same code samples using Paymentwall libraries for [Ruby](https://github.com/paymentwall/paymentwall-ruby), [Python](https://github.com/paymentwall/paymentwall-python), [Java](https://github.com/paymentwall/paymentwall-java), [Node](https://github.com/paymentwall/paymentwall-node), [C#](https://github.com/paymentwall/paymentwall-dotnet).  
 
-* [Build a payment methods selection form](#build-a-payment-selection-form).
+To integrate Paymentwall, follow the steps below:
 
-* [Redirect customer](#redirect-customer).
+1.[Add payment methods into your page](#1-add-payment-method-buttons-into-your-page).  
+2.[Redirect a user to the Paymentwall Payment Page](#2-redirect-a-user-to-the-paymentwall-payment-page).  
+3.[Set up Pingback Listener](#3-set-up-pingback-listener).  
+4.[Dispatch payment result](#4-dispatch-payment-result).  
 
-* [Setup pingback listener](#setup-pingback-listener).
 
-* [Dispatch payment result](#dispatch-payment-result).
+## 1. Add payment method buttons into your page
 
-## Build a payment methods selection form
-
-Pull the list of methods via [payment system API](/apis#section-tools-payment-systems) and embed their logos on your page. By using payment system api, you need obtain the country code of your customer by ip address. Assign a static country code if your customer are all from a same country.
+You can either configure specific methods from the [list of available payment methods](https://www.paymentwall.com/en/documentation/Payment-System-Shortcodes/2044), or dynamically pull the list of methods via [Payment Systems API](https://www.paymentwall.com/en/documentation/Payment-Systems-API/2661) active in a given country. You can then embed the respective buttons into your page. 
  
 ```php
 <?php
@@ -43,22 +43,21 @@ $payment_systems = json_decode(file_get_contents($url));
 ?>
 ```
 
-A collapsible list of all methods we support for the specific country will be returned, you can use it to build your payment methods selection from. Below is a sample for one gateway:
+A list of all methods we support for the specific country will be returned, you can use it to build your payment methods selection form. Below is a sample for one payment method:
 
 ```json
-{
-  "id":"mint",
-  "name":"MINT",
+[{
+  "id":"idealnl",
+  "name":"iDeal",
   "new_window":false,
-  "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_mint.png",
-  "img_class":"mint",
-  "ps_type_id":3
-}
+  "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_ideal.png",
+  "img_class":"ideal"
+}]
 ```
 
 Combine using  ```img_url```, ```name``` with *radio button* or your preferred way to create available payment methods list. Afterwards, bind each available payment method with ```id``` which is returned in payment system API for next step.
 
-## Redirect customer
+## 2. Redirect a user to the Paymentwall Payment Page
 
 Once the user decides which payment method he wants to use, you can use pay API like below to redirect him to the corresponding payment page.
 
@@ -70,30 +69,29 @@ Paymentwall_Base::setAppKey('[Your_project_key]');
 Paymentwall_Base::setSecretKey('[Your_secret_key]');
 
 $widget = new Paymentwall_Widget(
-  'user40012', // uid
-  'p1_1', // widget
+  'id_of_the_user_in_your_system',
+  'pw',
   array(
     new Paymentwall_Product(
-      'product301', // ag_external_id
-      9.99, // amount
-      'USD', // currencyCode
-      'Gold Membership', // ag_name
-      Paymentwall_Product::TYPE_FIXED // ag_type
+      'product301',
+      9.99,
+      'USD',
+      'Gold Membership',
+      Paymentwall_Product::TYPE_FIXED
     )
-    ),
+  ),
   array(
       'email' => 'user@hostname.com',
-      'timestamp' => 'transaction_current_timestamp',
-      'addtional_param_name' => 'addtional_param_value',
-      'ps' => '[id]', // The id returned in payment system API
+      'ts' => time(),
+      'ps' => '[id]',
   )
 );
 
-$url = $widget.getUrl();
+header('Location:' . $widget.getUrl());
 ?>
 ```
 
-## Setup pingback listener
+## 3. Set up Pingback Listener
 
 You will receive a pingback which is sent from our server every time we confirm that your customer has completed his payment. You can then do delivery processing according to our pingbacks.
 
@@ -121,7 +119,7 @@ if ($pingback->validate()) {
 ?>
 ```
 
-## Dispatch payment result
+## 4. Dispatch payment result
 
 For a better user experience, we provide features to redirect customers back to your application. 
 
