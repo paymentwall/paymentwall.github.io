@@ -66,8 +66,8 @@ Once the user decides which payment method he wants to use, you can use pay API 
 <?php
     require_once('/path/to/paymentwall-php/lib/paymentwall.php');
     Paymentwall_Base::setApiType(Paymentwall_Base::API_GOODS);
-    Paymentwall_Base::setAppKey('[Your_project_key]'); 
-    Paymentwall_Base::setSecretKey('[Your_secret_key]'); 
+    Paymentwall_Base::setAppKey('[Your_project_key]');
+    Paymentwall_Base::setSecretKey('[Your_secret_key]');
 
     $widget = new Paymentwall_Widget(
       'user40012', // uid
@@ -82,7 +82,7 @@ Once the user decides which payment method he wants to use, you can use pay API 
         )
         ),
       array(
-          'email' => 'user@hostname.com', 
+          'email' => 'user@hostname.com',
           'timestamp' => 'transaction_current_timestamp',
           'addtional_param_name' => 'addtional_param_value',
           'ps' => '[id]', // The id returned in payment system API
@@ -101,8 +101,8 @@ You will receive a pingback which is sent from our server every time we confirm 
 <?php
     require_once('/path/to/paymentwall-php/lib/paymentwall.php');
     Paymentwall_Base::setApiType(Paymentwall_Base::API_GOODS);
-    Paymentwall_Base::setAppKey('[Your_project_key]'); 
-    Paymentwall_Base::setSecretKey('[Your_secret_key]'); 
+    Paymentwall_Base::setAppKey('[Your_project_key]');
+    Paymentwall_Base::setSecretKey('[Your_secret_key]');
 
     $pingback = new Paymentwall_Pingback($_GET, $_SERVER['REMOTE_ADDR']);
     if ($pingback->validate()) {
