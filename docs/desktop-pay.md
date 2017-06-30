@@ -98,6 +98,7 @@ Once the user decides which payment method he wants to use, you can use pay API 
 You will receive a pingback which is sent from our server every time we confirm that your customer has completed his payment. You can then do delivery processing according to our pingbacks.
 
 ```php
+<?php
     require_once('/path/to/paymentwall-php/lib/paymentwall.php');
     Paymentwall_Base::setApiType(Paymentwall_Base::API_GOODS);
     Paymentwall_Base::setAppKey('[Your_project_key]'); 
@@ -117,6 +118,7 @@ You will receive a pingback which is sent from our server every time we confirm 
     } else {
         echo $pingback->getErrorSummary();
     }
+?>
 ```
 
 ## Dispatch payment result
