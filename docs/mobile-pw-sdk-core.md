@@ -7,27 +7,34 @@ permalink: mobile/core
 
 # Core SDK
 
-Core SDK is the main component of Paymentwall SDK, where you can set your product details to perform request. About the payment options contained in Core SDK, we provide 4 kinds to satisfy your needs. We will give introduction of these 4 payment options in the next part, you can choose one or more accordingly.
+Core SDK is the main component of Paymentwall SDK, where you can set your product details to perform request. To make it as light as possible, we provide 4 main payment solutions to satisfy your needs.
+
+* Brick SDK : Credit cards payment solution.
+* MINT SDK : Prepaid Card payment solution issued by Paymentwall.
+* Mobiamo SDK : Global mobile payment solution(support 170+ countries).
+* PW Local SDK : Local payment methods.
+
+To get details about these payment methods please check [Payment options](#Payment-Options)
 
 Start implementation by viewing our SDK on Github:
 
 * [Core Android SDK](https://github.com/paymentwall/paymentwall-android-sdk).
 
-* [Core iOS SDK](https://github.com/paymentwall/ios-sdk-core).
+* [Core iOS SDK](https://github.com/paymentwall/paymentwall-ios-sdk).
 
-## Payment options
+## Payment Options
 
 Core SDK contains 4 payment options: Brick SDK, Mobiamo SDK, Mint SDK and PW Local SDK. The first 3 SDKs are supported by Paymentwall with **native UI**, while the PW Local SDK are supported with webview. Brief introduction will be given to the SDKs, please click links below to get details on how to implement them.
 
-* Brick SDK: Brick SDK is a pure credit card payment solution, which means it is developed for credit card only. So through Brick SDK, we provide a better experience both on UI design and payment flow when your customers pay with credit cards. 
+* Brick SDK: Brick SDK is a pure credit card payment solution, which means it is developed for credit card only. So through Brick SDK, we provide a better experience both on UI design and payment flow when your customers pay with credit cards.
 
 * Mobiamo SDK: Mobiaom SDK is a mobile payment solution, which means it satisfies the needs for countries that are popular with payment by replying messages on mobile phones. We have customized UI and different payment flows according to mobile payment features, so it is the best choice when mobile payment solution is in need.
 
 * MINT SDK: Mint SDK is a prepaid card payment solution, which means users can buy Mint first and make a purchase with it later. The advantages of Mint over other prepaid cards are: 1. it provides customized UI; 2. It involves all the countries that Paymentwall supports.
 
-* PW Local SDK: PW Local SDK is a local payment solution, which means you can have 130 popular local payment methods just by integrating one SDK. PW Local SDK can satisfy most of your needs on payment methods.
+* PW Local SDK: PW Local SDK is a local payment solution, which means you can have [130 popular local payment methods](https://www.paymentwall.com/payment-methods) just by integrating one SDK. PW Local SDK can satisfy most of your needs on payment methods.
 
-By default, none of them is added into core SDK, please choose the options you want and connect them with core SDK. 
+By default, none of them is added into core SDK, please choose the options you want and connect them with core SDK.
 
 > At least one payment option is required, otherwise no payment option would be available at payment selection view.
 
@@ -54,5 +61,3 @@ Once you finished the configuration for core SDK, you can continue with ways bel
 > [Including more payment options](/mobile/plugin) by using plugin SDK.
 
 > [Setup pingback listener](/default-pingback) to complete the deliver process.
-
-
