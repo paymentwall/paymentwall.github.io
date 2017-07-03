@@ -1,0 +1,189 @@
+.highlight {
+	padding:10px
+}
+.highlight .hll {
+	background-color:#49483e
+}
+.highlight .c {
+	color:#75715e
+}
+.highlight .err {
+	color:#fff;
+}
+.highlight .k {
+	color:#fec013
+}
+.highlight .l {
+	color:#fff
+}
+.highlight .n {
+	color:#fff
+}
+.highlight .o {
+	color:#ed616c
+}
+.highlight .p {
+	color:#f8f8f2
+}
+.highlight .cm {
+	color:#75715e
+}
+.highlight .cp {
+	display: none;
+}
+.highlight .c1 {
+	color:#75715e
+}
+.highlight .cs {
+	color:#75715e
+}
+.highlight .ge {
+	font-style:italic
+}
+.highlight .gs {
+	font-weight:bold
+}
+.highlight .kc {
+	color:#fec013
+}
+.highlight .kd {
+	color:#fec013
+}
+.highlight .kn {
+	color:#fec013
+}
+.highlight .kp {
+	color:#fec013
+}
+.highlight .kr {
+	color:#fec013
+}
+.highlight .kt {
+	color:#fec013
+}
+.highlight .ld {
+	color:#e6db74
+}
+.highlight .m {
+	color:#33c7e2
+}
+.highlight .s {
+	color:#a3e765
+}
+.highlight .na {
+	color:#fff
+}
+.highlight .nb {
+	color:#fff
+}
+.highlight .nc {
+	color:#fff
+}
+.highlight .no {
+	color:#fff
+}
+.highlight .nd {
+	color:#fff
+}
+.highlight .ni {
+	color:#fff
+}
+.highlight .ne {
+	color:#fff
+}
+.highlight .nf {
+	color:#fff
+}
+.highlight .nl {
+	color:#fff
+}
+.highlight .nn {
+	color:#fff
+}
+.highlight .nx {
+	color:#fff
+}
+.highlight .py {
+	color:#f8f8f2
+}
+.highlight .nt {
+	color:#fff
+}
+.highlight .nv {
+	color:#fff
+}
+.highlight .ow {
+	color:#f92672
+}
+.highlight .w {
+	color:#f8f8f2
+}
+.highlight .mf {
+	color:#33c7e2
+}
+.highlight .mh {
+	color:#33c7e2
+}
+.highlight .mi {
+	color:#33c7e2
+}
+.highlight .mo {
+	color:#33c7e2
+}
+.highlight .sb {
+	color:#a3e765
+}
+.highlight .sc {
+	color:#a3e765
+}
+.highlight .sd {
+	color:#a3e765
+}
+.highlight .s2 {
+	color:#a3e765
+}
+.highlight .se {
+	color:#a3e765
+}
+.highlight .sh {
+	color:#a3e765
+}
+.highlight .si {
+	color:#a3e765
+}
+.highlight .sx {
+	color:#a3e765
+}
+.highlight .sr {
+	color:#a3e765
+}
+.highlight .s1 {
+	color:#a3e765
+}
+.highlight .ss {
+	color:#a3e765
+}
+.highlight .bp {
+	color:#f8f8f2
+}
+.highlight .vc {
+	color:#f8f8f2
+}
+.highlight .vg {
+	color:#f8f8f2
+}
+.highlight .vi {
+	color:#f8f8f2
+}
+.highlight .il {
+	color:#33c7e2
+}
+.highlight .gu {
+	color:#75715e
+}
+.highlight .gd {
+	color:#f92672
+}
+.highlight .gi {
+	color:#a6e22e
+}

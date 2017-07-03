@@ -1,17 +1,17 @@
 ---
-id: mobile-panda-plugin
-title: Plguin SDK
+id: nav-mobile-sdk-plugin
+title: Plugin
 sectionid: docs
-permalink: mobile/plugin
+permalink: mobile/plugin-home
 ---
 
 # Plugin SDK
 
-By integrating Core SDK, you can receive payment with Paymentwall. But if you want to provide unique and value-added services to users, Plugin SDK can help you. <br>
-Functions we provide:<br>
-* [Optimized payment methods](#Optimized-payment-methods).
-* [UI Customization](#UI-Customization).
-* [Scan Credit Cards](#Scan-Credit-Cards).
+By integrating Core SDK, you can receive payment with Paymentwall. But if you want to provide unique and value-added services to users, Plugin SDK can help you. <\n>
+Functions we provide:<\n>
+* [Optimized payment methods](#optimized-payment-methods).
+* [UI Customization](#ui-customization).
+* [Scan Credit Cards](#scan-credit-cards).
 
 How to integrate Plugin SDK:
 * [Android](https://github.com/paymentwall/paymentwall-android-sdk/tree/master/Plugin).

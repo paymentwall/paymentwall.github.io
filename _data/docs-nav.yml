@@ -92,7 +92,7 @@
           path: /mobile/core
         - id: nav-mobile-sdk-plugin
           title: Plugin
-          path: /mobile/plugin
+          path: /mobile/plugin-home
           leaves:
             - id: nav-mobile-sdk-plugin-support_ps
               title: Optimized payment methods

@@ -1,6 +1,6 @@
 ---
-id: mobile-panda-plugin
-title: Plguin SDK
+id: nav-mobile-sdk-plugin-scan
+title: Scan cards
 sectionid: docs
 permalink: mobile/plugin/scan
 ---
