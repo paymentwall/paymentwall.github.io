@@ -93,9 +93,16 @@
         - id: nav-mobile-sdk-plugin
           title: Plugin
           path: /mobile/plugin
-        - id: nav-mobile-sdk-support_ps
-          title: Optimized payment methods
-          path: /mobile/support_ps
+          leaves:
+            - id: nav-mobile-sdk-plugin-support_ps
+              title: Optimized payment methods
+              path: /mobile/plugin/support_ps
+            - id: nav-mobile-sdk-plugin-scan
+              title: Scan cards
+              path: /mobile/plugin/scan
+            - id: nav-mobile-sdk-plugin-ui
+              title: UI customization
+              path: /mobile/plugin/ui
 - id: nav-smarttv
   title: Smart TV
   items:
@@ -152,7 +159,7 @@
     - id: nav-reference-spiderpipe
       title: SpiderPipe
       path: /spiderpipe-home
-      subitems: 
+      subitems:
         - id: nav-reference-spiderpipe-paypal
           title: PayPal
           path: /spiderpipe/paypal
