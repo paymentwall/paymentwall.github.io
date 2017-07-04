@@ -14,7 +14,7 @@ Core SDK is the main component of Paymentwall SDK, where you can set your produc
 * Mobiamo SDK : Global mobile payment solution(support 170+ countries).
 * PW Local SDK : Local payment methods.
 
-To get details about these payment methods please check [Payment options](#Payment-Options)
+To get details about these payment methods please check [Payment options](#payment-options)
 
 Start implementation by viewing our SDK on Github:
 

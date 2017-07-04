@@ -7,8 +7,6 @@ permalink: mobile/plugin/scan
 
 # CardIO
 
-## What is CardIO
-
 CardIO is a card scanner. By compiling CardIO plugin, users can use their phone camera to scan credit card for number, CVV, expired date automatically. It can be implemented simply by adding several lines in your app module's build.gradle file.
 
 ## How does it work
