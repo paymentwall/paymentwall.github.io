@@ -8,6 +8,13 @@
       title: Paylet
       path: /paylet-home
       subitems:
+        - id: nav-desktop-paylet-widget
+          title: Widget
+          path: /paylet/widget-home
+          leaves:
+            - id: nav-desktop-paylet-widget-reference
+              title: Reference
+              path: /paylet/widget/reference
         - id: nav-desktop-paylet-stored
           title: Stored product
           path: /paylet/stored-products
@@ -85,10 +92,17 @@
           path: /mobile/core
         - id: nav-mobile-sdk-plugin
           title: Plugin
-          path: /mobile/plugin
-        - id: nav-mobile-sdk-support_ps
-          title: Optimized payment methods
-          path: /mobile/support_ps
+          path: /mobile/plugin-home
+          leaves:
+            - id: nav-mobile-sdk-plugin-support_ps
+              title: Optimized payment methods
+              path: /mobile/plugin/support_ps
+            - id: nav-mobile-sdk-plugin-scan
+              title: Scan cards
+              path: /mobile/plugin/scan
+            - id: nav-mobile-sdk-plugin-ui
+              title: UI customization
+              path: /mobile/plugin/ui
 - id: nav-smarttv
   title: Smart TV
   items:
@@ -145,7 +159,7 @@
     - id: nav-reference-spiderpipe
       title: SpiderPipe
       path: /spiderpipe-home
-      subitems: 
+      subitems:
         - id: nav-reference-spiderpipe-paypal
           title: PayPal
           path: /spiderpipe/paypal
