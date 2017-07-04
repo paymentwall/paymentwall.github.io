@@ -1,5 +1,5 @@
 ---
-id: nav-mobile-sdk-plugin-ui
+id: mobile-sdk-plugin-ui
 title: UI Customization
 sectionid: docs
 permalink: mobile/plugin/ui
@@ -7,7 +7,8 @@ permalink: mobile/plugin/ui
 
 # UI Customization
 
-Customization Plugin is an optional plugin to add the feature that enable customization feature for the flat UI. It allows you to customize payment page according to the style of applications with several lines of codes. <\n>
+Customization Plugin is an optional plugin to add the feature that enable customization feature for the flat UI. It allows you to customize payment page according to the style of applications with several lines of codes.
+
 Here are some pictures to show what elements you can change. For more information, please click links below:
 * [Android](#ui-customization-android).
 * [IOS](#ui-customization-ios).

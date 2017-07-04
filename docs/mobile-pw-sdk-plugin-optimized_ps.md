@@ -1,5 +1,5 @@
 ---
-id: nav-mobile-sdk-plugin-support_ps
+id: mobile-sdk-plugin-support_ps
 title: Optimized payment methods
 sectionid: docs
 permalink: mobile/plugin/support_ps
@@ -52,16 +52,17 @@ You can find our integration library and code samples as well.
 
 
 # SpiderPipe support
-Paymentwall can help you to manage accounts for some optimized payment methods. By adding necessary information of your merchant account, we can help you with easy integration through Paymentwall SDK. <\n>
+Paymentwall can help you to manage accounts for some optimized payment methods. By adding necessary information of your merchant account, we can help you with easy integration through Paymentwall SDK.
+
 **Which payment methods support SpiderPipe?**
 * [Alipay](/spiderpipe/alipay).
-* Wechat Pay.
 * [Union Pay](/spiderpipe/unionpay).
 
-**Why using us to manage accounts?**<\n>
+**Why using us to manage accounts?**
+
 Except for account management, we offer other valuable services including:
 * Risk management.
 * Data analysis.
 * Merchant support.
 * CRM features.
-* **It is free!**
+* **It is free!** (only for Paymentwall SDK)

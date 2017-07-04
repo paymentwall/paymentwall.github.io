@@ -1,5 +1,5 @@
 ---
-id: nav-mobile-sdk
+id: mobile-sdk
 title: Paymentwall SDK
 sectionid: docs
 permalink: mobile-sdk
@@ -15,7 +15,7 @@ Paymentwall SDK is a mobile payment solution for the [payment methods](https://w
   <img src="/textures/pic/pw-sdk/processing.png" style="width: 15%">
   <img src="/textures/pic/pw-sdk/result-success.png" style="width: 15%">
 </div>
-<\n>
+
 We have made improvement for [optimized payment methods](/mobile/plugin/support_ps) on UI and method of calling, which could make payment process smooth and easy. Your customers no longer need to waste their time on loading webviews anymore. Once the item is chosen, they can start typing payment information immediately.
 
 For the rest of payment methods, we also provide a view which is suitable for mobile users.

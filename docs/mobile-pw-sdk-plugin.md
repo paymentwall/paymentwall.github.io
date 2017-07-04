@@ -1,5 +1,5 @@
 ---
-id: nav-mobile-sdk-plugin
+id: mobile-sdk-plugin
 title: Plugin
 sectionid: docs
 permalink: mobile/plugin-home
@@ -7,8 +7,10 @@ permalink: mobile/plugin-home
 
 # Plugin SDK
 
-By integrating Core SDK, you can receive payment with Paymentwall. But if you want to provide unique and value-added services to users, Plugin SDK can help you. <\n>
-Functions we provide:<\n>
+By integrating Core SDK, you can receive payment with Paymentwall. But if you want to provide unique and value-added services to users, Plugin SDK can help you.
+
+Functions we provide:
+
 * [Optimized payment methods](#optimized-payment-methods).
 * [UI Customization](#ui-customization).
 * [Scan Credit Cards](#scan-credit-cards).
