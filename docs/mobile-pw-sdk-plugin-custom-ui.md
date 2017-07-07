@@ -36,10 +36,7 @@ You can find our integration library and code samples as well.
 
 ## Element can be changed
 <div class="docs-img">
-<img src="https://user-images.githubusercontent.com/23113471/27734022-42b14d5a-5dc3-11e7-92b5-7213e260810a.jpg " style="width: 80%">
-
-
-<img src="https://user-images.githubusercontent.com/23113471/27734047-58549374-5dc3-11e7-84eb-6a92f03f6f9d.jpeg " style="width: 80%">
+<img src="https://user-images.githubusercontent.com/23113471/27816093-84af641a-60b3-11e7-9a8b-d2dd01a3eafc.png" style="width: 80%">
 </div>
 ## Set up
 Please [click here](https://github.com/paymentwall/paymentwall-ios-sdk/tree/master/Plugins/PWCustomizationPlugin) for more details about Custom UI (IOS).

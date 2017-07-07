@@ -59,6 +59,7 @@ Paymentwall can help you to manage accounts for some optimized payment methods. 
 **Which payment methods support SpiderPipe?**
 * [Alipay](/spiderpipe/alipay).
 * [Union Pay](/spiderpipe/unionpay).
+* [Wechat Pay](/spiderpipe/wechat).
 
 **Why using us to manage accounts?**
 
