@@ -63,6 +63,9 @@
         - id: nav-desktop-mobiamo-flow
           title: Payment flows
           path: /mobiamo/mobiamo-flow
+        - id: nav-desktop-direct-mobiamo-pinless
+          title: Pinless API
+          path: /direct/mobiamo/mobiamo-pinless
     - id: nav-desktop-mint
       title: MINT
       path: /mint-home
