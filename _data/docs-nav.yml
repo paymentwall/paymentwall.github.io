@@ -178,6 +178,9 @@
         - id: nav-reference-spiderpipe-unionpay
           title: UnionPay
           path: /spiderpipe/unionpay
+        - id: nav-reference-spiderpipe-wechat
+          title: Wechat Pay
+          path: /spiderpipe/wechat
     - id: nav-reference-lang
       title: Language codes
       path: /lang
