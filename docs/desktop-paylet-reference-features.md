@@ -1,11 +1,13 @@
 ---
-id: desktop-paylet-widget
-title: Widget Reference
+id: desktop-paylet-reference-features
+title: Features
 sectionid: docs
-permalink: paylet/widget/reference
+permalink: /paylet/reference/feature
 ---
 
-# Widget Reference
+# Features
+
+You can choose to combine the following features to improve the payment experience of your customer when interacting with widgets:
 
 * [Additional parameters](#additional-parameters).
 
@@ -15,17 +17,15 @@ permalink: paylet/widget/reference
 
 ## Additional parameters
 
-There are two main categories for additional parameters:
+Additional parameters can be added into [Paylet API](/apis#section-paylet-stored) to meet the additional requirements when building widgets. There are two main categories for additional parameters:
 
 * Optional parameters.
 
-We provide a set of reserved parameters, see [optional parameter](/apis#section-paylet-optional-parameter) in API call for description of each parameter.
+The [optional parameter](/apis#section-paylet-optional-parameter) is a collection of reversed parameters to implement certain functions. 
 
 * Custom parameters
 
 Paylet API allows you to add your own parameter as additional parameters while building widget. We can help you to do parameter transmission and communicate it back to your server side via pingback. See [custom pingback parameter with own value](/pingback-custom-parameters#parameter-with-own-value) for more details.
-
-> Check [Paylet API](/apis#section-paylet-stored) and find the code sample about how to add additional parameters.
 
 ## Client side callback
 
@@ -82,20 +82,28 @@ window.addEventListener('message', function(event) {
 
 ## Deep-linked payment system
 
-Deep-linked payment system means the pages of desired payment method are displayed into our widgets directly. 
+Deep-linked payment system directly displays the user's desired payment page in our widgets. It requires [Custom Price](/paylet/custom-price). 
 
-It requires more operations, that is, you will need to build product selection page and payment methods selection page in your own application, but has a better payment experience for your customers. 
+You can build your own products selection interface, and set up your payment options interface based on our [Payment Systems API](/apis#section-tools-payment-systems) to provide your users a better payment experience.
 
-> We recommend you to use [Custom Price](/paylet/custom-price) with deep-linked payment system.
+* Obtain the country code of your customer based on his ip address. You can also assign a static country code if your customer are all from a same country.
 
-Product selection page should be fairly easy to be finished on your side. Paymentwall provides [payment system API](/apis#section-tools-payment-systems) which can help you with payment system selection page. Below are the steps:
+* You can dynamically pull the list of methods via [Payment Systems API](/apis#section-tools-payment-systems) active in a given country, and then embed the respective buttons into your page. 
 
-* Obtain the country code of your customer by ip address. You can also assign a static country code if your customer are all from a same country.
+A list of all methods we support for the specific country will be returned by Payment System API, you can use it to build your payment methods selection form. Below is a sample for one payment method:
 
-* Use [payment system API](/apis#section-tools-payment-systems) with the obtained country code to retrieve the list of payment methods activated in your project for the specific country.
+```json
+[{
+  "id":"idealnl",
+  "name":"iDeal",
+  "new_window":false,
+  "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_ideal.png",
+  "img_class":"ideal"
+}]
+```
 
-* In your payment methods selection page, combine using  ```img_url```, ```name``` with *radio button* or your preferred way to create available payment methods list.
+Combine using  ```img_url```, ```name``` with *radio button* or your preferred way to create available payment methods list. Afterwards, bind each available payment method with ```id``` which is returned in payment system API for next step.
 
-* Bind each available payment method with ```id```. When you are building widget, add ```ps``` in [optional parameter](/apis#section-paylet-optional-parameter) as an additional parameter and set the value as ```id```.
+* Once the user decides which payment method he wants to use, you can use [Paylet API](/apis#section-paylet-custom) and add ```ps``` as [optional parameter](/apis#section-paylet-optional-parameter) values ```id``` (Obtained in last step) to redirect him to the corresponding payment page.
 
 That's it, you have integrated deep-linked payment system into your application.

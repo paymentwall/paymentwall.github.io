@@ -2,7 +2,7 @@
 id: desktop-paylet-widget
 title: Widget
 sectionid: docs
-permalink: paylet/widget-home
+permalink: /paylet/reference/widget
 ---
 
 # Widget
@@ -23,7 +23,11 @@ Widget is a web page hosted by Paymentwall to display available payment form to 
 | w6 | offerwall | No | [Link to widget for offerwall in USA](https://api.paymentwall.com/api/?key=7f37fa10dcc9ce39ea133ba24b76e748&uid=paymentwall&widget=w6&vc=Coins&country_code=US&sign_version=2&sign=24dcd7346bae3d78dd75c7b5c44adae3){:target="_blank"} | A unified widget for offerwall merchants. |
 | mw6 | offerwall | Yes | [Link to widget for offerwall in USA](https://api.paymentwall.com/api/?key=7f37fa10dcc9ce39ea133ba24b76e748&uid=paymentwall&widget=mw6&vc=Coins&country_code=US&sign_version=2&sign=abfd58e6e3db8377ff11de3cf5dca13b){:target="_blank"} | Mobile view version for Offerwall widget. |
 
-## Widget Reference
+## Create a widget
 
-Our widget has lots of features which are helpful for you to build a better payment experience. See [Widget Reference](/paylet/widget/reference) for more details.
+You can create any available widget above for your project in [widgets area](https://api.paymentwall.com/developers/widgets/). 
+
+Widget code of created widgets is expanded with additional number as suffix for [widget customization](/paylet/widget/reference#customization). 
+
+> The default widget code without suffix can also be used directly, widget customization and its features are limited in this case.
 
