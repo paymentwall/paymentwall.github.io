@@ -8,13 +8,6 @@
       title: Paylet
       path: /paylet-home
       subitems:
-        - id: nav-desktop-paylet-widget
-          title: Widget
-          path: /paylet/widget-home
-          leaves:
-            - id: nav-desktop-paylet-widget-reference
-              title: Reference
-              path: /paylet/widget/reference
         - id: nav-desktop-paylet-stored
           title: Stored product
           path: /paylet/stored-products
@@ -41,6 +34,15 @@
         - id: nav-desktop-paylet-offerwall
           title: Offerwall
           path: /paylet/offerwall-home
+        - id: nav-desktop-paylet-reference
+          title: Reference
+          leaves:
+            - id: nav-desktop-paylet-reference-widget
+              title: Widget
+              path: /paylet/reference/widget
+            - id: nav-desktop-paylet-reference-features
+              title: Features
+              path: /paylet/reference/feature
     - id: nav-desktop-direct
       title: Direct API
       path: /direct-home

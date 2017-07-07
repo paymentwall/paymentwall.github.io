@@ -21,9 +21,7 @@ Here is a sample using Paylet widget.
 
 There will be only one product in our widget while using Custom Price as it doesn't have the products selection step, which means you need to create it by your own in your application. 
 
-You can also build [deep-linked payment system](/paylet/widget/reference#deep-linked-payment-system) by using Custom Price for better payment experience. 
-
-> See [widget reference](/paylet/widget/reference) for more features.
+You can also build [deep-linked payment system](/paylet/reference/feature#deep-linked-payment-system) by using Custom Price for better payment experience. 
 
 ## Product type
 
