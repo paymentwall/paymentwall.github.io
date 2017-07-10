@@ -16,10 +16,13 @@
 	<div class="page-section page-section--doc page-section--light js-main-content">
 		{% include docs-modules-navigation.html %}
 		<div class="maincontent">
-			<section class="doc-content {{ page.id }}">
-				{{ content }}
-			</section>
-		</div> 
+			<div class="article">
+				<div class="doc-content {{ page.id }}">
+					{{ content }}
+				</div>
+			</div>
+			{% include footer.html %}
+		</div>
 	</div>
 </body>
 </html>

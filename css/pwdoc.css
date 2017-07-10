@@ -1188,6 +1188,32 @@ p {
     stroke-linecap: round;
 }
 
+.page-footer {
+    font-size: 16px;
+    padding: 0 10% 20px 10%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top: 0.5px solid;
+    border-color: #ebf1f3;
+}
+
+@media only screen and (max-width: 768px){
+    .page-footer {
+        padding: 0 5% 20px 5%;
+    }
+}
+
+.page-footer a{
+    color: #3a72c7;
+    text-decoration: none;
+}
+
+.page-footer a:hover{
+    color: #3a72c7;
+    text-decoration: underline;
+}
+
 /*for normal*/
 @keyframes rotate {
     100% {
