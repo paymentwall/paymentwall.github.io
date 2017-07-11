@@ -104,5 +104,7 @@
       title: Payment systems
     - name: section-tools-product-details
       title: Product details
+    - name: section-tools-geolocation
+      title: Geolocation API
 - items:
     - name: section-footer

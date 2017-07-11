@@ -7,7 +7,7 @@ permalink: paylet-home
 
 # Paylet
 
-Paylet is a payment methods aggregation platform which contains all the payment methods provided by Paymentwall and our partners. It provides a [widget](/paylet/widget) for you to implement Paylet into your application..
+Paylet is a payment methods aggregation platform which contains all the payment methods provided by Paymentwall and our partners. It provides a [widget](/paylet/reference/widget) for you to implement Paylet into your application..
 
 ## Included payment methods
 
