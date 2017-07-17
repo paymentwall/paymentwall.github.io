@@ -16,18 +16,19 @@ Choose the product which is most suitable for you and start integration with us!
 ## Desktop
 
 + [Paylet](/paylet-home).
-    - [Stored product](/paylet/stored-products). 
+    - [Stored product](/paylet/stored-products).
     - [Custom price](/paylet/custom-price).
-    - [Invoice](/paylet/invoice). 
+    - [Invoice](/paylet/invoice).
     - [Offerwall](/paylet/offerwall-home).
-+ [Direct API](/direct-home). 
++ [Direct API](/direct-home).
+    - [PayAlto](/direct/payalto-home).
     - [Brick](/direct/brick-home).
     - [Mobiamo](/direct/mobiamo-home).
-    - [MINT](/direct/mint-home). 
+    - [MINT](/direct/mint-home).
 
 ## Mobile
 
-- [Paymentwall SDK](/mobile-sdk). The unified mobile aggregation platform includes all the payment methods in. Paymentwall SDK provides your customer with better mobile payment experience with native UI and customized view.
+- [Paymentwall SDK](/mobile-sdk). The unified mobile aggregation platform includes all the payment methods. Paymentwall SDK provides your customer with better mobile payment experience with native UI and customized view.
 
 ## Smart TV
 
@@ -35,4 +36,4 @@ Choose the product which is most suitable for you and start integration with us!
 
 ## Extensions & Plugins
 
-* [Extensions & Plugins](/modules/aMember). Paymentwall provide a set of plugins to hosting platform.
+* [Extensions & Plugins](/modules/aMember). Paymentwall provides a set of plugins to hosting platform.

@@ -7,9 +7,9 @@ permalink: paylet-home
 
 # Paylet
 
-Paylet uses a payment methods aggregation platform which contains all the payment methods provided by Paymentwall and our partners.
+Paylet is a payment methods aggregation platform which contains all the payment methods provided by Paymentwall and our partners.
 
-It can be integrated with a widget in your application. 
+It can be integrated with a widget in your application.
 
 ## Widget
 
@@ -17,7 +17,7 @@ Widget is a web page hosted by Paymentwall to display available payment options 
 
 ## Included products
 
-Below are the products which Paylet includes.
+Below are the products which Paylet included.
 
 * [PayAlto](/direct/payalto-home).
 
@@ -27,7 +27,7 @@ Below are the products which Paylet includes.
 
 * [Mobiamo](/direct/mobiamo-home).
 
-> The payment methods which are shown into widget depends on user's current IP address and configuration in **payment system** of your project.
+> The payment methods which are shown in widget depends on user's current IP address and configuration in **payment system** of your project.
 
 ## Optional products
 
@@ -47,10 +47,10 @@ Below are the products which Paylet includes.
 
 We assume that you have created a Paymentwall project.
 
-* Build the payment widget by using [Paylet API](/API-Reference#section-paylet-stored) to . 
+* Build the payment widget by using [Paylet API](/API-Reference#section-paylet-stored) to .
 
 + Display our payment widget. You can use refer to the 2 options below on how to handle the ```widget``` object.
-    - ```widget.getHtmlcode()```, which returns an **iframe** html code with default width and height. 
+    - ```widget.getHtmlcode()```, which returns an **iframe** html code with default width and height.
     - If you want to have your own iFrame to display our payment widget or open it in a new tab, use ```widget.getUrl()``` instead.
 
 * Setup Pingback listener
@@ -61,7 +61,7 @@ We assume that you have created a Paymentwall project.
 
 > If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/API-Reference#section-paylet-optional-parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
 
-For specific events we send a client-side callback via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our widget is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc. 
+For specific events we send a client-side callback via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our widget is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc.
 
 Below are the currently supported events:
 

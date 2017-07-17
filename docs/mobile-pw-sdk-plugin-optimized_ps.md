@@ -21,7 +21,6 @@ All payment methods optimized by [Paymentwall SDK](/mobile-sdk) for mobile can b
 |[WeChat Pay](#guidance-for-extra-integration)|<img src="https://api.paymentwall.com/images/developers/pm_wechatpayments.gif?6" style="width: 18%">|Required|
 |[Mobiamo](/mobile/core) |<img src="https://api.paymentwall.com/images/developers/pm_mobilegateway.gif?6 " style="width: 8%;">|NO|
 |Mycard|<img src="https://api.paymentwall.com//images/developers/pm_mycardwallet.gif?6" style="width: 18%">|Required|
-|Indomog |<img src="https://api.paymentwall.com/images/developers/pm_indomog.gif?6" style="width: 12%">|NO|
 |Paysbuy |<img src="https://api.paymentwall.com/images/developers/pm_paysbuy.gif?6 " style="width: 12%">|NO|
 |KBC |<img src="https://api.paymentwall.com/images/developers/pm_kbc.gif?6 " style="width: 12%">|NO|
 |Mister Cash |<img src=" https://api.paymentwall.com/images/developers/pm_bancontact.gif?6" style="width: 12%">|NO|
