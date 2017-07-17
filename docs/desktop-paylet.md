@@ -17,7 +17,7 @@ Widget is a web page hosted by Paymentwall to display available payment options 
 
 ## Included products
 
-Below are the products which Paylet included.
+Below are the products which Paylet includes.
 
 * [PayAlto](/direct/payalto-home).
 
