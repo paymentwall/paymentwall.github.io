@@ -29,7 +29,7 @@ Paylet API allows you to add your own parameter as additional parameters while b
 
 ## Client side callback
 
-If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-paylet-optional-parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
+> If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-paylet-optional-parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
 
 For specific events we send a client-side callback via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our widget is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc. 
 

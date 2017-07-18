@@ -2,7 +2,7 @@
 category: section-tools-geolocation
 ---
 
-## Geolocation API
+## Geolocation
 
 You can use this API call for client-side or server-side detection of user's location. This API also works tightly with Paymentwall Risk Scoring.
 

@@ -148,4 +148,17 @@ $(document).ready(function() {
         }
         $('.article').css('margin-top', $('.sidebar-holder').outerHeight(true));
     });
+
+    $('.docs-img').on('click', function () {
+        var dom = $(this).html();
+        $('.img-container-content').html(dom);
+        $('.img-container').fadeIn(200);
+    });
+
+    $('.img-container').not('.img-container-content').on('click', function () {
+        $('.img-container').fadeOut(200);
+    });
+
 });
+
+

@@ -7,7 +7,7 @@ permalink: /paylet/reference/widget
 
 # Widget
 
-Widget is a web page hosted by Paymentwall to display available payment form to your customers.
+Widget is a web page hosted by Paymentwall to display available payment methods to your customers. The payment methods which are shown into widget depends on user's current IP address and configuration in **Payment System** of your project.
 
 ## Available widgets
 

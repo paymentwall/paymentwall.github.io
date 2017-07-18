@@ -21,3 +21,13 @@ if ($(window).width() <= 768){
         $(this).attr("data-label", $(this).parents("table").find("thead tr").children().eq($(this).index()).text());
     });
 };
+
+$('.docs-img').on('click', function () {
+    var dom = $(this).html();
+    $('.img-container-content').html(dom);
+    $('.img-container').fadeIn(200);
+});
+
+$('.img-container').not('.img-container-content').on('click', function () {
+    $('.img-container').fadeOut(200);
+});
