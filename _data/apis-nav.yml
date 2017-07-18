@@ -105,6 +105,6 @@
     - name: section-tools-product-details
       title: Product details
     - name: section-tools-geolocation
-      title: Geolocation API
+      title: Geolocation
 - items:
     - name: section-footer
