@@ -70,6 +70,14 @@ By default, Pingback has two default types.
 |**0**| When product is purchased. Please check whether the reference ID is unique and deliver the goods.|
 |**2**| When user issued chargeback or refund. Please take the delivered goods out from user's account.|
 
+In case of Brick, you need to be aware of below three types as well.
+
+| type | Description |
+|---|---|
+|**200**| Pending status. In case a payment is currently under risk review by Paymentwall. Please do not deliver the goods yet.|
+|**201**| Review is done and payment is accepted. Please check whether the reference ID is unique and deliver the goods.|
+|**202**| Review is done and payment is declined. Please do not deliver the goods since the user will get his money back.|
+
 Additionally, following pingback types can be activated by request for recurring payments.
 
 | type | Description |
