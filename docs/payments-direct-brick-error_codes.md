@@ -1,8 +1,8 @@
 ---
-id: desktop-direct-brick-error_codes
+id: payments-direct-brick-error_codes
 title: Error codes
 sectionid: docs
-permalink: direct/brick/error-codes
+permalink: payments/direct/brick/error-codes
 ---
 
 # Error codes

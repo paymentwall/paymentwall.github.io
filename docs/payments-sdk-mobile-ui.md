@@ -1,8 +1,8 @@
 ---
-id: mobile-sdk-plugin-ui
+id: payments-sdk-mobile-ui
 title: UI Customization
 sectionid: docs
-permalink: mobile/plugin/ui
+permalink: payments/sdks/mobile/ui
 ---
 
 # UI Customization

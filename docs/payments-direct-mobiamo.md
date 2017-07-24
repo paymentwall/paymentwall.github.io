@@ -1,7 +1,7 @@
 ---
-id: nav-desktop-direct-mobiamo
+id: payments-direct-mobiamo
 title: Mobiamo
-permalink: direct/mobiamo-home
+permalink: payments/direct/mobiamo-home
 sectionid: docs
 ---
 
@@ -23,9 +23,9 @@ On your merchant account, simply go to ```My Projects``` > ```Payment Systems```
 
 ## Mobiamo in paylet
 
-* Mobiamo can be used directly in [paylet](/paylet-home) as an alternative payment method.
+* Mobiamo can be used directly in [paylet](/payments/widget-home) as an alternative payment method.
 
-* Mobiamo has its own standalone widget, whose widget code is ```mo```. Below is a sample ```mo``` widget for Poland using [virtual currency](/paylet/stored/vc).
+* Mobiamo has its own standalone widget, whose widget code is ```mo```. Below is a sample ```mo``` widget for Poland using [virtual currency](/payments/widget/virtual-currency).
 
 <div class="docs-iframe" style="text-align: center;">
 	<iframe src="https://api.paymentwall.com/api/ps/?key=7f37fa10dcc9ce39ea133ba24b76e748&uid=user40012&widget=mo1_1&vc=Coins&country_code=PL&sign_version=2&sign=1d086abf7a470a7ebace4ba3a4a0d7cd"></iframe>

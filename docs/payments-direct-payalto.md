@@ -1,7 +1,7 @@
 ---
-id: nav-desktop-direct-payalto
+id: payments-direct-payalto
 title: PayAlto
-permalink: direct/payalto-home
+permalink: payments/direct/payalto-home
 sectionid: docs
 ---
 
@@ -23,4 +23,4 @@ All the gateways can be simply turned on in **Payment system** section of your p
 
 ## PayAlto in paylet
 
-* PayAlto has been integrated in [paylet](/paylet-home). All its gateways can be selected as available payment methods in widget.
+* PayAlto has been integrated in [paylet](/payments/widget-home). All its gateways can be selected as available payment methods in widget.

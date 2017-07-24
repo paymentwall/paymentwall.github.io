@@ -1,7 +1,7 @@
 ---
-id: nav-desktop-direct-mobiamo-flow
+id: nav-payments-direct-mobiamo-flow
 title: Payment flows
-permalink: direct/mobiamo/mobiamo-flow
+permalink: payments/direct/mobiamo/mobiamo-flow
 sectionid: docs
 ---
 

@@ -40,7 +40,7 @@ Please see the [introduction to payments](https://core.telegram.org/bots/payment
 
 You can start to test payments of your projects.
 
-> **[Refer to test payments with test cards](/direct/brick/sandbox)**
+> **[Refer to test payments with test cards](/payments/direct/brick/sandbox)**
 
 * After you have tested everything and confirmed that your payments implementation works, you are ready to switch to LIVE MODE. To do this, in [@botfather](https://t.me/botfather) choose your bot and go to Bot Settings -> Payments -> Connect to Paymentwall LIVE Bot
 

@@ -1,8 +1,8 @@
 ---
-id: desktop-paylet-custom-subscription
+id: payments-checkout-subscription
 title: Subscriptions
 sectionid: docs
-permalink: paylet/custom/subscription
+permalink: payments/checkout/subscription
 ---
 
 # Subscriptions

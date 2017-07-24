@@ -1,8 +1,8 @@
 ---
-id: desktop-paylet-stored-dg
+id: payments-widget-dg
 title: Digital Goods
 sectionid: docs
-permalink: paylet/stored/dg
+permalink: payments/widget/digital-goods
 ---
 
 # Digital Goods 
@@ -54,4 +54,4 @@ Once you have successfully integrated our widget, you can then continue with pin
 
 Alternatively, you can also see virtual currency of Stored Product.
 
-> [Virtual currency](/paylet/stored/vc).
+> [Virtual currency](/payments/widget/virtual-currency).

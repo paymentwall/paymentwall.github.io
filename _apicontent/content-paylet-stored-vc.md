@@ -3,7 +3,7 @@ category: section-paylet-stored-vc
 ---
 ## Virtual Currency
 
-If you are selling points, coins or credtis, virtual currency API can help you to set equivalent currency. Besides, you can also configure your price points for different payment systems. Refer to product configuration for [Virtual Currency](/paylet/stored/vc).
+If you are selling points, coins or credtis, virtual currency API can help you to set equivalent currency. Besides, you can also configure your price points for different payment systems. Refer to product configuration for [Virtual Currency](/payments/widget/virtual-currency).
 
 ##### Parameters
 

@@ -1,8 +1,8 @@
 ---
-id: desktop-direct-brick-create_form
+id: payments-direct-brick-create_form
 title: Create form
 sectionid: docs
-permalink: direct/brick/create-form
+permalink: payments/direct/brick/create-form
 ---
 
 # Create Form
@@ -139,6 +139,6 @@ In order to implement tokenization and send information to your server, a script
 
 Refer to links below to choose your payment type:
 
-> **[Charge the credit card for onetime payment](/direct/brick/charge)**
+> **[Charge the credit card for onetime payment](/payments/direct/brick/charge)**
 
-> **[Setup subscription for your product](/direct/brick/subscription)**
+> **[Setup subscription for your product](/payments/direct/brick/subscription)**

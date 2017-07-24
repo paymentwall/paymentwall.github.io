@@ -1,13 +1,13 @@
 ---
-id: desktop-direct-brick-charge
+id: payments-direct-brick-charge
 title: Charge
 sectionid: docs
-permalink: direct/brick/charge
+permalink: payments/direct/brick/charge
 ---
 
 # Charge
 
-With [one-time token](/direct/brick/create-form) and [fingerprint](/direct/brick/create-form) which are collected by Brick.js, you can then easily charge credit cards by using Charge API on your server side. 
+With [one-time token](/payments/direct/brick/create-form) and [fingerprint](/payments/direct/brick/create-form) which are collected by Brick.js, you can then easily charge credit cards by using Charge API on your server side. 
 
 ## Charge request
 
@@ -289,4 +289,4 @@ At the same time, you can also void the funds if you don't want to capture it.
 
 You are almost done! Your payment system now can handle the payments which don't have 3D secure enabled. In order to make your payment system  support 3D secure payments,
 
-> See how to [apply 3d secure](/direct/brick/3dsecure).
+> See how to [apply 3d secure](/payments/direct/brick/3dsecure).

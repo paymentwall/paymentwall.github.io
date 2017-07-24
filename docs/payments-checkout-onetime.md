@@ -1,8 +1,8 @@
 ---
-id: desktop-paylet-custom-onetime
+id: payments-checkout-onetime
 title: Onetime payment
 sectionid: docs
-permalink: paylet/custom/onetime
+permalink: payments/checkout/onetime
 ---
 
 # Onetime Payments

@@ -1,9 +1,11 @@
 ---
-id: desktop-paylet-stored
-title: Stored products
+id: payments-widget
+title: Widget API
 sectionid: docs
-permalink: paylet/stored-products
+permalink: payments/widget-home
 ---
+
+# Widget API
 
 # Stored Products
 
@@ -30,6 +32,6 @@ By using Stored Products:
 
 ## Choosing API
 
-* [Digital Goods](/paylet/stored/dg), used for recurring membership, in-game virtual items, digital content, full version of a game or software, Saas, and one-time payments.
+* [Digital Goods](/payments/widget/digital-goods), used for recurring membership, in-game virtual items, digital content, full version of a game or software, Saas, and one-time payments.
 
-* [Virtual Currency](/paylet/stored/vc). Any game or website that has virtual currency economy, for example Gold, Rubies, Gems, Rupees, Emeralds, Credits, Galactic credit standard, etc...
+* [Virtual Currency](/payments/widget/virtual-currency). Any game or website that has virtual currency economy, for example Gold, Rubies, Gems, Rupees, Emeralds, Credits, Galactic credit standard, etc...

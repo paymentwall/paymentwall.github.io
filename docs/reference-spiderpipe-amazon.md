@@ -77,5 +77,5 @@ https://api.paymentwall.com/api/paymentpingback/amazon
 
 ## Next step
 
-You can now using Amazon payment method in our payment widgets.
+You can now using Amazon payment method in our payment widget.
 

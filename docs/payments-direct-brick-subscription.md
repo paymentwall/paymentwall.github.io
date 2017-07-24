@@ -1,8 +1,8 @@
 ---
-id: desktop-direct-brick-subscription
+id: payments-direct-brick-subscription
 sectionid: docs
 title: Subscription
-permalink: direct/brick/subscription
+permalink: payments/direct/brick/subscription
 ---
 
 # Subscription
@@ -11,7 +11,7 @@ This tutorial helps you to setup Brick subscription into your payment system.
 
 ## Subscription request
 
-We assume that you have collected [one-time token](/direct/brick/create-form) and [fingerprint](/direct/brick/create-form) on your backend side. You can then use our [Subscription API](/apis#section-brick-subscription) to define subscription for your product.
+We assume that you have collected [one-time token](/payments/direct/brick/create-form) and [fingerprint](/payments/direct/brick/create-form) on your backend side. You can then use our [Subscription API](/apis#section-brick-subscription) to define subscription for your product.
 
 {% assign codeId = "desktop-brick-subscription-request" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -205,4 +205,4 @@ You can also cancel the subscription by using scripts below or using our [cancel
 
 That's it! Your payment system now can handle the subscription payments. You will need to implement 3D secure as next step.
 
-> See how to [apply 3d secure](/direct/brick/3dsecure).
+> See how to [apply 3d secure](/payments/direct/brick/3dsecure).

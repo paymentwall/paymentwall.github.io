@@ -1,15 +1,15 @@
 ---
-id: desktop-direct-mint
+id: payments-direct-mint
 title: MINT
 sectionid: docs
-permalink: direct/mint-home
+permalink: payments/direct/mint-home
 ---
 
 # MINT
 
 Mint is an online prepaid payment solution for purchasing digital goods and services.
 
-It has been integrated in [Paylet](/paylet-home) as an available payment method.
+It has been integrated in [Paylet](/payments/widget-home) as an available payment method.
 
 ## Direct Integration
 

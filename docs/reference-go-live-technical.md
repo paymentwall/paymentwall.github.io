@@ -17,7 +17,7 @@ You will see technical integration part on the left side. Check all the checkbox
 
 ## Paylet check points
 
-Below is the check points for merchants who are using [Paylet](/paylet-home).
+Below is the check points for merchants who are using [Paylet](/payments/widget-home).
 
 * Integrate a payment widget. It should be accessible on your website/application.
 
@@ -43,13 +43,13 @@ Below is the check points for merchants who are using [Paylet](/paylet-home).
 
 ## Brick check points
 
-Below is the check points for merchants who are using [Brick](/direct/brick-home).
+Below is the check points for merchants who are using [Brick](/payments/direct/brick-home).
 
 * Payment page must be loaded via **HTTPS**.
 
 * Client-side tokenization using Brick.js, fingerprint is included in Brick requests. 
 
-* [3D secure](/direct/brick/3dsecure) payment step is implemented.
+* [3D secure](/payments/direct/brick/3dsecure) payment step is implemented.
 
 * Your servers does NOT receive/handle customer's CC data.
 

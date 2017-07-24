@@ -831,15 +831,6 @@ p {
     border-left:2px solid #cecece
 }
 
-#nav-desktop-paylet-reference {
-    cursor: default;
-}
-
-#nav-desktop-paylet-reference:hover{
-    color: #474747;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 768px) {
     .sidebar-holder {
         width: 100%;

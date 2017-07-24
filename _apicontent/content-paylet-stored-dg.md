@@ -3,7 +3,7 @@ category: section-paylet-stored-dg
 ---
 ## Digital Goods
 
-You can set either onetime payment or subscription in ```products``` section for your projects. Refer to product configuration for [Digital Goods](/paylet/stored/dg).
+You can set either onetime payment or subscription in ```products``` section for your projects. Refer to product configuration for [Digital Goods](/payments/widget/digital-goods).
 
 ##### Parameters
 

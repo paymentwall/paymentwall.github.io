@@ -1,8 +1,8 @@
 ---
-id: desktop-paylet-offerwall
+id: payments-widget-offerwall
 title: Offerwall
 sectionid: docs
-permalink: paylet/offerwall-home
+permalink: payments/widget/offerwall
 ---
 
 # Offerwall

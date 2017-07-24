@@ -13,20 +13,20 @@ Get start with following products to establish your payment system with Paymentw
 
 ## Desktop
 
-+ [Paylet](/paylet-home). A unified payment solution.
++ [Paylet](/payments/widget-home). A unified payment solution.
     - [Stored product](/paylet/stored-products). 
-    - [Custom price](/paylet/custom-price).
-    - [Invoice](/paylet/invoice). 
-    - [Offerwall](/paylet/offerwall-home).
-+ [Direct API](/direct-home). Integrate single payment method with custom payment form.
-    - [PayAlto](/direct/payalto-home).
-    - [Brick](/direct/brick-home).
-    - [Mobiamo](/direct/mobiamo-home).
-    - [MINT](/direct/mint-home). 
+    - [Custom price](/payments/checkout-home).
+    - [Invoice](/payments/invoicing-home). 
+    - [Offerwall](/payments/widget/offerwall).
++ [Direct API](/payments/direct-home). Integrate single payment method with custom payment form.
+    - [PayAlto](/payments/direct/payalto-home).
+    - [Brick](/payments/direct/brick-home).
+    - [Mobiamo](/payments/direct/mobiamo-home).
+    - [MINT](/payments/direct/mint-home). 
 
 ## Mobile
 
-- [Paymentwall SDK](/mobile-sdk). Mobile aggregation platform with native UI and customized view.
+- [Mobile SDK](/payments/sdks/mobile-home). Mobile aggregation platform with native UI and customized view.
 
 ## Smart TV
 

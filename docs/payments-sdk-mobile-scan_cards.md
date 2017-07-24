@@ -1,8 +1,8 @@
 ---
-id: mobile-sdk-plugin-scan
+id: payments-sdk-mobile-scan
 title: Scan cards
 sectionid: docs
-permalink: mobile/plugin/scan
+permalink: payments/sdks/mobile/scan
 ---
 
 # CardIO

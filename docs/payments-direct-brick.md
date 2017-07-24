@@ -1,8 +1,8 @@
 ---
-id: desktop-direct-brick
+id: payments-direct-brick
 title: Brick
 sectionid: docs
-permalink: direct/brick-home
+permalink: payments/direct/brick-home
 ---
 # Brick
 
@@ -33,11 +33,11 @@ permalink: direct/brick-home
 
 Brick is a pure credit card payment solution provided by Paymentwall. It allows you to develop your own payment experience for credit cards payments specifically.
 
-It can be used in [Paylet](/paylet-home) as credit card gateway. Alternatively, you can integrate it using [Brick API](/apis#section-brick-onetime_token) in your application. 
+It can be used in [Paylet](/payments/widget-home) as credit card gateway. Alternatively, you can integrate it using [Brick API](/apis#section-brick-onetime_token) in your application. 
 
 ## Try with Brick
 
-By using Brick test cards in [Sanbox](/direct/brick/sandbox) or card information below to do a test payment.
+By using Brick test cards in [Sanbox](/payments/direct/brick/sandbox) or card information below to do a test payment.
 
 * Card number: 4242 4242 4242 4242.
 
@@ -51,9 +51,9 @@ Each successful payment has a one-time token to be used in further charge reques
 
 ## Components
 
-* [Create form](/direct/brick/create-form) to collect payment details and generate one-time token. 
+* [Create form](/payments/direct/brick/create-form) to collect payment details and generate one-time token. 
 
-* Perform request according to your product type, [onetime payment](/direct/brick/charge) or [subscription](/direct/brick/subscription).
+* Perform request according to your product type, [onetime payment](/payments/direct/brick/charge) or [subscription](/payments/direct/brick/subscription).
 
 ## Requirements
 

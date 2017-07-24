@@ -6,7 +6,7 @@ category: section-paylet-invoice
 Paymentwall supports smart and organized e-invoicing solution. To activate, 
 please contact to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) with your Paymentwall account email address.
 
-> Refer [Invoice](/paylet/invoice) document to generate invoices via Paymentwall Merchant area.
+> Refer [Invoice](/payments/invoicing-home) document to generate invoices via Paymentwall Merchant area.
 
 ##### Parameters
 

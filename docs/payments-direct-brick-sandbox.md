@@ -1,8 +1,8 @@
 ---
-id: desktop-direct-brick-sandbox
+id: payments-direct-brick-sandbox
 sectionid: docs
 title: Sandbox Environment
-permalink: direct/brick/sandbox
+permalink: payments/direct/brick/sandbox
 ---
 
 # Brick Sandbox Payment

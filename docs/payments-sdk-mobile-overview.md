@@ -1,13 +1,13 @@
 ---
-id: mobile-sdk-core
+id: payments-sdk-mobile-overview
 title: Core
 sectionid: docs
-permalink: mobile/core
+permalink: payments/sdks/mobile/overview
 ---
 
 # Core SDK
 
-Core SDK is the main component of Paymentwall SDK, where you can set your product details to perform request. To make it as light as possible, we provide 4 main payment solutions to satisfy your needs.
+Core SDK is the main component of Mobile SDK, where you can set your product details to perform request. To make it as light as possible, we provide 4 main payment solutions to satisfy your needs.
 
 * Brick SDK : Credit cards payment solution.
 * MINT SDK : Prepaid Card payment solution issued by Paymentwall.

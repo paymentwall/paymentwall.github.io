@@ -1,135 +1,165 @@
 - id: nav-home
   title: Home
   path: /
-- id: nav-desktop
-  title: Desktop
+- id: nav-payments
+  title: PW Payments
   items:
-    - id: nav-desktop-paylet
-      title: Paylet
-      path: /paylet-home
+    - id: nav-payments-widget
+      title: Widget API
+      path: /payments/widget-home
       subitems:
-        - id: nav-desktop-paylet-stored
-          title: Stored product
-          path: /paylet/stored-products
-          leaves:
-            - id: nav-desktop-paylet-stored-dg
-              title: Digital Goods
-              path: /paylet/stored/dg
-            - id: nav-desktop-paylet-stored-vc
-              title: Virtual Currency
-              path: /paylet/stored/vc
-        - id: nav-desktop-paylet-custom
-          title: Custom price
-          path: /paylet/custom-price
-          leaves:
-            - id: nav-desktop-paylet-custom-onetime
-              title: Onetime
-              path: /paylet/custom/onetime
-            - id: nav-desktop-paylet-custom-subscription
-              title: Subscription
-              path: /paylet/custom/subscription
-        - id: nav-desktop-paylet-invoice
-          title: Invoice
-          path: /paylet/invoice
-        - id: nav-desktop-paylet-offerwall
+        - id: nav-payments-widget-dg
+          title: Digital Goods
+          path: /payments/widget/digital-goods
+        - id: nav-payments-widget-vc
+          title: Virtual Currency
+          path: /payments/widget/virtual-currency
+        - id: nav-payments-widget-offerwall
           title: Offerwall
-          path: /paylet/offerwall-home
-        - id: nav-desktop-paylet-reference
-          title: Reference
-          leaves:
-            - id: nav-desktop-paylet-reference-widget
-              title: Widget
-              path: /paylet/reference/widget
-            - id: nav-desktop-paylet-reference-features
-              title: Features
-              path: /paylet/reference/feature
-    - id: nav-desktop-direct
+          path: /payments/widget/offerwall
+    - id: nav-payments-checkout
+      title: Checkout API
+      path: /payments/checkout-home
+      subitems:
+        - id: nav-payments-checkout-onetime
+          title: Onetime payment
+          path: /payments/checkout/onetime
+        - id: nav-payments-checkout-subscription
+          title: Subscription
+          path: /payments/checkout/subscription
+        - id: nav-payments-checkout-cart
+          title: Cart
+          path: /payments/checkout/cart
+    - id: nav-payments-direct
       title: Direct API
-      path: /direct-home
+      path: /payments/direct-home
       subitems:
-        - id: nav-desktop-direct-payalto
+        - id: nav-payments-direct-payalto
           title: PayAlto
-          path: /direct/payalto-home
-        - id: nav-desktop-direct-brick
+          path: /payments/direct/payalto-home
+        - id: nav-payments-direct-brick
           title: Brick
-          path: /direct/brick-home
+          path: /payments/direct/brick-home
           leaves:
-            - id: nav-desktop-direct-brick-create_form
+            - id: nav-payments-direct-brick-create_form
               title: Create form
-              path: /direct/brick/create-form
-            - id: nav-desktop-direct-brick-charge
+              path: /payments/direct/brick/create-form
+            - id: nav-payments-direct-brick-charge
               title: Charge
-              path: /direct/brick/charge
-            - id: nav-desktop-direct-brick-subscription
+              path: /payments/direct/brick/charge
+            - id: nav-payments-direct-brick-subscription
               title: Subscription
-              path: /direct/brick/subscription
-            - id: nav-desktop-direct-brick-3dsecure
+              path: /payments/direct/brick/subscription
+            - id: nav-payments-direct-brick-3dsecure
               title: Apply 3D Secure
-              path: /direct/brick/3dsecure
-            - id: nav-desktop-direct-brick-error_codes
+              path: /payments/direct/brick/3dsecure
+            - id: nav-payments-direct-brick-error_codes
               title: Error Codes
-              path: /direct/brick/error-codes
-            - id: nav-desktop-direct-brick-sandbox
+              path: /payments/direct/brick/error-codes
+            - id: nav-payments-direct-brick-sandbox
               title: Sandbox
-              path: /direct/brick/sandbox
-        - id: nav-desktop-direct-mobiamo
+              path: /payments/direct/brick/sandbox
+        - id: nav-payments-direct-mobiamo
           title: Mobiamo
-          path: /direct/mobiamo-home
+          path: /payments/direct/mobiamo-home
           leaves:
-            - id: nav-desktop-direct-mobiamo-flow
+            - id: nav-payments-direct-mobiamo-flow
               title: Payment flows
-              path: /direct/mobiamo/mobiamo-flow
-        - id: nav-desktop-direct-mint
+              path: /payments/direct/mobiamo/mobiamo-flow
+        - id: nav-payments-direct-mint
           title: MINT
-          path: /direct/mint-home
-- id: nav-mobile
-  title: Mobile
-  items:
-    - id: nav-mobile-sdk
-      title: Paymentwall SDK
-      path: /mobile-sdk
+          path: /payments/direct/mint-home
+    - id: nav-payments-platform
+      title: Extensions & Plugins
+      href: /modules/aMember
+    - id: nav-payments-invoicing
+      title: Invoicing
+      path: /payments/invoicing-home
+    - id: nav-payments-sdk
+      title: SDKs
+      path: /payments/sdks
       subitems:
-        - id: nav-mobile-sdk-core
-          title: Core
-          path: /mobile/core
-        - id: nav-mobile-sdk-plugin
-          title: Plugin
-          path: /mobile/plugin-home
+        - id: nav-payments-sdk-mobile
+          title: Mobile
+          path: /payments/sdks/mobile-home
           leaves:
-            - id: nav-mobile-sdk-plugin-support_ps
+            - id: nav-payments-sdk-mobile-overview
+              title: Overview
+              path: /payments/sdks/mobile/overview
+            - id: nav-payments-sdk-mobile-support_ps
               title: Optimized payment methods
-              path: /mobile/plugin/support_ps
-            - id: nav-mobile-sdk-plugin-scan
+              path: /payments/sdks/mobile/support_ps
+            - id: nav-payments-sdk-mobile-scan
               title: Scan cards
-              path: /mobile/plugin/scan
-            - id: nav-mobile-sdk-plugin-ui
+              path: /payments/sdks/mobile/scan
+            - id: nav-payments-sdk-mobile-ui
               title: UI customization
-              path: /mobile/plugin/ui
-- id: nav-smarttv
-  title: Smart TV
-  items:
-    - id: nav-smarttv-sdk
-      title: SmartTV SDK
-      path: /smarttv-sdk
-- id: nav-pingback
-  title: Pingbacks
-  items:
-    - id: nav-pingback-default
-      title: Default Pingbacks
-      path: /default-pingback
+              path: /payments/sdks/mobile/ui
+        - id: nav-payments-sdk-smart_tv
+          title: Smart TV
+          path: /payments/sdks/smart_tv
+    - id: nav-payments-reference
+      title: Reference
       subitems:
-        - id: nav-pingback-default-dg
+        - id: nav-payments-reference-widgets
+          title: Avalibale widgets
+          path: /payments/reference/widgets
+        - id: nav-payments-reference-mobile_web
+          title: Mobile-web Integration
+          path: /payments/reference/mobile_web
+        - id: nav-payments-reference-product_management
+          title: Product Management
+          path: /payments/reference/product_management
+- id: nav-notification
+  title: Notification
+  items:
+    - id: nav-notification-pingback
+      title: Pingback
+      path: /notification/pingback-home
+      subitems:
+        - id: nav-notification-pingback-dg
           title: Digital Goods
           path: /default-pingback-dg
-        - id: nav-pingback-default-vc
+        - id: nav-notification-pingback-vc
           title: Virtual Currency
           path: /default-pingback-vc
-    - id: nav-pingback-custom-parameters
-      title: Custom Parameters
-      path: /pingback-custom-parameters
-- id: nav-open-source-plugin
-  title: Extensions & Plugins
-  href: /modules/aMember
+        - id: nav-notification-pingback-custom_param
+          title: Custom Parameters
+          path: /pingback-custom-parameters
+    - id: nav-notification-client_side_callback
+      title: Client-side Callback
+      path: /notification/client-side-callback
+- id: nav-spiderpipe
+  title: SpiderPipe
+  items:
+    - id: nav-spiderpipe-overview
+      title: Overview
+      path: /spiderpipe/overview
+    - id: nav-spiderpipe-payment_methods
+      title: Payment methods
+      path: /spiderpipe/payment_methods
+      subitems:
+        - id: nav-spiderpipe-payment_methods-paypal
+          title: PayPal
+          path: /spiderpipe/payment_methods/paypal
+        - id: nav-spiderpipe-payment_methods-amazon
+          title: Amazon
+          path: /spiderpipe/payment_methods/amazon
+        - id: nav-spiderpipe-payment_methods-bitcoin-bitpay
+          title: Bitcoin Bitpay
+          path: /spiderpipe/payment_methods/bitcoin-bitpay
+        - id: nav-spiderpipe-payment_methods-bitcoin-coinbase
+          title: Bitcoin Coinbase
+          path: /spiderpipe/payment_methods/bitcoin-coinbase
+        - id: nav-spiderpipe-payment_methods-alipay
+          title: Alipay
+          path: /spiderpipe/payment_methods/alipay
+        - id: nav-spiderpipe-payment_methods-unionpay
+          title: UnionPay
+          path: /spiderpipe/payment_methods/unionpay
+        - id: nav-spiderpipe-payment_methods-wechat
+          title: Wechat Pay
+          path: /spiderpipe/payment_methods/wechat
 - id: nav-sandbox
   title: Sandbox
   items:
@@ -142,53 +172,28 @@
     - id: nav-sandbox-reporting
       title: Sandbox Reporting
       path: /sandbox/reporting
-- id: nav-reference
-  title: Reference
+- id: nav-development
+  title: Development
   items:
-    - id: nav-reference-go_live
-      title: Go live
-      path: /go_live-home
+    - id: nav-development-review
+      title: Project Review
+      path: /development/review-home
       subitems:
-        - id: nav-reference-go_live-technical
+        - id: nav-development-review-technical
           title: Technical integration
-          path: /go_live-technical
-        - id: nav-reference-go_live-business
+          path: /development/review/technical
+        - id: nav-development-review-business
           title: Business
-          path: /go_live-business
-    - id: nav-reference-signature-calculation
+          path: /development/review/business
+    - id: nav-development-signature_calculation
       title: Signature Calculation
-      path: /signature-calculation
-    - id: nav-reference-spiderpipe
-      title: SpiderPipe
-      path: /spiderpipe-home
-      subitems:
-        - id: nav-reference-spiderpipe-paypal
-          title: PayPal
-          path: /spiderpipe/paypal
-        - id: nav-reference-spiderpipe-amazon
-          title: Amazon
-          path: /spiderpipe/amazon
-        - id: nav-reference-spiderpipe-bitcoin-bitpay
-          title: Bitcoin Bitpay
-          path: /spiderpipe/bitcoin-bitpay
-        - id: nav-reference-spiderpipe-bitcoin-coinbase
-          title: Bitcoin Coinbase
-          path: /spiderpipe/bitcoin-coinbase
-        - id: nav-reference-spiderpipe-alipay
-          title: Alipay
-          path: /spiderpipe/alipay
-        - id: nav-reference-spiderpipe-unionpay
-          title: UnionPay
-          path: /spiderpipe/unionpay
-        - id: nav-reference-spiderpipe-wechat
-          title: Wechat Pay
-          path: /spiderpipe/wechat
-    - id: nav-reference-lang
-      title: Language codes
-      path: /lang
-    - id: nav-reference-ps-codes
+      path: /development/signature-calculation
+    - id: nav-development-lang
+      title: Lang codes
+      path: /development/lang
+    - id: nav-development-ps
       title: Payment system codes
-      path: /ps-codes
-    - id: nav-reference-supported_currency
-      title: Supported Currency
-      path: /supported_currency
+      path: /development/ps
+    - id: nav-development-currency
+      title: Currency codes
+      path: /development/currency
