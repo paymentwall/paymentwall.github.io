@@ -37,7 +37,7 @@ hr {
     overflow:visible;
     padding: 10px 0 0 0;
     border:none;
-    border-top:3px solid #fec013;
+    border-top:0.5px solid #ebf1f3;
 }
 
 button,input,select,textarea {
@@ -883,6 +883,12 @@ p {
 }
 
 .modules-divide hr{
+    box-sizing:content-box;
+    margin-top: 15px;
+    overflow:visible;
+    padding: 10px 0 0 0;
+    border:none;
+    border-top:3px solid #fec013;
     width: 80%;
 }
 
@@ -941,7 +947,7 @@ p {
 }
 
 .doc-content ul {
-    list-style-type: disc;
+    list-style-type: none;
     margin: 10px 0;
     padding-left: 17px;
 }
@@ -1092,6 +1098,15 @@ p {
 .doc-content .docs-code-tabs__body.is-active {
     display: block;
 }
+
+.docs-ul-box {
+    display: flex;
+}
+
+.docs-ul-box-item {
+    width: 50%;
+}
+
 
 .highlight {
     padding-left: 25px;
