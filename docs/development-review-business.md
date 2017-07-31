@@ -1,8 +1,8 @@
 ---
-id: go_live-business
-title: Business Checklist
+id: development-review-business
+title: Business Review
 sectionid: docs
-permalink: go_live-business
+permalink: development/review/business
 ---
 
 # Business checklist
@@ -10,7 +10,7 @@ permalink: go_live-business
 You will see business part on the right side. Check all the checkbox to make sure you have completed the basic business requirement before going live.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/golive/golive-business-checklist.png" style="width: 30%">
+	<img src="/textures/pic/development/review/review-business-checklist.png" style="width: 30%">
 </div>
 
 ## Website standards

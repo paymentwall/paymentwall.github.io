@@ -125,7 +125,7 @@ Each subscription has several charge id which represents the payments in subscri
 
 ## Handle subscription 
 
-Paymentwall instant payment notification, [pingback](/default-pingback), will be sent immediately once a subscription request is achieved. Your delivery should be performed according to the [type](/default-pingback#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [subscription request](#subscription-request) which can be set as [custom pingback parameters](/pingback-custom-parameters) for transparent transmission in charge request.
+Paymentwall instant payment notification, [pingback](/notification/pingback-home), will be sent immediately once a subscription request is achieved. Your delivery should be performed according to the [type](/notification/pingback-home#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [subscription request](#subscription-request) which can be set as [custom pingback parameters](/notification/pingback/custom-parameter) for transparent transmission in charge request.
 
 ## Subscription Schedule
 

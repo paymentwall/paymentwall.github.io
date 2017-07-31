@@ -50,4 +50,4 @@ You can start to test payments of your projects.
 
 You can refer to the link below for go-live instruction.
 
-> **[See how to live your project](/go_live-home)**
+> **[See how to live your project](/development/review-home)**

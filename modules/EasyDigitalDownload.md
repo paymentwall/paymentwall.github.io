@@ -32,7 +32,7 @@ Paymentwall's plug-in for EDD can be downloaded **[here](https://github.com/paym
   > Remember to save changes at the bottom of ```Settings``` section.
 
 <div class="docs-img">
-    <img src="/textures/pic/modules/edd.png">
+    <img src="/textures/pic/payments/platform/edd.png">
 </div>
 
 * You can also enable **Brick** as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
@@ -73,4 +73,4 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/go_live-home)**
+> **[See how to live your project](/development/review-home)**

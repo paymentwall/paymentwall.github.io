@@ -1,18 +1,18 @@
 ---
-id: reference-spiderpipe
-title: SpiderPipe
+id: spiderpipe-overview
+title: SpiderPipe Overview
 sectionid: docs
-permalink: spiderpipe-home
+permalink: spiderpipe/overview
 ---
 
-# SpiderPipe
+# SpiderPipe Overview
 
 SpiderPipe is a payment gateway that links other global merchant accounts to Paymentwall and will allow you to collect money from your users right into your own Paymentwall account.
 
 ## SpiderPipe account type
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-spiderpipe-account-type.png" style="width: 600px">
+	<img src="/textures/pic/spiderpipe/pw-spiderpipe-account-type.png" style="width: 600px">
 </div>
 
 For **Spiderpipe Basic**, all Risk and Dispute management will be handled by yourselves as well as the customer service.
@@ -34,9 +34,9 @@ Paymentwall is in charge of any disputes submitted by the user through PayPal by
 
 SpiderPipe has a simple and quick integration, you can easily manage all payment options by using it.
 
-* [Paypal](/spiderpipe/paypal)
+* [Paypal](/spiderpipe/payment-methods/paypal)
 
-* [Amazon](/spiderpipe/amazon)
+* [Amazon](/spiderpipe/payment-methods/amazon)
 
 * [Bitcoin via Coinbase](/spiderpipe/bitcon-coinbase)
 

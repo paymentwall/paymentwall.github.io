@@ -16,19 +16,19 @@ By using virtual currency, you can add your own price points to specific payment
 * Access your **project settings** and set the virtual currency exchange rate and name of your virtual currency. For example, lets set the virtual currency like 1 USD = 15 Gold coins:
 
 <div class="docs-img">
-    <img src="/textures/pic/paylet/pw_project_vc_exchange_rate.png">
+    <img src="/textures/pic/payments/widget/vc-exchange-rate.png">
 </div>
 
 * You can also set more than one currency exchange clicking on **Manage Currency Rates**. So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
 
 <div class="docs-img">
-    <img src="/textures/pic/paylet/pw_project_vc_custom_xe.png">
+    <img src="/textures/pic/payments/widget/vc-custom-xe.png">
 </div>
 
 * You can then register your price points in Paymentwall side. In **Price Points** area, choose the payment systems where you want to set price points in and add yours there. 
 
 <div class="docs-img">
-    <img src="/textures/pic/paylet/pw_project_pricepoint_screen.png">
+    <img src="/textures/pic/payments/widget/vc-pricepoint.png">
 </div>
 
 > Mobiamo has its own price points which are declared by mobile operators. New price points are not acceptable for Mobiamo.
@@ -61,7 +61,7 @@ See [Stored Product for virtual currency](/apis#section-paylet-stored-vc).
 
 Once you have successfully integrated our widget, you can then continue with pingback setup.
 
-> [Pingbacks for virtual currency API](/default-pingback-vc).
+> [Pingbacks for virtual currency API](/notification/pingback/vc).
 
 Alternatively, you can also see digital goods of Stored Product.
 

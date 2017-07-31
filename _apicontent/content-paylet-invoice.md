@@ -21,6 +21,6 @@ please contact to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com
 |taxes<br> **array**| Array of your Invoice taxes. Please refer [Taxes and Discount of Invoice parameters](#invoice-taxdiscount) |
 |discounts<br> **array**| Array of your Invoice discounts. Please refer [Tax and Discount of Invoice parameters](#invoice-taxdiscount) |
 |key<br> *required*<br> **string**| Your project public key |
-|sign<br> *required*<br> **string**| Your signature based on your invoice parameters. Please refer to [Signature Calculation](/signature-calculation) |
+|sign<br> *required*<br> **string**| Your signature based on your invoice parameters. Please refer to [Signature Calculation](/development/signature-calculation) |
 |sign_version<br> *required*<br> **string**| Version of signature |
 

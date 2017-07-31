@@ -9,7 +9,7 @@ category: section-tools-coupon-create
 |---|---|
 |key<br> *required*<br> **string**|The Project Key <br> Log in to your Merchant Account to get the Project Key in General Settings of the project|
 |timestamp<br> *required*<br> **int**|Current UNIX time|
-|sign<br> *required*<br> **string**|The Request Signature<br> All parameters must be put into signature calculation.<br> You MUST use [SHA256](/signature-calculation) for signature algorithm.|
+|sign<br> *required*<br> **string**|The Request Signature<br> All parameters must be put into signature calculation.<br> You MUST use [SHA256](/development/signature-calculation) for signature algorithm.|
 |percent_off <br> *required<span>*</span>*<br> **int**|Discount percentage<br> Value can be from 1 to 99.|
 |amount_off <br> *required<span>*</span>*<br> **int**|Discount amount|
 |currency_code  <br>  *required<span>*</span>*<br>  **string** |[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) currency code of the discount amount|

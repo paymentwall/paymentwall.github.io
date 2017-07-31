@@ -56,9 +56,9 @@ Wechat Pay
 Paymentwall can help you to manage accounts for some optimized payment methods. By adding necessary information of your merchant account, we can help you with easy integration through Mobile SDK.
 
 **Which payment methods support SpiderPipe?**
-* [Alipay](/spiderpipe/alipay).
-* [Union Pay](/spiderpipe/unionpay).
-* [Wechat Pay](/spiderpipe/wechat).
+* [Alipay](/spiderpipe/payment-methods/alipay).
+* [Union Pay](/spiderpipe/payment-methods/unionpay).
+* [Wechat Pay](/spiderpipe/payment-methods/wechatpay).
 
 **Why using us to manage accounts?**
 

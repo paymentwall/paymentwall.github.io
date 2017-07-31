@@ -1,8 +1,8 @@
 ---
-id: desktop-paylet-widget
+id: payments-reference-widgets
 title: Widget
 sectionid: docs
-permalink: /paylet/reference/widget
+permalink: payments/reference/widgets
 ---
 
 # Widgets
@@ -50,7 +50,7 @@ The [optional parameter](/apis#section-paylet-optional-parameter) is a collectio
 
 * Custom parameters
 
-Paylet API allows you to add your own parameter as additional parameters while building widget. We can help you to do parameter transmission and communicate it back to your server side via pingback. See [custom pingback parameter with own value](/pingback-custom-parameters#parameter-with-own-value) for more details.
+Paylet API allows you to add your own parameter as additional parameters while building widget. We can help you to do parameter transmission and communicate it back to your server side via pingback. See [custom pingback parameter with own value](/notification/pingback/custom-parameter#parameter-with-own-value) for more details.
 
 ## Client side callback
 

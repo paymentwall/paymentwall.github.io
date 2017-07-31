@@ -14,7 +14,7 @@ There are two flows with Mobiamo: DCB (Direct Carrier Billing) and PSMS (Premium
 * Step 1: User texts a **keyword** to a **shortcode** to receive **PIN code** in return.
 
 <div class="docs-img">
-	<img src="/textures/pic/mobiamo/psms.png">
+	<img src="/textures/pic/payments/direct/mobiamo/psms.png">
 </div>
 
 * Step 2: User receives **PIN code** and input **PIN code** to comfirm the payment.
@@ -36,13 +36,13 @@ There are 2 types of PSMS:
 * Step 1: User enters the phone number. A message with the **PIN code** will be sent to the inputed phone number.
 
 <div class="docs-img">
-	<img src="/textures/pic/mobiamo/dcb1.png">
+	<img src="/textures/pic/payments/direct/mobiamo/dcb1.png">
 </div>
 
 * Step 2: User receives **PIN code** and input **PIN code** to comfirm the payment.
 
 <div class="docs-img">
-	<img src="/textures/pic/mobiamo/dcb2.png">
+	<img src="/textures/pic/payments/direct/mobiamo/dcb2.png">
 </div>
 
 * Step 3: Payment is successful.

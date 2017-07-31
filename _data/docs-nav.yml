@@ -119,13 +119,13 @@
       subitems:
         - id: nav-notification-pingback-dg
           title: Digital Goods
-          path: /default-pingback-dg
+          path: /notification/pingback/dg
         - id: nav-notification-pingback-vc
           title: Virtual Currency
-          path: /default-pingback-vc
+          path: /notification/pingback/vc
         - id: nav-notification-pingback-custom_param
           title: Custom Parameters
-          path: /pingback-custom-parameters
+          path: /notification/pingback/custom-parameter
     - id: nav-notification-client_side_callback
       title: Client-side Callback
       path: /notification/client-side-callback
@@ -137,29 +137,29 @@
       path: /spiderpipe/overview
     - id: nav-spiderpipe-payment_methods
       title: Payment methods
-      path: /spiderpipe/payment_methods
+      path: /spiderpipe/payment-methods-home
       subitems:
         - id: nav-spiderpipe-payment_methods-paypal
           title: PayPal
-          path: /spiderpipe/payment_methods/paypal
+          path: /spiderpipe/payment-methods/paypal
         - id: nav-spiderpipe-payment_methods-amazon
           title: Amazon
-          path: /spiderpipe/payment_methods/amazon
-        - id: nav-spiderpipe-payment_methods-bitcoin-bitpay
+          path: /spiderpipe/payment-methods/amazon
+        - id: nav-spiderpipe-payment_methods-bitcoin_bitpay
           title: Bitcoin Bitpay
-          path: /spiderpipe/payment_methods/bitcoin-bitpay
-        - id: nav-spiderpipe-payment_methods-bitcoin-coinbase
+          path: /spiderpipe/payment-methods/bitcoin-bitpay
+        - id: nav-spiderpipe-payment_methods-bitcoin_coinbase
           title: Bitcoin Coinbase
-          path: /spiderpipe/payment_methods/bitcoin-coinbase
+          path: /spiderpipe/payment-methods/bitcoin-coinbase
         - id: nav-spiderpipe-payment_methods-alipay
           title: Alipay
-          path: /spiderpipe/payment_methods/alipay
+          path: /spiderpipe/payment-methods/alipay
         - id: nav-spiderpipe-payment_methods-unionpay
           title: UnionPay
-          path: /spiderpipe/payment_methods/unionpay
-        - id: nav-spiderpipe-payment_methods-wechat
+          path: /spiderpipe/payment-methods/unionpay
+        - id: nav-spiderpipe-payment_methods-wechatpay
           title: Wechat Pay
-          path: /spiderpipe/payment_methods/wechat
+          path: /spiderpipe/payment-methods/wechatpay
 - id: nav-sandbox
   title: Sandbox
   items:

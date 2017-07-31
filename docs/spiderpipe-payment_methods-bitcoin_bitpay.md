@@ -1,8 +1,8 @@
 ---
-id: reference-spiderpipe-bitcoin-bitpay
-title: SpiderPipe - Bitcoin via Bitpay
+id: spiderpipe-payment_methods-bitcoin_bitpay
+title: SpiderPipe Bitcoin Bitpay
 sectionid: docs
-permalink: spiderpipe/bitcoin-bitpay
+permalink: spiderpipe/payment-methods/bitcoin-bitpay
 ---
 
 # SpiderPipe - Bitcoin via Bitpay
@@ -22,7 +22,7 @@ In order to set up the BitPay payment method, you need to have your BitPay Merch
 > You need to confirm your email, business information, bank account and BitCoin address in BitPay merchant account to be eligible to receive payments for your sales. Your basic information and Bank account/BitCoin address which are shown to users on your order pages and used for verification should also be clarified.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/bitcoin-bitpay-biz-profile.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/bitcoin-bitpay-biz-profile.jpg" style="width: 80%">
 </div>
 
 ## Configure BitPay merchant account
@@ -32,13 +32,13 @@ In order to set up the BitPay payment method, you need to have your BitPay Merch
 * Under **Payment Tools**, find **Manage API Tokens**, click the **Add New token** button.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/bitcoin-bitpay-payment_tools-manage-api-token.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/bitcoin-bitpay-payment_tools-manage-api-token.jpg" style="width: 80%">
 </div>
 
 * Enter the **Token Label** and leave **Require Authentication option** checked.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/bitcoin-bitpay-manage_api_tokens-add-token.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/bitcoin-bitpay-manage_api_tokens-add-token.jpg" style="width: 80%">
 </div>
 
 ## Add Bitpay account to Paymentwall
@@ -48,13 +48,13 @@ In order to set up the BitPay payment method, you need to have your BitPay Merch
 * Find **SpiderPipe Accounts** and click **Add Payment account** button.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 80%">
 </div>
 
 * Select **Bitpay** and filling the fields.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-bitpay.jpg" style="width: 50%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-select-bitpay.jpg" style="width: 50%">
 </div>
 
 
@@ -62,4 +62,4 @@ In order to set up the BitPay payment method, you need to have your BitPay Merch
 
 The setup for Bitcoin via Coinbase is finished, you may check below links.
 
-> [Bitcoin via Coinbase](/spiderpipe/bitcoin-coinbase).
+> [Bitcoin via Coinbase](/spiderpipe/payment-methods/bitcoin-coinbase).

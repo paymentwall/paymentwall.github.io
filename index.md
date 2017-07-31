@@ -7,31 +7,295 @@ sectionid: docs
 
 # Documentation
 
-Get start with following products to establish your payment system with Paymentwall.
+Welcome to Paymentwall. 
 
-> This page is hosted by [Github pages](https://pages.github.com/), you can also view it on [Github](https://github.com/paymentwall/paymentwall.github.io).
+Make your own choice on the most suitable payment solution for your application from following options and learn about how to build payment experience with the documentation.
 
-## Desktop
+This site is hosted by [Github pages](https://pages.github.com/), you can also view it on [Github](https://github.com/paymentwall/paymentwall.github.io).
 
-+ [Paylet](/payments/widget-home). A unified payment solution.
-    - [Stored product](/paylet/stored-products). 
-    - [Custom price](/payments/checkout-home).
-    - [Invoice](/payments/invoicing-home). 
-    - [Offerwall](/payments/widget/offerwall).
-+ [Direct API](/payments/direct-home). Integrate single payment method with custom payment form.
-    - [PayAlto](/payments/direct/payalto-home).
-    - [Brick](/payments/direct/brick-home).
-    - [Mobiamo](/payments/direct/mobiamo-home).
-    - [MINT](/payments/direct/mint-home). 
+***
 
-## Mobile
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Widget API</h3>
+            <p>
+            Hosted checkout with multiple products options. Store product details in Dashboard.
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Digital Goods</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Virtual Currency</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Offerwall</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3 class="title">Checkout API</h3>
+            <p>
+            Hosted checkout supports redirecting to checkout page of corresponding payment method.
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Onetime payment</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Subscription</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-- [Mobile SDK](/payments/sdks/mobile-home). Mobile aggregation platform with native UI and customized view.
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Direct API</h3>
+            <p>
+            A payment solution for custom payment form.
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">PayAlto</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Brick</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Mobiamo</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">MINT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Invoicing</h3>
+            <p>
+            Smart and organized e-invoicing solution.
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Invoicing</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-## Smart TV
+***
 
-- [SmartTV SDK](/smarttv-sdk). Monetize your SmartTV app globally with the native payment platform for LG and Samsung SmartTV apps.
+## SDKs
 
-## Extensions & Plugins
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Mobile SDK</h3>
+            <p>
+            Unified mobile payment solution for <a href="https://www.paymentwall.com/payment-methods"> payment methods</a> provided by Paymentwall and our partners.
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Overview</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-android-sdk">Andriod SDK</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-ios-sdk">iOS SDK</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">UI customization</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Scan cards</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Optimized payment methods</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Server SDKs</h3>
+            <p> 
+            Server side SDK libraries with code samples about interacting with PW payments.
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-php">Php</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-node">Node</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-python">Python</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-ruby">Ruby</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-java">Java</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-dotnet">.Net</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-go">Go</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-* [Extensions & Plugins](/modules/aMember). Integration modules for many popular website and shopping cart engines.
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3 class="title">SmartTV SDK</h3>
+            <p>
+            Accept payments on Smart TVs. <br> 
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">SmartTV payments</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+*** 
+
+## Platform extensions
+
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3 class="title">Ecommerce modules</h3>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">CS-Cart</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Easy Digital Downloads</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Magento</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Jigoshop</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">OpenCart</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Shopify</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">PrestaShop</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Shopware</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">VirtueMart</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Woocommerce</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3 class="title">SaaS</h3>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Amember</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Blesta</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">IP.Board</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">vBulletin</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">WHMCS</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Xenforo</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Xero</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Minecarft</h3>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Buycraft</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Enjin</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Minecraft market</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Messenger</h3>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Telegram</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="docs-ul-box">
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Social network</h3>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Phpfox</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3>Travel</h3>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Cubilis</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,8 +1,8 @@
 ---
-id: lang-codes
+id: development-lang
 title: Language Codes
 sectionid: docs
-permalink: lang
+permalink: development/lang
 ---
 
 # Language Codes

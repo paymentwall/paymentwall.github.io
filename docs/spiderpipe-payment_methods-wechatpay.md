@@ -1,8 +1,8 @@
 ---
-id: reference-spiderpipe-wechat
-title: SpiderPipe Wechat Pay
+id: spiderpipe-payment_methods-wechatpay
+title: SpiderPipe WechatPay
 sectionid: docs
-permalink: spiderpipe/wechat
+permalink: spiderpipe/payment-methods/wechatpay
 ---
 
 # SpiderPipe - Wechat Pay
@@ -24,13 +24,13 @@ In order to set up a Wechat Pay business account, please see [setup flow](http:/
 * Login to Paymentwall Merchant Area, go to **My Accounts**, **Account Settings**
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="max-width:80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="max-width:80%">
 </div>
 
 * Click **Add Payment Account** and choose **Wechat Pay** from the list
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-wechat.jpg" style="max-width:80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-select-wechat.jpg" style="max-width:80%">
 </div>
 
 * Get your Wechat Pay info in [Wechat business platform](https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2Findex.php%2F).
@@ -42,5 +42,5 @@ In order to set up a Wechat Pay business account, please see [setup flow](http:/
 * Fill up the form and save.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-wechat-form.jpg" style="max-width:80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-wechat-form.jpg" style="max-width:80%">
 </div>

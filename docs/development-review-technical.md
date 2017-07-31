@@ -1,8 +1,8 @@
 ---
-id: go_live-technical
-title: Technical Integration Checklist
+id: development-review-technical
+title: Technical Review
 sectionid: docs
-permalink: go_live-technical
+permalink: development/review/technical
 ---
 
 # Technical Integration Checklist
@@ -10,7 +10,7 @@ permalink: go_live-technical
 You will see technical integration part on the left side. Check all the checkbox to make sure you have completed the basic integration of our products. 
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/golive/golive-technical-checklist.png" style="width: 30%">
+	<img src="/textures/pic/development/review/review-technical-checklist.png" style="width: 30%">
 </div>
 
 > The url where Paymentwall widget is placed should be provided along with a test account on your website. If you are using our product on mobile, please replace the url with a downloadable link of your application.
@@ -29,9 +29,9 @@ Below is the check points for merchants who are using [Paylet](/payments/widget-
 	- Your website should show subscription conditions clearly.
 	- Cancellation and refund policy is clearly accessible and visible in the website.
 
-* Set up a [Pingback](/default-pingback) listener in your server.
+* Set up a [Pingback](/notification/pingback-home) listener in your server.
 
-+ You need to response ```ok``` to following [pingback types](/default-pingback#pingback-type).
++ You need to response ```ok``` to following [pingback types](/notification/pingback-home#pingback-type).
 	- Confirmation pingback with ```type=0```.
 	- Negative pingback with ```type=2```.
 
@@ -57,9 +57,9 @@ Below is the check points for merchants who are using [Brick](/payments/direct/b
 	- Your website should show subscription conditions clearly.
 	- Cancellation and refund policy is clearly accessible and visible in the website.
 
-* Set up a [Pingback](/default-pingback) listener in your server.
+* Set up a [Pingback](/notification/pingback-home) listener in your server.
 
-+ You need to response ```ok``` to following [pingback types](/default-pingback#pingback-type).
++ You need to response ```ok``` to following [pingback types](/notification/pingback-home#pingback-type).
 	- Confirmation pingback with ```type=0```.
 	- Negative pingback with ```type=2```.
 	- Transaction pending pingback with ```type=200```.

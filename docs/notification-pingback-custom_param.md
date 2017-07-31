@@ -1,8 +1,8 @@
 ---
-id: pingback-custom-parameters
+id: notification-pingback-custom_param
 title: Pingback Custom Parameters
 sectionid: docs
-permalink: pingback-custom-parameters
+permalink: notification/pingback/custom-parameter
 ---
 
 # Custom Parameters
@@ -25,7 +25,7 @@ Here we added ```my_custom_param``` as a parameter name and ```my custom value``
 Once additional parameter is added, go to **Project** > **Settings** to add custom parameter ```my_custom_param```.
 
 <div class="docs-img">
-    <img src="/textures/pic/pingback/customparameter_sample.png">
+    <img src="/textures/pic/notification/pingback/customparameter_sample.png">
 </div>
 
 Done! When you receive pingback, you will find your custom parameter ```my_custom_param``` is also included having ```my custom value``` as a value in it. 
@@ -41,7 +41,7 @@ Below parameters are the parameters Paymentwall supports you to receive with Pin
 
 | Value | Description |
 |---|---|
-|**CHARGEBACK_REASON**<br> eg: 9| Reason code of the negative pingback, standard reason parameter of pingbacks<br> Please refer [Pingbacks](/default-pingback) to get detailed information |
+|**CHARGEBACK_REASON**<br> eg: 9| Reason code of the negative pingback, standard reason parameter of pingbacks<br> Please refer [Pingbacks](/notification/pingback-home) to get detailed information |
 |**CHARGEBACK_REASON_VERBAL**<br> eg: Cancelled order| Verbal reason of the negative pingbacks |
 |**CHARGEBACK_TYPE**<br> eg: refund / chargeback| Type of negative pingback |
 |**CLICK_TYPE**<br> eg: payment / offer| Transaction type. Offer is the value when user earned credit due to offerwall |

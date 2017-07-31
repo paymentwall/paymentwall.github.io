@@ -10,10 +10,10 @@ permalink: payments/sdks/mobile-home
 Mobile SDK is a mobile payment solution for the [payment methods](https://www.paymentwall.com/payment-methods) provided by Paymentwall and our partners. It aims to provide a better user experience. Below is payment process of credit card.
 
 <div class="docs-img">
-  <img src="/textures/pic/pw-sdk/choose-ps.png" style="width: 15%">
-  <img src="/textures/pic/pw-sdk/perform-cc.png" style="width: 15%">
-  <img src="/textures/pic/pw-sdk/processing.png" style="width: 15%">
-  <img src="/textures/pic/pw-sdk/result-success.png" style="width: 15%">
+  <img src="/textures/pic/payments/sdks/mobile/choose-ps.png" style="width: 15%">
+  <img src="/textures/pic/payments/sdks/mobile/perform-cc.png" style="width: 15%">
+  <img src="/textures/pic/payments/sdks/mobile/processing.png" style="width: 15%">
+  <img src="/textures/pic/payments/sdks/mobile/result-success.png" style="width: 15%">
 </div>
 
 We have made improvement for [optimized payment methods](/payments/sdks/mobile/support_ps) on UI and method of calling, which could make payment process smooth and easy. Your customers no longer need to waste their time on loading webviews anymore. Once the item is chosen, they can start typing payment information immediately.
@@ -36,4 +36,4 @@ Mobile SDK consists of two parts: Core SDK and Plugin SDK. For more information 
 
 * Include payment options which you want to use through [plugin SDK](/mobile/plugin-home) (optional).
 
-* Set up [Pingback](/default-pingback) to implement delivery and other actions according to instant payment notification.
+* Set up [Pingback](/notification/pingback-home) to implement delivery and other actions according to instant payment notification.

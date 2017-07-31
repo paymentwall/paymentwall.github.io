@@ -6,3 +6,5 @@ permalink: payments/checkout/cart
 ---
 
 # Cart
+
+To be continued.

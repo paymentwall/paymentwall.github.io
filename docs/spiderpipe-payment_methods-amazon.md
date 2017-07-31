@@ -1,8 +1,8 @@
 ---
-id: reference-spiderpipe-amazon
-title: SpiderPipe - Amazon
+id: spiderpipe-payment_methods-amazon
+title: SpiderPipe Amazon
 sectionid: docs
-permalink: spiderpipe/amazon
+permalink: spiderpipe/payment-methods/amazon
 ---
 
 # SpiderPipe - Amazon
@@ -32,7 +32,7 @@ In order to set up an Amazon payment method you need to have :
 * Under **Edit My Account Settings** tab, click  **Manage Developer and Seller Preferences** link.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/amazon-account_settings-edit-manage-devreseller-preference.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/amazon-account_settings-edit-manage-devreseller-preference.jpg" style="width: 80%">
 </div>
 
 * Enter the following Callback URL to **URL for Instant Payment Notification**. Alternatively, you can click [here](https://payments.amazon.com/sdui/sdui/managecobranding) to configure IPN listener & callback URL.
@@ -42,7 +42,7 @@ https://api.paymentwall.com/api/paymentpingback/amazon
 ```
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/amazon-account_settings-edit-manage-devreseller-preference.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/amazon-account_settings-edit-manage-devreseller-preference.jpg" style="width: 80%">
 </div>
 
 ## Add Amazon payments business account to Paymentwall
@@ -52,25 +52,25 @@ https://api.paymentwall.com/api/paymentpingback/amazon
 * Find **SpiderPipe Accounts** and click **Add Payment account** button.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 80%">
 </div>
 
 * Select the **Amazon Payments** payment system from the list.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-amazon.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-select-amazon.jpg" style="width: 80%">
 </div>
 
 * Fill up the form and save.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-amazon.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-amazon.jpg" style="width: 80%">
 </div>
 
 **Access Key ID** and **Secret Access Key** credentials can be obtained in your [AWS Console account](https://portal.aws.amazon.com/gp/aws/securityCredentials). 
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/amazon-aws_console-access-secretkey.jpg" style="width: 80%">
+	<img src="/textures/pic/spiderpipe/amazon-aws_console-access-secretkey.jpg" style="width: 80%">
 </div>
 
 >  Amazon sends chargeback notifications via email. Hence, we recommend you to set up the specific filters that are meant to forward the elected emails received from Amazon directly to us at [thirdparty@paymentwall.com](mailto:thirdparty@paymentwall.com).

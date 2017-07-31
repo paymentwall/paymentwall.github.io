@@ -1,25 +1,25 @@
 ---
-id: pingback-default-vc
-title: Virtual Currency API Pingback
+id: notification/pingback-home
+title: Digital Goods API Pingbacks
 sectionid: docs
-permalink: default-pingback-vc
+permalink: notification/pingback/dg
 ---
 
-# Virtual Currency API Pingback
+# Digital Goods API Pingbacks
 
-> Before you start, please read [Pingbacks](/default-pingback) document first to get overview of Paymentwall Pingback system.
+> Before you start, please read [Pingbacks](/notification/pingback-home) document first to get overview of Paymentwall Pingback system.
 
-## Sample of Pingback Request for Virtual Currency API
+## Sample of Pingback Request for Digital Goods API
 
 ```
-http://www.yourserver.com/anypath?uid=pwuser&currency=200&type=0&ref=b1493096790&sign_version=2&sig=d94b23ba8585f29978706dd1b153ead9
+http://www.yourserver.com/anypath?uid=pwuser&goodsid=gold_membership&slength=1&speriod=month&type=0&ref=b1493096790&sign_version=2&sig=d94b23ba8585f29978706dd1b153ead9
 ```
 
 ## Sample code of Pingback Listener
 
 Sample code using [Paymentwall API Libraries](https://github.com/paymentwall) at GitHub.
 
-{% assign codeId = "pingback-listener-vc" %}
+{% assign codeId = "pingback-listener-dg" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -102,4 +102,5 @@ You should check whether your Pingback listener is :
 
 You can then submit your project for review.
 
-> See [project go live](/go_live-home).
+> See [project go live](/development/review-home).
+

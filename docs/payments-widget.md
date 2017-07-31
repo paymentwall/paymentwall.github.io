@@ -7,8 +7,6 @@ permalink: payments/widget-home
 
 # Widget API
 
-# Stored Products
-
 Stored product means that you registered your product in Paymentwall side.
 
 You can set different settings for each product/price point like specific regions you want that product to be sold, one time payment or recurring subscription, price, and discounts/bonuses.

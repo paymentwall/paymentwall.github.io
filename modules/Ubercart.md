@@ -32,7 +32,7 @@ Paymentwall's plug-in for Ubercart can be downloaded **[here](https://github.com
   > Remember to save changes at the bottom of ```Settings``` section.
 
 <div class="docs-img">
-    <img src="/textures/pic/modules/ubercart.png">
+    <img src="/textures/pic/payments/platform/ubercart.png">
 </div>
 
 * In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Ubercart admin panel.
@@ -65,4 +65,4 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/go_live-home)**
+> **[See how to live your project](/development/review-home)**

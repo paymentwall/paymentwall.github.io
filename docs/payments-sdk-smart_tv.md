@@ -1,8 +1,8 @@
 ---
-id: smarttv-sdk
+id: payments-sdk-smart_tv
 title: SmartTV SDK
 sectionid: docs
-permalink: smarttv-sdk
+permalink: payments/sdks/smart_tv
 ---
 
 # SmartTV SDK
@@ -170,7 +170,7 @@ PWSmartGateway.showPaymentForm(
 Once you make the showPaymentForm() call successfully, the expected result is to see the payment form in screen:
 
 <div class="docs-img">
-    <img src="/textures/pic/smarttv/smarttv-widget.png" style="max-width: 50%">
+    <img src="/textures/pic/payments/sdks/smarttv/smarttv-widget.png" style="max-width: 50%">
 </div>
 
 ## Check payment status
@@ -281,10 +281,10 @@ Possible error codes:
 * 1001 - Product is not found. Check the product SKU ID, or provide product name, amount and currency
 
 ## Pingback Processing
-Pingbacks are server-to-server messages that Paymentwall triggers whenever a payment is approved or declined. Implementing pingbacks is required in order to have your project approved. Please refer to [Digital Goods API pingbacks](/default-pingback) to learn about implementation.
+Pingbacks are server-to-server messages that Paymentwall triggers whenever a payment is approved or declined. Implementing pingbacks is required in order to have your project approved. Please refer to [Digital Goods API pingbacks](/notification/pingback-home) to learn about implementation.
 
 
 ## Going live
 After you finish the integration, you should submit your project for review in your merchant area.
 
-> See project [go live](/go_live-home).
+> See project [go live](/development/review-home).

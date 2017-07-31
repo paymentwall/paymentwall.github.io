@@ -1,8 +1,8 @@
 ---
-id: reference-signature-calculation
+id: development-signature_calculation
 title: Signature Calculation
 sectionid: docs
-permalink: signature-calculation
+permalink: development/signature-calculation
 ---
 
 # Signature Calculation

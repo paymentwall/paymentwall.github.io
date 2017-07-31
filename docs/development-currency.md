@@ -1,8 +1,8 @@
 ---
-id: reference-supported_currency
+id: development-currency
 title: Supported Currency
 sectionid: docs
-permalink: supported_currency
+permalink: development/currency
 ---
 
 # Supported Currency
@@ -93,6 +93,6 @@ List of currency we currently support.
 |YER|Yemen|
 |ZAR|South Africa|
 
-# Currency not found
+## Currency not found
 
 If you’re looking for a currency code that can not be found above, please feel free to email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall).

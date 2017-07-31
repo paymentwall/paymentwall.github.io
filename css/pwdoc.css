@@ -1103,10 +1103,21 @@ p {
     display: flex;
 }
 
+@media only screen and (max-width: 768px) {
+    .docs-ul-box{
+        display: block;
+    }
+}
+
 .docs-ul-box-item {
     width: 50%;
 }
 
+@media only screen and (max-width: 768px) {
+    .docs-ul-box-item {
+        width: 100%;
+    }
+}
 
 .highlight {
     padding-left: 25px;
@@ -1232,19 +1243,19 @@ p {
     background: white;
     z-index: 1000;
 }
-// end demo-specific
 
-   .loader {
+.loader {
        position: relative;
        margin: 0 auto;
        width: 100px;
-
 &:before {
-     content: '';
-     display: block;
-     padding-top: 100%;
- }
+    content: '';
+    display: block;
+    padding-top: 100%;
 }
+}
+
+
 
 .circular {
     animation: rotate 2s linear infinite;
@@ -1266,7 +1277,6 @@ p {
     stroke-linecap: round;
 }
 
-/*for normal*/
 @keyframes rotate {
     100% {
         transform: rotate(360deg);
@@ -1300,8 +1310,6 @@ p {
         stroke: #c9cfd1;
     }
 }
-
-/*for firefox*/
 
 @-moz-keyframes rotate {
     100% {
@@ -1337,8 +1345,6 @@ p {
     }
 }
 
-/*for normal*/
-
 @-o-keyframes rotate {
     100% {
         transform: rotate(360deg);
@@ -1373,7 +1379,6 @@ p {
     }
 }
 
-/*for safari and chrome*/
 @-webkit-keyframes rotate {
     100% {
         transform: rotate(360deg);

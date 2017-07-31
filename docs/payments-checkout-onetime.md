@@ -17,10 +17,10 @@ The parameter ```ag_type``` should be set as ```fixed``` in API call. See code s
 
 After implementing the paylet you need to implement the server side pingback script in order to receive the payments confirmations.
 
-> [Pingbacks](/default-pingback).
+> [Pingbacks](/notification/pingback-home).
 
 Below links may also be helpful for you.
 
 > [Test payment method](/sandbox/test-payment).
 
-> [SpiderPipe](/spiderpipe-home).
+> [SpiderPipe](/spiderpipe/overview).

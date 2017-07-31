@@ -56,4 +56,4 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/go_live-home)**
+> **[See how to live your project](/development/review-home)**

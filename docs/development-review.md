@@ -1,8 +1,8 @@
 ---
-id: go_live
-title: Go Live
+id: development-review
+title: Review
 sectionid: docs
-permalink: go_live-home
+permalink: development/review-home
 ---
 
 # Project go live
@@ -12,7 +12,7 @@ Your project is always in sandbox environment when its status is not live, where
 You can submit your project for review by clicking **SUBMIT FOR REVIEW** button.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/golive/golive-submit-for-review.png" style="max-width: 30%">
+	<img src="/textures/pic/development/review/review-submit.png" style="max-width: 30%">
 </div>
 
 ## Adjustment before going live
@@ -37,8 +37,8 @@ We recommend you to create another project under your Paymentwall account as sta
 
 A checklist form will be opened and asking you to confirm that you have completed associated operations once you submit your project for review.
 
-* [Integration checklist](/go_live-technical).
+* [Integration checklist](/development/review/technical).
 
-* [Business checklist](/go_live-business).
+* [Business checklist](/development/review/business).
 
 

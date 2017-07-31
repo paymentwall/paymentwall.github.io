@@ -116,7 +116,7 @@ Our risk team will help you to review the payment which is suspicious, it is pos
   </div>
 </div>
 
-Paymentwall instant payment notification, [pingback](/default-pingback), will be sent immediately once a charge request is achieved. Your delivery should be performed according to the [type](/default-pingback#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [charge request](#charge-request) which can be set as [custom pingback parameters](/pingback-custom-parameters) for transparent transmission in charge request.
+Paymentwall instant payment notification, [pingback](/notification/pingback-home), will be sent immediately once a charge request is achieved. Your delivery should be performed according to the [type](/notification/pingback-home#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [charge request](#charge-request) which can be set as [custom pingback parameters](/notification/pingback/custom-parameter) for transparent transmission in charge request.
 
 
 ## Storing a card after charge

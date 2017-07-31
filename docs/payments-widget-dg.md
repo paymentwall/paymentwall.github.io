@@ -16,7 +16,7 @@ Please make sure your project is configured as **Digital Goods API** before star
 You can set different settings for each product like specific regions you want that product to be sold (useful for localizing), one time payment or recurring subscription, price, and discount.
 
 <div class="docs-img">
-    <img src="/textures/pic/paylet/pw_project_product_screen.png" style="width: 50%">
+    <img src="/textures/pic/payments/widget/dg-product.png" style="width: 50%">
 </div>
 
 ## Product details
@@ -50,7 +50,7 @@ See [Stored Product for digital goods](/apis#section-paylet-stored-dg) to perfor
 
 Once you have successfully integrated our widget, you can then continue with pingback setup.
 
-> [Pingbacks for digital goods API](/default-pingback-dg).
+> [Pingbacks for digital goods API](/notification/pingback/dg).
 
 Alternatively, you can also see virtual currency of Stored Product.
 

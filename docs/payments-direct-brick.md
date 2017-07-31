@@ -77,5 +77,5 @@ See [components](#components) for more details.
 
 * Setup Pingback listener
 
-[Pingback](/default-pingback) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.
+[Pingback](/notification/pingback-home) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.
 

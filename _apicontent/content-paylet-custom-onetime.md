@@ -18,4 +18,4 @@ category: section-paylet-custom-onetime
 |ag_external_id<br> *required*<br> **string**| ID of your product. Order reference ID could also be set here. We will communicate back to you via the pingback as goodsid parameter. The maximum length is 256. |
 |ag_type<br> *required*<br> **string**| The payment type of your product. For onetime payment, it is required to be set to ```fixed```.|
 |sign_version<br> *required*<br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
-|sign<br> *required*<br> **string lowercase**| The signature of widget. Refer to [signature calculation](/signature-calculation) for more details.|
+|sign<br> *required*<br> **string lowercase**| The signature of widget. Refer to [signature calculation](/development/signature-calculation) for more details.|
