@@ -1,5 +1,5 @@
 ---
-category: section-paylet-stored-vc
+category: section-widget-vc
 ---
 ## Virtual Currency
 

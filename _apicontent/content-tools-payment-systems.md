@@ -23,7 +23,7 @@ Payment system API can retrieve the list of payment systems activated for a proj
 
 | Name | Description|
 |---|---|
-|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-paylet-optional-parameter).|
+|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-checkout-optional_parameter).|
 |name| Payment system name.|
 |new_window| Payment methods require opening a new window or redirecting users to a new url.|
 |img_url| URL of the payment system logo.|

@@ -22,7 +22,7 @@ You can choose to combine the following features to improve the payment experien
 | Widget code | Suitable products | Mobile view compatible | Real widget| Description | 
 | --- | --- | --- | --- |
 | p1 | Stored Products, Custom Price | No | [Link to widget](https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=testuser&widget=p1_1&amount=5&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&sign_version=2&sign=afe2fbe4e445ae703259bdb3f0c909f0){:target="_blank"} | A unified widget for desktop. |
-| p2 | Stored Products, Custom Price | No | [Link to widget using MINT as example](https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=testuser&widget=p2_1&amount=5&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&ps=epinpaymentsystem&sign_version=2&sign=f3643252dba6ed194459eea277ed85ba){:target="_blank"} | Similar to p1 but display only one payment method. Requires ```ps``` in [optional parameter](/apis#section-paylet-optional-parameter). |
+| p2 | Stored Products, Custom Price | No | [Link to widget using MINT as example](https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=testuser&widget=p2_1&amount=5&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&ps=epinpaymentsystem&sign_version=2&sign=f3643252dba6ed194459eea277ed85ba){:target="_blank"} | Similar to p1 but display only one payment method. Requires ```ps``` in [optional parameter](/apis#section-checkout-optional_parameter). |
 | p4 | Stored Products, Custom Price | No | [Link to widget](https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=testuser&widget=p4_1&amount=5&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&sign_version=2&sign=fc715389c5e7b062dbf9eab8e937e98b){:target="_blank"} | P4 widget will force all the payment method to be opened in a new browser window. |
 | p10 | Stored Products, Custom Price | No | [Link to widget](https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=testuser&widget=p10_1&amount=5&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&sign_version=2&sign=9a9ef4412a67bf93ce6d6c3f8d7adfde){:target="_blank"} | A customized version for p1 widget. |
 | m2 | Stored Products, Custom Price | Yes | [Link to widget](https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=testuser&widget=m2_1&amount=5&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&sign_version=2&sign=fa282a71d06752af78b0de3724f80f41){:target="_blank"} | A unified widget with better performance on mobile. |
@@ -42,11 +42,11 @@ Widget code of created widget is expanded with additional number as suffix for [
 
 ## Additional parameters
 
-Additional parameters can be added into [Paylet API](/apis#section-paylet-stored) to meet the additional requirements when building widget. There are two main categories for additional parameters:
+Additional parameters can be added into [Paylet API](/apis#section-widget) to meet the additional requirements when building widget. There are two main categories for additional parameters:
 
 * Optional parameters.
 
-The [optional parameter](/apis#section-paylet-optional-parameter) is a collection of reversed parameters to implement certain functions. 
+The [optional parameter](/apis#section-checkout-optional_parameter) is a collection of reversed parameters to implement certain functions. 
 
 * Custom parameters
 
@@ -54,7 +54,7 @@ Paylet API allows you to add your own parameter as additional parameters while b
 
 ## Client side callback
 
-> If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-paylet-optional-parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
+> If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-checkout-optional_parameter) that will be used as the URL of **Continue** button displayed to the end-user after a payment is made.
 
 For specific events we send a client-side callback via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our widget is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc. 
 
@@ -129,6 +129,6 @@ A list of all methods we support for the specific country will be returned by Pa
 
 Combine using  ```img_url```, ```name``` with *radio button* or your preferred way to create available payment methods list. Afterwards, bind each available payment method with ```id``` which is returned in payment system API for next step.
 
-* Once the user decides which payment method he wants to use, you can use [Paylet API](/apis#section-paylet-custom) and add ```ps``` as [optional parameter](/apis#section-paylet-optional-parameter) values ```id``` (Obtained in last step) to redirect him to the corresponding payment page.
+* Once the user decides which payment method he wants to use, you can use [Paylet API](/apis#section-checkout) and add ```ps``` as [optional parameter](/apis#section-checkout-optional_parameter) values ```id``` (Obtained in last step) to redirect him to the corresponding payment page.
 
 That's it, you have integrated deep-linked payment system into your application.

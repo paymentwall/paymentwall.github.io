@@ -1,5 +1,5 @@
 ---
-category: section-paylet-custom-subscription
+category: section-checkout-subscription
 ---
 ## Subscription
 

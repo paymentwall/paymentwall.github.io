@@ -1,5 +1,5 @@
 ---
-category: section-paylet-invoice-tax_invoice
+category: section-invoicing-tax_invoice
 ---
 
 ## Invoice tax/discount

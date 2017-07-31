@@ -9,7 +9,7 @@ permalink: payments/invoicing-home
 
 Paymentwall supports smart and organized e-invoicing solution. To activate, 
 please contact to devsupport@paymentwall.com with your Paymentwall account email address.
-> Refer [Invoice API](/apis#section-paylet-invoice) to generate invoices with your system by integrating Paymentwall Invoice API.
+> Refer [Invoice API](/apis#section-invoicing) to generate invoices with your system by integrating Paymentwall Invoice API.
 
 ## Generate new Invoice
 After your account and project are verified to use Paymentwall invoicing feature, 

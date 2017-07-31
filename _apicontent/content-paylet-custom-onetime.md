@@ -1,5 +1,5 @@
 ---
-category: section-paylet-custom-onetime
+category: section-checkout-onetime
 ---
 ## Onetime payment
 

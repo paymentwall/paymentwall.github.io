@@ -44,7 +44,7 @@ You can set different settings for each product like specific regions you want t
  
 ## API Call
 
-See [Stored Product for digital goods](/apis#section-paylet-stored-dg) to perform API Call.
+See [Stored Product for digital goods](/apis#section-widget-dg) to perform API Call.
 
 ## Next Step
 

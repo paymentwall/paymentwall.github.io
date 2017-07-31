@@ -11,7 +11,7 @@ You can also setup subscription for your customers while using Custom price.
 
 ## API Call
 
-The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/apis#section-paylet-custom-subscription) to perform API Call.
+The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/apis#section-checkout-subscription) to perform API Call.
 
 ## Subscription payment methods 
 

@@ -220,7 +220,7 @@ This site is hosted by [Github pages](https://pages.github.com/), you can also v
     </div>
     <div class="docs-ul-box-item"> 
         <div>
-            <h3 class="title">SaaS</h3>
+            <h3 class="title">Hosting/SaaS</h3>
             <ul>
                 <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="">Amember</a>
@@ -251,7 +251,7 @@ This site is hosted by [Github pages](https://pages.github.com/), you can also v
 <div class="docs-ul-box">
     <div class="docs-ul-box-item"> 
         <div>
-            <h3>Minecarft</h3>
+            <h3>Gaming</h3>
             <ul>
                 <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="">Buycraft</a>
@@ -267,10 +267,13 @@ This site is hosted by [Github pages](https://pages.github.com/), you can also v
     </div>
     <div class="docs-ul-box-item"> 
         <div>
-            <h3>Messenger</h3>
+            <h3>Social network/Messenger</h3>
             <ul>
                 <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="">Telegram</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Phpfox</a>
                 </li>
             </ul>
         </div>
@@ -280,20 +283,13 @@ This site is hosted by [Github pages](https://pages.github.com/), you can also v
 <div class="docs-ul-box">
     <div class="docs-ul-box-item"> 
         <div>
-            <h3>Social network</h3>
-            <ul>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="">Phpfox</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="docs-ul-box-item"> 
-        <div>
             <h3>Travel</h3>
             <ul>
                 <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="">Cubilis</a>
+                    <a class="docs-ul-box-li-link" href="">Kigo</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Stardekk</a>
                 </li>
             </ul>
         </div>

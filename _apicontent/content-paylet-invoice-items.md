@@ -1,5 +1,5 @@
 ---
-category: section-paylet-invoice-items
+category: section-invoicing-items
 ---
 
 ## Items

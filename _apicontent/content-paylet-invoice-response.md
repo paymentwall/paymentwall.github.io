@@ -1,5 +1,5 @@
 ---
-category: section-paylet-invoice-response
+category: section-invoicing-response
 ---
 
 ## Invoice response attributes
@@ -29,4 +29,4 @@ Invoice email will be sent automatically to the ```contacts[email]``` and you wi
 | pdf_url | URL to download PDF version of the invoice |
 | owner | Array of your company information. You can set the information at Invoice > Settings tab. Please refer [Invoice](/payments/invoicing-home) for details |
 
-The other attributes are same with the parameters you sent over request to [Invoice API](#section-paylet-invoice).
+The other attributes are same with the parameters you sent over request to [Invoice API](#section-invoicing).

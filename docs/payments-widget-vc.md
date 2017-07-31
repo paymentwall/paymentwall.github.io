@@ -55,7 +55,7 @@ You will also see how much virtual currency the customer is purchasing (this is 
  
 ## API Call
 
-See [Stored Product for virtual currency](/apis#section-paylet-stored-vc).
+See [Stored Product for virtual currency](/apis#section-widget-vc).
 
 ## Next Step
 

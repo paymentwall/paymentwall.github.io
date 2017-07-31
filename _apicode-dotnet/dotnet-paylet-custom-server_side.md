@@ -1,5 +1,5 @@
 ---
-category: section-paylet-custom-server_side
+category: section-checkout-server_side
 ---
 
 Standalone request endpoint

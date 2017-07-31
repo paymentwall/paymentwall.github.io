@@ -1,5 +1,5 @@
 ---
-category: section-paylet-invoice-response
+category: section-invoicing-response
 ---
 
 Sample Response

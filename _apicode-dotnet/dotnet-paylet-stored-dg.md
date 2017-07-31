@@ -1,5 +1,5 @@
 ---
-category: section-paylet-stored-dg
+category: section-widget-dg
 ---
 Endpoint
 ```

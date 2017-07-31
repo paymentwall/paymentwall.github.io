@@ -102,7 +102,7 @@
       title: Reference
       subitems:
         - id: nav-payments-reference-widgets
-          title: Avalibale widgets
+          title: Widgets
           path: /payments/reference/widgets
         - id: nav-payments-reference-mobile_web
           title: Mobile-web Integration

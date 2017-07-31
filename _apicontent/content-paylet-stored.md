@@ -1,5 +1,5 @@
 ---
-category: section-paylet-stored
+category: section-widget
 ---
 ## Stored product
 
