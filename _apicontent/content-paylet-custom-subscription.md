@@ -28,4 +28,4 @@ category: section-checkout-subscription
 |ag_post_trial_period_type*<br> **string**| The type of your subscription duration for trail products. Required to be set to following types, day/week/month/year. |
 |ag_post_trial_period_length*<br> **integer**| The length of your subscription duration for trail products.|
 |sign_version<br> *required*<br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
-|sign<br> *required*<br> **string lowercase**|The signature of widget. Refer to [signature calculation](/development/signature-calculation) for more details.|
+|sign<br> *required*<br> **string lowercase**|The signature of widget. Refer to [signature calculation](/reference/signature-calculation) for more details.|

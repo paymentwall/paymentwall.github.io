@@ -15,7 +15,7 @@ category: section-brick-charge-object
 |card[exp_month]| Expiration month of user's credit card.|
 |card[exp_year]| Expiration year of user's credit card.|
 |card[name]| Credit card holder name.|
-|card[token]| Permanent token. Refer to guide of [permenant token](/payments/direct/brick/charge).|
+|card[token]| Permanent token. Refer to guide of [permenant token](/integration/direct/brick/charge).|
 |card[type]| Credit card type.|
 |created| Charge opject create time, in unix timestamp.|
 |currency| Currency of product.|
@@ -23,5 +23,5 @@ category: section-brick-charge-object
 |id| ID of charge object.|
 |refunded| Whether the payment is refunded.|
 |risk| Whether the payment is approved by Paymentwall risk system. |
-|secure| Whether [3D Secure](/payments/direct/brick/3dsecure) is applied.|
+|secure| Whether [3D Secure](/integration/direct/brick/3dsecure) is applied.|
 |support_link| The link to get help for payment.|

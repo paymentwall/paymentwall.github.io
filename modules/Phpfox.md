@@ -32,7 +32,7 @@ Paymentwall's plug-in for aMember can be downloaded **[here](https://github.com/
   > Remember to save changes at the bottom of ```Settings``` section.
 
 <div class="docs-img">
-    <img src="/textures/pic/payments/platform/phpfox.png">
+    <img src="/textures/pic/integration/platform/phpfox.png">
 </div>
 
 * In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on PHPfox admin panel.
@@ -81,4 +81,4 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/development/review-home)**
+> **[See how to live your project](/guides/review-home)**

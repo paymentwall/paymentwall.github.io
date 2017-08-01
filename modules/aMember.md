@@ -32,7 +32,7 @@ Paymentwall's plug-in for aMember can be downloaded **[here](https://github.com/
   > Remember to save changes at the bottom of ```Settings``` section.
 
 <div class="docs-img">
-    <img src="/textures/pic/payments/platform/amember.png">
+    <img src="/textures/pic/integration/platform/amember.png">
 </div>
 
 
@@ -73,4 +73,4 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/development/review-home)**
+> **[See how to live your project](/guides/review-home)**

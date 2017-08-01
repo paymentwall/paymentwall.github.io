@@ -1,6 +1,6 @@
 ---
-id: home
-title: Home
+id: integration
+title: Integration overview
 layout: docs
 sectionid: docs
 ---
@@ -65,29 +65,16 @@ This site is hosted by [Github pages](https://pages.github.com/), you can also v
             </p>
             <ul>
                 <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="">PayAlto</a>
-                </li>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="">Brick</a>
-                </li>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="">Mobiamo</a>
-                </li>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="">MINT</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="docs-ul-box-item"> 
-        <div>
-            <h3>Invoicing</h3>
-            <p>
-            Smart and organized e-invoicing solution.
-            </p>
-            <ul>
-                <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="">Invoicing</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Brick Direct</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">Mobiamo Direct</a>
+                </li>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">MINT Direct</a>
                 </li>
             </ul>
         </div>
@@ -164,6 +151,19 @@ This site is hosted by [Github pages](https://pages.github.com/), you can also v
     <div class="docs-ul-box-item"> 
         <div>
             <h3 class="title">SmartTV SDK</h3>
+            <p>
+            Accept payments on Smart TVs. <br> 
+            </p>
+            <ul>
+                <li class="docs-ul-box-li">
+                    <a class="docs-ul-box-li-link" href="">SmartTV payments</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="docs-ul-box-item"> 
+        <div>
+            <h3 class="title">Unity SDK</h3>
             <p>
             Accept payments on Smart TVs. <br> 
             </p>

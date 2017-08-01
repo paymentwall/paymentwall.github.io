@@ -12,7 +12,7 @@ You can use this api to generate ePin if you are a [MINT reseller](http://www.mi
 |---|---|
 |auth[key]<br> *required*<br> **string**|API Public Key<br> Can be obtained under Settings of the Reseller Account|
 |auth[timestamp]<br> *required*<br> **int**|Current UNIX time|
-|auth[sign]<br> *required*<br> **string**|The request signature<br> Refer to this [link](/development/signature-calculation) for signature algorithm|
+|auth[sign]<br> *required*<br> **string**|The request signature<br> Refer to this [link](/reference/signature-calculation) for signature algorithm|
 |params[serviceId]<br> **int**|ID of the service to generate<br> Default value is 0, ePIN generated can be used in all services|
 |params[currencyCode]<br> *required*<br> **string(3)**|ISO 4217 currency code of the ePIN value|
 |params[ePinNominalValue]<br> *required*<br> **int**|Value of the ePIN|

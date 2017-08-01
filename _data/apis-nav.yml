@@ -32,7 +32,7 @@
       title: Iteam tax/discount
     - name: section-invoicing-response
       title: Response attributes
-- title: DIRECT BRICK
+- title: BRICK DIRECT
   items:
     - name: section-brick-onetime_token
       title: Onetime token
@@ -61,13 +61,13 @@
           title: Obtain subscription details
         - name: section-brick-subscription-cancel
           title: Cancel a subscription
-- title: DIRECT MOBIAMO
+- title: MOBIAMO DIRECT
   items:
     - name: section-mobiamo-pricepoint
       title: Pricepoint
     - name: section-mobiamo-pinless
       title: Pinless
-- title: DIRECT MINT
+- title: MINT DIRECT
   items:
     - name: section-mint-generate
       title: Generate ePIN

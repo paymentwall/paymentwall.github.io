@@ -191,7 +191,7 @@ h5{
 blockquote{
     margin:10px 0;
     padding: 0 10px;
-    border-left:4px solid #fec013
+    border-left:4px solid #ebf1f3
 }
 
 blockquote p {
@@ -525,7 +525,7 @@ p {
 
 
 .page-header-nav-left {
-    flex-basis: 80%;
+    flex-basis: 60%;
     margin:auto 0;
     align-items: center;
 }
@@ -547,6 +547,17 @@ p {
     color: #fec013;
     border-color: #fec013;
     font-weight: 500;
+}
+
+.page-header-nav-old-documents{
+    margin: auto 0;
+    flex-basis: 20%;
+    align-items: center;
+}
+
+.page-header-nav-old-documents a{
+    float: right;
+    color: #fff;
 }
 
 
@@ -888,7 +899,7 @@ p {
     overflow:visible;
     padding: 10px 0 0 0;
     border:none;
-    border-top:3px solid #fec013;
+    border-top:3px solid #ebf1f3;
     width: 80%;
 }
 
@@ -949,11 +960,25 @@ p {
 .doc-content ul {
     list-style-type: none;
     margin: 10px 0;
-    padding-left: 17px;
 }
 
 .doc-content ul li{
     margin: 10px 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.doc-content ul li::before{
+    content: "";
+    line-height: 1em;
+    width: .5em;
+    height: .5em;
+    background-color: #ebf1f3;
+    position: absolute;
+    margin: .25em .25em 0;
+    border-radius: 50%;
+    top: 5px;
+    left: 0;
 }
 
 .doc-content a{
@@ -1064,6 +1089,10 @@ p {
     display: flex;
 }
 
+.doc-content .docs-code-tabs li::before{
+    display: none;
+}
+
 .doc-content .docs-code-tabs li {
     margin: 10px 0 0 0;
     display:block;
@@ -1111,6 +1140,16 @@ p {
 
 .docs-ul-box-item {
     width: 50%;
+}
+
+.docs-ul-box-pic {
+    padding: 10px;
+    margin:auto;
+    overflow: hidden;
+}
+
+.docs-ul-box-pic img {
+    display: block;
 }
 
 @media only screen and (max-width: 768px) {

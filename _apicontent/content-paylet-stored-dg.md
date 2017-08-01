@@ -3,7 +3,7 @@ category: section-widget-dg
 ---
 ## Digital Goods
 
-You can set either onetime payment or subscription in ```products``` section for your projects. Refer to product configuration for [Digital Goods](/payments/widget/digital-goods).
+You can set either onetime payment or subscription in ```products``` section for your projects. Refer to product configuration for [Digital Goods](/integration/widget/digital-goods).
 
 ##### Parameters
 
@@ -15,4 +15,4 @@ You can set either onetime payment or subscription in ```products``` section for
 |email<br> *required*<br> **string**| The email from end users. Paymentwall will automatically send a payment receipt to the user once his payment is successfully performed.|
 |timestamp<br> *required*<br> **string**| Unix timestamp of the current date. The limitation of length is 10. |
 |sign_version<br> *required* <br>  **integer** | The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
-|sign<br> *required*<br> **string lowercase**|The signature of widget.<br> Refer to [signature calculation](/development/signature-calculation) for more details.|
+|sign<br> *required*<br> **string lowercase**|The signature of widget.<br> Refer to [signature calculation](/reference/signature-calculation) for more details.|
