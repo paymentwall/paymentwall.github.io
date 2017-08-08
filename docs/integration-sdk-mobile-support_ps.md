@@ -15,11 +15,11 @@ All payment methods optimized by [Mobile SDK](/integration/sdks/mobile-home) for
 
 |Payment Methods|Logo|Extra integration|
 | --- | --- |---|
-|[Credit Card](/integration/sdks/mobile/overview)|<img src="https://api.paymentwall.com/images/developers/pm_allthegate.gif?6 " style="width: 12%">|NO|
+|[Credit Card](/integration/sdks/mobile/core)|<img src="https://api.paymentwall.com/images/developers/pm_allthegate.gif?6 " style="width: 12%">|NO|
 |[Alipay](#guidance-for-extra-integration)|<img src="https://api.paymentwall.com/images/developers/pm_alipay.gif?6 " style="width: 12%">|Required|
 |Union Pay|<img src="https://api.paymentwall.com/images/developers/pm_unionpay.gif?6" style="width: 10%">|Required|
 |[WeChat Pay](#guidance-for-extra-integration)|<img src="https://api.paymentwall.com/images/developers/pm_wechatpayments.gif?6" style="width: 18%">|Required|
-|[Mobiamo](/integration/sdks/mobile/overview) |<img src="https://api.paymentwall.com/images/developers/pm_mobilegateway.gif?6 " style="width: 8%;">|NO|
+|[Mobiamo](/integration/sdks/mobile/core) |<img src="https://api.paymentwall.com/images/developers/pm_mobilegateway.gif?6 " style="width: 8%;">|NO|
 |Mycard|<img src="https://api.paymentwall.com//images/developers/pm_mycardwallet.gif?6" style="width: 18%">|Required|
 |Paysbuy |<img src="https://api.paymentwall.com/images/developers/pm_paysbuy.gif?6 " style="width: 12%">|NO|
 |KBC |<img src="https://api.paymentwall.com/images/developers/pm_kbc.gif?6 " style="width: 12%">|NO|
@@ -27,7 +27,7 @@ All payment methods optimized by [Mobile SDK](/integration/sdks/mobile-home) for
 |Web Money |<img src="https://api.paymentwall.com/images/developers/pm_webmoney.gif?6 " style="width: 12%">|NO|
 |Liqpay | <img src="https://api.paymentwall.com/images/developers/pm_liqpay.gif?6 " style="width: 12%">|NO|
 |Sofort Bank Transfer | <img src="https://api.paymentwall.com/images/developers/pm_sofortbanktransfer.gif?6 " style="width: 12%">|NO|
-|[Mint](/integration/sdks/mobile/overview) | <img src=" https://api.paymentwall.com/images/developers/pm_epinpaymentsystem.gif?6" style="width: 12%">|NO|
+|[Mint](/integration/sdks/mobile/core) | <img src=" https://api.paymentwall.com/images/developers/pm_epinpaymentsystem.gif?6" style="width: 12%">|NO|
 
 
 

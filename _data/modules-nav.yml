@@ -1,69 +1,98 @@
-- id: modules-amember
-  title: aMember
-  path: /modules/aMember
-- id: modules-blesta
-  title: Blesta
-  path: /modules/Blesta
-- id: modules-buycraft
-  title: Buycraft
-  path: /modules/Buycraft
-- id: modules-cs-cart
-  title: CS-Cart
-  path: /modules/CS-Cart
-- id: modules-easy-digital-downloads
-  title: Easy Digital Downloads
-  path: /modules/EDD
-- id: modules-enjin-donationcraft
-  title: Enjin
-  path: /modules/Enjin
-- id: modules-ip-board
-  title: IP Board
-  path: /modules/IPBoard
-- id: modules-jigoshop-wordpress
-  title: Jigoshop Wordpress
-  path: /modules/Jigoshop
-- id: modules-magento
-  title: Magento
-  path: /modules/Magento
-- id: modules-minecraft-market
-  title: Minecraft Market
-  path: /modules/MinecraftMarket
-- id: modules-opencart
-  title: OpenCart
-  path: /modules/OpenCart
-- id: modules-phpfox
-  title: PHPFox
-  path: /modules/Phpfox
-- id: modules-prestashop
-  title: PrestaShop
-  path: /modules/PrestaShop
-- id: modules-shopify
-  title: Shopify
-  path: /modules/Shopify
-- id: modules-shopware
-  title: Shopware
-  path: /modules/Shopware
-- id: modules-telegram
-  title: Telegram
-  path: /modules/Telegram 
-- id: modules-ubercart
-  title: Ubercart
-  path: /modules/Ubercart
-- id: modules-vbulletin
-  title: vBulletin
-  path: /modules/vBulletin
-- id: modules-whmcs
-  title: WHMCS
-  path: /modules/WHMCS
-- id: modules-woocommerce
-  title: Woocommerce
-  path: /modules/Woocommerce
-- id: modules-xenforo
-  title: XenForo
-  path: /modules/XenForo
-- id: modules-Xero
-  title: Xero
-  path: /modules/Xero
-- id: modules-zen-cart
-  title: Zen Cart
-  path: /modules/Zencart
+- id: modules-saas
+  title: Hosting/SaaS
+  items:
+    - id: modules-saas-amember
+      title: aMember
+      path: /modules/amember
+    - id: modules-saas-blesta
+      title: Blesta
+      path: /modules/blesta
+    - id: modules-saas-ip_board
+      title: IP Board
+      path: /modules/ipboard
+    - id: modules-saas-vbulletin
+      title: vBulletin
+      path: /modules/vbulletin
+    - id: modules-saas-whmcs
+      title: WHMCS
+      path: /modules/whmcs
+    - id: modules-saas-xenforo
+      title: XenForo
+      path: /modules/xenforo
+    - id: modules-saas-Xero
+      title: Xero
+      path: /modules/xero
+- id: modules-ecommerce
+  title: E-commerce
+  items:
+    - id: modules-ecommerce-cs_cart
+      title: CS-Cart
+      path: /modules/cs-cart
+    - id: modules-ecommerce-easy_digital_downloads
+      title: Easy Digital Downloads
+      path: /modules/easy-digital-downloads
+    - id: modules-ecommerce-magento
+      title: Magento
+      path: /modules/magento
+    - id: modules-ecommerce-jigoshop_wordpressx
+      title: Jigoshop Wordpress
+      path: /modules/jigoshop
+    - id: modules-ecommerce-opencart
+      title: OpenCart
+      path: /modules/opencart
+    - id: modules-ecommerce-shopify
+      title: Shopify
+      path: /modules/shopify
+    - id: modules-ecommerce-prestashop
+      title: PrestaShop
+      path: /modules/prestashop
+    - id: modules-ecommerce-shopware
+      title: Shopware
+      path: /modules/shopware
+    - id: modules-ecommerce-virtuemart
+      title: VirtueMart
+      path: /modules/virtuemart
+    - id: modules-ecommerce-woocommerce
+      title: Woocommerce
+      path: /modules/woocommerce
+- id: modules-gaming
+  title: Gaming
+  items:
+    - id: modules-gaming-buycraft
+      title: Buycraft
+      path: /modules/buycraft
+    - id: modules-gaming-enjin_donationcraft
+      title: Enjin
+      path: /modules/enjin
+    - id: modules-gaming-minecraft_market
+      title: Minecraft Market
+      path: /modules/minecraftmarket
+- id: modules-messenger
+  title: Social network/Messenger
+  items:
+    - id: modules-messenger-telegram
+      title: Telegram
+      path: /modules/telegram
+    - id: modules-messenger-phpfox
+      title: PHPFox
+      path: /modules/phpfox
+- id: modules-travel
+  title: Travel
+  items:
+    - id: modules-travel-cubilis
+      title: Cubilis 
+      path: /modules/cubilis
+
+
+
+
+
+
+
+
+
+
+
+
+
+

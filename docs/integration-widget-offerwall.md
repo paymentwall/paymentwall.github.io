@@ -5,7 +5,7 @@ sectionid: docs
 permalink: integration/widget/offerwall
 ---
 
-# Offerwall
+# Widget API - Offerwall
 
 Offerwall is a monetizing & advertising solution provided by Paymentwall. It has its own websites.
 

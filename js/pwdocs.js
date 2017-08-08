@@ -12,9 +12,9 @@ function goto(url, addEntry, id){
 
     $('.article').ready(function(){
         if (show_preloader) {
-            $('.showbox').css('display','block'); 
+            $('.showbox').css('display','block');
         } else{
-            $('.showbox').css('display','none'); 
+            $('.showbox').css('display','none');
         };
     });
     // Add support for load() function to enable javascript for loaded content
@@ -128,7 +128,7 @@ $(document).ready(function() {
         $('#' + parentId + ' .docs-code-tabs__body').removeClass('is-active');
         $(this).addClass('is-active');
         $('#' + parentId + ' .js-lang-' + lang).addClass('is-active');
-        $('.showbox').css('display','none'); 
+        $('.showbox').css('display','none');
     });
 
     $('.showbox').css('display','none');

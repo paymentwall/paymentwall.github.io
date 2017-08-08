@@ -1,74 +1,77 @@
 ---
 id: module-cs-cart
 title: Modules-CS-Cart
-permalink: modules/CS-Cart
+permalink: modules/cs-cart
 sectionid: docs-modules
 ---
 
 # CS-Cart
 
-Paymentwall's CS-cart plug-in is easy to install and fully customizable. With a single integration you'll have access to our 120+ payment options localized in 75+ currencies and more than 200 countries. You'll also have access to our top-notch risk management and fraud protection services, optimization assistance, 24/7 live customer support and detail analytics and reporting tools.
+Paymentwall’s CS-Cart plug-in is easy to install and fully customizable. With a single integration, all products of your E-commerce business will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries. 
 
 This tutorial assumes that you have a Paymentwall account. Please **[Sign up](https://api.paymentwall.com/pwaccount/signup?source=cscart&mode=merchant)** if you don't have one.
+
+***
 
 ## Download plug-in
 
 Paymentwall's plug-in for CS-cart can be downloaded **[here](https://github.com/paymentwall)**.
 
+***
+
 ## Project configuration in Paymentwall system
 
-* Login to Paymentwall system with your account.
++ Login to Paymentwall system with your account.
 
-* Go to ```My Projects``` tab. You will see your new project already created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on CS-Cart admin panel.
++ Go to **My Projects** tab. You will see your new project already created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on CS-Cart admin panel.
 
-* In ```Settings``` section, please set your project type to  ```Digital Goods```.
+	- In **Settings** section, please set your project type to  ```Digital Goods```.
 
-* Set ```pingback type``` to URL.
+	- Set **Pingback type** to URL.
 
-* Configure your ```pingback url``` to *http://[path-to-cscart]/index.php?dispatch=paymentwall.pingback*
+	- Configure your **Pingback URL** to [http://[path-to-cscart]/index.php?dispatch=paymentwall.pingback]().
 
-* Choose the ```Pingback Signature Version``` to version 3.
+	- Choose the **Pingback Signature Version** to version 3.
 
-* Add the ```Custom pingback parameter``` with **payment_id** at ```Name```, and **OWN** at ```Value```.
+	- Add the **Custom pingback parameter** with **payment_id** at ```Name```, and **OWN** at ```Value```.
 
-  > Remember to save changes at the bottom of ```Settings``` section.
+> Remember to save changes at the bottom of **Settings** section.
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/platform/amember.png">
-</div>
++ You can also enable *Brick* as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
 
-* In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on CS-Cart admin panel.
++ In **Widgets** section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on CS-Cart admin panel.
+
+***
 
 ## Setup Paymentwall module on your platform
 
-* Unpack all files from ```PaymentwallForCSCartV3``` and upload to your CS-Cart **root** folder using an FTP client of your choice.
++ Unpack all files from **PaymentwallForCSCartV3** and upload to your CS-Cart **root** folder using an FTP client of your choice.
 
-* Login to your admin area, go to ```Addons Manager``` on the top navigation -> ```Browse all available add-ons```.  Click ```Install``` button on ```Paymentwall```.
++ Login to your admin area, go to **Addons Manager** on the top navigation -> **Browse all available add-ons**, click **Install** button on *Paymentwall*.
 
-* Go to ```Administration``` on the top navigation, choose ```Payment methods```, it will list all available payment methods.
++ Go to **Administration** on the top navigation, choose **Payment methods**, it will list all available payment methods.
 
-* Click **+** button on the top right side to ```Add payment method```.
++ Click **+** button on the top right side to **Add payment method**.
 
-* In ```New payment method```, choose **Paymentwall** as ```Processor```. 
++ In **New payment method**, choose *Paymentwall* or *Brick* as **Processor**. 
 
-Fill in other information and switch to ```Configure``` tab
+	- Fill in other information and switch to **Configure** tab
 
-* Fill all the required fields.
+	- Fill all the required fields.
 
-  >The ```Project Key``` and ```Secret Key``` can be found under your Enjin project overview's ```Widget Keys``` in ```My Projects``` tab. ```Widget code``` is available in your ```Widgets``` section of your project.
+> The ```Project Key``` and ```Secret Key``` can be found under your CS-Cart project overview's ```Widget Keys``` in **My Projects** tab. If you are using *Brick*, ```Public Key``` and ```Private Key``` are under ```Brick Test Keys``` and ```Brick Live Keys```. ```Widget code``` is available in your **Widgets** section of your project. 
 
-## Version support
+***
 
-Paymentwall provides supports for bellow CS-Cart versions.
+## Support
 
-|CS-Cart version|Support|
-|-------|--------|
-|3|Yes|
-|4 (up to 4.4)|Yes|
++ Paymentwall provides supports for CS-Cart versions 3 and 4 (up to 4.4).
 
++ List of available **Payment Methods** can be discovered [here](https://www.paymentwall.com/en/payment-methods).
 
-> Contact [module@paymentwall.com](mailto:module@paymentwall.com) if you find the version of your CS-Cart module is not supported.
+> Contact [platform@paymentwall.com](mailto:platform@paymentwall.com) if you find the version of your CS-Cart module is not supported.
 
+***
 
 ## Next step
 

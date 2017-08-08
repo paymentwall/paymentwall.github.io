@@ -13,6 +13,6 @@ Sample Request
 ```javascript
 var subscription = new Paymentwall.Subscription();
 subscription.otherOperation(subscriptionid,'detail',function(response){
-  response.getFullResponse('JSON');
+    response.getFullResponse('JSON');
 });
 ```

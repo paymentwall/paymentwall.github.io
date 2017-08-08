@@ -5,6 +5,11 @@ sectionid: docs
 permalink: reference/mobile_web
 ---
 
-# Mobile-web Integration
+# Mobile-web
 
-To be continued.
+This tutorial introduce how to integrate Paymentwall hosted checkout solution with *webview* on mobile devices without using mobile SDKs. 
+
+***
+
+## Required parameters
+

@@ -5,64 +5,207 @@ sectionid: docs
 permalink: integration/widget/virtual-currency
 ---
 
-# Virtual Currency
+# Widget API - Virtual Currency
 
-Please make sure your project is configured as **Virtual Currency API** before starting.
+[Full API Reference](/apis#section-widget-vc).  
 
-## Setup price points
+Specify the currency for your application virtual cash. 
+Virtual Currency API will help you to manage the currencies.
 
-By using virtual currency, you can add your own price points to specific payment method. Do following steps to configure your price points.
+* [Widget Call](#widget-call).
 
-* Access your **project settings** and set the virtual currency exchange rate and name of your virtual currency. For example, lets set the virtual currency like 1 USD = 15 Gold coins:
+* [Handle Pingback](#handle-pingback).
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/widget/vc-exchange-rate.png">
+* [Success Page](#success-page).
+
+## Configuration
+
+Once you have a project created in [My Projects](https://api.paymentwall.com/developers/applications), you can start configure your project at **Settings** section to make it work properly with *Widget API*:
+
+* Select **Your API**  as *Virtual Currency*.
+
+* Setup your inventories using [Product Manager](/reference/product_management_vc)
+
+* Filling the **Pingback url** to receive pingback notification.
+
+***
+
+## Widget Call
+
+By replacing the value of ```ps``` parameter from 'all' to specific [payment systems API](/apis#section-tools-payment-systems) short codes, you can specify payment method for *single payment method*.
+
+{% assign codeId = "widget-api-vc" %}
+<div class="docs-code" id="{{ codeId }}">
+  <ul class="docs-code-tabs">
+    <li>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="java">Java</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="ruby">Ruby</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="python">Python</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="dotnet">.NET</a>
+    </li>
+  </ul>
+  <div class="docs-code-tabs__body js-lang-php is-active">
+    {% for docscode in site.docscode-php %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-js">
+    {% for docscode in site.docscode-js %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-java">
+    {% for docscode in site.docscode-java %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-ruby">
+    {% for docscode in site.docscode-ruby %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-python">
+    {% for docscode in site.docscode-python %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-dotnet">
+    {% for docscode in site.docscode-dotnet %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
-* You can also set more than one currency exchange clicking on **Manage Currency Rates**. So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
+## Handle Pingback
+> Before you start, please read [Pingbacks](/reference/pingback-home) document first to get overview of Paymentwall Pingback system.
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/widget/vc-custom-xe.png">
+Sample Pingback Request for Virtual Currency :
+
+```
+http://www.yourserver.com/anypath?uid=pwuser&currency=200&type=0&ref=b1493096790&sign_version=2&sig=d94b23ba8585f29978706dd1b153ead9
+```
+
+Sample code using [Paymentwall API Libraries](https://github.com/paymentwall) at GitHub.
+
+{% assign codeId = "pingback-listener-vc" %}
+<div class="docs-code" id="{{ codeId }}">
+  <ul class="docs-code-tabs">
+    <li>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="java">Java</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="ruby">Ruby</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="python">Python</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="dotnet">.NET</a>
+    </li>
+  </ul>
+  <div class="docs-code-tabs__body js-lang-php is-active">
+    {% for docscode in site.docscode-php %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-js">
+    {% for docscode in site.docscode-js %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-java">
+    {% for docscode in site.docscode-java %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-ruby">
+    {% for docscode in site.docscode-ruby %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-python">
+    {% for docscode in site.docscode-python %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-dotnet">
+    {% for docscode in site.docscode-dotnet %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
-* You can then register your price points in Paymentwall side. In **Price Points** area, choose the payment systems where you want to set price points in and add yours there. 
+Before you submit the project, please test your pingback integration using [Test Pingback Tool](/sandbox/pingback-tool).
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/widget/vc-pricepoint.png">
-</div>
+You should check whether your Pingback listener is :
+- responding "OK" to Paymentwall pingback requests.
+- filtering duplicate reference id requests.
+- filtering wrong signature requests. You can test this by checking "Use a dummy value" feature in Test Pingback Tool.
 
-> Mobiamo has its own price points which are declared by mobile operators. New price points are not acceptable for Mobiamo.
+## Success Page
+If you would like to redirect the user after a payment is made, you can pass the ```success_url``` and ```failure_url``` parameters as [optional parameter](/apis#section-checkout-optional_parameter) that will be used as the address of landing page after your users made payments.
+You can also use client side callback if you want to take more actions.
 
-You will also see how much virtual currency the customer is purchasing (this is calculated according to the virtual currency exchange rate).
+> To enable client side callback, please contact to devsupport@paymentwall.com with your Paymentwall account email address.
 
-## Price points details
-
-| Field | Description |
-|---|---|
-|**Active**| shows or hides the product inside the widget |
-|**Price**| End user payment price|
-|**Base, Gold Coins**| How much VC the price point is worth. No bonuses or discounts applied |
-|**Discount type**| You can set that price point to have bonuses or discounts applied. |
-|**Discount amount**| Amount of discount/bonus to be applied |
-|**Result**| Final amount of VC the user is purchasing |
-|**Promotion**| Promotional message |
-|**Default**| Sets the product as pre-selected when widget is opened |
-|**Most popular**| Adds **Most Popular** tag |
-|**Best value**| Adds **Best Value** tag |
-|**Clicks**| Amount of clicks this price point already has. You can use this to check price points popularity |
-|**Convertions**| Amount of confirmed purchases this price point have |
-|**Revenue**| Amount in USD of how much money this price point generates |
- 
-## API Call
-
-See [Stored Product for virtual currency](/apis#section-widget-vc).
+***
 
 ## Next Step
 
-Once you have successfully integrated our widget, you can then continue with pingback setup.
+Once you have successfully integrated our widget and set up for pingback listener, you can submit your project for review.
 
-> [Pingbacks for virtual currency API](/reference/pingback/vc).
-
-Alternatively, you can also see digital goods of Stored Product.
-
-> [Digital goods](/integration/widget/digital-goods).
+> See [project go live](/guides/review-home).

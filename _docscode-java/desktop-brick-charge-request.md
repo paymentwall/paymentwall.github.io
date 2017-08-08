@@ -2,8 +2,8 @@
 codeId: desktop-brick-charge-request
 ---
 ```java
-Config.getInstance().setPublicKey("YOUR_APPLICATION_KEY");
-Config.getInstance().setPrivateKey("YOUR_SECRET_KEY");
+Config.getInstance().setPublicKey("YOUR_PUBLIC_KEY");
+Config.getInstance().setPrivateKey("YOUR_PRIVATE_KEY");
 
 LinkedHashMap<String,String> chargemap = new LinkedHashMap<String, String>();
 chargemap.put("token", request.getParameter("brick_token"); 

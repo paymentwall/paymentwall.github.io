@@ -25,13 +25,12 @@
         - id: nav-integration-checkout-subscription
           title: Subscription
           path: /integration/checkout/subscription
-        - id: nav-integration-checkout-cart
-          title: Cart
-          path: /integration/checkout/cart
     - id: nav-integration-direct
       title: Direct API
-      path: /integration/direct-home
       subitems:
+        - id: nav-integration-direct-invoicing
+          title: Invoicing
+          path: /integration/direct/invoicing-home
         - id: nav-integration-direct-brick
           title: Brick Direct
           path: /integration/direct/brick-home
@@ -64,23 +63,19 @@
         - id: nav-integration-direct-mint
           title: MINT Direct
           path: /integration/direct/mint-home
-        - id: nav-integration-direct-invoicing
-          title: Invoicing
-          path: /integration/direct/invoicing-home
     - id: nav-integration-platform
-      title: Extensions & Plugins
+      title: Modules and Platforms
       href: /modules/aMember
     - id: nav-integration-sdk
       title: SDKs
-      path: /integration/sdks
       subitems:
         - id: nav-integration-sdk-mobile
           title: Mobile
           path: /integration/sdks/mobile-home
           leaves:
-            - id: nav-integration-sdk-mobile-overview
-              title: Overview
-              path: /integration/sdks/mobile/overview
+            - id: nav-integration-sdk-mobile-core
+              title: Core SDK
+              path: /integration/sdks/mobile/core
             - id: nav-integration-sdk-mobile-support_ps
               title: Optimized payment methods
               path: /integration/sdks/mobile/support_ps
@@ -146,40 +141,37 @@
 - id: nav-reference
   title: Reference
   items:
-    - id: nav-reference-signature_calculation
-      title: Signature Calculation
-      path: /reference/signature-calculation
+    - id: nav-reference-client_side_callback
+      title: Client-side Callback
+      path: /reference/client-side-callback
+    - id: nav-reference-currency
+      title: Currency codes
+      path: /reference/currency
     - id: nav-reference-lang
       title: Lang codes
       path: /reference/lang
     - id: nav-reference-ps
       title: Payment system codes
       path: /reference/ps
-    - id: nav-reference-currency
-      title: Currency codes
-      path: /reference/currency
-    - id: nav-reference-widgets
-      title: Widgets
-      path: /reference/widgets
-    - id: nav-reference-mobile_web
-      title: Mobile webview
-      path: /reference/mobile_web
-    - id: nav-reference-product_management
-      title: Product Management
-      path: /reference/product_management
+    - id: nav-reference-product_manager
+      title: Product Manager
+      subitems:
+      - id: nav-reference-product_manager_dg
+        title: Digital Goods
+        path: /reference/product_manager_dg
+      - id: nav-reference-product_manager_vc
+        title: Virtual Currency
+        path: /reference/product_manager_vc
     - id: nav-reference-pingback
       title: Pingback
       path: /reference/pingback-home
       subitems:
-        - id: nav-reference-pingback-dg
-          title: Digital Goods
-          path: /reference/pingback/dg
-        - id: nav-reference-pingback-vc
-          title: Virtual Currency
-          path: /reference/pingback/vc
         - id: nav-reference-pingback-custom_param
           title: Custom Parameters
           path: /reference/pingback/custom-parameter
-    - id: nav-reference-client_side_callback
-      title: Client-side Callback
-      path: /reference/client-side-callback
+    - id: nav-reference-signature_calculation
+      title: Signature Calculation
+      path: /reference/signature-calculation
+    - id: nav-reference-widgets
+      title: Widgets
+      path: /reference/widgets

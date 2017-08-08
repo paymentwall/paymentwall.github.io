@@ -1,92 +1,108 @@
 ---
 id: module-magento
 title: Modules-Magento
-permalink: modules/Magento
+permalink: modules/magento
 sectionid: docs-modules
 ---
 
 # Magento
 
-Paymentwall’s Magento plug-in is easy to install and fully customizable. With a single integration you’ll have access to our 120+ payment options localized in 75+ currencies and more than 200 countries. You’ll also have access to our top-notch risk management and fraud protection services, optimization assistance, 24/7 live customer support and detail analytics and reporting tools.
+Paymentwall’s Magento plug-in is easy to install and fully customizable. With a single integration, all products of your E-commerce business will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries. 
 
 This tutorial assumes that you have a Paymentwall account. Please **[Sign up](https://api.paymentwall.com/pwaccount/signup?source=magento&mode=merchant)** if you don't have one.
+
+***
 
 ## Download plug-in
 
 Paymentwall's plug-in for Magento can be downloaded **[here](https://github.com/paymentwall)**.
 
+***
+
 ## Project configuration in Paymentwall system
 
-* Login to Paymentwall system with your account.
++ Login to Paymentwall system with your account.
 
-* Go to ```My Projects``` tab. You will see your new project already created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on Magento admin panel.
++ Go to **My Projects** tab. You will see your new project already created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on Magento admin panel.
 
-* You can also enable **Brick** as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
+	- In **Settings** section, please set your project type to ```Digital Goods```.
 
-* In ```Settings``` section, please set your project type to  ```Digital Goods```.
+	- Set **Pingback type** to URL.
 
-* Set ```pingback type``` to URL.
+	- Configure your **Pingback URL** 
 
-* Configure your ```pingback url``` 
+	- For **Magento v1** [http://[your-domain]/index.php/paymentwall/payment/ipn]()
+	
+	- For **Magento v2** [http://[your-domain]/paymentwall/index/pingback]()
 
- * For **Magento v1**: *http://[your-domain]/index.php/paymentwall/payment/ipn*
+	- Choose the **Pingback Signature Version** to version 2 or 3
 
- * For **Magento v2**: *http://[your-domain]/paymentwall/index/pingback*
+> Remember to save changes at the bottom of **Settings** section.
 
-* Choose the ```Pingback Signature Version``` to version 2 or 3.
++ You can also enable *Brick* as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
 
-  > Remember to save changes at the bottom of ```Settings``` section.
++ In **Widgets** section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Magento admin panel.
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/platform/magento.png">
-</div>
-
-* In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Magento admin panel.
+***
 
 ## Setup Paymentwall module on your platform
 
-* Download the plugin archive and * upload the app folder into your Magento **root** folder using an FTP client of your choice.
++ If you are using **Magento v1**:
 
-* If you are using **Magento v1**:
+	- Download the plugin archive and  upload the app folder into your Magento **root** folder using an FTP client of your choice.
 
- * In your Magento Admin Panel, go to ```Cache Management``` and refresh all cache.
+	- In your Magento Admin Panel, go to **Cache Management** and refresh all cache.
 
- * After that, go to ```Configuration``` from ```System``` menu.
+	- After that, go to **Configuration** from **System** menu.
 
- * In the ```Sales``` section choose ```Payment Methods```.
+	- In the **Sales** section choose **Payment Methods**.
 
- * Select **Paymentwall** and fill all the required fields.
+	- Select *Paymentwall* and fill all the required fields.
 
-* If you are using **Magento v2**:
++ If you are using **Magento v2**:
 
- *  Enter following commands to enable module
+	- Download the plugin archive and upload the app folder into your Magento **root** folder using an FTP client of your choice.
+ **OR**
 
- ```
- php bin/magento module:enable Paymentwall_Paymentwall
- php bin/magento setup:upgrade 
- ```
+	- Run the following commands to install via composer
 
- *  In your Magento Admin Panel, go to ```Stores``` section.
+> Note: If you have already installed our module manually and now want to re-install via composer, please delete folder **app/code/Paymentwall** in your Magento directory before proceeding with the commands.
 
- * Choose ```Payment Methods``` under ```Sale``` dropdowns.
+```json
+cd <your Magento install dir>
+composer require paymentwall:module-magento2 --no-update
+composer update
+``` 
 
- * Select **Paymentwall** and fill all the required fields.
++ After installing the module, continue to run the following commands to enable it. 
 
->The ```Project Key``` and ```Secret Key``` can be found under your Enjin project overview's ```Widget Keys``` in ```My Projects``` tab. If you are using **Brick**, ```Public Key``` and ```Private Key``` are under ```Brick Test Keys```.  ```Widget code``` is available in your ```Widgets``` section of your project.
+> Note: If you have difficulty running this command, make sure that your bin/magento executable has execute permissions.
 
+```json
+bin/magento module:enable Paymentwall_Paymentwall
+bin/magento setup:upgrade 
+bin/magento setup:di:compile
+```
 
-## Version support
++ In your Magento Admin Panel, go to **Stores** section.
 
-Paymentwall provides supports for bellow Magento versions.
+	- Choose **Payment Methods** under **Sale** dropdowns.
 
-|Magento version|Support|
-|-------|--------|
-|1|Yes|
-|2|Yes|
+	- Select *Paymentwall* and fill all the required fields.
 
+> The ```Project Key``` and ```Secret Key``` can be found under your Magento project overview's ```Widget Keys``` in **My Projects** tab. If you are using *Brick*, ```Public Key``` and ```Private Key``` are under ```Brick Test Keys```.  ```Widget code``` is available in your **Widgets** section of your project.
 
-> Contact [module@paymentwall.com](mailto:module@paymentwall.com) if you find the version of your Magento module is not supported.
+***
 
+## Support
+
++ Paymentwall provides supports for Magento versions 1 and 2.
+
++ List of available **Payment Methods** can be discovered [here](https://www.paymentwall.com/en/payment-methods).
+
+> Contact [platform@paymentwall.com](mailto:platform@paymentwall.com) if you find the version of your Magento module is not supported.
+
+***
 
 ## Next step
 
@@ -96,4 +112,5 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/guides/review-home)**
+> **[See how to live your project](/go_live-home)**
+

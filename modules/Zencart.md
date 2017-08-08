@@ -1,7 +1,7 @@
 ---
 id: module-zencart
 title: Modules-Zencart
-permalink: modules/Zencart
+permalink: modules/zencart
 sectionid: docs-modules
 ---
 
@@ -14,6 +14,8 @@ This tutorial assumes that you have a Paymentwall account. Please **[Sign up](ht
 ## Download plug-in
 
 Paymentwall's plug-in for Zen Cart can be downloaded **[here](https://github.com/paymentwall)**.
+
+> The plug-in is not updated for the latest versions of Zen Cart. Any contribution from you on Github would be highly appreciated.
 
 ## Project configuration in Paymentwall system
 
@@ -50,7 +52,7 @@ Paymentwall's plug-in for Zen Cart can be downloaded **[here](https://github.com
   >The ```Project Key``` and ```Secret Key``` can be found in your Paymentwall Account in ```My Projects``` tab. ```Widget code``` is available in your ```Widgets``` section of your Paymentwall project of Zen Cart.
 
 
-## Version support
+## Support
 
 Paymentwall provides supports for bellow Zen Cart versions.
 

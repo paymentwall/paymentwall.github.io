@@ -2,8 +2,8 @@
 codeId: desktop-brick-subscription-trial
 ---
 ```java
-Config.getInstance().setPublicKey("YOUR_APPLICATION_KEY");
-Config.getInstance().setPrivateKey("YOUR_SECRET_KEY");
+Config.getInstance().setPublicKey("YOUR_PUBLIC_KEY");
+Config.getInstance().setPrivateKey("YOUR_PRIVATE_KEY");
 
 LinkedHashMap<String, String> subscriptionmap = new LinkedHashMap<String, String>();
 
@@ -17,10 +17,10 @@ subscriptionmap.put("plan", "YOUR-PRODUCT-ID");
 subscriptionmap.put("period", "week");
 subscriptionmap.put("period_duration", "1");
 
-subscriptionmap.put("trail[amount]", "0.5");
-subscriptionmap.put("trail[currency]", "USD");
-subscriptionmap.put("trail[period]", "day");
-subscriptionmap.put("trail[period_duration]", "3");
+subscriptionmap.put("trial[amount]", "0.5");
+subscriptionmap.put("trial[currency]", "USD");
+subscriptionmap.put("trial[period]", "day");
+subscriptionmap.put("trial[period_duration]", "3");
 Subscription subscription = new Subscription();
 subscription = (Subscription) subscription.create(subscriptionmap);
 ```

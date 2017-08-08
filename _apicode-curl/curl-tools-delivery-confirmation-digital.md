@@ -5,7 +5,7 @@ category: section-tools-delivery-confirmation-digital
 Sample Request
 ```
 curl https://api.paymentwall.com/api/delivery \
--H "X-ApiKey: [YOUR_PRIVATE_API_KEY]" \
+-H "X-ApiKey: [YOUR_SECRET_KEY]" \
 -d "payment_id=b111260108" \
 -d "merchant_reference_id=order_12345" \
 -d "type=digital" \
@@ -22,6 +22,6 @@ curl https://api.paymentwall.com/api/delivery \
 Sample Response
 ```json
 {
-	"success": 1
+    "success": 1
 }
 ```

@@ -16,22 +16,23 @@
       title: Onetime payment
     - name: section-checkout-subscription
       title: Subscription
-    - name: section-checkout-cart
-      title: Cart
     - name: section-checkout-optional_parameter
       title: Optional Parameter
-- title: INVOCING
+- title: INVOCING DIRECT
   items:
-    - name: section-invoicing-contacts
-      title: Contacts
-    - name: section-invoicing-items
-      title: Items
-    - name: section-invoicing-tax_invoice
-      title: Invoice tax/discount
-    - name: section-invoicing-tax_item
-      title: Iteam tax/discount
-    - name: section-invoicing-response
-      title: Response attributes
+    - name: section-invoicing
+      title: Invoice
+      subitems:
+      - name: section-invoicing-contacts
+        title: Contacts
+      - name: section-invoicing-items
+        title: Items
+      - name: section-invoicing-tax_invoice
+        title: Invoice tax/discount
+      - name: section-invoicing-tax_item
+        title: Iteam tax/discount
+      - name: section-invoicing-response
+        title: Response attributes
 - title: BRICK DIRECT
   items:
     - name: section-brick-onetime_token

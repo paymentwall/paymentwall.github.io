@@ -7,18 +7,14 @@ permalink: reference/pingback-home
 
 # Pingbacks
 When user pays or completes an offer, we will send a pingback which will notify your server regarding the transactions.
-<br>
+
 Pingback request is sent from our servers to your Pingback listener script 
 where we communicate to your server regarding the details about payment transactions 
 so that your server can process the pingback automatically and deliver the goods to the according users.
-<br>
+
 In project settings area, please input the Pingback URL which is the URL address of your script that processes the pingbacks.
 
-## Request Method
-GET, POST
-
-## Protocols Supported
-HTTP, HTTPS
+***
 
 ## Pingback Security
 
@@ -29,10 +25,14 @@ Please add following IP Addresses as authorized IP addresses to access the scrip
 - 174.36.96.66
 - 174.37.14.28
 
+***
+
 ## Pingback Return Value
-If you are able to process the requests, please respond back to the Pingback request with 'OK'.
+If you are able to process the requests, please respond back to the Pingback request with ```OK```.
 If we don't receive a confirmation message or if the response status code is different from 200, 
 we will send Pingbacks again within 30 minutes and the subsequent retries will happen at 30 minute increments after that.
+
+***
 
 ## Pingback Parameters
 Below are the parameters which are included for both Digital Goods API and Virtual Currency API.
@@ -61,6 +61,8 @@ For Virtual Currency API, default pingback would include following parameters as
 |---|---|
 |**currency**|eg: positive whole number such as 200 <br>Currency amount of virtual money that user purchased.|
 
+***
+
 ## Pingback Type 
 
 By default, Pingback has two default types.
@@ -86,6 +88,8 @@ Additionally, following pingback types can be activated by request for recurring
 |**13**| When subscription expired.|
 |**14**| When renewal subscription payment failed. Subscription stopped due to failing payments e.g. due to insufficient funds.|
 
+***
+
 ## Pingback Reference 
 
 Each pingback has own reference id comes after parameter name "ref".<br>
@@ -94,6 +98,8 @@ To prevent double crediting or fraud transactions etc, we need you to store refe
 Please note when you receive pingback :
 - With type=0 : Make sure the reference value is unique. If you have history of same reference id, please do not deliver goods to user twice.
 - With type=2 : Make sure you have a record of reference value with type=0 pingback. Please take exact product from user. Please refer [Chargeback Pingback](#chargeback-pingback) for detailed information.
+
+***
 
 ## Chargeback Pingback
 
@@ -115,10 +121,10 @@ Requested method and Parameters are the same as for common pingback except :
 |**9**|Canceled order, e.g. refund| |
 |**10**|Partially reversed transaction| |
 
-## Next Step
+***
 
-Refer to links below to check the API Pingback details of what you integrated :
+## Relate topic
 
-> **[Brick / Digital Goods API Pingback](/reference/pingback/dg)**
+* [Custom pingback parameters](/reference/pingback/custom-parameter).
 
-> **[Virtual Currency API Pingback](/reference/pingback/vc)**
+* [Test pingback tool](/sandbox/pingback-tool).

@@ -144,8 +144,11 @@ body *,body *:before,body *:after {
 ul,ol {
     margin:0;
     padding:0;
+}
+ul {
     list-style-type:none
 }
+
 h1,h2,h3,h4 {
     margin:0
 }
@@ -1006,6 +1009,16 @@ p {
 }
 
 
+.doc-content em{
+    padding: 3px;
+    word-wrap: normal;
+    font-size: 14px;
+    font-weight: 500;
+    color: #474747;
+    line-height: 1;
+    background: #ebf1f3;
+}
+
 .doc-content table td{
     padding: 20px 10px;
     color: #474747;
@@ -1016,6 +1029,12 @@ p {
 
 .doc-content table td:last-child{
     text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    .doc-content table td:last-child{
+        text-align: right;
+    }
 }
 
 .doc-content table th{
@@ -1044,6 +1063,10 @@ p {
     color: #f46228;
     font-style: normal;
     font-weight: bold;
+    background: inherit;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .doc-content table td:first-child strong{
@@ -1056,6 +1079,7 @@ p {
     .doc-content table thead {
         display: none;
     }
+
 
     .doc-content table tr{
         display: block;
@@ -1073,6 +1097,7 @@ p {
         font-weight: bold;
         color: #474747;
     }
+
 }
 
 .doc-content .anchor{
@@ -1140,6 +1165,16 @@ p {
 
 .docs-ul-box-item {
     width: 50%;
+    padding-right: 20px;
+}
+
+.docs-ul-box-item-title {
+    display: flex;
+}
+
+.docs-ul-box-item-title-svg{
+    width: 30px;
+    margin: 14px 10px 14px 0;
 }
 
 .docs-ul-box-pic {
@@ -1156,6 +1191,10 @@ p {
     .docs-ul-box-item {
         width: 100%;
     }
+}
+
+.doc-content ol {
+    padding-left: 20px;
 }
 
 .highlight {
@@ -1183,6 +1222,7 @@ p {
 
 .docs-img img {
     max-width: 100%;
+    margin: 10px 0;
 }
 
 .docs-iframe {
@@ -1282,19 +1322,18 @@ p {
     background: white;
     z-index: 1000;
 }
-
-.loader {
+// end demo-specific
+   .loader {
        position: relative;
        margin: 0 auto;
        width: 100px;
+
 &:before {
-    content: '';
-    display: block;
-    padding-top: 100%;
+     content: '';
+     display: block;
+     padding-top: 100%;
+ }
 }
-}
-
-
 
 .circular {
     animation: rotate 2s linear infinite;

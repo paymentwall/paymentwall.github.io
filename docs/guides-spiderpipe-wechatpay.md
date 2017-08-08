@@ -21,7 +21,7 @@ In order to set up a Wechat Pay business account, please see [setup flow](http:/
 
 ## Add Wechat Pay account to Paymentwall
 
-* Login to Paymentwall Merchant Area, go to **My Accounts**, **Account Settings**
+* Login to Paymentwall merchant dashboard, go to **My Accounts**, **Account Settings**
 
 <div class="docs-img">
 	<img src="/textures/pic/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="max-width:80%">

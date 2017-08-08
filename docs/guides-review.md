@@ -12,7 +12,7 @@ Your project is always in sandbox environment when its status is not live, where
 You can submit your project for review by clicking **SUBMIT FOR REVIEW** button.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/review/review-submit.png" style="max-width: 30%">
+	<img src="/textures/pic/guides/review/review-submit.png" style="max-width: 30%">
 </div>
 
 ## Adjustment before going live

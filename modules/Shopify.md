@@ -1,7 +1,7 @@
 ---
 id: module-shopify
 title: Modules-Shopify
-permalink: modules/Shopify
+permalink: modules/shopify
 sectionid: docs-modules
 ---
 
@@ -9,55 +9,61 @@ sectionid: docs-modules
 
 Paymentwall has partnered with Shopify to allow its server owners accept payments easily via Paymentwall using credit cards, SMS payments, prepaid payment methods (such as Paysafecard, TicketSurf, Boleto), bank transfers and eWallets.
 
+***
+
+## Paymentwall activation
+
 To connect Paymentwall with your Shopify store simply follow the 2 easy steps below:
 
-## Project configuration in Paymentwall system
-* Create your project with [Shopify connect button](https://api.paymentwall.com/developers/connect?source=shopify).
+### Project configuration in Paymentwall system
 
-* You will be taken to **Paymentwall Account Registration Page**. **Sign Up** if you don't have an account or **Sign In** if you already have one. When you **Sign Up**, use your Shopify webstore URL for the **Website URL** field (e.g. *https://mystore.myshopify.net*).
++ Create your project with [Shopify connect button](https://api.paymentwall.com/developers/connect?source=shopify).
 
-* You will be taken to your merchant area page with your project already set up (a new project will be created if you had an account before).
++ You will be taken to **Paymentwall Account Registration Page**. **Sign Up** if you don't have an account or **Sign In** if you already have one. When you **Sign Up**, use your Shopify webstore URL for the **Website URL** field (e.g. *https://mystore.myshopify.net*).
 
-* Go to **My Projects** tab. You will see that your new project has already been created. **Project Key** and **Secret Key** will be needed later to finish the project setup on Shopify admin panel.
++ You will be taken to your merchant area page with your project already set up (a new project will be created if you had an account before).
 
-* In **Settings** section, please set **Your API type** to  **Digital Goods**.
++ Go to **My Projects** tab. You will see that your new project has already been created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on Shopify admin panel.
 
-* Turn on the **Widget signature is required**.
+	- In **Settings** section, please set **Your API type** to ```Digital Goods```.
 
-* Change the **Pingback URL** to your Shopify store URL (e.g. *https://mystore.myshopify.net*)
+	- Turn on the **Widget signature is required**.
 
-* Choose the **Pingback Signature Version** to version 3.
+	- Change the **Pingback URL** to your Shopify store URL (e.g. [https://mystore.myshopify.net]())
 
-  > Remember to save changes at the bottom of **Settings** section.
+	- Choose the **Pingback Signature Version** to version 3.
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/platform/shopify.png">
-</div>
+> Remember to save changes at the bottom of **Settings** section.
 
 * In **Widgets** section, create a widget that you prefer. And save changes.
 
-## Setup Paymentwall module on your platform
-* Please authorize **Paymentwall** on your Shopify store via this [link](https://www.shopify.com/login?redirect=authorize_gateway%2F1030414). 
+### Setup Paymentwall module on your platform
 
-* After you log in to your shop, you will be prompted to add **Paymentwall** as a gateway. 
++ Please authorize *Paymentwall* on your Shopify store via this [link](https://www.shopify.com/login?redirect=authorize_gateway%2F1030414). 
 
-* Click the **Add payment gateway** button. Paymentwall should be available on your admin Payments settings page.
++ After you log in to your shop, you will be prompted to add *Paymentwall* as a gateway. 
 
-* In your dashboard, please go to **Settings** --> **Payments** section, and look for **Alternative payments** tab.
++ Click the **Add payment gateway** button. Paymentwall should be available on your admin Payments settings page.
 
-* Choose **Paymentwall** from the dropdown list.
++ In your dashboard, please go to **Settings** --> **Payments** section, and look for **Alternative payments** tab.
 
-* Fill all the required fields and click **Activate** to enable the gateway.
+	- Choose *Paymentwall* from the dropdown list.
 
-  > The **Project Key** and **Secret Key** can be found in your Paymentwall Account in **My Projects** tab.
+	- Fill all the required fields and click **Activate** to enable the gateway.
 
+> The ```Project Key``` and ```Secret Key``` can be found in your Paymentwall Account in **My Projects** tab.
 
-## Version support
+***
 
-Paymentwall provide supports for all up-to-date Shopify version.
+## Support
 
-> Contact [module@paymentwall.com](mailto:module@paymentwall.com) if you find the version of your Shopify module is not supported.
++ Paymentwall provide supports for all up-to-date Shopify version.
 
++ List of available **Payment Methods** can be discovered [here](https://www.paymentwall.com/en/payment-methods).
+
+> Contact [platform@paymentwall.com](mailto:platform@paymentwall.com) if you find the version of your Shopify module is not supported.
+
+***
 
 ## Next step
 

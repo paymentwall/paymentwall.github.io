@@ -24,7 +24,7 @@ if (pingback.validate())
     }
     Response.Write("OK"); // Paymentwall expects response to be OK, otherwise the pingback will be resent
 }
-else {                
+else {
     Response.Write(pingback.getErrorSummary());
 }
 ```

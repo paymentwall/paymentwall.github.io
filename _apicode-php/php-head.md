@@ -4,5 +4,5 @@ category: section-head
 Library:
 
 ```
- https://github.com/paymentwall/paymentwall-php
+https://github.com/paymentwall/paymentwall-php
 ```

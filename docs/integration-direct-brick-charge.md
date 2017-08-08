@@ -17,10 +17,10 @@ In charge request, you can define the price and currency of your product. See [c
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
@@ -81,10 +81,10 @@ Our risk team will help you to review the payment which is suspicious, it is pos
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
@@ -127,10 +127,10 @@ If you want to store the credit card for future use, you can store the permanent
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
@@ -187,10 +187,10 @@ You can use the ```id``` of charge response object to [capture](#capture) the fu
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
@@ -239,10 +239,10 @@ At the same time, you can also void the funds if you don't want to capture it.
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>

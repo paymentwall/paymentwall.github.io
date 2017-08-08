@@ -10,7 +10,7 @@ permalink: guides/review/business
 You will see business part on the right side. Check all the checkbox to make sure you have completed the basic business requirement before going live.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/review/review-business-checklist.png" style="width: 30%">
+	<img src="/textures/pic/guides/review/review-business-checklist.png" style="width: 30%">
 </div>
 
 ## Website standards

@@ -5,7 +5,7 @@ sectionid: docs
 permalink: reference/pingback/custom-parameter
 ---
 
-# Custom Parameters
+# Custom Pingback Parameters
 
 You can get additional parameters via Pingback easily.<br> 
 In **Project** > **Settings area**, **Custom Pingback Parameters** is where you can add custom parameters which you would like to receive from Pingback request.

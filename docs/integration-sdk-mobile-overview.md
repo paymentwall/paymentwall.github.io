@@ -2,7 +2,7 @@
 id: payments-sdk-mobile-overview
 title: Core
 sectionid: docs
-permalink: integration/sdks/mobile/overview
+permalink: integration/sdks/mobile/core
 ---
 
 # Core SDK

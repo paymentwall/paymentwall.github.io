@@ -5,53 +5,206 @@ sectionid: docs
 permalink: integration/widget/digital-goods
 ---
 
-# Digital Goods 
+# Widget API - Digital Goods 
 
-Recurring membership, in-game virtual items, digital content, full version of a game or software, Saas, and one-time payments can be stored in Paymentwalls side in order to facilitate the API call: 
+[Full API Reference](/apis#section-widget-dg).  
 
-Please make sure your project is configured as **Digital Goods API** before starting.
+In-game virtual items, digital contents, full version of a game or software, Saas, and any one-time payment products can be stored on Paymentwall side.
 
-## Setup products
+* [Widget Call](#widget-call).
 
-You can set different settings for each product like specific regions you want that product to be sold (useful for localizing), one time payment or recurring subscription, price, and discount.
+* [Handle Pingback](#handle-pingback).
 
-<div class="docs-img">
-    <img src="/textures/pic/integration/widget/dg-product.png" style="width: 50%">
+* [Success Page](#success-page).
+
+## Configuration
+
+Once you have a project created in [My Projects](https://api.paymentwall.com/developers/applications), you can start configure your project at **Settings** section to make it work properly with *Widget API*:
+
+* Select **Your API**  as *Digital Goods*.
+
+* Setup your inventories using [Product Manager](/reference/product_management_dg)
+
+* Filling the **Pingback url** to receive pingback notification.
+
+***
+
+## Widget Call
+
+By replacing the value of ```ps``` parameter from 'all' to specific [payment systems API](/apis#section-tools-payment-systems) short codes, you can specify payment method for *single payment method*.
+
+{% assign codeId = "widget-api-dg" %}
+<div class="docs-code" id="{{ codeId }}">
+  <ul class="docs-code-tabs">
+    <li>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="java">Java</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="ruby">Ruby</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="python">Python</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="dotnet">.NET</a>
+    </li>
+  </ul>
+  <div class="docs-code-tabs__body js-lang-php is-active">
+    {% for docscode in site.docscode-php %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-js">
+    {% for docscode in site.docscode-js %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-java">
+    {% for docscode in site.docscode-java %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-ruby">
+    {% for docscode in site.docscode-ruby %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-python">
+    {% for docscode in site.docscode-python %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-dotnet">
+    {% for docscode in site.docscode-dotnet %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
-## Product details
+## Handle Pingback
+> Before you start, please read [Pingbacks](/reference/pingback-home) document first to get overview of Paymentwall Pingback system.
 
-| Field | Description |
-|---|---|
-|**Active**| Whether to show the product inside the widget. |
-|**Product name**| Products name. |
-|**Type**| Fixed (one time payments) or time based (subscriptions). |
-|**Length**| If subscription, this sets the duration of the subscription. |
-|**Period**| If subscription, this sets the period of the subscription charges . |
-|**Recurring billing**| Check if subscription should be recurring (auto-renewed). |
-|**Trial**| If your subscription has a free trial period. |
-|**Post-trial product**| The subscription product which will be applied once trail product is expired. |
-|**SKU ID**| Id of the product. In Pingbacks, this comes back as ```goodsid```. |
-|**Old Price**| Adds another price with strikethrough to show as discount, keep it same with ```Final Price``` if you don't want to use it. |
-|**Final Price**| The price of your product. |
-|**Currency**| Currency of the product. |
-|**Show discount**| Show discount message for your product if ```Old price``` is higher than ```Final Price```. |
-|**Promotion**| Add a note as promotion message to the product. |
-|**Default**| Sets the product as pre-selected when widget is opened |
-|**Most popular**| Add **Most Popular** tag |
-|**Best value**| Adds **Best Value** tag |
-|**Order**| Order the product should appear in the widget |
- 
-## API Call
+Sample Pingback Request for Digital Goods :
 
-See [Stored Product for digital goods](/apis#section-widget-dg) to perform API Call.
+```
+http://www.yourserver.com/anypath?uid=pwuser&goodsid=gold_membership&slength=1&speriod=month&type=0&ref=b1493096790&sign_version=2&sig=d94b23ba8585f29978706dd1b153ead9
+```
+
+Sample code using [Paymentwall API Libraries](https://github.com/paymentwall) at GitHub.
+
+{% assign codeId = "pingback-listener-dg" %}
+<div class="docs-code" id="{{ codeId }}">
+  <ul class="docs-code-tabs">
+    <li>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="java">Java</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="ruby">Ruby</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="python">Python</a>
+    </li>
+    <li>
+      <a class="docs-code-tabs__tab" lang="dotnet">.NET</a>
+    </li>
+  </ul>
+  <div class="docs-code-tabs__body js-lang-php is-active">
+    {% for docscode in site.docscode-php %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-js">
+    {% for docscode in site.docscode-js %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-java">
+    {% for docscode in site.docscode-java %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-ruby">
+    {% for docscode in site.docscode-ruby %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-python">
+    {% for docscode in site.docscode-python %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="docs-code-tabs__body js-lang-dotnet">
+    {% for docscode in site.docscode-dotnet %}
+    {% if docscode.codeId == codeId %}
+    {{ docscode.content }}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+Before you submit the project, please test your pingback integration using [Test Pingback Tool](/sandbox/pingback-tool).
+
+You should check whether your Pingback listener is :
+- responding "OK" to Paymentwall pingback requests.
+- filtering duplicate reference id requests.
+- filtering wrong signature requests. You can test this by checking "Use a dummy value" feature in Test Pingback Tool.
+
+## Success Page
+If you would like to redirect the user after a payment is made, you can pass the ```success_url``` and ```failure_url``` parameters as [optional parameter](/apis#section-checkout-optional_parameter) that will be used as the address of landing page after your users made payments.
+You can also use client side callback if you want to take more actions.
+
+> To enable client side callback, please contact to devsupport@paymentwall.com with your Paymentwall account email address.
+
+***
 
 ## Next Step
 
-Once you have successfully integrated our widget, you can then continue with pingback setup.
+Once you have successfully integrated our widget and set up for pingback listener, you can submit your project for review.
 
-> [Pingbacks for digital goods API](/reference/pingback/dg).
-
-Alternatively, you can also see virtual currency of Stored Product.
-
-> [Virtual currency](/integration/widget/virtual-currency).
+> See [project go live](/guides/review-home).

@@ -210,9 +210,9 @@ PWSmartGateway.checkPaymentStatus(
         PWSmartGateway.showPaymentForm(
             {
                 productId: 'Order_2044', // Required. Merchant's product SKU ID
-                productName: 'Test Key', // Optional. By default pulled by SKU ID from Products section of Merchant Area
-                currency: 'USD',         // Optional. By default pulled by SKU ID from Products section of Merchant Area
-                amount: '9.99',          // Optional. By default pulled by SKU ID from Products section of Merchant Area
+                productName: 'Test Key', // Optional. By default pulled by SKU ID from Products section of merchant dashboard
+                currency: 'USD',         // Optional. By default pulled by SKU ID from Products section of merchant dashboard
+                amount: '9.99',          // Optional. By default pulled by SKU ID from Products section of merchant dashboard
                 userId: 'test_user_2'    // Optional. ID of the user. By default SDK uses device ID
             }, 
             function() {

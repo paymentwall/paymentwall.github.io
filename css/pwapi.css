@@ -145,6 +145,8 @@ a {
 ul,ol {
 	margin:0;
 	padding:0;
+}
+ul {
 	list-style-type:none
 }
 
@@ -992,7 +994,7 @@ p {
 	align-items:center;
 	padding-left: 3%;
 	padding-right: 15px;
-	flex-basis: 16.6667%;
+	flex-basis: 16%;
 	z-index:999;
 }
 
@@ -1079,7 +1081,7 @@ p {
 }
 
 .page-header-nav-left{
-	flex-basis: 33.3333%;
+	flex-basis: 34%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -1118,6 +1120,7 @@ p {
 .code-tabs {
 	height:auto;
 	flex-basis: 75.2%;
+	min-width: 400px;
 	display: flex;
 	justify-content: flex-end;
 	background:#282c34;
@@ -1631,6 +1634,16 @@ p {
 	}
 }
 
+.reference-col--content em {
+	padding: 3px;
+	word-wrap: normal;
+	font-size: 14px;
+	font-weight: 500;
+	color: #474747;
+	line-height: 1;
+	background: #ebf1f3;
+}
+
 .reference-col--fluid {
 	flex-basis:100%;
 	max-width:100%;
@@ -1655,17 +1668,6 @@ p {
 		flex-basis: 100%;
 		margin-top: 10px;
 	}
-}
-
-.reference-col--code blockquote{
-	padding: 0 10px;
-	border-left:4px solid #fec013
-}
-.reference-col--code blockquote p {
-	font-weight:400;
-	font-size:16px;
-	color:#fec013;
-	line-height:1.875
 }
 
 }.reference-col__category {
@@ -1756,6 +1758,10 @@ p {
 	color: #f46228;
 	font-style: normal;
 	font-weight: bold;
+	background: inherit;
+	padding: 0;
+	font-size: inherit;
+	line-height: inherit;
 }
 
 .reference-col table td:first-child strong{
@@ -1779,7 +1785,7 @@ p {
 }
 .reference-col--content blockquote {
 	padding: 0 10px;
-	border-left:4px solid #fec013;
+	border-left:4px solid #ebf1f3;
 }
 .reference-col--content blockquote p {
 	font-weight:400;

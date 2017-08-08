@@ -24,13 +24,13 @@ For the rest of payment methods, we also provide a view which is suitable for mo
 
 Mobile SDK consists of two parts: Core SDK and Plugin SDK. For more information about each part, please click the links for details.
 
-* [Core SDK](/integration/sdks/mobile/overview). The required part of Mobile SDK.
+* [Core SDK](/integration/sdks/mobile/core). The required part of Mobile SDK.
 
 * [Plugin SDK](/mobile/plugin-home). Plugin SDK is provided for value-added services. You can implement the user experience improvement function or payment methods according to your needs.
 
 ## Integration Flow
 
-* Include [Core SDK](/integration/sdks/mobile/overview) in your application. Choose one or more payment options according to your needs.
+* Include [Core SDK](/integration/sdks/mobile/core) in your application. Choose one or more payment options according to your needs.
 
 * [Custom price](/integration/checkout-home). Set up product details in core SDK, which is required. To maximize the needs of payment customization and improvements of user experience, Mobile SDK is designed to display products for each request.
 

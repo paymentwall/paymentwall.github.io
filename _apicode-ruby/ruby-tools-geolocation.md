@@ -12,7 +12,7 @@ Sample Response
 
 ```json
 {
-	"code":"US",
-	"country":"United States"
+    "code":"US",
+    "country":"United States"
 }
 ```

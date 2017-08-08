@@ -5,7 +5,7 @@ codeId: pingback-listener-dg
 import com.paymentwall.java.*;
 
 Config.getInstance().setLocalApiType(Config.API_GOODS);
-Config.getInstance().setPublicKey("YOUR_APPLICATION_KEY");
+Config.getInstance().setPublicKey("YOUR_PROJECT_KEY");
 Config.getInstance().setPrivateKey("YOUR_SECRET_KEY");
 
 Pingback pingback = new Pingback(request.getParameterMap(), request.getRemoteAddr());
@@ -18,6 +18,7 @@ if (pingback.validate(true)) {
         // withdraw Product from user with userId
     }
     return "OK";
-} else
+} else {
     return pingback.getErrorSummary();
+}
 ```

@@ -17,10 +17,10 @@ We assume that you have collected [one-time token](/integration/direct/brick/cre
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
@@ -71,10 +71,10 @@ If you want to provide a trial period for your customers, you can add a trial su
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
@@ -155,10 +155,10 @@ You can also cancel the subscription by using scripts below or using our [cancel
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
-      <a class="docs-code-tabs__tab is-active" lang="php">Php</a>
+      <a class="docs-code-tabs__tab is-active" lang="php">PHP</a>
     </li>
     <li>
-      <a class="docs-code-tabs__tab" lang="js">Node</a>
+      <a class="docs-code-tabs__tab" lang="js">Node.js</a>
     </li>
     <li>
       <a class="docs-code-tabs__tab" lang="java">Java</a>
