@@ -51,6 +51,11 @@ window.addEventListener("popstate", function(e){
 
 $(document).ready(function() {
 
+    // redirect user to paymentwall own websites as Github pages doesn't support backend logic.
+    if (window.location.hostname.indexOf("paymentwall.github.io")>-1){
+        window.location.replace("https://docs.paymentwall.com");
+    };
+
     if ($(window).width() <= 768){
         $("table tbody tr td").each(function () {
             $(this).attr("data-label", $(this).parents("table").find("thead tr").children().eq($(this).index()).text());
@@ -61,6 +66,10 @@ $(document).ready(function() {
 
         if ($(this).attr('path')!=null) {
             goto($(this).attr('path'), true, $(this).attr('id'));
+        }
+
+        if ($(this).attr('path')==null && $(this).attr('href')!=null){
+            window.location.href = $(this).attr('href');
         }
 
         if ($(this).hasClass('js-expand-maintitle-trigger')) {

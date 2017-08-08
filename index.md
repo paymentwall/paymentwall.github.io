@@ -11,11 +11,11 @@ Integrating Paymentwall is easy.
 
 This page lists is a high-level overview of all the ways to integrate Paymentwall into a website, application, webstore or Smart TV service.
 
-* For shopping cart systems or e-commerce solutions, such as Magento or Woocommerce, check out the [Modules and Platforms](#integration-modules-and-platforms).
 * To build a custom integration, check which API works best to accept payments: Widget API, Checkout API or Direct APIs in the [API Overview](#api-overview).
 * To study all the APIs, such as cancelling subscriptions, issuing refunds, getting the list of supported methods, go to [full API Reference](/apis).
 * For an SDK for iOS, Android, Unity or Smart TV, check out the [SDKs section](#sdks).
 * For server-side API libraries, check out the [Server SDKs section](#sdks).  
+* For shopping cart systems or e-commerce solutions, such as Magento or Woocommerce, check out the [Modules and Platforms](#integration-modules-and-platforms).
 * To learn which products works with which API, check the [API Compatibility](#api-compatibility).  
 
 ***

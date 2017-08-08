@@ -21,9 +21,9 @@ You can also pull the list of Mobiamo active price points for a project in a spe
 
 On your merchant account, simply go to ```My Projects``` > ```Payment Systems``` to turn Mobiamo on.
 
-## Mobiamo in paylet
+## Mobiamo in hosted checkout
 
-* Mobiamo can be used directly in [paylet](/integration/widget-home) as an alternative payment method.
+* Mobiamo can be used directly in [widget API](/integration/widget-home) and [checkout API](/integration/checkout-home) as an alternative payment method.
 
 * Mobiamo has its own standalone widget, whose widget code is ```mo```. Below is a sample ```mo``` widget for Poland using [virtual currency](/integration/widget/virtual-currency).
 

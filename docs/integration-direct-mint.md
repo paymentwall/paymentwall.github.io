@@ -9,7 +9,7 @@ permalink: integration/direct/mint-home
 
 Mint is an online prepaid payment solution for purchasing digital goods and services.
 
-It has been integrated in [Paylet](/integration/widget-home) as an available payment method.
+It has been integrated in [widget API](/integration/widget-home) and [checkout API](/integration/checkout-home) as an available payment method.
 
 ## Direct Integration
 

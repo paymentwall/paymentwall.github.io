@@ -2,7 +2,7 @@
 category: section-checkout-server_side
 ---
 
-Standalone request endpoint
+Endpoint
 
 ```html
 GET https://api.paymentwall.com/api/standalone/
@@ -40,7 +40,7 @@ $response = curl_exec($curl);
 ?>
 ```
 
-Standalone response object
+Sample response
 
 ```json
 {
@@ -48,21 +48,3 @@ Standalone response object
     "skey":"12345678901234567890123456abcdef"
 }
 ```
-Paylet request endpoint
-
-```html
-GET https://api.paymentwall.com/api/subscription/
-```
-
-Sample Request
-
-```php
-<?php
-$skey = json_decode($response,true);
-
-$widget = 'https://api.paymentwall.com/api/subscription/?'.'skey='.$skey['skey'];
-
-header("Location:".$widget);
-?>
-```
-

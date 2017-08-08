@@ -72,7 +72,7 @@ You will need to establish payment methods selection form in your application, a
 
 * Combine using  ```img_url```, ```name``` with radio button or your preferred way to create available payment methods list.
 
-* Once the user decides which payment method he wants to use, you can use *single payment methods* and add ```ps``` as [optional parameter](/apis#section-paylet-optional-parameter) values ```id``` (Obtained in previous step) to redirect him to Paymentwall websites.
+* Once the user decides which payment method he wants to use, you can use *single payment methods* and add ```ps``` as [optional parameter](/apis#section-checkout-optional_parameter) values ```id``` (Obtained in previous step) to redirect him to Paymentwall websites.
 
 The corresponding checkout pages show up directly whenever your customers are redirected to *payment page*.
 
