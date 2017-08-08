@@ -22,7 +22,7 @@ Pinless API can help you to build your own mobiamo payment form. It is activated
 |mcc<br> *required*<br> **string**| [Mobile country code](https://en.wikipedia.org/wiki/Mobile_country_code#National_operators). |
 |ts<br> *required*<br> **string**| Unix timestamp when the request was initiated, in seconds. |
 |sign_version<br> *required*<br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
-|sign<br> *required*<br> **string lowercase**| The signature of widget. Refer to [signature calculation](/signature-calculation) for more details.|
+|sign<br> *required*<br> **string lowercase**| The signature of widget. Refer to [signature calculation](/reference/signature-calculation) for more details.|
 
 ### Pinless response
 

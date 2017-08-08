@@ -144,8 +144,11 @@ body *,body *:before,body *:after {
 ul,ol {
     margin:0;
     padding:0;
+}
+ul {
     list-style-type:none
 }
+
 h1,h2,h3,h4 {
     margin:0
 }
@@ -191,7 +194,7 @@ h5{
 blockquote{
     margin:10px 0;
     padding: 0 10px;
-    border-left:4px solid #fec013
+    border-left:4px solid #ebf1f3
 }
 
 blockquote p {
@@ -525,7 +528,7 @@ p {
 
 
 .page-header-nav-left {
-    flex-basis: 80%;
+    flex-basis: 60%;
     margin:auto 0;
     align-items: center;
 }
@@ -547,6 +550,17 @@ p {
     color: #fec013;
     border-color: #fec013;
     font-weight: 500;
+}
+
+.page-header-nav-old-documents{
+    margin: auto 0;
+    flex-basis: 20%;
+    align-items: center;
+}
+
+.page-header-nav-old-documents a{
+    float: right;
+    color: #fff;
 }
 
 
@@ -831,15 +845,6 @@ p {
     border-left:2px solid #cecece
 }
 
-#nav-desktop-paylet-reference {
-    cursor: default;
-}
-
-#nav-desktop-paylet-reference:hover{
-    color: #474747;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 768px) {
     .sidebar-holder {
         width: 100%;
@@ -897,7 +902,7 @@ p {
     overflow:visible;
     padding: 10px 0 0 0;
     border:none;
-    border-top:3px solid #fec013;
+    border-top:3px solid #ebf1f3;
     width: 80%;
 }
 
@@ -958,11 +963,25 @@ p {
 .doc-content ul {
     list-style-type: none;
     margin: 10px 0;
-    padding-left: 17px;
 }
 
 .doc-content ul li{
     margin: 10px 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.doc-content ul li::before{
+    content: "";
+    line-height: 1em;
+    width: .5em;
+    height: .5em;
+    background-color: #ebf1f3;
+    position: absolute;
+    margin: .25em .25em 0;
+    border-radius: 50%;
+    top: 5px;
+    left: 0;
 }
 
 .doc-content a{
@@ -990,6 +1009,16 @@ p {
 }
 
 
+.doc-content em{
+    padding: 3px;
+    word-wrap: normal;
+    font-size: 14px;
+    font-weight: 500;
+    color: #474747;
+    line-height: 1;
+    background: #ebf1f3;
+}
+
 .doc-content table td{
     padding: 20px 10px;
     color: #474747;
@@ -1000,6 +1029,12 @@ p {
 
 .doc-content table td:last-child{
     text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    .doc-content table td:last-child{
+        text-align: right;
+    }
 }
 
 .doc-content table th{
@@ -1028,6 +1063,10 @@ p {
     color: #f46228;
     font-style: normal;
     font-weight: bold;
+    background: inherit;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .doc-content table td:first-child strong{
@@ -1040,6 +1079,7 @@ p {
     .doc-content table thead {
         display: none;
     }
+
 
     .doc-content table tr{
         display: block;
@@ -1057,6 +1097,7 @@ p {
         font-weight: bold;
         color: #474747;
     }
+
 }
 
 .doc-content .anchor{
@@ -1071,6 +1112,10 @@ p {
     margin: 0;
     padding: 0;
     display: flex;
+}
+
+.doc-content .docs-code-tabs li::before{
+    display: none;
 }
 
 .doc-content .docs-code-tabs li {
@@ -1112,10 +1157,45 @@ p {
     display: flex;
 }
 
-.docs-ul-box-item {
-    width: 50%;
+@media only screen and (max-width: 768px) {
+    .docs-ul-box{
+        display: block;
+    }
 }
 
+.docs-ul-box-item {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.docs-ul-box-item-title {
+    display: flex;
+}
+
+.docs-ul-box-item-title-svg{
+    width: 30px;
+    margin: 14px 10px 14px 0;
+}
+
+.docs-ul-box-pic {
+    padding: 10px;
+    margin:auto;
+    overflow: hidden;
+}
+
+.docs-ul-box-pic img {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .docs-ul-box-item {
+        width: 100%;
+    }
+}
+
+.doc-content ol {
+    padding-left: 20px;
+}
 
 .highlight {
     padding-left: 25px;
@@ -1142,6 +1222,7 @@ p {
 
 .docs-img img {
     max-width: 100%;
+    margin: 10px 0;
 }
 
 .docs-iframe {
@@ -1242,7 +1323,6 @@ p {
     z-index: 1000;
 }
 // end demo-specific
-
    .loader {
        position: relative;
        margin: 0 auto;
@@ -1275,7 +1355,6 @@ p {
     stroke-linecap: round;
 }
 
-/*for normal*/
 @keyframes rotate {
     100% {
         transform: rotate(360deg);
@@ -1309,8 +1388,6 @@ p {
         stroke: #c9cfd1;
     }
 }
-
-/*for firefox*/
 
 @-moz-keyframes rotate {
     100% {
@@ -1346,8 +1423,6 @@ p {
     }
 }
 
-/*for normal*/
-
 @-o-keyframes rotate {
     100% {
         transform: rotate(360deg);
@@ -1382,7 +1457,6 @@ p {
     }
 }
 
-/*for safari and chrome*/
 @-webkit-keyframes rotate {
     100% {
         transform: rotate(360deg);

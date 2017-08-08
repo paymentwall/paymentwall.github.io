@@ -1,5 +1,5 @@
 ---
-category: section-paylet-custom
+category: section-checkout
 ---
 Initialization
 ```java

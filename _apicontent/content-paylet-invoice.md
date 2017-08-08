@@ -1,12 +1,12 @@
 ---
-category: section-paylet-invoice
+category: section-invoicing
 ---
 ## Invoice
 
 Paymentwall supports smart and organized e-invoicing solution. To activate, 
 please contact to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) with your Paymentwall account email address.
 
-> Refer [Invoice](/paylet/invoice) document to generate invoices via Paymentwall Merchant area.
+> Refer [Invoice](/integration/invoicing-home) document to generate invoices via Paymentwall Merchant area.
 
 ##### Parameters
 
@@ -21,6 +21,6 @@ please contact to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com
 |taxes<br> **array**| Array of your Invoice taxes. Please refer [Taxes and Discount of Invoice parameters](#invoice-taxdiscount) |
 |discounts<br> **array**| Array of your Invoice discounts. Please refer [Tax and Discount of Invoice parameters](#invoice-taxdiscount) |
 |key<br> *required*<br> **string**| Your project public key |
-|sign<br> *required*<br> **string**| Your signature based on your invoice parameters. Please refer to [Signature Calculation](/signature-calculation) |
+|sign<br> *required*<br> **string**| Your signature based on your invoice parameters. Please refer to [Signature Calculation](/reference/signature-calculation) |
 |sign_version<br> *required*<br> **string**| Version of signature |
 

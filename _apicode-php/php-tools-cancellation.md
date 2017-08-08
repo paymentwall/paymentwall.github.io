@@ -11,9 +11,9 @@ POST https://api.paymentwall.com/developers/api/ticket
 Sample Request
 ```php
 <?php
-require_once('/path/to/paymentwall-php/lib/paymentwall.php');
+require_once('path/to/lib/paymentwall.php');
 $params = array(
-    'key' => 'YOUR_PUBLIC_KEY',
+    'key' => 'YOUR_PROJECT_KEY',
     'ref' => 't1234',
     'uid' => 'user40012',
     'sign_version' => 2,
@@ -23,15 +23,18 @@ $params = array(
     'sign_version' => 2
 );
 
-Paymentwall_Config::getInstance()->set(array('private_key' => 'YOUR_PRIVATE_KEY'));
+Paymentwall_Config::getInstance()->set(array('private_key' => 'YOUR_SECRET_KEY'));
 $params['sign'] = (new Paymentwall_Signature_Widget())->calculate(
     $params,
     $params['sign_version']
 );
 
-$url = 'https://api.paymentwall.com/developers/api/ticket?' . http_build_query($params);
-$payment_systems = json_decode(file_get_contents($url));
-?>
+$post = curl_init();
+curl_setopt($post, CURLOPT_URL, 'https://api.paymentwall.com/developers/api/ticket');
+curl_setopt($post, CURLOPT_POST, 1);
+curl_setopt($post, CURLOPT_POSTFIELDS, $params);
+$response = curl_exec($post);
+echo $response;
 ```
 
 Sample Response

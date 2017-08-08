@@ -11,7 +11,7 @@ Sample Request
 ```javascript
 var subscription = new Paymentwall.Subscription();
 subscription.otherOperation(subscriptionid,'cancel',function(response){
-  // response is a new Response Object Entity (defined in paymentwall/lib/Response/Abstract)
-  response.getFullResponse('JSON');
+    // response is a new Response Object Entity (defined in paymentwall/lib/Response/Abstract)
+    response.getFullResponse('JSON');
 });
 ```

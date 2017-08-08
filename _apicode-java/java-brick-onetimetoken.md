@@ -9,15 +9,15 @@ Endpoint
 ```
 
 Sample Request
-{% raw  %}
+{% raw %}
 ```java
 OneTimeToken token = new OneTimeToken();
 token = (OneTimeToken) token.create(new LinkedHashMap<String, String>(){{
-  put("public_key", Config.getInstance().getPublicKey());
-  put("card[number]", "4000000000000002");
-  put("card[exp_month]", "01");
-  put("card[exp_year]", "2020");
-  put("card[cvv]", "123");
+    put("public_key", Config.getInstance().getPublicKey());
+    put("card[number]", "4000000000000002");
+    put("card[exp_month]", "01");
+    put("card[exp_year]", "2020");
+    put("card[cvv]", "123");
 }});
 return token.getToken();
 ```

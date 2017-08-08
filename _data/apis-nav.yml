@@ -2,40 +2,38 @@
   items:
     - name: section-head
       title: Introduction
-- title: PAYLET
+- title: WIDGET
   items:
-    - name: section-paylet-stored
-      title: Stored product
-      subitems:
-        - name: section-paylet-stored-dg
-          title: Digital Goods
-        - name: section-paylet-stored-vc
-          title: Virtual Currency
-    - name: section-paylet-custom
-      title: Custom price
-      subitems:
-        - name: section-paylet-custom-onetime
-          title: Onetime
-        - name: section-paylet-custom-subscription
-          title: Subscription
-        - name: section-paylet-custom-server_side
-          title: Server-side
-    - name: section-paylet-optional-parameter
+    - name: section-widget-dg
+      title: Digital Goods
+    - name: section-widget-vc
+      title: Virtual Currency
+    - name: section-widget-offerwall
+      title: Offerwall
+- title: CHECKOUT
+  items:
+    - name: section-checkout-onetime
+      title: Onetime payment
+    - name: section-checkout-subscription
+      title: Subscription
+    - name: section-checkout-optional_parameter
       title: Optional Parameter
-    - name: section-paylet-invoice
+- title: INVOCING DIRECT
+  items:
+    - name: section-invoicing
       title: Invoice
       subitems:
-        - name: section-paylet-invoice-contacts
-          title: Contacts
-        - name: section-paylet-invoice-items
-          title: Items
-        - name: section-paylet-invoice-tax_invoice
-          title: Invoice tax/discount
-        - name: section-paylet-invoice-tax_item
-          title: Iteam tax/discount
-        - name: section-paylet-invoice-response
-          title: Response attributes
-- title: BRICK
+      - name: section-invoicing-contacts
+        title: Contacts
+      - name: section-invoicing-items
+        title: Items
+      - name: section-invoicing-tax_invoice
+        title: Invoice tax/discount
+      - name: section-invoicing-tax_item
+        title: Iteam tax/discount
+      - name: section-invoicing-response
+        title: Response attributes
+- title: BRICK DIRECT
   items:
     - name: section-brick-onetime_token
       title: Onetime token
@@ -64,13 +62,13 @@
           title: Obtain subscription details
         - name: section-brick-subscription-cancel
           title: Cancel a subscription
-- title: MOBIAMO
+- title: MOBIAMO DIRECT
   items:
     - name: section-mobiamo-pricepoint
       title: Pricepoint
     - name: section-mobiamo-pinless
       title: Pinless
-- title: MINT
+- title: MINT DIRECT
   items:
     - name: section-mint-generate
       title: Generate ePIN

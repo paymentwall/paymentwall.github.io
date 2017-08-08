@@ -1,69 +1,71 @@
 ---
 id: module-amember
 title: Modules-aMember
-permalink: modules/aMember
+permalink: modules/amember
 sectionid: docs-modules
 ---
 
 # aMember
 
-Paymentwall’s aMember plug-in is easy to install and fully customizable. With a single integration you’ll have access to our 150+ payment options localized in 75+ currencies and more than 200 countries. You’ll also have access to our top-notch risk management and fraud protection services, optimization assistance, 24/7 live customer support and detail analytics and reporting tools.
+Paymentwall’s aMember plug-in is easy to install and fully customizable. With a single integration, all of your Hosting/SaaS products will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries.
 
-<br>This tutorial assumes that you have a Paymentwall Merchant Account. Please **[Sign up](https://api.paymentwall.com/pwaccount/signup?source=amember&mode=merchant)** if you don't have one.
+This tutorial assumes that you have a Paymentwall Merchant Account. Please **[Sign up](https://api.paymentwall.com/pwaccount/signup?source=amember&mode=merchant)** if you don't have one.
+
+***
 
 ## Download plug-in
 
 Paymentwall's plug-in for aMember can be downloaded **[here](https://github.com/paymentwall)**.
 
+> The plug-in is not updated for the latest versions of aMember. Any contribution from you on Github would be highly appreciated.
+
+***
+
 ## Project configuration in Paymentwall system
 
-* Login to Paymentwall system with your account.
++ Login to Paymentwall system with your account.
 
-* Go to ```My Projects``` tab. You will see your new project already created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on aMember admin panel.
++ Go to **My Projects** tab. You will see your new project already created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on aMember admin panel.
 
-* In ```Settings``` section, please set your project type to  ```Digital Goods```.
+	- In **Settings** section, please set your project type to  ```Digital Goods```.
 
-  Set ```pingback type``` to URL.
+	- Set **Pingback type** to URL.
 
-  Configure your ```pingback url``` to *http://[your-domain]/amember/payment/paymentwall*
+	- Configure your **Pingback URL** to [http://[your-domain]/amember/payment/paymentwall]().
 
-  Choose the ```Pingback Signature Version``` to version 2.
+	- Choose the **Pingback Signature Version** to version 2.
 
-  > Remember to save changes at the bottom of ```Settings``` section.
-
-<div class="docs-img">
-    <img src="/textures/pic/modules/amember.png">
-</div>
+> Remember to save changes at the bottom of **Settings** section.
 
 
-* In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on aMember admin panel.
++ In **Widgets** section, create a widget that you prefer and save changes. You will see ```Widget code``` after widget creation, which will also be needed later on aMember admin panel.
+
+***
 
 ## Setup Paymentwall module on your platform
-* On your aMember dashboard, select ```Configuration``` -> ```Setup / Configuration```
++ On your aMember dashboard, select **Configuration** -> **Setup / Configuration**
 
-* Click the ```Plugins``` tab on the top navbar
++ Click the **Plugins** tab on the top navbar
 
-* Under ```Payment Plugins```, choose **Paymentwall** from the dropdown list. Press ```Save``` to save the settings.
-> If you can't find **Paymentwall** as a listed payment plugins, please unzip and upload the file ```paymentwall.php``` from ```paymentwall_amember``` directory to your aMember's plugins payment folder, typically ```your_website/amember/project/default/plugins/payment/``` using an FTP client of your choice.
+	- Under **Payment Plugins** choose *Paymentwall* from the dropdown list. Press **Save** to save the settings.
 
-* **Paymentwall** should now be available from the top navbar. Click it to set up your project.
+> If you can't find *Paymentwall* as a listed payment plugins, please unzip and upload the file **paymentwall.php** from **paymentwall_amember** directory to your aMember's plugins payment folder, typically [your_website/amember/project/default/plugins/payment/]() using an FTP client of your choice.
 
-* Fill all the required fields.
++ *Paymentwall* should now be available from the top navbar. Click it to set up your project.
 
-  >The ```Project Key``` and ```Secret Key``` can be found in your Paymentwall Account in ```My Projects``` tab. ```Widget code``` is available in your ```Widgets``` section of your Paymentwall project of aMember.
+	- Fill all the required fields.
 
+> The ```Project Key``` and ```Secret Key``` can be found in your Paymentwall Account in **My Projects** tab. ```Widget code``` is available in your **Widgets** section of your Paymentwall project of aMember.
 
-## Version support
+***
 
-Paymentwall provide supports for bellow aMember versions.
+## Support
 
-|aMember version|Support|
-|-------|--------|
-|3|Yes|
-|4|Yes|
-|5|Yes|
++ Paymentwall provide supports for aMember versions 3,4 and 5.
 
-> Contact [module@paymentwall.com](mailto:module@paymentwall.com) if you find the version of your aMember module is not supported.
++ List of available **Payment Methods** can be discovered [here](https://www.paymentwall.com/en/payment-methods).
+
+***
 
 ## Next step
 
@@ -73,4 +75,4 @@ You can start to test payments of your projects.
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/go_live-home)**
+> **[See how to live your project](/guides/review-home)**

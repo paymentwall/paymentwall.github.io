@@ -1,5 +1,5 @@
 ---
-category: section-paylet-invoice
+category: section-invoicing
 ---
 
 Endpoint

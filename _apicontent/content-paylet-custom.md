@@ -1,6 +1,6 @@
 ---
-category: section-paylet-custom
+category: section-checkout
 ---
 ## Custom price
 
-[Custom price](/paylet/custom-price) allows you to define products on your own side and pass product information to us while building widget.
+[Custom price](/integration/checkout-home) allows you to define products on your own side and pass product information to us while building widget.

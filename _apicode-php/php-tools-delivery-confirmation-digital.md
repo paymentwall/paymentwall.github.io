@@ -5,9 +5,9 @@ category: section-tools-delivery-confirmation-digital
 Sample Request
 ```php
 <?php
-require_once('/path/to/paymentwall-php/lib/paymentwall.php');
+require_once('path/to/lib/paymentwall.php');
 Paymentwall_Config::getInstance()->set(array(
-    'private_key' => '[YOUR_PRIVATE_API_KEY]'
+    'private_key' => '[YOUR_SECRET_KEY]'
 ));
 
 $delivery = new Paymentwall_GenerericApiObject('delivery');
@@ -37,6 +37,6 @@ if (isset($response['success'])) {
 Sample Response
 ```json
 {
-	"success": 1
+    "success": 1
 }
 ```

@@ -11,11 +11,11 @@ Sample Response
 
 ```
 {
-	"success": true,
-	"data": [{
-		"cu_code": "USD",
-		"balance_amount": "9944.0655"
-	}],
-	"reference": "186178"
+    "success": true,
+    "data": [{
+    "cu_code": "USD",
+        "balance_amount": "9944.0655"
+    }],
+    "reference": "186178"
 }
 ```

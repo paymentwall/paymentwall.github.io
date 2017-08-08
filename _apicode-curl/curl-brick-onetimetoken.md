@@ -11,7 +11,7 @@ Endpoint
 Sample Request
 ```php
 curl https://pwgateway.com/api/token \
--d "public_key=YOUR_PUBLIC_API_KEY" \
+-d "public_key=YOUR_PUBLIC_KEY" \
 -d "card[number]=4000000000000002" \
 -d "card[exp_month]=01" \
 -d "card[exp_year]=2021" \

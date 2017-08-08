@@ -21,8 +21,8 @@ Sample Response
 
 ```json
 {
-  "change_amount" : 0.12,                 
-  "change_currency" : "USD",              
-  "success" : 1                         
+    "change_amount" : 0.12,                 
+    "change_currency" : "USD",              
+    "success" : 1                         
 }
 ```

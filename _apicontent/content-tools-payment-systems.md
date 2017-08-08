@@ -14,7 +14,7 @@ Payment system API can retrieve the list of payment systems activated for a proj
 |include_pricepoints<br> **string**|1 or 0 to include pricepoints for Mobiamo.|
 |key<br> *required*<br> **string**| The project key. Can be found in General Settings of the project inside of your merchant account.|
 |sign_version<br> *required*<br> **integer**| Signature version. Version 2 uses MD5 and version 3 represents SHA256.|
-|sign<br> *required*<br> **string**| The signature of widget.<br> Refer to [signature calculation](/signature-calculation) for more details.|
+|sign<br> *required*<br> **string**| The signature of widget.<br> Refer to [signature calculation](/reference/signature-calculation) for more details.|
 
 
 ### Payment system response
@@ -23,7 +23,7 @@ Payment system API can retrieve the list of payment systems activated for a proj
 
 | Name | Description|
 |---|---|
-|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-paylet-optional-parameter).|
+|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-checkout-optional_parameter).|
 |name| Payment system name.|
 |new_window| Payment methods require opening a new window or redirecting users to a new url.|
 |img_url| URL of the payment system logo.|

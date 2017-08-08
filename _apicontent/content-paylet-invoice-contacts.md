@@ -1,5 +1,5 @@
 ---
-category: section-paylet-invoice-contacts
+category: section-invoicing-contacts
 ---
 
 ## Contacts

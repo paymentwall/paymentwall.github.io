@@ -14,11 +14,11 @@ Sample Request
 <?php
 $tokenModel = new Paymentwall_OneTimeToken();
 $token =  $tokenModel->create(array(
-  'public_key' => Paymentwall_Config::getInstance()->getPublicKey(),
-  'card[number]' => '4242424242424242',
-  'card[exp_month]' => '11',
-  'card[exp_year]' => '19',
-  'card[cvv]' => '123'
+    'public_key' => 'YOUR_PUBLIC_KEY',
+    'card[number]' => '4242424242424242',
+    'card[exp_month]' => '11',
+    'card[exp_year]' => '19',
+    'card[cvv]' => '123'
 ));
 // send token to charge via $token->getToken();
 ?>

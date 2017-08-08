@@ -11,7 +11,7 @@ POST https://api.paymentwall.com/developers/api/ticket
 Sample Request
 ```
 curl https://api.paymentwall.com/developers/api/ticket \
--d "key=[YOUR_PROJECT_API_KEY]" \
+-d "key=[YOUR_PROJECT_KEY]" \
 -d "ref=t1234" \
 -d "uid=user40012" \
 -d "type=1" \

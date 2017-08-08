@@ -4,8 +4,8 @@ codeId: pingback-listener-dg
 ```python
 from paymentwall import *
 Paymentwall.set_api_type(Paymentwall.API_GOODS)
-Paymentwall.set_app_key('APPLICATION_KEY') # available in your merchant area
-Paymentwall.set_secret_key('SECRET_KEY') # available in your merchant area
+Paymentwall.set_app_key('YOUR_PROJECT_KEY') # available in your merchant area
+Paymentwall.set_secret_key('YOUR_SECRET_KEY') # available in your merchant area
 
 pingback = Pingback({x:y for x, y in request.args.iteritems()}, request.remote_addr)
 
