@@ -65,7 +65,7 @@
           path: /integration/direct/mint-home
     - id: nav-integration-platform
       title: Modules and Platforms
-      href: /modules/aMember
+      href: /modules/amember
     - id: nav-integration-sdk
       title: SDKs
       subitems:
