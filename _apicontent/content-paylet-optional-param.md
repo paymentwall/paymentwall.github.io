@@ -3,7 +3,7 @@ category: section-checkout-optional_parameter
 ---
 ## Optional Parameter
 
-Optional parameters could be added as additional parameters in [Paylet API request](#section-widget) for extra needs. 
+Optional parameters could be added as additional parameters in either [widget API](#section-widget) or [checkout API](#section-checkout-onetime) for extra needs. 
 
 ##### Parameters
 

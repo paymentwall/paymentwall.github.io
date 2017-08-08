@@ -1,6 +1,6 @@
 ---
 id: payments-reference-widgets
-title: Widget
+title: Widgets
 sectionid: docs
 permalink: reference/widgets
 ---
@@ -27,10 +27,7 @@ Widget is a web page hosted by Paymentwall to display available payment methods 
 
 You can create any available widget above for your project in [Widgets](https://api.paymentwall.com/developers/widget/). 
 
-*Widget code* of created widget is expanded with additional number as suffix for [widget customization](/paylet/widget/reference#customization). 
-
-> The default widget code without suffix can also be used directly, widget customization and its features are limited in this case.
-
+*Widget code* of created widget is expanded with additional number as suffix for customization purpose. The default widget code without suffix can also be used directly, widget customization and its features are limited in this case.
 
 ## Additional parameters
 

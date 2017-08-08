@@ -148,7 +148,7 @@ PWSmartGateway.showPaymentForm(
 );
 ```
 
-It is also possible to use [Stored products](/paylet/stored-products) and make a simplified SDK call.
+It is also possible to use [widget API](/integration/widget-home) and make a simplified SDK call.
 
 Example:
 ```javascript

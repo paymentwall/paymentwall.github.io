@@ -12,7 +12,7 @@ Steps to use Server-side API:
 
 * Send all the requested parameters in either [onetime payment](#section-checkout-onetime) or [subscription](#section-checkout-subscription) to **standalone** request endpoint and get ```skey``` from the response object.
 
-* Send ```skey``` to **paylet** request endpoint to load widget.
+* Send ```skey``` to either *widget API* or *checkout API* request endpoint to load widget.
 
 ##### Paramters
 

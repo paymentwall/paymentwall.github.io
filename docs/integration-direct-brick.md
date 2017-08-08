@@ -33,7 +33,7 @@ permalink: integration/direct/brick-home
 
 Brick is a pure credit card payment solution provided by Paymentwall. It allows you to develop your own payment experience for credit cards payments specifically.
 
-It can be used in [Paylet](/integration/widget-home) as credit card gateway. Alternatively, you can integrate it using [Brick API](/apis#section-brick-onetime_token) in your application. 
+It can be used in [widget API](/integration/widget-home) or [checkout API](/integration/checkout-home) as credit card gateway. Alternatively, you can integrate it using [Brick API](/apis#section-brick-onetime_token) in your application. 
 
 ## Try with Brick
 

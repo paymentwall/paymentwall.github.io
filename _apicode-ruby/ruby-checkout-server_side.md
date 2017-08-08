@@ -2,23 +2,17 @@
 category: section-checkout-server_side
 ---
 
-Standalone request endpoint
+Endpoint
 
 ```html
 GET https://api.paymentwall.com/api/standalone/
 ```
 
-Standalone response object
+Sample response
 
 ```json
 {
     "type":"success",
     "skey":"12345678901234567890123456abcdef"
 }
-```
-
-paylet request endpoint
-
-```html
-GET https://api.paymentwall.com/api/subscription/
 ```

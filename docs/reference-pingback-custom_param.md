@@ -18,7 +18,7 @@ Parameter with OWN value are always the one which you have passed to us as custo
 |---|---|
 |**OWN**| Your custom parameter which you passed when build widget. |
 
-To use OWN custom parameter, please add your custom parameter as [addtional parameter](/paylet/widget/reference#additional-parameters).
+To use OWN custom parameter, please add your custom parameter as [addtional parameter](/reference/widgets#additional-parameters).
 
 Here we added ```my_custom_param``` as a parameter name and ```my custom value``` as a value that we want to get back from pingback request.
 
