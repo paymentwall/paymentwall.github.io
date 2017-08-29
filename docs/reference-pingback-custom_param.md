@@ -37,7 +37,7 @@ http://www.yourserver.com/anypath?goodsid=gold_membershipis_test=1my_custom_para
 
 ## Parameter with value Paymentwall provides
 
-Below parameters are the parameters Paymentwall supports you to receive with Pingback request without defining additional parameters in your Widget Call.
+Below are the parameters which Paymentwall allows you to receive with Pingback request without defining additional parameters in your Widget Call.
 
 | Value | Description |
 |---|---|

@@ -35,7 +35,7 @@ Using *Checkout API* merchants can redirect users to a Paymentwall *payment page
 ## Single Payment Method
 
 To show a Payment Page for a specific single payment method, use the ```ps``` API parameter. The value can be obtained in two ways:
-1. Hardcoded from the full list [Payment System Shortcodes](/reference/ps), for example ```ps=idealnl```.
+1. Hardcoded from the full list [Payment System Shortcodes](/reference/payment-system-shortcodes), for example ```ps=idealnl```.
 2. Retrieved dynamically via [Payment Systems API](/apis#section-tools-payment-systems) dynamically based on the user's location.
 
 * Obtain the country code of your customer based on their IP address.  

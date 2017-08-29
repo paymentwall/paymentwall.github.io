@@ -9,15 +9,15 @@ category: section-brick-charge-object
 |Name|Description|
 |---|---|
 |amount| Price of product.|
-|amount_paid| Payment amount. Depends on what currency enduser is billed.|
+|amount_paid| Payment amount. It Depends on what currency enduser is billed.|
 |captured| Whether the payment is captured.|
 |card[country]| Country of where user's credit card is issued.|
 |card[exp_month]| Expiration month of user's credit card.|
 |card[exp_year]| Expiration year of user's credit card.|
 |card[name]| Credit card holder name.|
-|card[token]| Permanent token. Refer to guide of [permenant token](/integration/direct/brick/charge).|
+|card[token]| Permanent token. Refer to guide of [permanent token](/integration/direct/brick/charge).|
 |card[type]| Credit card type.|
-|created| Charge opject create time, in unix timestamp.|
+|created| Time when charge object is created, in unix timestamp.|
 |currency| Currency of product.|
 |currency_paid| Currency of end-user payment.|
 |id| ID of charge object.|

@@ -18,7 +18,7 @@ category: section-tools-delivery-confirmation-physical
 |refundable <br> *required* <br> **string**| Can be either true or false. Whether the order is refundable at this stage.|
 |attachments <br> *required* <br> **array**| Array attachments of the proofs of delivery. URL of pictures is expected. Could be set as ```null``` if it is not convenient to provide. |
 |details <br> *required* <br> **string**| Description of order status update to be showed to Paymentwall and recipient.|
-|product_description<br> **string**| Description of the new product in case of subsitution or change. |
+|product_description<br> **string**| Description of the new product in case of substitution or change. |
 |shipping_address[email]<br> *required*<br> **string**| The email address of your customers.|
 |shipping_address[country] <br> *required* <br> **string**| Shipping address country, [ISO alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).|
 |shipping_address[city] <br> *required* <br> **string**| Shipping address city.|

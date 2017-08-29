@@ -12,7 +12,7 @@ Pingback request is sent from our servers to your Pingback listener script
 where we communicate to your server regarding the details about payment transactions 
 so that your server can process the pingback automatically and deliver the goods to the according users.
 
-In project settings area, please input the Pingback URL which is the URL address of your script that processes the pingbacks.
+In your project settings, please input the Pingback URL which is the URL address of your script that processes the pingbacks.
 
 ***
 
@@ -47,7 +47,7 @@ Let's study each necessary parameters one by one.
 |**sign**|eg: d94b23ba8585f29978706dd1b153ead9 <br>Signature value calculated from pingback parameters.<br>Please refer [Signature Calculation](/reference/signature-calculation) for detailed information.|
 |**is_test**|eg: 1 <br>Value defined as 1. <br>Note: This parameter is not present unless pingback is sent via [Test Pingback Tool](/pingback-test-tool) or payment is done with Test Payment method.|
 
-For Digital Goods API, default pingback would include following parameters as well.
+For Digital Goods API, the default pingback would include following parameters:
 
 | Name | Format|
 |---|---|
@@ -55,7 +55,7 @@ For Digital Goods API, default pingback would include following parameters as we
 |**slength**|eg: positive whole number such as 1 / 3 <br>Subscription length. Will be only filled up when your service is subscription plan.|
 |**speriod**|eg: day / week / month / year <br>Subscription period. Will be only filled up when your service is subscription plan.|
 
-For Virtual Currency API, default pingback would include following parameters as well.
+For Virtual Currency API, the default pingback would include following parameters:
 
 | Name | Format|
 |---|---|
@@ -65,22 +65,23 @@ For Virtual Currency API, default pingback would include following parameters as
 
 ## Pingback Type 
 
-By default, Pingback has two default types.
+By default, Pingback has two default types:
 
 | type | Description |
 |---|---|
 |**0**| When product is purchased. Please check whether the reference ID is unique and deliver the goods.|
 |**2**| When user issued chargeback or refund. Please take the delivered goods out from user's account.|
 
-In case of Brick, you need to be aware of below three types as well.
+For Brick, please be aware of the following pingback types:
 
 | type | Description |
 |---|---|
 |**200**| Pending status. In case a payment is currently under risk review by Paymentwall. Please do not deliver the goods yet.|
 |**201**| Review is done and payment is accepted. Please check whether the reference ID is unique and deliver the goods.|
 |**202**| Review is done and payment is declined. Please do not deliver the goods since the user will get his money back.|
+|**203**| Authorization has been voided due to no capture request received on time.|
 
-Additionally, following pingback types can be activated by request for recurring payments.
+Additionally, the following pingback types can be activated by request for recurring payments.
 
 | type | Description |
 |---|---|
@@ -92,18 +93,18 @@ Additionally, following pingback types can be activated by request for recurring
 
 ## Pingback Reference 
 
-Each pingback has own reference id comes after parameter name "ref".<br>
+Each pingback has its own reference id which can be identified as the parameter name "ref".<br>
 Reference id is used to track payment transactions.
-To prevent double crediting or fraud transactions etc, we need you to store reference ids to check before you process pingback.
+To prevent double crediting and fraudulent users or transactions, we need you to store reference ids to check before you process pingbacks.
 Please note when you receive pingback :
 - With type=0 : Make sure the reference value is unique. If you have history of same reference id, please do not deliver goods to user twice.
-- With type=2 : Make sure you have a record of reference value with type=0 pingback. Please take exact product from user. Please refer [Chargeback Pingback](#chargeback-pingback) for detailed information.
+- With type=2 : Make sure you have a record of reference value with type=0 pingback and take the exact product from user. Please refer [Chargeback Pingback](#chargeback-pingback) for detailed information.
 
 ***
 
 ## Chargeback Pingback
 
-For cases of fraud, corrections ets, Paymentwall sends request to Pingback URL and communicates to take goods from specific user.
+For cases of fraud, corrections etc, Paymentwall sends request to Pingback URL and communicates to take goods from specific user.
 Requested method and Parameters are the same as for common pingback except :
 - type=2
 - "reason" parameter - Chargeback reason with code numbers. Below is possible reason codes.

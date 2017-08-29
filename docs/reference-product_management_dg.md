@@ -7,14 +7,14 @@ permalink: reference/product_manager_dg
 
 # Product Manager - Digital Goods
 
-It is easier to manage your inventory by using Paymentwall **Product Manager**. 
+It is easier to manage your inventory by using Paymentwall's **Product Manager**. 
 You can add, update or remove products anytime you want without changing the integration or source code of your application. 
 
 Please make sure your project is configured as **Digital Goods API** before starting.
 
 ## Setup Regions
 
-You can also specify the Regions that you want to service.
+You can also specify the Regions that you want to support.
 By setting Region groups, you can provide different inventories for each group of countries.
 If you don't want to specify, please feel free to skip it.
 
@@ -30,11 +30,11 @@ You can set different settings for each product like specific regions you want t
 
 | Field | Description |
 |---|---|
-|**Active**| Whether to show the product inside the widget. |
+|**Active**| Whether to display the product inside the widget. |
 |**Product name**| Products name. |
 |**Type**| Fixed (one time payments) or time based (subscriptions). |
-|**Length**| If subscription, this sets the duration of the subscription. |
-|**Period**| If subscription, this sets the period of the subscription charges . |
+|**Length**| This sets the duration of the subscription. |
+|**Period**| This sets the period of the subscription charges . |
 |**Recurring billing**| Check if subscription should be recurring (auto-renewed). |
 |**Trial**| If your subscription has a free trial period. |
 |**Post-trial product**| The subscription product which will be applied once trail product is expired. |
@@ -47,4 +47,4 @@ You can set different settings for each product like specific regions you want t
 |**Default**| Sets the product as pre-selected when widget is opened |
 |**Most popular**| Add **Most Popular** tag |
 |**Best value**| Adds **Best Value** tag |
-|**Order**| Order the product should appear in the widget |
+|**Order**| Order in which the product should appear in the widget |

@@ -7,21 +7,21 @@ permalink: guides/review-home
 
 # Project go live
 
-Your project is always in sandbox environment when its status is not live, where only [test payment](/sandbox/test-payment) is allowed to be used.
+Your project is always in the sandbox environment when its status is not live, where only the [test payment](/sandbox/test-payment) method is allowed to be used.
 
-You can submit your project for review by clicking **SUBMIT FOR REVIEW** button.
+You can submit your project for review by clicking the **SUBMIT FOR REVIEW** button.
 
 <div class="docs-img">
 	<img src="/textures/pic/guides/review/review-submit.png" style="max-width: 30%">
 </div>
 
-## Adjustment before going live
+## Adjustments before going live
 
 Paymentwall team will take a whole review of your project and set your project status according to [checklist](#checklist). You just need to do a few adjustments to assurance your project could work normally in live environment.
 
 * API credentials
 
-It mostly depends on the product you are using.
+This mostly depends on the product you are using.
 
 [Widget API](/integration/widget-home) and [checkout API](/integration/checkout-home) use same API credentials in both sandbox and live environment.
 
@@ -29,7 +29,7 @@ For merchants who are using [Brick](/integration/direct/brick-home), you will ne
 
 * Disable test payment method
 
-By default, we disable test payment immediately for your project when its status is changed to live. 
+By default, we disable the test payment method on your project immediately once its status is changed to live. 
 
 We recommend you to create another project under your Paymentwall account as staging project.
 
@@ -40,5 +40,3 @@ A checklist form will be opened and asking you to confirm that you have complete
 * [Integration checklist](/guides/review/technical).
 
 * [Business checklist](/guides/review/business).
-
-

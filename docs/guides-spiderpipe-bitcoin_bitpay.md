@@ -51,7 +51,7 @@ In order to set up the BitPay payment method, you need to have your BitPay Merch
 	<img src="/textures/pic/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 80%">
 </div>
 
-* Select **Bitpay** and filling the fields.
+* Select **Bitpay** and complete filling up the fields.
 
 <div class="docs-img">
 	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-select-bitpay.jpg" style="width: 50%">

@@ -2,7 +2,7 @@
 category: section-mint-balance
 ---
 
-## Get available balances
+## Get ePIN balance
 
 ##### Parameters
 

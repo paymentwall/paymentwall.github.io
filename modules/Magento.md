@@ -7,7 +7,7 @@ sectionid: docs-modules
 
 # Magento
 
-Paymentwall’s Magento plug-in is easy to install and fully customizable. With a single integration, all products of your E-commerce business will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries. 
+Paymentwall’s Magento plug-in is easy to install and fully customizable. With a single integration, all products of your E-commerce business will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries.
 
 This tutorial assumes that you have a Paymentwall account. Please **[Sign up](https://api.paymentwall.com/pwaccount/signup?source=magento&mode=merchant)** if you don't have one.
 
@@ -29,17 +29,17 @@ Paymentwall's plug-in for Magento can be downloaded **[here](https://github.com/
 
 	- Set **Pingback type** to URL.
 
-	- Configure your **Pingback URL** 
+	- Configure your **Pingback URL**
 
 	- For **Magento v1** [http://[your-domain]/index.php/paymentwall/payment/ipn]()
-	
+
 	- For **Magento v2** [http://[your-domain]/paymentwall/index/pingback]()
 
 	- Choose the **Pingback Signature Version** to version 2 or 3
 
 > Remember to save changes at the bottom of **Settings** section.
 
-+ You can also enable *Brick* as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
++ You can also enable *Brick* as a payment gateway by clicking the grey brick icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
 
 + In **Widgets** section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Magento admin panel.
 
@@ -72,15 +72,15 @@ Paymentwall's plug-in for Magento can be downloaded **[here](https://github.com/
 cd <your Magento install dir>
 composer require paymentwall:module-magento2 --no-update
 composer update
-``` 
+```
 
-+ After installing the module, continue to run the following commands to enable it. 
++ After installing the module, continue to run the following commands to enable it.
 
 > Note: If you have difficulty running this command, make sure that your bin/magento executable has execute permissions.
 
 ```json
 bin/magento module:enable Paymentwall_Paymentwall
-bin/magento setup:upgrade 
+bin/magento setup:upgrade
 bin/magento setup:di:compile
 ```
 
@@ -113,4 +113,3 @@ You can start to test payments of your projects.
 Once you make sure everything works smoothly, please submit your project to go live.
 
 > **[See how to live your project](/go_live-home)**
-

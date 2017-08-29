@@ -12,7 +12,7 @@ This API allows to issue a request to refund a transaction or to cancel a recurr
 
 |Parameter|Description|
 |---|---|
-|key<br> *required*<br> **string**| The Project Key. Sign in to your Merchant Account to get the Project Key in General Settings of the project|
+|key<br> *required*<br> **string**|The project key which can be found in Merchant Area→ My Projects.|
 |ref<br> *required*<br> **string**| Payment reference ID.<br> Can be obtained from parameter ```ref``` in pingback request. |
 |type<br> *required*<br> **integer**| Type of the ticket:<br> 1. Refund<br> 2. Recurring billing cancellation<br> 3.Others|
 |message<br> *required*<br> **string**| Description of the ticket, a short instruction about the reason of cancellation is expected.|

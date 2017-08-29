@@ -1,5 +1,5 @@
 ---
-codeId: desktop-brick-charge-void
+codeId: brick-charge-void
 ---
 ```php
 <?php

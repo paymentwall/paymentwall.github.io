@@ -7,28 +7,28 @@ permalink: reference/product_manager_vc
 
 # Product Manager - Virtual Currency
 
-It is easier to manage virtual economy of your application by using Paymentwall **Product Manager**. 
+It is easier to manage the virtual economy of your application by using Paymentwall **Product Manager**. 
 You can add, update or remove price points anytime you want without changing the integration or source code of your application.
 
-Please make sure your project is configured as **Virtual Currency API** before starting.
+Please make sure that your project is configured as **Virtual Currency API** before starting.
 
 ## Setup Regions
 
-You can also specify the Regions that you want to service.
-By setting Region groups, you can provide different currencies for each group of countries.
+You can also specify the Regions that you want to support.
+By setting the Region groups, you can provide different currencies for each group of countries.
 If you don't want to specify, please feel free to skip it.
 
 ## Setup price points
 
-By using virtual currency, you can add your own price points to specific payment method. Do following steps to configure your price points.
+By using virtual currency, you can add your own price points to a specific payment method. Please do the following steps to configure your price points.
 
-* Access your **project settings** and set the virtual currency exchange rate and name of your virtual currency. For example, lets set the virtual currency like 1 USD = 15 Gold coins:
+* Access your **project settings** and set the virtual currency exchange rate and the name of your virtual currency. For example, let's set the virtual currency like 1 USD = 15 Gold coins:
 
 <div class="docs-img">
     <img src="/textures/pic/integration/widget/vc-exchange-rate.png">
 </div>
 
-* You can also set more than one currency exchange clicking on **Manage Currency Rates**. So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
+* You can also set more than one currency exchange by clicking on **Manage Currency Rates**. So your project will have a USD exchange rate, and a EUR exchange rate for EUR region:
 
 <div class="docs-img">
     <img src="/textures/pic/integration/widget/vc-custom-xe.png">
@@ -40,7 +40,7 @@ By using virtual currency, you can add your own price points to specific payment
     <img src="/textures/pic/integration/widget/vc-pricepoint.png">
 </div>
 
-> Mobiamo has its own price points which are declared by mobile operators. New price points are not acceptable for Mobiamo.
+> Mobiamo has its own specific price points which are declared by mobile operators. New price points are not acceptable for Mobiamo.
 
 You will also see how much virtual currency the customer is purchasing (this is calculated according to the virtual currency exchange rate).
 

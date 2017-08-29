@@ -7,17 +7,19 @@ permalink: guides/review/technical
 
 # Technical Integration Checklist
 
-You will see technical integration part on the left side. Check all the checkbox to make sure you have completed the basic integration of our products. 
+The Technical Integration checklist is on the left side of the pop-up window. Check all the items on the checkbox to make sure that you have completed the basic integration requirements for our products.
 
 <div class="docs-img">
 	<img src="/textures/pic/guides/review/review-technical-checklist.png" style="width: 30%">
 </div>
 
-> The url where Paymentwall widget is placed should be provided along with a test account on your website. If you are using our product on mobile, please replace the url with a downloadable link of your application.
+> 
+
+Provide us with the URL where the Paymentwall widget is placed on your website along with a test account. If you are using our product on mobile, replace the URL with a downloadable link of your application.
 
 ## Check points
 
-Below is the check points for merchants who are using [widget API](/integration/widget-home) or [checkout API](/integration/checkout-home).
+Below are the check points for merchants who are using [widget API](/integration/widget-home) or [checkout API](/integration/checkout-home).
 
 * Integrate a payment widget. It should be accessible on your website/application.
 
@@ -31,13 +33,13 @@ Below is the check points for merchants who are using [widget API](/integration/
 
 * Set up a [Pingback](/reference/pingback-home) listener in your server.
 
-+ You need to response ```ok``` to following [pingback types](/reference/pingback-home#pingback-type).
++ You need to respond ```ok``` to the following [pingback types](/reference/pingback-home#pingback-type).
 	- Confirmation pingback with ```type=0```.
 	- Negative pingback with ```type=2```.
 
-* Pingbacks with ```ref``` parameter repeated should be rejected (avoid delivering same product twice for customer).
+* Pingbacks with duplicated ```ref``` parameter should be discarded to avoid delivering the same product twice for a customer.
 
-* Pingbacks with wrong ```signature``` should be rejected.
+* Pingbacks with wrong ```signature``` should be discarded.
 
 * Pingbacks are being tracked and the product is being delivered.
 
@@ -59,16 +61,16 @@ Below is the check points for merchants who are using [Brick](/integration/direc
 
 * Set up a [Pingback](/reference/pingback-home) listener in your server.
 
-+ You need to response ```ok``` to following [pingback types](/reference/pingback-home#pingback-type).
++ You need to respond ```ok``` to the following [pingback types](/reference/pingback-home#pingback-type).
 	- Confirmation pingback with ```type=0```.
 	- Negative pingback with ```type=2```.
 	- Transaction pending pingback with ```type=200```.
 	- Transaction accept pingback with ```type=201```.
 	- Transaction decline pingback with ```type=202```.
 
-* Pingbacks with ```ref``` parameter repeated should be rejected (avoid delivering same product twice for customer).
+* Pingbacks with duplicated ```ref``` parameter should be discarded to avoid delivering the same product twice for a customer.
 
-* Pingbacks with wrong ```signature``` should be rejected.
+* Pingbacks with wrong ```signature``` should be discarded.
 
 * Pingbacks are being tracked and the product is being delivered.
 

@@ -7,7 +7,7 @@ sectionid: docs-modules
 
 # Woocommerce
 
-Paymentwall’s Woocommerce plug-in is easy to install and fully customizable. With a single integration, all products of your E-commerce business will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries. 
+Paymentwall’s Woocommerce plug-in is easy to install and fully customizable. With a single integration, all products of your E-commerce business will be monetized with 150+ payment options localized in 75+ currencies and more than 200 countries.
 
 This tutorial assumes that you have a Paymentwall account. Please **[Sign up](https://api.paymentwall.com/pwaccount/signup?source=Woocommerce&mode=merchant)** if you don't have one.
 
@@ -35,7 +35,7 @@ Paymentwall's plug-in for Woocommerce can be downloaded **[here](https://github.
 
 > Remember to  save changes at the bottom of **Settings** section.
 
-+ You can also enable *Brick* as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
++ You can also enable *Brick* as a payment gateway by clicking the grey brick icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
 
 + In **Widgets** section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Woocommerce admin panel.
 

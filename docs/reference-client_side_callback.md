@@ -7,13 +7,13 @@ permalink: reference/client-side-callback
 
 # Client-side Callback
 
-For specific events we send a *client-side callback* via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our *payment page* is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc. 
+For specific events, we send a *client-side callback* via ```window.postMessage()``` mechanism with the event data in JSON format into the parent page of which our *payment page* is embedded. This can be used for updating your page respectively, like blocking **Close** button if the payment is being processed, tracking events in Google Analytics etc. 
 
 Below are the currently supported events:
 
 |Event|Description|
 |---|---|
-|paymentSuccess|Sent once a payment has been successfully. Payment details are sent in data field of the JSON message. See example below. |
+|paymentSuccess|Sent once a payment has been successful. Payment details are sent in data field of the JSON message. See example below. |
 |widgetLoaded|Sent once the widget has been loaded.|
 |widgetSizeChanged|Sent once the widget dimensions have been changed. Dimensions are sent in data field of JSON message in the following format: ```{"height":"1000px","width":"700px"}```.|
 |paymentProcessingStart|Sent once a user started making a payment, e.g. a payment method popup has been opened or a payment method iframe has been loaded. Recommended action: prevent the widget from closing until ```paymentSuccess``` or ```paymentProcessingEnd``` is received.|
@@ -55,4 +55,3 @@ window.addEventListener('message', function(event) {
 ```
 
 > This feature can be activated for your project if you email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) with your project key.
-

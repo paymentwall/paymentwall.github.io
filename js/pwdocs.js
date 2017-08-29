@@ -1,9 +1,8 @@
 var pathname = window.document.location.pathname;
 
-
 function goto(url, addEntry, id){
     var show_preloader = true;
-    if (url==null || addEntry==null || id==null) {
+    if (url==null || addEntry==null || id == null) {
         return;
     }
 
@@ -50,7 +49,6 @@ window.addEventListener("popstate", function(e){
 },false);
 
 $(document).ready(function() {
-
     // redirect user to paymentwall own websites as Github pages doesn't support backend logic.
     if (window.location.hostname.indexOf("paymentwall.github.io")>-1){
         window.location.replace("https://docs.paymentwall.com");
@@ -167,7 +165,6 @@ $(document).ready(function() {
     $('.img-container').not('.img-container-content').on('click', function () {
         $('.img-container').fadeOut(200);
     });
-
 });
 
 

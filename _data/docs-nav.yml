@@ -47,6 +47,9 @@
             - id: nav-integration-direct-brick-3dsecure
               title: Apply 3D Secure
               path: /integration/direct/brick/3dsecure
+            - id: nav-integration-direct-brick-pingback
+              title: Pingback
+              path: /integration/direct/brick/pingback
             - id: nav-integration-direct-brick-error_codes
               title: Error Codes
               path: /integration/direct/brick/error-codes
@@ -72,22 +75,12 @@
         - id: nav-integration-sdk-mobile
           title: Mobile
           path: /integration/sdks/mobile-home
-          leaves:
-            - id: nav-integration-sdk-mobile-core
-              title: Core SDK
-              path: /integration/sdks/mobile/core
-            - id: nav-integration-sdk-mobile-support_ps
-              title: Optimized payment methods
-              path: /integration/sdks/mobile/support_ps
-            - id: nav-integration-sdk-mobile-scan
-              title: Scan cards
-              path: /integration/sdks/mobile/scan
-            - id: nav-integration-sdk-mobile-ui
-              title: UI customization
-              path: /integration/sdks/mobile/ui
         - id: nav-integration-sdk-smart_tv
           title: Smart TV
           path: /integration/sdks/smart_tv
+        - id: nav-integration-sdk-unity
+          title: Unity
+          path: /integration/sdks/unity
 - id: nav-sandbox
   title: Sandbox
   items:
@@ -132,9 +125,6 @@
         - id: nav-guides-spiderpipe-alipay
           title: Alipay
           path: /guides/spiderpipe/alipay
-        - id: nav-guides-spiderpipe-unionpay
-          title: UnionPay
-          path: /guides/spiderpipe/unionpay
         - id: nav-guides-spiderpipe-wechatpay
           title: Wechat Pay
           path: /guides/spiderpipe/wechatpay
@@ -146,13 +136,13 @@
       path: /reference/client-side-callback
     - id: nav-reference-currency
       title: Currency codes
-      path: /reference/currency
+      path: /reference/currencies
     - id: nav-reference-lang
       title: Lang codes
       path: /reference/lang
     - id: nav-reference-ps
       title: Payment system codes
-      path: /reference/ps
+      path: /reference/payment-system-shortcodes
     - id: nav-reference-product_manager
       title: Product Manager
       subitems:

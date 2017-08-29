@@ -7,7 +7,9 @@ permalink: integration/direct/brick/error-codes
 
 # Error codes
 
-This reference helps you to learn more about the error you might suffer while interacting with Brick.
+This reference helps you to learn more about the error you might encounter while interacting with Brick.
+
+***
 
 ## Onetime token creation error codes
 
@@ -21,6 +23,8 @@ This reference helps you to learn more about the error you might suffer while in
 |700|Internal Error.|
 |2111| Public key is missing or invalid.|
 
+***
+
 ## Failed payment
 
 Once failing to perform charge/subscription request, Brick responds with JSON object including 4xx HTTP Response Status Codes.
@@ -32,9 +36,9 @@ Once failing to perform charge/subscription request, Brick responds with JSON ob
   "type": "Error"
 }
 ```
-In order to fetch the error object from response body, please make sure your application is able to read response from requests that return 4xx status code.
+In order to fetch the error object from response body, please make sure your application is able to read response from requests that return 4xx status code. For example, error 4007 (API key is invalid) is sent back with 401 status code.
 
-> For example, error 4007 (API key is invalid) is sent back with 401 status code.
+***
 
 ## Failed payment error codes
 

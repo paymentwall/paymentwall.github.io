@@ -7,7 +7,7 @@ permalink: integration/checkout/subscription
 
 # Subscription
 
-*Subscription* is a recurring billing payment solution of [Checkout API](/integration/checkout-home). It allows you to bill their your customer based on a specific schedule automatically. Once a user makes his first payment via *subscription*, our system signs him up for recurring billing. 
+*Subscription* is a recurring billing payment solution of [Checkout API](/integration/checkout-home). It allows you to bill your customer based on a specific schedule automatically. Once a user makes his first payment via *subscription*, our system signs him up for recurring billing.
 
 > The user will be charged based on the subscription schedule. E.g. if you specify the product length as 1 month, we will charge the user every month. Next payment will happen the same day of the next month. If a payment happens on 30th of January, the next payment will be made in first days of March.
 
@@ -19,7 +19,7 @@ Integrating it only requires 3 steps:
 
 * [Client-side action](#client-side-action).
 
-Before starting, make sure you have product selection step finished in your application. The deduction period for each products needs to be clearly defined and the total period length of the *subscription* shall not exceed 6 months. 
+Before starting, make sure you have product selection step finished in your application. The deduction period for each products needs to be clearly defined and the total period length of the *subscription* shall not exceed 6 months.
 
 ***
 
@@ -121,7 +121,7 @@ Payment link can be built by ```widget``` object. The configuration difference b
 
 ## Handle pingback
 
-Every time a user is billed, we will send a new *pingback* to inform you the customer has make a payment for his subscription. On your server side, put following code as an online server interface to interact with our *Pingback*:
+Every time a user is billed, we will send a new *pingback* to inform you the customer has make a payment for his subscription. On your server side, put the following code as an online server interface to interact with our *Pingback*:
 
 {% assign codeId = "pingback-listener-dg" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -195,7 +195,7 @@ Every time a user is billed, we will send a new *pingback* to inform you the cus
   </div>
 </div>
 
-A *pingback* request typically contains all the information for you to do the delivery. As a supplement， Paymentwall provides a series of reversed parameters as [custom pingback parameters](/reference/pingback/custom-parameter) for specific needs, you can also add your own parameters as *custom pingback parameter* in order to implement parameter transmission.
+A *pingback* request typically contains all the information for you to do the product delivery. As an addition，Paymentwall provides a series of reversed parameters as [custom pingback parameters](/reference/pingback/custom-parameter) for specific needs, you can also add your own parameters as *custom pingback parameter* in order to implement parameter transmission.
 
 Below is a sample with default format:
 
@@ -203,7 +203,7 @@ Below is a sample with default format:
 http://www.yourserver.com/pingback_path?uid=pwuser&goodsid=gold_membership&slength=3&speriod=day&type=0&ref=b1493048890&sign_version=2&sig=d94b23ba8585f29978706dd1b153ead9
 ```
 
-After validating the *pingback*, your server is always expected to be able to proceed the delivery process and response it with only ```OK``` in the body of *response*.
+After validating the *pingback*, your server is always expected to be able to proceed the delivery process and respond to it with only ```OK``` in the body of *response*.
 
 Other than successful *subscription*, there are other cases for *pingback*:
 
@@ -211,13 +211,14 @@ Other than successful *subscription*, there are other cases for *pingback*:
 
 * A *pingback* with ```type=13``` is always generated when the recurring billing period is expired.
 
-* If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 re-attempts (3 attempts in total) to charge the user. [Payment Status API](/apis#section-tools-payment-status) can report active status of the subscription with ```date_next``` for the date of next attempt. The *subscription* will be stopped if all of the attempts fail. And once it is stopped, it will no longer process an attempt to charge the user for the next scheduled payment. Paymentwall will send a *pingback* with ```type=14``` in this case , means the corresponding recurring billing payment failed. 
+* If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 re-attempts (3 attempts in total) to charge the user. [Payment Status API](/apis#section-tools-payment-status) can report active status of the subscription with ```date_next``` for the date of next attempt. The *subscription* will be stopped if all of the attempts fail. And once it is stopped, it will no longer process an attempt to charge the user for the next scheduled payment. Paymentwall will send a *pingback* with ```type=14``` in this case , means the corresponding recurring billing payment failed.
 
 ***
 
 ## Client-side action
 
-In a most case, people require a complete payment experience, that is, the end-users can be redirected back to the original applications after making a payment. 
+In most cases, a complete payment experience is required wherein the end-users can be redirected back to the original application after making a payment. 
+
 
 There would be a *link* shown up in the payment successful page which is hosted by Paymentwall or our partners if you have ```success_url``` presented as [optional parameter](/apis#section-checkout-optional_parameter) while building the link of *payment page*. Your customers are then able to click it and go back to your applications.
 

@@ -155,14 +155,14 @@ h1,h2,h3,h4 {
 
 h1{
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 0;
     color: #474747;
 }
 
 h2 {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: -1px;
     margin: 0.3em 0;
     color: #474747;
@@ -171,14 +171,14 @@ h2 {
 h3 {
     font-size: 22px;
     color: #474747;
-    font-weight: bold;
+    font-weight: 500;
     margin: 0.3em 0;
     padding: 5px 0;
 }
 
 h4 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     color: #474747;
     margin: 0.3em 0;
     padding: 5px 0;
@@ -186,7 +186,7 @@ h4 {
 
 h5{
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     margin: 0.3em 0;
     color: #474747;
 }
@@ -1027,10 +1027,6 @@ p {
     text-align: center;
 }
 
-.doc-content table td:last-child{
-    text-align: left;
-}
-
 @media screen and (max-width: 768px){
     .doc-content table td:last-child{
         text-align: right;
@@ -1252,7 +1248,7 @@ p {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.85);
 }
 
 .img-container:not(.img-container-content){
@@ -1309,184 +1305,109 @@ p {
     text-decoration: underline;
 }
 
-
-/*preloader CSS*/
-
-.showbox {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 5%;
-    background: white;
-    z-index: 1000;
-}
-// end demo-specific
-   .loader {
-       position: relative;
-       margin: 0 auto;
-       width: 100px;
-
-&:before {
-     content: '';
-     display: block;
-     padding-top: 100%;
- }
+.button-step {
+    display: inline;
+    position: relative;
+    margin-top: 30px;
+    min-width: 150px;
+    min-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
-.circular {
-    animation: rotate 2s linear infinite;
-    height: 100%;
-    transform-origin: center center;
-    width: 100px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+.button-back {
+    color: rgba(158, 158, 158, 1);
+    background-color: rgba(237, 237, 237, 1);
+    box-shadow: 0 2px 0 0 rgba(206, 206, 206, 1);
 }
 
-.path {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
-    stroke-linecap: round;
+.button-next {
+    color: #000000;
+    background-color: rgba(246, 194, 62, 1);
+    box-shadow: 0 2px 0 0 rgba(244, 157, 0, 1);
 }
 
-@keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+.dot {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
-@keyframes dash {
-    0% {
-        stroke-dasharray: 1, 200;
-        stroke-dashoffset: 0;
-    }
-    50% {
-        stroke-dasharray: 40, 200;
-        stroke-dashoffset: -35px;
-    }
-    50% {
-        stroke-dasharray: 89, 200;
-        stroke-dashoffset: -35px;
-    }
-    100% {
-        stroke-dasharray: 180, 200;
-        stroke-dashoffset: -124px;
-    }
+.dots-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 119px;
 }
 
-@keyframes color {
-    0%{
-        stroke: #c9cfd1;
-    }
-    100%{
-        stroke: #c9cfd1;
-    }
+.dot-white {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: white;
 }
 
-@-moz-keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+.dot-black {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: black;
 }
 
-@-moz-keyframes dash {
-    0% {
-        stroke-dasharray: 1, 200;
-        stroke-dashoffset: 0;
-    }
-    50% {
-        stroke-dasharray: 40, 200;
-        stroke-dashoffset: -35px;
-    }
-    50% {
-        stroke-dasharray: 89, 200;
-        stroke-dashoffset: -35px;
-    }
-    100% {
-        stroke-dasharray: 180, 200;
-        stroke-dashoffset: -124px;
-    }
+.image-step-1 {
+    margin: 0 auto;
+    display: block;
 }
 
-@-moz-keyframes color {
-    0%{
-        stroke: #c9cfd1;
-    }
-    100%{
-        stroke: #c9cfd1;
-    }
+.tab {
+    width: 100%;
 }
 
-@-o-keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+.step-title {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:15px;
 }
 
-@-o-keyframes dash {
-    0% {
-        stroke-dasharray: 1, 200;
-        stroke-dashoffset: 0;
-    }
-    50% {
-        stroke-dasharray: 40, 200;
-        stroke-dashoffset: -35px;
-    }
-    50% {
-        stroke-dasharray: 89, 200;
-        stroke-dashoffset: -35px;
-    }
-    100% {
-        stroke-dasharray: 180, 200;
-        stroke-dashoffset: -124px;
-    }
+.step-content {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
 }
 
-@-o-keyframes color {
-    0%{
-        stroke: #c9cfd1;
-    }
-    100%{
-        stroke: #c9cfd1;
-    }
+.main-title {
+    margin-top:20px;
+    margin-bottom: 50px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 31px;
 }
 
-@-webkit-keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
+.img-step-long{
+    width: 100%;
 }
 
-@-webkit-keyframes dash {
-    0% {
-        stroke-dasharray: 1, 200;
-        stroke-dashoffset: 0;
-    }
-    50% {
-        stroke-dasharray: 40, 200;
-        stroke-dashoffset: -35px;
-    }
-    50% {
-        stroke-dasharray: 89, 200;
-        stroke-dashoffset: -35px;
-    }
-    100% {
-        stroke-dasharray: 180, 200;
-        stroke-dashoffset: -124px;
-    }
+.buttons-container {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 350px;
+    text-align: center;
 }
 
-@-webkit-keyframes color {
-    0%{
-        stroke: #c9cfd1;
-    }
-    100%{
-        stroke: #c9cfd1;
-    }
+.img-step {
+    display: block;
+    margin: 0 auto;
+}
+
+.step-content--left {
+    text-align: left;
 }

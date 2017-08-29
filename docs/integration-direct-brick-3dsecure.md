@@ -2,7 +2,7 @@
 id: payments-direct-brick-3Dsecure
 title: 3D Secure
 sectionid: docs
-permalink: integration/direct/brick/3Dsecure
+permalink: integration/direct/brick/3dsecure
 ---
 
 # 3D Secure 
@@ -11,11 +11,11 @@ permalink: integration/direct/brick/3Dsecure
 
 3D secure flow is the same between [charge](/integration/direct/brick/charge) and [subscription](/integration/direct/brick/subscription), we are using charge as an example in this tutorial. 
 
+***
+
 ## Enable 3D secure
 
 By passing ```secure=1``` as an additional parameter in your [charge request](/integration/direct/brick/charge#charge-request), a different charge response will be returned. It includes a redirect url which allows you to redirect your customer to the 3D secure form which is provided by the card issuing banks of your customers .
-
-> 3D secure might be a required payment step as judged by our payment risk team. 
 
 In order to implement 3D secure feature, you will need to do following adjustments:
 
@@ -23,6 +23,7 @@ In order to implement 3D secure feature, you will need to do following adjustmen
 
 * [Re-submit charge request](#re-submit-charge-request) to finish a payment with 3D secure.
 
+***
 
 ## Collect secure token
 
@@ -32,11 +33,9 @@ Displaying 3D secure form for your customers is the first step. After that, ```b
 
 The implementation is different depending on your payment form.
 
-**Default payment form**
-
 If you are using [default payment form](/integration/direct/brick/create-form#tokenize-payment-details-with-default-form), this part is handled by default payment form itself. See [re-submit charge request](#re-submit-charge-request) to continue.
 
-**Custom payment form**
+***
 
 For merchants who prefer [custom payment form](/integration/direct/brick/create-form#tokenize-payment-details-with-your-own-form), the following steps are required:
 
@@ -48,7 +47,7 @@ You will need to add the above two additional parameter into your [charge reques
 
 The value of ```secure_return_method``` is required to be set as ```url``` so that you will get a redirect url rather than a html form.
 
-{% assign codeId = "desktop-brick-3Dsecure-secure-redirect-url" %}
+{% assign codeId = "brick-3dsecure-secure-redirect-url" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -143,6 +142,8 @@ Simply obtian the value of ```formHTML``` attribute, embed it into your payment 
 
 ```brick_secure_token``` and ```brick_charge_id``` will be sent to ```secure_redirect_url``` via POST each time a payer comfirmed the 3D secure payment step, you can now continue with next step.
 
+***
+
 ## Re-submit charge request
 
 Payments with 3D secure enabled requires another charge request with below two parameters included in.
@@ -154,7 +155,7 @@ Payments with 3D secure enabled requires another charge request with below two p
 
 As these two parameters have been passed to your backend, you can easily add them directly in second charge request.
 
-{% assign codeId = "desktop-brick-3Dsecure-2nd-charge-request" %}
+{% assign codeId = "brick-3dsecure-2nd-charge-request" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -204,10 +205,12 @@ As these two parameters have been passed to your backend, you can easily add the
   </div>
 </div>
 
+***
+
 ## Next step
 
 That's it. Your payment system now should be able to handle payments with 3D secure enabled, below links might be helpful for you:
 
-> Test your payment system with [Brick sandbox enviroment](/integration/direct/brick/sandbox).
+* Test your payment system with [Brick sandbox enviroment](/integration/direct/brick/sandbox).
 
-> [Submit your project]() for review to go live your project.
+* [Submit your project]() for review to go live your project.

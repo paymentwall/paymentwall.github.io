@@ -7,17 +7,17 @@ sectionid: docs
 
 # Payment flows
 
-There are two flows with Mobiamo: DCB (Direct Carrier Billing) and PSMS (Premium SMS). Mobiamo flow depends on country and mobile carrier. 
+There are two flows with Mobiamo: DCB (Direct Carrier Billing) and PSMS (Premium SMS). The payment flow for Mobiamo depends on the country and mobile carrier. 
 
 ## PSMS
 
-* Step 1: User texts a **keyword** to a **shortcode** to receive **PIN code** in return.
+* Step 1: User texts a **keyword** to a **shortcode** to receive a **PIN code** in return.
 
 <div class="docs-img">
 	<img src="/textures/pic/integration/direct/mobiamo/psms.png">
 </div>
 
-* Step 2: User receives **PIN code** and input **PIN code** to comfirm the payment.
+* Step 2: User receives **PIN code** and inputs **PIN code** to confirm the payment.
 
 * Step 3: Payment is successful.
 
@@ -33,13 +33,13 @@ There are 2 types of PSMS:
 
 ## DCB
 
-* Step 1: User enters the phone number. A message with the **PIN code** will be sent to the inputed phone number.
+* Step 1: User enters the phone number. A message with the **PIN code** will be sent to the entered phone number.
 
 <div class="docs-img">
 	<img src="/textures/pic/integration/direct/mobiamo/dcb1.png">
 </div>
 
-* Step 2: User receives **PIN code** and input **PIN code** to comfirm the payment.
+* Step 2: User receives **PIN code** and inputs **PIN code** to confirm the payment.
 
 <div class="docs-img">
 	<img src="/textures/pic/integration/direct/mobiamo/dcb2.png">

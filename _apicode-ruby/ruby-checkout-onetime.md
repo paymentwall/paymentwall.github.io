@@ -8,6 +8,11 @@ GET https://api.paymentwall.com/api/subscription
 
 Sample Request
 ```ruby
+require 'paymentwall' # alternatively, require_relative '/path/to/paymentwall-ruby/lib/paymentwall.rb'
+Paymentwall::Base::setApiType(Paymentwall::Base::API_GOODS)
+Paymentwall::Base::setAppKey('YOUR_PROJECT_KEY')
+Paymentwall::Base::setSecretKey('YOUR_SECRET_KEY')
+
 widget = Paymentwall::Widget.new(
     'user40012', # uid
     'pw', # widget

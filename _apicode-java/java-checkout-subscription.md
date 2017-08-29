@@ -9,6 +9,10 @@ GET https://api.paymentwall.com/api/subscription
 Sample Request
 {% raw %}
 ```java
+Config.getInstance().setLocalApiType(Config.API_GOODS);
+Config.getInstance().setPublicKey("YOUR_PROJECT_KEY");
+Config.getInstance().setPrivateKey("YOUR_SECRET_KEY");
+
 WidgetBuilder widgetBuilder = new WidgetBuilder("USER_ID", "pw");
 
 widgetBuilder.setProduct( 

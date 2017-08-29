@@ -9,23 +9,23 @@ permalink: guides/spiderpipe/alipay
 
 Steps to connect Alipay accounts with Paymentwall:
 
-* [Create a Alipay business account](#create-a-alipay-business-account).
+* [Create an Alipay business account](#create-a-alipay-business-account).
 
 * [Configure IPN listener and callback URL](#configure-ipn-listener-and-callback-url).
 
 * [Add Alipay account to Paymentwall](#add-alipay-account-to-paymentwall).
 
-> Please contact [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) to enable Alipay in SpiderPipe.
+> Contact us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) to enable Alipay in SpiderPipe.
 
-## Create a Alipay business account
+## Create an Alipay business account
 
 In order to set up an Alipay business account, please see [setup flow](https://openhome.alipay.com/developmentDocument.htm) for reference.
 
 ## Configue IPN listener and callback URL
 
-* Login to ALipay developer center.
+* Login to Alipay developer center.
 
-* Go to **merchant information**, **keys**, set **notify url** as below.
+* Go to **merchant information**, **keys** and set **notify url** as below.
 
 ```
 https://api.paymentwall.com/api/paymentpingback/alipay
@@ -50,13 +50,13 @@ https://api.paymentwall.com/api/paymentpingback/alipay
 	<img src="/textures/pic/spiderpipe/pw-account_settings-spiderpipe-select-alipay.jpg" style="max-width:80%">
 </div>
 
-* Find your Paterner ID on Alipay developer page.
+* Find your Partner ID on Alipay developer page.
 
 <div class="docs-img">
 	<img src="/textures/pic/spiderpipe/alipay-merchant_info-partner-id.jpg" style="max-width:80%">
 </div>
 
-* Gnerate Public Key and Private Key.
+* Generate Public Key and Private Key.
 
 <div class="docs-img">
 	<img src="/textures/pic/spiderpipe/alipay-merchant_info-keys.jpg" style="max-width:80%">
@@ -69,5 +69,3 @@ https://api.paymentwall.com/api/paymentpingback/alipay
 </div>
 
 > The **Seller ID** is your Alipay registration email.
-
-

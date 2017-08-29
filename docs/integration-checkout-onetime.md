@@ -7,7 +7,7 @@ permalink: integration/checkout/onetime
 
 # Onetime Payments
 
-*Onetime payments* is the instant payment of [Checkout API](/integration/checkout-home). Start integration with following steps once you have product selection step finished in your application:
+*Onetime payments* are the instant payment of [Checkout API](/integration/checkout-home). Start your integration with the following steps once you have product selection step finished in your application:
 
 * [Build payment page](#build-payment-page).
 
@@ -103,7 +103,7 @@ You can then embed the payment page into your application by either using *ifram
 
 ## Handle pingback
 
-On your server side, put following code as an online server interface to interact with our *Pingback*:
+On your server side, put the following code as an online server interface to interact with our *Pingback*:
 
 {% assign codeId = "pingback-listener-dg" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -177,7 +177,7 @@ On your server side, put following code as an online server interface to interac
   </div>
 </div>
 
-A *pingback* request typically contains all the information for you to do the delivery. As a supplement， Paymentwall provides a series of reversed parameters as [custom pingback parameters](/reference/pingback/custom-parameter) for specific needs, you can also add your own parameters as *custom pingback parameter* in order to implement parameter transmission.
+A *pingback* request typically contains all the information for you to do the product delivery. As an addition, Paymentwall provides a series of reversed parameters as [custom pingback parameters](/reference/pingback/custom-parameter) for specific needs, you can also add your own parameters as *custom pingback parameter* in order to implement parameter transmission.
 
 Below is a sample with default format:
 
@@ -185,13 +185,13 @@ Below is a sample with default format:
 http://www.yourserver.com/pingback_path?uid=pwuser&goodsid=gold_membership&slength=&speriod=&type=0&ref=b1493096790&sign_version=2&sig=d94b23ba8585f29978706dd1b153ead9
 ```
 
-After validating the *pingback*, your server is always expected to be able to proceed the delivery process and response it with only ```OK``` in the body of *response*.
+After validating the *pingback*, your server is always expected to be able to proceed the delivery process and respond to it with only ```OK``` in the body of *response*.
 
 ***
 
 ## Client-side action
 
-In a most case, people require a complete payment experience, that is, the end-users can be redirected back to the original applications after making a payment. 
+In most cases, a complete payment experience is required wherein the end-users can be redirected back to the original application after making a payment. 
 
 There would be a *link* shown up in the payment successful page which is hosted by Paymentwall or our partners if you have ```success_url``` presented as [optional parameter](/apis#section-checkout-optional_parameter) while building the link of *payment page*. Your customers are then able to click it and go back to your applications.
 

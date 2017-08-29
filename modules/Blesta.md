@@ -41,7 +41,8 @@ Paymentwall's plug-in for Blesta can be downloaded **[here](https://github.com/p
 
 > Remember to save changes at the bottom of **Settings** section.
 
-+ You can also enable *Brick* as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
++ You can also enable *Brick* as a payment gateway by clicking the grey brick icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
+
 
 + In **Widgets** section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Blesta admin panel.
 

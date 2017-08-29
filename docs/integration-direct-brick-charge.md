@@ -7,13 +7,15 @@ permalink: integration/direct/brick/charge
 
 # Charge
 
-With [one-time token](/integration/direct/brick/create-form) and [fingerprint](/integration/direct/brick/create-form) which are collected by Brick.js, you can then easily charge credit cards by using Charge API on your server side. 
+With [one-time token](/integration/direct/brick/create-form) and [fingerprint](/integration/direct/brick/create-form) which are collected by *Brick.js*, you can then easily charge credit cards by using [Charge API](/apis#section-brick-charge) on your server side. 
+
+***
 
 ## Charge request
 
-In charge request, you can define the price and currency of your product. See [charge API](/apis#section-brick-charge) for the format of each parameter.
+In charge request, you can use this code sample to define the price and currency of your product. See [charge API](/apis#section-brick-charge) for the format of each parameter.
 
-{% assign codeId = "desktop-brick-charge-request" %}
+{% assign codeId = "brick-charge-request" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -63,21 +65,25 @@ In charge request, you can define the price and currency of your product. See [c
   </div>
 </div>
 
-> By default, Brick capture the charge at once, see [authorize and capture](#authorize-and-capture) if you prefer to do it later.
+By default, *Brick* capture the charge at once, see [authorize and capture](#authorize-and-capture) if you prefer to do it later.
+
+***
 
 ## Charge response object
 
 Once a charge request is successfully performed, you will get a charge response object which contains the payment information to help you verify your end users. See [attributes](/apis#section-brick-charge-object) for more details.
 
-Each charge has its own id which could be used for authorizing and capturing actions later.
+Each charge has its own ```id``` which could be used for authorizing and capturing actions later.
+
+***
 
 ## Handle charge response
 
 You can get the charge response object and redirect your customer to payment result pages by using below script.
 
-Our risk team will help you to review the payment which is suspicious, it is possible to take 1 ~ 2 mins. It is recommended to add a page to notify your customer that his/her payment is under review.
+Our risk team will help you to review the payment which is suspicious, which is possible to take 1 ~ 2 minutes. It is recommended to add a page to notify your customer that his/her payment is under review.
 
-{% assign codeId = "desktop-brick-charge-response" %}
+{% assign codeId = "brick-charge-response" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -116,14 +122,15 @@ Our risk team will help you to review the payment which is suspicious, it is pos
   </div>
 </div>
 
-Paymentwall instant payment notification, [pingback](/reference/pingback-home), will be sent immediately once a charge request is achieved. Your delivery should be performed according to the [type](/reference/pingback-home#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [charge request](#charge-request) which can be set as [custom pingback parameters](/reference/pingback/custom-parameter) for transparent transmission in charge request.
+Paymentwall instant payment notification, [pingback](/reference/pingback-home), will be sent immediately once a charge request is achieved. Your delivery should be performed according to the [type](/reference/pingback-home#pingback-type) of our *pingback*. You may also define your own parameter as additional parameters in [charge request](#charge-request) which can be set as [custom pingback parameters](/reference/pingback/custom-parameter) for transparent transmission in charge request.
 
+***
 
 ## Storing a card after charge
 
-If you want to store the credit card for future use, you can store the permanent token, ```card.token``` field of [charge response object](#charge-response-object), and use it for a new charge request later. 
+If you want to store the credit card for future use, you can store the *permanent token*, ```card.token``` field of [charge response object](#charge-response-object), and use it for a new charge request later. 
 
-{% assign codeId = "desktop-brick-charge-store-card-request" %}
+{% assign codeId = "brick-charge-store-card-request" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -173,17 +180,17 @@ If you want to store the credit card for future use, you can store the permanent
   </div>
 </div>
 
+***
+
 ## Authorize and capture
 
 Parameter ```options[capture]``` can be used in [charge request](#charge) for people who want to capture charge later. 
 
-Brick charge request will only do pre-authorization if ```options[capture]=0```( By default ```options[capture]=1```) and put a temporary "hold" on the funds for 7 days.
+Brick charge request will only do pre-authorization if ```options[capture]=0```( By default ```options[capture]=1```) and put a temporary "hold" on the funds for 7 days. The capture action will be declined if the pre-authorization has expired.
 
-You can use the ```id``` of charge response object to [capture](#capture) the funds during the period. 
+You can use the ```id``` of charge response object to capture the funds during the period. 
 
-> The capture action will be declined if the pre-authorization has expired.
-
-{% assign codeId = "desktop-brick-charge-capture" %}
+{% assign codeId = "brick-charge-capture" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -235,7 +242,7 @@ You can use the ```id``` of charge response object to [capture](#capture) the fu
 
 At the same time, you can also void the funds if you don't want to capture it.
 
-{% assign codeId = "desktop-brick-charge-void" %}
+{% assign codeId = "brick-charge-void" %}
 <div class="docs-code" id="{{ codeId }}">
   <ul class="docs-code-tabs">
     <li>
@@ -285,8 +292,10 @@ At the same time, you can also void the funds if you don't want to capture it.
   </div>
 </div>
 
+***
+
 ## Next Step
 
 You are almost done! Your payment system now can handle the payments which don't have 3D secure enabled. In order to make your payment system  support 3D secure payments,
 
-> See how to [apply 3d secure](/integration/direct/brick/3dsecure).
+* See how to [apply 3d secure](/integration/direct/brick/3dsecure).

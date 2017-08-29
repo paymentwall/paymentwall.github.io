@@ -18,5 +18,5 @@ You can use this api to generate ePin if you are a [MINT reseller](http://www.mi
 |params[ePinNominalValue]<br> *required*<br> **int**|Value of the ePIN|
 |params[ePinsCount]<br> **int**|Quantity of the ePINs to generate<br> Default value is 1.|
 |params[countryCode]<br> **string(2)**|[ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country of service|
-|params[activationRequired]<br> **boolean**|Can be either 0 or 1<br> If [1] presents, it generates Inactive ePins. If [0] or not enter, it generates Active ePins.|
-|params[test]<br> **boolean**|Can be either 0 or 1.<br> If [1] presents, you will receive one of test keys to verify the response.|
+|params[activationRequired]<br> **boolean**|Can be either 0 or 1<br> If [1], it generates Inactive ePins. If [0] or omitted, it generates Active ePins.|
+|params[test]<br> **boolean**|Can be either 0 or 1.<br> If [1], you will receive one of test keys to verify the response.|

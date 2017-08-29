@@ -9,7 +9,7 @@ sectionid: docs
 
 Integrating Paymentwall is easy.
 
-This page lists is a high-level overview of all the ways to integrate Paymentwall into a website, application, webstore or Smart TV service.
+This page lists a high-level overview of all ways to integrate Paymentwall into a website, application, web store or Smart TV service.
 
 * To build a custom integration, check which API works best to accept payments: Widget API, Checkout API or Direct APIs in the [API Overview](#api-overview).
 * To study all the APIs, such as cancelling subscriptions, issuing refunds, getting the list of supported methods, go to [full API Reference](/apis).
@@ -22,7 +22,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
 
 ## API Overview
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -56,7 +56,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
             </ul>
         </div>
     </div>
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -92,7 +92,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
 </div>
 
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -130,12 +130,12 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
 </div>
 
 
-*** 
+***
 
 ## SDKs
 
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -158,7 +158,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
                     <a class="docs-ul-box-li-link" href="/integration/sdks/mobile-home">Overview</a>
                 </li>
                 <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-android-sdk">Andriod SDK</a>
+                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-android-sdk">Android SDK</a>
                 </li>
                 <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-ios-sdk">iOS SDK</a>
@@ -175,7 +175,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
             </ul>
         </div>
     </div>
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -190,7 +190,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
                 </div>
                 <h3>Server SDKs</h3>
             </div>
-            <p> 
+            <p>
                 Server-side API libraries with code samples for using Paymentwall APIs.
             </p>
             <ul>
@@ -218,7 +218,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
 </div>
 
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -234,7 +234,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
                 <h3 class="title">SmartTV SDK</h3>
             </div>
             <p>
-            Accept payments on Smart TVs. 
+            Accept payments on Smart TVs.
             </p>
             <ul>
                 <li class="docs-ul-box-li">
@@ -243,7 +243,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
             </ul>
         </div>
     </div>
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -265,19 +265,19 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
             </p>
             <ul>
                 <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/module-unity">Unity SDK</a>
+                    <a class="docs-ul-box-li-link" href="/integration/sdks/unity">Unity SDK</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 
-*** 
+***
 
 ## Integration Modules and Platforms
 
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -326,7 +326,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
             </ul>
         </div>
     </div>
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -369,7 +369,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
 </div>
 
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -397,7 +397,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
             </ul>
         </div>
     </div>
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">
@@ -427,7 +427,7 @@ This page lists is a high-level overview of all the ways to integrate Paymentwal
 </div>
 
 <div class="docs-ul-box">
-    <div class="docs-ul-box-item"> 
+    <div class="docs-ul-box-item">
         <div>
             <div class="docs-ul-box-item-title">
                 <div class="docs-ul-box-item-title-svg">

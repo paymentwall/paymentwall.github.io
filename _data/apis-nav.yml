@@ -8,8 +8,6 @@
       title: Digital Goods
     - name: section-widget-vc
       title: Virtual Currency
-    - name: section-widget-offerwall
-      title: Offerwall
 - title: CHECKOUT
   items:
     - name: section-checkout-onetime
@@ -30,7 +28,7 @@
       - name: section-invoicing-tax_invoice
         title: Invoice tax/discount
       - name: section-invoicing-tax_item
-        title: Iteam tax/discount
+        title: Item tax/discount
       - name: section-invoicing-response
         title: Response attributes
 - title: BRICK DIRECT

@@ -2,10 +2,10 @@
 id: development-ps
 title: Payment Systems Codes
 sectionid: docs
-permalink: reference/ps
+permalink: reference/payment-system-shortcodes
 ---
 
-# Payment Systems Codes
+# Payment Systems Shortcodes
 
 List of payment system shortcodes supported in the Paymentwall.
 You can use this for deeplinking customers for a specific payment method.

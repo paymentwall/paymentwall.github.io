@@ -8,6 +8,12 @@ GET https://api.paymentwall.com/api/subscription
 
 Sample Request
 ```c#
+using Paymentwall;
+
+Paymentwall_Base.setApiType(Paymentwall_Base.API_GOODS);
+Paymentwall_Base.setAppKey("YOUR_PROJECT_KEY"); 
+Paymentwall_Base.setSecretKey("YOUR_SECRET_KEY");
+
 List<Paymentwall_Product> productList = new List<Paymentwall_Product>();
 Paymentwall_Product product = new Paymentwall_Product(
     "product301", // ag_external_id

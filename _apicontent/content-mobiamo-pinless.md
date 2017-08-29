@@ -12,12 +12,12 @@ Pinless API can help you to build your own mobiamo payment form. It is activated
 
 | Name | Description|
 |---|---|
-|key<br> *required*<br> **string**| The project key. Can be found in General Settings of the Project inside of your merchant account. |
+|key<br> *required*<br> **string**|  The project key which can be found in Merchant Area→ My Projects.|
 |uid<br> *required*<br> **string**| ID of the end-user in your system. The maximum length is 64. |
 |product_name<br> *required*<br> **string**| Your product name. The maximum length is 256. |
 |product_id<br> *required*<br> **string**| ID of your product. |
 |amount<br> *required*<br> **double**| The amount of your product. It should be set according to the [price points](http://www.mobiamo.com/coverage).|
-|currencyCode<br> *required*<br> **string**| Currency code of your product. Needs to be used along with amount. 3 letters. |
+|currencyCode<br> *required*<br> **string**| Currency code of your product. Needs to be used along with amount. 3 letters. Refer to [currency codes](/reference/currencies).|
 |mnc<br> *required*<br> **string**| [Mobile network code](https://en.wikipedia.org/wiki/Mobile_country_code#National_operators). Required along with mcc to identify user's carrier and provide relevant instructions. |
 |mcc<br> *required*<br> **string**| [Mobile country code](https://en.wikipedia.org/wiki/Mobile_country_code#National_operators). |
 |ts<br> *required*<br> **string**| Unix timestamp when the request was initiated, in seconds. |

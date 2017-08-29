@@ -4,78 +4,38 @@ title: Brick
 sectionid: docs
 permalink: integration/direct/brick-home
 ---
-# Brick
+# Brick Direct
 
-<div id="payment-form-container">
-</div>
-<script src="https://api.paymentwall.com/brick/brick.1.4.js"></script>
-<script type="text/javascript">
-	var brick = new Brick({
-		public_key: 't_a93db6bffafdda5c57ab48296fdbba',
-		amount: 0.99,
-		currency: 'USD',
-		container: 'payment-form-container',
-		action: 'http://testbed1.stuffio.com/bricktest/brick-doc.php',
-		form: {
-			merchant: 'Your store',
-			product: 'Your goods name',
-			pay_button: 'Pay',
-			zip: true
-		}
-	});
+*Brick* is a pure credit card payment solution provided by Paymentwall. It has been integrated in [widget API](/integration/widget-home) and [checkout API](/integration/checkout-home) as credit card gateway for hosted checkout experience.
 
-	brick.showPaymentForm(function(data) {
+This tutorial introduce the way to use [Brick Direct API](/apis#section-brick-onetime_token), which allows you to develop your own payment system for credit cards payments. 
 
-	}, function(errors) {
-    // handle errors
-	});
-</script>
+***
 
-Brick is a pure credit card payment solution provided by Paymentwall. It allows you to develop your own payment experience for credit cards payments specifically.
+## Integration
 
-It can be used in [widget API](/integration/widget-home) or [checkout API](/integration/checkout-home) as credit card gateway. Alternatively, you can integrate it using [Brick API](/apis#section-brick-onetime_token) in your application. 
+Integrating *Brick Direct* only requires 4 steps:
 
-## Try with Brick
+* Step 1: [Create a payment form](/integration/direct/brick/create-form). 
 
-By using Brick test cards in [Sanbox](/integration/direct/brick/sandbox) or card information below to do a test payment.
+* Step 2: Choose to perform a [charge](/integration/direct/brick/charge) or a [subscription](/integration/direct/brick/subscription) request.
 
-* Card number: 4242 4242 4242 4242.
+* Step 3: [Apply 3d secure](/integration/direct/brick/3dsecure).
 
-* Expiry date: 03/21.
+* Step 4: [Handle Paymentwall pingback](/integration/direct/brick/pingback).
 
-* CVV: 097.
+***
 
-* Email: test@paymentwall.com.
+## Configuration
 
-Each successful payment has a one-time token to be used in further charge request.
+Configure your project in [merchant dashboard](https://api.paymentwall.com/developers/applications) to make it work properly with *Brick*.
 
-## Components
+* Select *Your API* as *Digital Goods* in **Settings**.
 
-* [Create form](/integration/direct/brick/create-form) to collect payment details and generate one-time token. 
+* Fill the *Pingback url* to receive asynchronous notification in **Settings**.
 
-* Perform request according to your product type, [onetime payment](/integration/direct/brick/charge) or [subscription](/integration/direct/brick/subscription).
+* Your payment pages must be loaded via *HTTPS*. 
 
-## Requirements
+* Email to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) with your project key to enable *Brick Direct API* for your project.
 
-* Your payment pages must be loaded via **HTTPS**.
-
-* [3D Secure](http://www.mastercard.com/gateway/implementation_guides/3D-Secure.html) (as known as [verified by Visa](https://www.visaeurope.com/making-integration/verified-by-visa/)) should be implemented into your payment system. See how to [apply 3D Secure](/direct/brick/3dSecure) in Brick.
-
-* A Paymentwall project with Digital Goods API enabled.
-
-## Use Brick
-
-We assume that you have created a Paymentwall project.
-
-+ Get your project credentails, click Brick logo on your project and you will find following project and secret key combinations provided by Paymentwall:
-	- Brick Test Keys. A random 32-bit string started with ```t_``` and used in sandbox environment for payment flow verification.
-	- Brick Live Keys. A random 32-bit string and used to collect payments from your customers. To have it, your project will needs to be reviewed by us.
-
-* Integrate Brick components in your system
-
-See [components](#components) for more details.
-
-* Setup Pingback listener
-
-[Pingback](/reference/pingback-home) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.
-
+> There is no need to do configuration for **Region**, **Offers** and **Products** sections while using *Checkout API*. Before using *Brick* in live environment, make sure you have enabled credit card payment method in **Payment System** section.

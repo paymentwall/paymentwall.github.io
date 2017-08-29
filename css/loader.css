@@ -1,0 +1,178 @@
+.showbox {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5%;
+    background: rgba(255,255,255,0.7);
+    z-index: 1000;
+}
+// end demo-specific
+   .loader {
+       position: relative;
+       margin: 0 auto;
+       width: 100px;
+
+&:before {
+     content: '';
+     display: block;
+     padding-top: 100%;
+ }
+}
+
+.circular {
+    animation: rotate 2s linear infinite;
+    height: 100%;
+    transform-origin: center center;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.path {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 40, 200;
+        stroke-dashoffset: -35px;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 180, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@keyframes color {
+    0%{
+        stroke: #c9cfd1;
+    }
+    100%{
+        stroke: #c9cfd1;
+    }
+}
+
+@-moz-keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 40, 200;
+        stroke-dashoffset: -35px;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 180, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@-moz-keyframes color {
+    0%{
+        stroke: #c9cfd1;
+    }
+    100%{
+        stroke: #c9cfd1;
+    }
+}
+
+@-o-keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 40, 200;
+        stroke-dashoffset: -35px;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 180, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@-o-keyframes color {
+    0%{
+        stroke: #c9cfd1;
+    }
+    100%{
+        stroke: #c9cfd1;
+    }
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes dash {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 40, 200;
+        stroke-dashoffset: -35px;
+    }
+    50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 180, 200;
+        stroke-dashoffset: -124px;
+    }
+}
+
+@-webkit-keyframes color {
+    0%{
+        stroke: #c9cfd1;
+    }
+    100%{
+        stroke: #c9cfd1;
+    }
+}
