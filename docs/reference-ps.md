@@ -5,158 +5,155 @@ sectionid: docs
 permalink: reference/payment-system-shortcodes
 ---
 
-# Payment Systems Shortcodes
+# Payment Systems Short Codes
 
-List of payment system shortcodes supported in the Paymentwall.
-You can use this for deeplinking customers for a specific payment method.
+This is the list of payment system short codes.
 
-To deeplink to one of the payment methods below, you must pass an [optional parameter](/apis#section-checkout-optional_parameter) ```ps``` with the payment system code as value, e.g. ```ps=cc``` for Credit Cards.
+To specify one of the payment methods below, set the value of the ```ps``` parameter to the corresponding payment method short code, e.g. ```ps=cc``` for Credit Cards.
 
+> The *Payment system short code* is required to be in lowercase.
 
-|Payment Type|PS Name|PS Shortcode|Logo|
+***
+
+## Credit cards
+
+{:.docs-payment-system-shortcodes}
+|Payment system name|Payment system short code|Logo|Link to logo|
 |---|---|---|---|
-|Credit Cards|Test Method|test|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dummy.png)|
-|Credit Cards|Credit Cards|cc|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_gateway.png)|
-|Credit Cards|MisterCash|bancontact|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mistercash.png)|
-|Credit Cards|UnionPay|unionpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_unionpay.png)|
-|Credit Cards|Elo Card Brazil|elo|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_elo.png)|
-|Credit Cards|Hipercard Brazil|ccbrazilhipercard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_hipercard.png)|
-|Credit Cards|Megalink - Philippines|megalink|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_megalink.png)|
-|e-Wallets|PayPal|paypal|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_paypal.png)|
-|e-Wallets|Amazon Payments|amazon|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_amazon.png)|
-|e-Wallets|Skrill|moneybookers|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_moneybookers.png)|
-|e-Wallets|Webmoney|webmoney|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_webmoney.png)|
-|e-Wallets|CherryCredits|cherrycredits|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_cherrycredits.png)|
-|e-Wallets|MercadoPago|mercadopago|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mercadopago.png)|
-|e-Wallets|Game-ON|gameon|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_gameon.png)|
-|e-Wallets|Yandex Money|yamoney|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_yamoney.png)|
-|e-Wallets|myCard Wallet|mycardwallet|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mycardwallet.png)|
-|e-Wallets|Indomog|indomog|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_indomog.png)|
-|e-Wallets|PagSeguro|pagseguro|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_pagseguro.png)|
-|e-Wallets|Fanapay|fanapay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_fanapay.png)|
-|e-Wallets|Qiwi Wallet|qiwiwallet|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_qiwiwallet.png)|
-|e-Wallets|VTC Wallet|vtc|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_vtc.png)|
-|e-Wallets|Redcompra|redcompra|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_redcompra.png)|
-|e-Wallets|Tenpay|tenpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_tenpay.png)|
-|e-Wallets|UniPin Wallet|unipinwallet|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_unipinwallet.png)|
-|e-Wallets|Paysbuy|paysbuy|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_paysbuy.png)|
-|e-Wallets|DOKU Wallet|dokuwallet|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dokuwallet.png)|
-|e-Wallets|Liqpay|liqpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_liqpay.png)|
-|Bank Transfer|Poli|polipayments|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_poli.png)|
-|Bank Transfer|ING Bank Slaski Dotpay|dotpayingb|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dotpayingb.png)|
-|Bank Transfer|Inteligo Dotpay|dotpayinteligo|[Link to logo](#)|
-|Bank Transfer|Bank Transfer Brazil|btbrazil|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_ebanxtransfer.png)|
-|Bank Transfer|Banamex Mexico|banamexmexico|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banamexmexico.png)|
-|Bank Transfer|Banco Bradesco|bradescobrazil|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_bradescobrazil.png)|
-|Bank Transfer|Banco Banrisul|banrisulbrazil|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banrisulbrazil.png)|
-|Bank Transfer|Banco do Brasil|bancodobrasil|[Link to logo](#)|
-|Bank Transfer|Banco do Brazil|bancobrazil|[Link to logo](#)|
-|Bank Transfer|BancodeChile|bancodechile|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_bancodechile.png)|
-|Bank Transfer|Bancomer Mexico|bancomermexico|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_bancomermexico.png)|
-|Bank Transfer|BCP Peru|bcpperu|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_bcpperu.png)|
-|Bank Transfer|DragonPay|dragonpay|[Link to logo](#)|
-|Bank Transfer|EPS|epspayments|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_epspayments.png)|
-|Bank Transfer|Hsbc Mexico|hsbcmexico|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_hsbcmexico.png)|
-|Bank Transfer|Santander Mexico|santandermexico|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_santandermexico.png)|
-|Bank Transfer|Banco Itau|itaubrazil|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_itaubrazil.png)|
-|Bank Transfer|Bank Transfer Malaysia|btmalaysia|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banktransfer.png)|
-|Bank Transfer|Bank Transfer Colombia|btcolombia|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btcolombia.png)|
-|Bank Transfer|Sofort Bank Transfer|sofortbanktransfer|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_sofortbanktransfer.png)|
-|Bank Transfer|Bank Zachodni WBK Dotpay|dotpaybzwbk|[Link to logo](#)|
-|Bank Transfer|Przelewy24|przelewy24|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_przelewy24.png)|
-|Bank Transfer|Pekao24 Przelew Dotpay|dotpaypekao|[Link to logo](#)|
-|Bank Transfer|Place z ING Bank Slaski Dotpay|dotpayingbacc|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dotpayingbacc.png)|
-|Bank Transfer|Dotpay|dotpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dotpay.png)|
-|Bank Transfer|iDeal|idealnl|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_ideal.png)|
-|Bank Transfer|AliPay|alipay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_alipay.png)|
-|Bank Transfer|Giropay|giropay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_giropay.png)|
-|Bank Transfer|E-Prepag|eprepag|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_eprepag.png)|
-|Bank Transfer|TrustPay|trustpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banktransfer.png)|
-|Bank Transfer|Bank Transfer Sweden|btsweden|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btsweden.png)|
-|Bank Transfer|Bank Transfer Argentina|banktransferargentina|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banktransferargentina.png)|
-|Bank Transfer|Bank Transfer Estonia|btestonia|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btestonia.png)|
-|Bank Transfer|Bank Transfer Japan|banktransferjapan|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banktransferjapan.png)|
-|Bank Transfer|Bank Transfer Latvia|btlatvia|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btlatvia.png)|
-|Bank Transfer|Bank Transfer Lithuania|btlithuania|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btlithuania.png)|
-|Bank Transfer|Safetypay|safetypay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_safetypay.png)|
-|Bank Transfer|Redpagos|redpagos|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_redpagos.png)|
-|Bank Transfer|Bank Transfer Peru|btperu|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banktransferperu.png)|
-|Bank Transfer|Bank Transfer Mexico|banktransfermexico|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_banktransfermexico.png)|
-|Bank Transfer|Transferuj|btpoland|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btpoland.png)|
-|Bank Transfer|SEPA Direct Debit|sepadirectdebit|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_sepadirectdebit.png)|
-|Bank Transfer|Bank Transfer Thailand|btthailand|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_btthailand.png)|
-|Bank Transfer|KFTC Internet Banking|kftc|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_kftc.png)|
-|Bank Transfer|Mandiri Clickpay|mandiriclickpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mandiriclickpay.png)|
-|Bank Transfer|Multibanco|multibanco|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_multibanco.png)|
-|Bank Transfer|mTransfer Dotpay|dotpaymt|[Link to logo](#)|
-|Bank Transfer|MultiTransfer (MultiBank) Dotpay|dotpaymb|[Link to logo](#)|
-|Bank Transfer|Payeasy|payeasy|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_payeasy.png)|
-|Bank Transfer|Transferencia Bancaria|transferenciabancaria|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_transferenciabancaria.png)|
-|Bank Transfer|Tenpay|tenpay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_tenpay.png)|
-|Cash and Prepaid|Baloto|baloto|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_baloto.png)|
-|Cash and Prepaid|BitCash|bitcash|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_bitcash.png)|
-|Cash and Prepaid|Boleto Bancario|boletobancario|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_boletobancario.png)|
-|Cash and Prepaid|China Gaming Cards|chinagamingcards|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_chinagamingcards.png)|
-|Cash and Prepaid|China Telco Cards|chinatelcocards|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_chinatelcocards.png)|
-|Cash and Prepaid|Efecty|efectycolombia|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_efectycolombia.png)|
-|Cash and Prepaid|PSE|pse|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_pse.png)|
-|Cash and Prepaid|E Prepag Cash|eprepagcard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_eprepagcard.png)|
-|Cash and Prepaid|Todito|todito|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_todito.png)|
-|Cash and Prepaid|T-money|tmoney|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_tmoney.png)|
-|Cash and Prepaid|Paysafecard|paysafecard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_paysafecard.png)|
-|Cash and Prepaid|PagoEfectivo|pagoefectivo|[Link to logo](#)|
-|Cash and Prepaid|GudangVoucher|gudangvoucher|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_gudangvoucher.png)|
-|Cash and Prepaid|Wavegame|wavegame|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_wavegame.png)|
-|Cash and Prepaid|MOL|mol|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mol.png)|
-|Cash and Prepaid|Maxima|maxima|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_maxima.png)|
-|Cash and Prepaid|Minimart|minimart|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_minimart.png)|
-|Cash and Prepaid|Dineromail|dineromailargentina|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dineromailargentina.png)|
-|Cash and Prepaid|EcoCard|ecocard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_ecocard.png)|
-|Cash and Prepaid|OneCard|onecard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_onecard.png)|
-|Cash and Prepaid|Gana|gana|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_gana.png)|
-|Cash and Prepaid|Neosurf|neosurf|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_neosurf.png)|
-|Cash and Prepaid|Neteller|neteller|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_neteller.png)|
-|Cash and Prepaid|myCard Card|mycardcard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mycardcard.png)|
-|Cash and Prepaid|GSCash|gamesilk|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_gamesilk.png)|
-|Cash and Prepaid|ATM Transfer Indonesia|atmtransfer|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_atmtransfer.png)|
-|Cash and Prepaid|Ticket Premium|ticketsurf|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_ticketsurf.png)|
-|Cash and Prepaid|Book Gift Voucher|bookculture|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_bookculture.png)|
-|Cash and Prepaid|Cashbee|cashbee|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_cashbee.png)|
-|Cash and Prepaid|Culture Voucher|culturevoucher|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_culturevoucher.png)|
-|Cash and Prepaid|Webmoney Japan|webmoneyjapan|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_webmoneyjp.png)|
-|Cash and Prepaid|MINT e-PIN|mint|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_epinpaymentsystem.png)|
-|Cash and Prepaid|Boleto|boleto|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_boletobancario.png)|
-|Cash and Prepaid|VTC Telco Cards|vtctelcocard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_vtctelcocard.png)|
-|Cash and Prepaid|Safetypay Cash, Efectivo |safetypaycash|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_safetypaycash.png)|
-|Cash and Prepaid|Svyaznoy|svyasnoi|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_svyasnoi.png)|
-|Cash and Prepaid|Openbucks|openbucks|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_openbucks.png)|
-|Cash and Prepaid|UniPin Voucher|unipinexpress|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_unipinexpress.png)|
-|Cash and Prepaid|Oxxo|oxxo|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_oxxomexico.png)|
-|Cash and Prepaid|AstroPayCard|astropaycard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_astropaycard.png)|
-|Cash and Prepaid|Burger King Gift Card|burgerking|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_burgerking.png)|
-|Cash and Prepaid|Circle K Gift Card|circlek|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_circlek.png)|
-|Cash and Prepaid|CVS Pharmacy Gift Card|cvspharmacy|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_cvspharmacy.png)|
-|Cash and Prepaid|Dollar General Gift Card|dollargeneral|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dollargeneral.png)|
-|Cash and Prepaid|Subway Gift Card|subway|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_subway.png)|
-|Cash and Prepaid|RapiPago|rapipago|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_rapipago.png)|
-|Cash and Prepaid|Pagofacil|pagofacil|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_pagofacil.png)|
-|Cash and Prepaid|Paysbuy e-Cash Card|paysbuycash|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_paysbuycash.png)|
-|Cash and Prepaid|Easypay|easypay|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_easypay.png)|
-|Cash and Prepaid|Egg money|eggmoney|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_eggmoney.png)|
-|Cash and Prepaid|Evroset|evroset|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_evroset.png)|
-|Cash and Prepaid|Happy Voucher|happyvoucher|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_happyvoucher.png)|
-|Cash and Prepaid|Konbini|konbini|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_konbini.png)|
-|Cash and Prepaid|Narvesen|narvesen|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_narvesen.png)|
-|Cash and Prepaid|Oncash|oncash|[Link to Logo](https://api.paymentwall.com/images/ps_logos/pm_oncash.png)|
-|Cash and Prepaid|Paypost|paypost|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_paypost.png)|
-|Cash and Prepaid|Perlas|perlas|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_perlas.png)|
-|Cash and Prepaid|Teencash|teencash|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_teencash.png)|
-|Cash and Prepaid|Vcoin Card|vcoincard|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_vcoincard.png)|
-|Mobile and Phone|Allopass Landline|allopasslandline|[Link to logo](#)|
-|Mobile and Phone|Mobiamo|mobilegateway|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mobiamo.png)|
-|Mobile and Phone|Landline|ipay88|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_ipay88.png)|
+|Test Method|test|![](https://api.paymentwall.com/images/ps_logos/pm_dummy.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_dummy.png){:target="_blank"}|
+|Credit Cards|cc|![](https://api.paymentwall.com/images/ps_logos/pm_gateway.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_gateway.png){:target="_blank"}|
+|Credit Cards for Korea (Republic of)|allthegate|![](https://api.paymentwall.com/images/ps_logos/pm_allthegate.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_allthegate.png){:target="_blank"}|
+|UnionPay|unionpay|![](https://api.paymentwall.com/images/ps_logos/pm_unionpay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_unionpay.png){:target="_blank"}|
+|Hipercard Brazil|ccbrazilhipercard|![](https://api.paymentwall.com/images/ps_logos/pm_hipercard.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_hipercard.png){:target="_blank"}|
+|Bancontact|bancontact|![](https://api.paymentwall.com/images/ps_logos/pm_bancontact.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_bancontact.png){:target="_blank"}|
 
-## Payment method not found
+***
 
-If you're looking for a payment method that can not be found above, please feel free to email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) as this method may be supported but not available by default.
+## E-Wallets
 
+{:.docs-payment-system-shortcodes}
+|Payment system name|Payment system short code|Logo|Link to logo|
+|---|---|---|---|
+|PayPal|paypal|![](https://api.paymentwall.com/images/ps_logos/pm_paypal.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_paypal.png){:target="_blank"}|
+|Paysbuy|paysbuy|![](https://api.paymentwall.com/images/ps_logos/pm_paysbuy.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_paysbuy.png){:target="_blank"}|
+|Webmoney|webmoney|![](https://api.paymentwall.com/images/ps_logos/pm_webmoney.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_webmoney.png){:target="_blank"}|
+|CherryCredits|cherrycredits|![](https://api.paymentwall.com/images/ps_logos/pm_cherrycredits.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_cherrycredits.png){:target="_blank"}|
+|Webcash|webcash|![](https://api.paymentwall.com/images/ps_logos/pm_webcash.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_webcash.png){:target="_blank"}|
+|MercadoPago|mercadopago|![](https://api.paymentwall.com/images/ps_logos/pm_mercadopago.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mercadopago.png){:target="_blank"}|
+|Yandex Money|yamoney|![](https://api.paymentwall.com/images/ps_logos/pm_yamoney.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_yamoney.png){:target="_blank"}|
+|MyCard Wallet|mycardwallet|![](https://api.paymentwall.com/images/ps_logos/pm_mycardwallet.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mycardwallet.png){:target="_blank"}|
+|Indomog|indomog|![](https://api.paymentwall.com/images/ps_logos/pm_indomog.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_indomog.png){:target="_blank"}|
+|AliPay|alipay|![](https://api.paymentwall.com/images/ps_logos/pm_alipay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_alipay.png){:target="_blank"}|
+|PagSeguro|pagseguro|![](https://api.paymentwall.com/images/ps_logos/pm_pagseguro.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_pagseguro.png){:target="_blank"}|
+|Fanapay|fanapay|![](https://api.paymentwall.com/images/ps_logos/pm_fanapay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_fanapay.png){:target="_blank"}|
+|Qiwi Wallet|qiwiwallet|![](https://api.paymentwall.com/images/ps_logos/pm_qiwiwallet.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_qiwiwallet.png){:target="_blank"}|
+|Liqpay|liqpay|![](https://api.paymentwall.com/images/ps_logos/pm_liqpay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_liqpay.png){:target="_blank"}|
+|Bitcoin|coinbasebitcoin|![](https://api.paymentwall.com/images/ps_logos/pm_coinbasebitcoin.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_coinbasebitcoin.png){:target="_blank"}|
+|VTC Wallet|vtc|![](https://api.paymentwall.com/images/ps_logos/pm_vtc.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_vtc.png){:target="_blank"}|
+|Redcompra|redcompra|![](https://api.paymentwall.com/images/ps_logos/pm_redcompra.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_redcompra.png){:target="_blank"}|
+|UniPin Wallet|unipinwallet|![](https://api.paymentwall.com/images/ps_logos/pm_unipinwallet.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_unipinwallet.png){:target="_blank"}|
+|DOKU Wallet|dokuwallet|![](https://api.paymentwall.com/images/ps_logos/pm_dokuwallet.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_dokuwallet.png){:target="_blank"}|
+|Wechat Payments|wechatpayments|![](https://api.paymentwall.com/images/ps_logos/pm_wechatpayments.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_wechatpayments.png){:target="_blank"}|
+|Amazon Payments|amazon|![](https://api.paymentwall.com/images/ps_logos/pm_amazonpay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_amazonpay.png){:target="_blank"}|
+
+***
+
+## Bank transfer
+
+{:.docs-payment-system-shortcodes}
+|Payment system name|Payment system short code|Logo|Link to logo|
+|---|---|---|---|
+|EPS|epspayments|![](https://api.paymentwall.com/images/ps_logos/pm_epspayments.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_epspayments.png){:target="_blank"}|
+|Bank Transfer Finland|btfinland|![](https://api.paymentwall.com/images/ps_logos/pm_btfinland.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btfinland.png){:target="_blank"}|
+|Bank Transfer Korea|kftc|![](https://api.paymentwall.com/images/ps_logos/pm_kftc.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_kftc.png){:target="_blank"}|
+|Bank Transfer Malaysia|ipay88|![](https://api.paymentwall.com/images/ps_logos/pm_ipay88.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_ipay88.png){:target="_blank"}|
+|Bank Transfer Philippines|dragonpay|![](https://api.paymentwall.com/images/ps_logos/pm_dragonpay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_dragonpay.png){:target="_blank"}|
+|Klarna(Sofort)|sofortbanktransfer|![](https://api.paymentwall.com/images/ps_logos/pm_sofortbanktransfer.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_sofortbanktransfer.png){:target="_blank"}|
+|Mybank|mybank|![](https://api.paymentwall.com/images/ps_logos/pm_mybank.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mybank.png){:target="_blank"}|
+|KBC|kbc|![](https://api.paymentwall.com/images/ps_logos/pm_kbc.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_kbc.png){:target="_blank"}|
+|Bank Transfer Colombia|btcolombia|![](https://api.paymentwall.com/images/ps_logos/pm_btcolombia.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btcolombia.png){:target="_blank"}|
+|TrustPay|trustpay|![](https://api.paymentwall.com/images/ps_logos/pm_trustpay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_trustpay.png){:target="_blank"}|
+|PSE|pse|![](https://api.paymentwall.com/images/ps_logos/pm_pse.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_pse.png){:target="_blank"}|
+|Bank Transfer Peru|btperu|![](https://api.paymentwall.com/images/ps_logos/pm_btperu.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btperu.png){:target="_blank"}|
+|Bank Transfer Japan|banktransferjapan|![](https://api.paymentwall.com/images/ps_logos/pm_banktransferjapan.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_banktransferjapan.png){:target="_blank"}|
+|iDeal|idealpayments|![](https://api.paymentwall.com/images/ps_logos/pm_idealpayments.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_idealpayments.png){:target="_blank"}|
+|Payeasy|payeasy|![](https://api.paymentwall.com/images/ps_logos/pm_payeasy.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_payeasy.png){:target="_blank"}|
+|Teleingreso|teleingreso|![](https://api.paymentwall.com/images/ps_logos/pm_teleingreso.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_teleingreso.png){:target="_blank"}|
+|Bank Transfer Sweden|btsweden|![](https://api.paymentwall.com/images/ps_logos/pm_btsweden.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btsweden.png){:target="_blank"}|
+|Transferência bancária|ebanxtransfer|![](https://api.paymentwall.com/images/ps_logos/pm_ebanxtransfer.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_ebanxtransfer.png){:target="_blank"}|
+|Safetypay|safetypay|![](https://api.paymentwall.com/images/ps_logos/pm_safetypay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_safetypay.png){:target="_blank"}|
+|Multibanco|multibanco|![](https://api.paymentwall.com/images/ps_logos/pm_multibanco.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_multibanco.png){:target="_blank"}|
+|Belfius|belfius|![](https://api.paymentwall.com/images/ps_logos/pm_belfius.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_belfius.png){:target="_blank"}|
+|Bank Transfer Thailand|btthailand|![](https://api.paymentwall.com/images/ps_logos/pm_btthailand.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btthailand.png){:target="_blank"}|
+|Bank Transfer Mexico|banktransfermexico|![](https://api.paymentwall.com/images/ps_logos/pm_banktransfermexico.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_banktransfermexico.png){:target="_blank"}|
+|Redpagos|redpagos|![](https://api.paymentwall.com/images/ps_logos/pm_redpagos.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_redpagos.png){:target="_blank"}|
+|Poli|polipayments|![](https://api.paymentwall.com/images/ps_logos/pm_poli.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_poli.png){:target="_blank"}|
+|Interac|interac|![](https://api.paymentwall.com/images/ps_logos/pm_interac.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_interac.png){:target="_blank"}|
+|CBC|cbc|![](https://api.paymentwall.com/images/ps_logos/pm_cbc.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_cbc.png){:target="_blank"}|
+|Bank Transfer Estonia|btestonia|![](https://api.paymentwall.com/images/ps_logos/pm_btestonia.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btestonia.png){:target="_blank"}|
+|Bank Transfer Latvia|btlatvia|![](https://api.paymentwall.com/images/ps_logos/pm_btlatvia.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btlatvia.png){:target="_blank"}|
+|Bank Transfer Lithuania|btlithuania|![](https://api.paymentwall.com/images/ps_logos/pm_btlithuania.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btlithuania.png){:target="_blank"}|
+|Mandiri ClickPay|mandiriclickpay|![](https://api.paymentwall.com/images/ps_logos/pm_mandiriclickpay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mandiriclickpay.png){:target="_blank"}|
+|Bank Transfer Argentina|banktransferargentina|![](https://api.paymentwall.com/images/ps_logos/pm_banktransferargentina.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_banktransferargentina.png){:target="_blank"}|
+|Bank Transfer Poland|btpoland|![](https://api.paymentwall.com/images/ps_logos/pm_btpoland.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_btpoland.png){:target="_blank"}|
+
+***
+
+## Cash/Prepaid
+
+{:.docs-payment-system-shortcodes}
+|Payment system name|Payment system short code|Logo|Link to logo|
+|---|---|---|---|
+|MINT|mint|![](https://api.paymentwall.com/images/ps_logos/pm_epinpaymentsystem.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_epinpaymentsystem.png){:target="_blank"}|
+|Paysbuy Cash|paysbuycash|![](https://api.paymentwall.com/images/ps_logos/pm_paysbuycash.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_paysbuycash.png){:target="_blank"}|
+|Todito Cash|todito|![](https://api.paymentwall.com/images/ps_logos/pm_todito.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_todito.png){:target="_blank"}|
+|Gudang Voucher|gudangvoucher|![](https://api.paymentwall.com/images/ps_logos/pm_gudangvoucher.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_gudangvoucher.png){:target="_blank"}|
+|Happy Voucher|happyvoucher|![](https://api.paymentwall.com/images/ps_logos/pm_happyvoucher.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_happyvoucher.png){:target="_blank"}|
+|Wavegame|wavegame|![](https://api.paymentwall.com/images/ps_logos/pm_wavegame.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_wavegame.png){:target="_blank"}|
+|MOL|mol|![](https://api.paymentwall.com/images/ps_logos/pm_mol.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mol.png){:target="_blank"}|
+|Teencash|teencash|![](https://api.paymentwall.com/images/ps_logos/pm_teencash.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_teencash.png){:target="_blank"}|
+|T-money|tmoney|![](https://api.paymentwall.com/images/ps_logos/pm_tmoney.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_tmoney.png){:target="_blank"}|
+|Oxxo|oxxomexico|![](https://api.paymentwall.com/images/ps_logos/pm_oxxo.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_oxxomexico.png){:target="_blank"}|
+|OneCard|onecard|![](https://api.paymentwall.com/images/ps_logos/pm_onecard.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_onecard.png){:target="_blank"}|
+|Book Gift Voucher|bookculture|![](https://api.paymentwall.com/images/ps_logos/pm_bookculture.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_bookculture.png){:target="_blank"}|
+|GASH Card|pinhall|![](https://api.paymentwall.com/images/ps_logos/pm_pinhall.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_pinhall.png){:target="_blank"}|
+|Oncash|oncash|![](https://api.paymentwall.com/images/ps_logos/pm_oncash.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_oncash.png){:target="_blank"}|
+|Eggmoney|eggmoney|![](https://api.paymentwall.com/images/ps_logos/pm_eggmoney.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_eggmoney.png){:target="_blank"}|
+|NeoSurf|neosurf|![](https://api.paymentwall.com/images/ps_logos/pm_neosurf.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_neosurf.png){:target="_blank"}|
+|MyCard Card|mycardcard|![](https://api.paymentwall.com/images/ps_logos/pm_mycardcard.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mycardcard.png){:target="_blank"}|
+|Ticket Premium|ticketsurf|![](https://api.paymentwall.com/images/ps_logos/pm_ticketsurf.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_ticketsurf.png){:target="_blank"}|
+|Baloto|baloto|![](https://api.paymentwall.com/images/ps_logos/pm_baloto.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_baloto.png){:target="_blank"}|
+|Gana|gana|![](https://api.paymentwall.com/images/ps_logos/pm_gana.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_gana.png){:target="_blank"}|
+|Konbini|konbini|![](https://api.paymentwall.com/images/ps_logos/pm_konbini.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_konbini.png){:target="_blank"}|
+|WebmoneyJapan|webmoneyjapan|![](https://api.paymentwall.com/images/ps_logos/pm_webmoneyjapan.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_webmoneyjapan.png){:target="_blank"}|
+|Game-ON|gameon|![](https://api.paymentwall.com/images/ps_logos/pm_gameon.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_gameon.png){:target="_blank"}|
+|BitCash|bitcash|![](https://api.paymentwall.com/images/ps_logos/pm_bitcash.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_bitcash.png){:target="_blank"}|
+|Boleto|boletobancario|![](https://api.paymentwall.com/images/ps_logos/pm_boletobancario.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_boletobancario.png){:target="_blank"}|
+|Openbucks|openbucks|![](https://api.paymentwall.com/images/ps_logos/pm_openbucks.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_openbucks.png){:target="_blank"}|
+|Vietnam Telco Card|vtctelcocard|![](https://api.paymentwall.com/images/ps_logos/pm_vtctelcocard.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_vtctelcocard.png){:target="_blank"}|
+|Efectivo|safetypaycash|![](https://api.paymentwall.com/images/ps_logos/pm_safetypaycash.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_safetypaycash.png){:target="_blank"}|
+|Unipin Express|unipinexpress|![](https://api.paymentwall.com/images/ps_logos/pm_unipinexpress.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_unipinexpress.png){:target="_blank"}|
+|Vcoin Card|vcoincard|![](https://api.paymentwall.com/images/ps_logos/pm_vcoincard.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_vcoincard.png){:target="_blank"}|
+|E-Prepag Cash Card|eprepagcard|![](https://api.paymentwall.com/images/ps_logos/pm_eprepagcard.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_eprepagcard.png){:target="_blank"}|
+|Evroset|evroset|![](https://api.paymentwall.com/images/ps_logos/pm_evroset.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_evroset.png){:target="_blank"}|
+|Svyasnoi|svyasnoi|![](https://api.paymentwall.com/images/ps_logos/pm_svyasnoi.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_svyasnoi.png){:target="_blank"}|
+|Maxima|maxima|![](https://api.paymentwall.com/images/ps_logos/pm_maxima.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_maxima.png){:target="_blank"}|
+|Paypost|paypost|![](https://api.paymentwall.com/images/ps_logos/pm_paypost.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_paypost.png){:target="_blank"}|
+|Perlas|perlas|![](https://api.paymentwall.com/images/ps_logos/pm_perlas.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_perlas.png){:target="_blank"}|
+|Narvesen|narvesen|![](https://api.paymentwall.com/images/ps_logos/pm_narvesen.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_narvesen.png){:target="_blank"}|
+|Easypay|easypay|![](https://api.paymentwall.com/images/ps_logos/pm_easypay.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_easypay.png){:target="_blank"}|
+|Pagofacil|pagofacil|![](https://api.paymentwall.com/images/ps_logos/pm_pagofacil.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_pagofacil.png){:target="_blank"}|
+|RapiPago|rapipago|![](https://api.paymentwall.com/images/ps_logos/pm_rapipago.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_rapipago.png){:target="_blank"}|
+|Efecty|efectycolombia|![](https://api.paymentwall.com/images/ps_logos/pm_efectycolombia.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_efectycolombia.png){:target="_blank"}|
+|Davivienda|davivienda|![](https://api.paymentwall.com/images/ps_logos/pm_davivienda.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_davivienda.png){:target="_blank"}|
+|Minimart|minimart|![](https://api.paymentwall.com/images/ps_logos/pm_minimart.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_minimart.png){:target="_blank"}|
+|ATM Transfer Indonesia|atmtransfer|![](https://api.paymentwall.com/images/ps_logos/pm_atmtransfer.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_atmtransfer.png){:target="_blank"}|
+|Culture Voucher|culturevoucher|![](https://api.paymentwall.com/images/ps_logos/pm_culturevoucher.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_culturevoucher.png){:target="_blank"}|
+|Cashbee|cashbee|![](https://api.paymentwall.com/images/ps_logos/pm_cashbee.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_cashbee.png){:target="_blank"}|
+
+## Mobile
+
+{:.docs-payment-system-shortcodes}
+|Payment system name|Payment system short code|Logo|Link to logo|
+|---|---|---|---|
+|Mobiamo|mobilegateway|![](https://api.paymentwall.com/images/ps_logos/pm_mobiamo.png)|[Link](https://api.paymentwall.com/images/ps_logos/pm_mobiamo.png){:target="_blank"}|

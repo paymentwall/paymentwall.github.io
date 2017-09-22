@@ -23,7 +23,7 @@ Once you have a project created in [My Projects](https://api.paymentwall.com/dev
 
 * Select **Your API**  as *Digital Goods*.
 
-* Setup your inventories using [Product Manager](/reference/product_management_dg)
+* Setup your inventories using [Product Inventory Management - Digital Goods](/reference/product-inventory-management-dg)
 
 * Fill up the **Pingback url** to receive pingback notification.
 

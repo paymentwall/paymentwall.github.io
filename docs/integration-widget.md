@@ -57,7 +57,7 @@ Please select the [API type](#choose-the-api-type) for instructions relevant to 
 
 Payment methods which are displayed on the widget depends on the user’s IP address and configuration of the Payment Systems in your project. For each project, you can make adjustments on the activated payment methods and their country coverage at Payment System section in [My Projects](https://api.paymentwall.com/developers/applications) depending on your business needs.
 
-Refer to [payment methods](https://www.paymentwall.com/payment-methods) for the payment methods supported by *Widget API* in each country.
+Refer to [payment methods](/payment-method/credit-card) for the payment methods supported by *Widget API* in each country.
 
 ***
 

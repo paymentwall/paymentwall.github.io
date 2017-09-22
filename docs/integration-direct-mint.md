@@ -11,15 +11,7 @@ Mint is an online prepaid payment solution for purchasing digital goods and serv
 
 It has been integrated in [widget API](/integration/widget-home) and [checkout API](/integration/checkout-home) as an available payment method.
 
-## Direct Integration
-
-Alternatively, you can use [redemption API](/apis#section-mint-redemption) to integrate MINT into your application. All you need is just a field to collect ```epin```.
-
-## Sell MINT
-
-As a merchant you have the ability to resell MINT either on your website or your physical store.
-
-You will be able to sign up with Paymentwall as a MINT Reseller by clicking [here](www.mintprepaid.com/sell).
+> For more details about MINT, See [Pay online with MINT](http://www.mintprepaid.com).
 
 ## Features
 
@@ -29,6 +21,16 @@ You will be able to sign up with Paymentwall as a MINT Reseller by clicking [her
 
 * **Localization**. Ability to sell MINT e-pins at custom denominations and in a local currency to optimize sales in local markets.
 
-## References 
 
-For more details about MINT, See [Pay online with MINT](http://www.mintprepaid.com).
+## Sell MINT
+
+As a merchant you have the ability to resell MINT either on your website or your physical store.
+
+You will be able to sign up with Paymentwall as a MINT Reseller by clicking [here](www.mintprepaid.com/sell).
+
+
+## Direct Integration
+
+Alternatively, you can use [redemption API](/apis#section-mint-redemption) to integrate MINT into your application. All you need is just a field to collect ```epin```.
+
+

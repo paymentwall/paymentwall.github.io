@@ -27,6 +27,8 @@
                             <a class="docs-nav-list-link subitem" id="{{ subitem.id }}"
                                {% if subitem.path %}
                                path = "{{ subitem.path }}"
+                               {% elsif subitem.href %}
+                               href = "{{ subitem.href }}"
                                {% endif %}
                             >{{ subitem.title }}</a>
                             {% if subitem.leaves %}

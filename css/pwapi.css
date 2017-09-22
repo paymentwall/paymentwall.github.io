@@ -1102,6 +1102,12 @@ p {
 	font-weight: 500;
 }
 
+.page-header-nav-link:hover{
+	color: #FFD700;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
 .page-header__link li{
 	padding: 0 10px;
 }

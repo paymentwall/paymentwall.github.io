@@ -61,48 +61,70 @@ defaults:
     values:
       layout: docs
       sectionid: docs
-  - scope: 
+  - scope:
       path: docscode-php
       type: docscode-php
     values:
       sectionid: php
-  - scope: 
+  - scope:
       path: docscode-java
       type: docscode-java
     values:
       sectionid: java
-  - scope: 
+  - scope:
       path: docscode-ruby
       type: docscode-ruby
     values:
       sectionid: ruby
-  - scope: 
+  - scope:
       path: docscode-js
       type: docscode-js
     values:
       sectionid: js
-  - scope: 
+  - scope:
       path: docscode-python
       type: docscode-python
     values:
       sectionid: python
-  - scope: 
+  - scope:
       path: docscode-dotnet
       type: docscode-dotnet
     values:
       sectionid: dotnet
-  - scope: 
+  - scope:
       path: docscode-curl
       type: docscode-curl
     values:
       sectionid: curl
+  - scope:
+      path: docscode-android
+      type: docscode-android
+    values:
+      sectionid: android
+  - scope:
+      path: docscode-ios
+      type: docscode-ios
+    values:
+      sectionid: ios
   - scope:
       path: modules
       type: pages
     values:
       layout: docs-modules
       sectionid: docs-modules
-      
+  - scope:
+      path: payment-system
+      type: pages
+    values:
+      layout: docs-ps
+      sectionid: docs-ps
+  - scope:
+      path: mobile
+      type: pages
+    values:
+      layout: docs-mobile
+      sectionid: docs-mobile
+
 collections:
   - apicode-ruby
   - apicode-js
@@ -119,6 +141,8 @@ collections:
   - docscode-dotnet
   - docscode-python
   - docscode-curl
+  - docscode-android
+  - docscode-ios
 
 exclude:
   - .gitignore

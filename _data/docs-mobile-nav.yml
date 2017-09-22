@@ -1,0 +1,32 @@
+- id: mobile
+  title: Paymentwall SDK
+  items:
+    - id: mobile-overview
+      title: Overview
+      path: /mobile/home
+      # if in page routing is need for nav secion
+      # subitems:
+      #   - id: mobile-sdk-integration-step1
+      #     title: Step 1 Download Paymentwall SDK from Github
+      #     sub_path: /mobile/home#step-1-download-library-from-github
+      #   - id: mobile-sdk-integration-step2
+      #     title: Step 2 Configure Core SDK
+      #     sub_path: /mobile/home#step-2-configure-core-sdk
+      #   - id: mobile-sdk-integration-step3
+      #     title: Step 3 Choose Payment Methods
+      #     sub_path: /mobile/home#step-3-choose-payment-methods
+      #   - id: mobile-sdk-integration-step4
+      #     title: Step 4 Choose Utility Plugin(optional)
+      #     sub_path: /mobile/home#step-4-choose-utility-plugin-optional
+      #   - id: mobile-sdk-integration-step5
+      #     title: Step 5 Handle pingback
+      #     sub_path: /mobile/home#step-5-handle-pingback
+    - id: mobile-payment-methods
+      title: Payment Methods
+      path: /mobile/payment-methods
+    - id: mobile-utility-plugin
+      title: Utility Plugin
+      path: /mobile/utility-plugin
+    # - id: mobile-partners
+    #   title: Partners
+    #   path: /mobile/partners

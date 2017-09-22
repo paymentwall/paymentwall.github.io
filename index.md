@@ -151,26 +151,17 @@ This page lists a high-level overview of all ways to integrate Paymentwall into 
                 <h3>Mobile SDK</h3>
             </div>
             <p>
-            Unified mobile payment solution for <a href="https://www.paymentwall.com/payment-methods"> payment methods</a> provided by Paymentwall.
+            Unified mobile payment solution for <a href="/payment-method/credit-card"> payment methods</a> provided by Paymentwall.
             </p>
             <ul>
                 <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="/integration/sdks/mobile-home">Overview</a>
+                    <a class="docs-ul-box-li-link" href="/mobile/home">Overview</a>
                 </li>
                 <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-android-sdk">Android SDK</a>
                 </li>
                 <li class="docs-ul-box-li">
                     <a class="docs-ul-box-li-link" href="https://github.com/paymentwall/paymentwall-ios-sdk">iOS SDK</a>
-                </li>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="/integration/sdks/mobile/support_ps">Optimized payment methods</a>
-                </li>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="/integration/sdks/mobile/scan">Scan cards</a>
-                </li>
-                <li class="docs-ul-box-li">
-                    <a class="docs-ul-box-li-link" href="/integration/sdks/mobile/ui">UI customization</a>
                 </li>
             </ul>
         </div>

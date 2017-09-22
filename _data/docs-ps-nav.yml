@@ -1,0 +1,333 @@
+- id: nav-cc
+  title: Credit and Debit Cards
+  items:
+    - id: nav-cc-cc
+      title: Credit Card
+      path: /payment-method/credit-card
+    - id: nav-cc-cc_kr
+      title: Credit Card for Korea
+      path: /payment-method/credit-card-for-korea
+    - id: nav-cc-unionpay
+      title: UnionPay
+      path: /payment-method/unionpay
+    - id: nav-cc-hipercard
+      title: Hipercard
+      path: /payment-method/hipercard
+    - id: nav-cc-bancontact
+      title: Bancontact
+      path: /payment-method/bancontact
+- id: nav-bt
+  title: Bank Transfers
+  items:
+    - id: nav-bt-eps
+      title: EPS
+      path: /payment-method/eps
+    - id: nav-bt-bt_finland
+      title: Bank Transfer Finland
+      path: /payment-method/bank-transfer-finland
+    - id: nav-bt-bt_kr
+      title: Bank Transfer Korea
+      path: /payment-method/bank-transfer-korea
+    - id: nav-bt-bt_malaysia
+      title: Bank Transfer Malaysia
+      path: /payment-method/bank-transfer-malaysia
+    - id: nav-bt-bt_philippines
+      title: Bank Transfer Philippines
+      path: /payment-method/bank-transfer-philippines
+    - id: nav-bt-klarna
+      title: Klarna (Sofort)
+      path: /payment-method/klarna
+    - id: nav-bt-mybank
+      title: Mybank
+      path: /payment-method/mybank
+    - id: nav-bt-kbc
+      title: KBC
+      path: /payment-method/kbc
+    - id: nav-bt-bt_colombia
+      title: Bank Transfer Colombia
+      path: /payment-method/bank-transfer-colombia
+    - id: nav-bt-trustpay
+      title: TrustPay
+      path: /payment-method/trustpay
+    - id: nav-bt-pse
+      title: PSE
+      path: /payment-method/pse
+    - id: nav-bt-bt_peru
+      title: Bank Transfer Peru
+      path: /payment-method/bank-transfer-peru
+    - id: nav-bt-bt_japan
+      title: Bank Transfer Japan
+      path: /payment-method/bank-transfer-japan
+    - id: nav-bt-ideal
+      title: iDeal
+      path: /payment-method/ideal
+    - id: nav-bt-payeasy
+      title: Payeasy
+      path: /payment-method/payeasy
+    - id: nav-bt-teleingreso
+      title: Teleingreso
+      path: /payment-method/teleingreso
+    - id: nav-bt-bt_sweden
+      title: Bank Transfer Sweden
+      path: /payment-method/bank-transfer-sweden
+    - id: nav-bt-transferencia_bancaria
+      title: Transferência bancária
+      path: /payment-method/transferencia-bancaria
+    - id: nav-bt-safetypay
+      title: SafetyPay
+      path: /payment-method/safetypay
+    - id: nav-bt-multibanco
+      title: Multibanco
+      path: /payment-method/multibanco
+    - id: nav-bt-belfius
+      title: Belfius
+      path: /payment-method/belfius
+    - id: nav-bt-bt_thailand
+      title: Bank Transfer Thailand
+      path: /payment-method/bank-transfer-thailand
+    - id: nav-bt-bt_mexico
+      title: Bank Transfer Mexico
+      path: /payment-method/bank-transfer-mexico
+    - id: nav-bt-redpagos
+      title: Redpagos
+      path: /payment-method/redpagos
+    - id: nav-bt-poli
+      title: Poli
+      path: /payment-method/poli
+    - id: nav-bt-interac
+      title: Interac
+      path: /payment-method/interac
+    - id: nav-bt-cbc
+      title: CBC
+      path: /payment-method/cbc
+    - id: nav-bt-bt_estonia
+      title: Bank Transfer Estonia
+      path: /payment-method/bank-transfer-estonia
+    - id: nav-bt-bt_latvia
+      title: Bank Transfer Latvia
+      path: /payment-method/bank-transfer-latvia
+    - id: nav-bt-bt_lithuania
+      title: Bank Transfer Lithuania
+      path: /payment-method/bank-transfer-lithuania
+    - id: nav-bt-mandiri_clickpay
+      title: Mandiri Clickpay
+      path: /payment-method/mandiri-clickpay
+    - id: nav-bt-bt_argentina
+      title: Bank Transfer Argentina
+      path: /payment-method/bank-transfer-argentina
+    - id: nav-bt-bt_poland
+      title: Bank Transfer Poland
+      path: /payment-method/bank-transfer-poland
+- id: nav-mobile
+  title: Mobile
+  items:
+    - id: nav-mobile-mobiamo
+      title: Mobiamo
+      path: /payment-method/mobiamo
+- id: nav-prepaid
+  title: Cash and Prepaid
+  items:
+    - id: nav-prepaid-mint
+      title: MINT
+      path: /payment-method/mint
+    - id: nav-prepaid-paysbuy_cash
+      title: Paysbuy Cash
+      path: /payment-method/paysbuy-cash
+    - id: nav-prepaid-todito
+      title: Todito Cash
+      path: /payment-method/todito
+    - id: nav-prepaid-gudang_voucher
+      title: Gudang Voucher
+      path: /payment-method/gudang-voucher
+    - id: nav-prepaid-happy_voucher
+      title: Happy Voucher
+      path: /payment-method/happy-voucher
+    - id: nav-prepaid-wavegame
+      title: Wavegame
+      path: /payment-method/wavegame
+    - id: nav-prepaid-mol
+      title: MOL
+      path: /payment-method/mol
+    - id: nav-prepaid-teencash
+      title: Teencash
+      path: /payment-method/teencash
+    - id: nav-prepaid-tmoney
+      title: T-Money
+      path: /payment-method/tmoney
+    - id: nav-prepaid-oxxo
+      title: Oxxo
+      path: /payment-method/oxxo
+    - id: nav-prepaid-onecard
+      title: OneCard
+      path: /payment-method/onecard
+    - id: nav-prepaid-book_gift_voucher
+      title: Book Gift Voucher
+      path: /payment-method/book-gift-voucher
+    - id: nav-prepaid-gash_card
+      title: Gash Card
+      path: /payment-method/gash-card
+    - id: nav-prepaid-oncash
+      title: Oncash
+      path: /payment-method/oncash
+    - id: nav-prepaid-eggmoney
+      title: Eggmoney
+      path: /payment-method/eggmoney
+    - id: nav-prepaid-neosurf
+      title: Neosurf
+      path: /payment-method/neosurf
+    - id: nav-prepaid-mycard_card
+      title: MyCard Card
+      path: /payment-method/mycard-card
+    - id: nav-prepaid-ticket_premium
+      title: Ticket Premium
+      path: /payment-method/ticket-premium
+    - id: nav-prepaid-baloto
+      title: Baloto
+      path: /payment-method/baloto
+    - id: nav-prepaid-gana
+      title: Gana
+      path: /payment-method/gana
+    - id: nav-prepaid-konbini
+      title: Konbini
+      path: /payment-method/konbini
+    - id: nav-prepaid-webmoney_japan
+      title: Webmoney Japan
+      path: /payment-method/webmoney-japan
+    - id: nav-prepaid-game_on
+      title: Game-ON
+      path: /payment-method/game-on
+    - id: nav-prepaid-bitcash
+      title: BitCash
+      path: /payment-method/bitcash
+    - id: nav-prepaid-boleto
+      title: Boleto
+      path: /payment-method/boleto
+    - id: nav-prepaid-openbucks
+      title: Openbucks
+      path: /payment-method/openbucks
+    - id: nav-prepaid-vietnam_telco_card
+      title: Vietnam Telco Card
+      path: /payment-method/vietnam-telco-card
+    - id: nav-prepaid-efectivo
+      title: Efectivo
+      path: /payment-method/efectivo
+    - id: nav-prepaid-unipin_express
+      title: Unipin Express
+      path: /payment-method/unipin-express
+    - id: nav-prepaid-vcoin_card
+      title: Vcoin Card
+      path: /payment-method/vcoin-card
+    - id: nav-prepaid-eprepag_cash_card
+      title: E-Prepag Cash Card
+      path: /payment-method/eprepag-cash-card
+    - id: nav-prepaid-evroset
+      title: Evroset
+      path: /payment-method/evroset
+    - id: nav-prepaid-svyasnoi
+      title: Svyasnoi
+      path: /payment-method/svyasnoi
+    - id: nav-prepaid-maxima
+      title: Maxima
+      path: /payment-method/maxima
+    - id: nav-prepaid-paypost
+      title: Paypost
+      path: /payment-method/paypost
+    - id: nav-prepaid-perlas
+      title: Perlas
+      path: /payment-method/perlas
+    - id: nav-prepaid-narvesen
+      title: Narvesen
+      path: /payment-method/narvesen
+    - id: nav-prepaid-easypay
+      title: Easypay
+      path: /payment-method/easypay
+    - id: nav-prepaid-pagofacil
+      title: Pagofacil
+      path: /payment-method/pagofacil
+    - id: nav-prepaid-rapipago
+      title: RapiPago
+      path: /payment-method/rapipago
+    - id: nav-prepaid-efecty
+      title: Efecty
+      path: /payment-method/efecty
+    - id: nav-prepaid-davivienda
+      title: Davivienda
+      path: /payment-method/davivienda
+    - id: nav-prepaid-minimart
+      title: Minimart
+      path: /payment-method/minimart
+    - id: nav-prepaid-atmtransfer
+      title: ATM Transfer Indonesia
+      path: /payment-method/atm-transfer-indonesia
+    - id: nav-prepaid-culturevoucher
+      title: Culture Voucher
+      path: /payment-method/culture-voucher
+    - id: nav-prepaid-cashbee
+      title: Cashbee
+      path: /payment-method/cashbee
+- id: nav-ewallet
+  title: E-Wallets
+  items:
+    - id: nav-ewallet-paypal
+      title: PayPal
+      path: /payment-method/paypal
+    - id: nav-ewallet-paysbuy
+      title: Paysbuy
+      path: /payment-method/paysbuy
+    - id: nav-ewallet-webmoney
+      title: Webmoney
+      path: /payment-method/webmoney
+    - id: nav-ewallet-cherry_credits
+      title: Cherry Credits
+      path: /payment-method/cherry-credits
+    - id: nav-ewallet-webcash
+      title: Webcash
+      path: /payment-method/webcash
+    - id: nav-ewallet-mercadopago
+      title: MercadoPago
+      path: /payment-method/mercadopago
+    - id: nav-ewallet-yandex
+      title: Yandex.Money
+      path: /payment-method/yandex-money
+    - id: nav-ewallet-mycardwallet
+      title: MyCard Wallet
+      path: /payment-method/mycardwallet
+    - id: nav-ewallet-indomog
+      title: Indomog
+      path: /payment-method/indomog
+    - id: nav-ewallet-alipay
+      title: Alipay
+      path: /payment-method/alipay
+    - id: nav-ewallet-pagseguro
+      title: PagSeguro
+      path: /payment-method/pagseguro
+    - id: nav-ewallet-fanapay
+      title: Fanapay
+      path: /payment-method/fanapay
+    - id: nav-ewallet-qiwiwallet
+      title: Qiwi Wallet
+      path: /payment-method/qiwiwallet
+    - id: nav-ewallet-liqpay
+      title: Liqpay
+      path: /payment-method/liqpay
+    - id: nav-ewallet-vtcwallet
+      title: VTC Wallet
+      path: /payment-method/vtcwallet
+    - id: nav-ewallet-bitcoin_coinbase
+      title: Bitcoin Coinbase
+      path: /payment-method/bitcoin-coinbase
+    - id: nav-ewallet-redcompra
+      title: Redcompra
+      path: /payment-method/redcompra
+    - id: nav-ewallet-unipinwallet
+      title: UniPin Wallet
+      path: /payment-method/unipinwallet
+    - id: nav-ewallet-dokuwallet
+      title: Doku Wallet
+      path: /payment-method/dokuwallet
+    - id: nav-ewallet-wechatpay
+      title: Wechat Pay
+      path: /payment-method/wechatpay
+    - id: nav-ewallet-amazonpay
+      title: Amazon Pay
+      path: /payment-method/amazonpay
