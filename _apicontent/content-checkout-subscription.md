@@ -27,6 +27,6 @@ category: section-checkout-subscription
 |ag_post_trial_external_id*<br> **string**| ID of your trial product. The maximum length is 256.|
 |ag_post_trial_period_type*<br> **string**| The type of your subscription duration for trial products. Required to be set to following types, day/week/month/year. |
 |ag_post_trial_period_length*<br> **integer**| The length of your subscription duration for trial products.|
-|ps<br> *required*<br> **string**| It determines which payment method to be shown on payment page.  Set it to ```all``` if you want to use selection form of payment methods provided by Paymentwall. Refer to [payment system shortcodes](/reference/ps) to get the payment method code.|
+|ps<br> *required*<br> **string**| It determines which payment method to be shown on payment page.  Required to be in lowercase. Set it to ```all``` if you want to use selection form of payment methods provided by Paymentwall. Refer to [payment system shortcodes](/reference/ps) to get the payment method code.|
 |sign_version<br> *required*<br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
 |sign<br> *required*<br> **string lowercase**|The signature of widget. Refer to [signature calculation](/reference/signature-calculation) for more details.|

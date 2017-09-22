@@ -29,7 +29,7 @@ There are 2 types of PSMS:
 
 * MT (Mobile Terminated): User gets charged after receiving PIN code 
 
->PINLESS flow: For PSMS, PINLESS flow is applied in some countries: User can skip the second step (receive and enter PIN). The list of supported countries is published in this **[page]()**.
+>PINLESS flow: For PSMS, PINLESS flow is applied in some countries: User can skip the second step (receive and enter PIN). The list of supported countries is published in this **[page](http://new.mobiamo.com/coverage)**.
 
 ## DCB
 
@@ -49,4 +49,4 @@ There are 2 types of PSMS:
 
 There are 2 types of DCB flow: Wifi and 3G. 
 
-* For 3G flow, if the country supports direct connection with mobile carrier, it is possible for user to make payment with only one click and no verification step is required. Please visit this **[page]()** for list of applicable countries.
+* For 3G flow, if the country supports direct connection with mobile carrier, it is possible for user to make payment with only one click and no verification step is required. Please visit this **[page](http://new.mobiamo.com/coverage)** for list of applicable countries.

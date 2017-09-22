@@ -63,6 +63,9 @@
             - id: nav-integration-direct-mobiamo-flow
               title: Payment flows
               path: /integration/direct/mobiamo/mobiamo-flow
+            - id: nav-integration-direct-mobiamo-carrier
+              title: Mobiamo Carriers
+              path: /integration/direct/mobiamo/mobiamo-carrier
         - id: nav-integration-direct-mint
           title: MINT Direct
           path: /integration/direct/mint-home
@@ -73,8 +76,8 @@
       title: SDKs
       subitems:
         - id: nav-integration-sdk-mobile
-          title: Mobile
-          path: /integration/sdks/mobile-home
+          title: Mobile SDK
+          href: /mobile/home
         - id: nav-integration-sdk-smart_tv
           title: Smart TV
           path: /integration/sdks/smart_tv
@@ -113,12 +116,6 @@
         - id: nav-guides-spiderpipe-paypal
           title: PayPal
           path: /guides/spiderpipe/paypal
-        - id: nav-guides-spiderpipe-amazon
-          title: Amazon
-          path: /guides/spiderpipe/amazon
-        - id: nav-guides-spiderpipe-bitcoin_bitpay
-          title: Bitcoin Bitpay
-          path: /guides/spiderpipe/bitcoin-bitpay
         - id: nav-guides-spiderpipe-bitcoin_coinbase
           title: Bitcoin Coinbase
           path: /guides/spiderpipe/bitcoin-coinbase
@@ -128,6 +125,9 @@
         - id: nav-guides-spiderpipe-wechatpay
           title: Wechat Pay
           path: /guides/spiderpipe/wechatpay
+- id: nav-ps
+  title: Payment Methods
+  href: /payment-method/credit-card
 - id: nav-reference
   title: Reference
   items:
@@ -143,15 +143,15 @@
     - id: nav-reference-ps
       title: Payment system codes
       path: /reference/payment-system-shortcodes
-    - id: nav-reference-product_manager
-      title: Product Manager
+    - id: nav-reference-product_inventory_management
+      title: Product Inventory Management
       subitems:
-      - id: nav-reference-product_manager_dg
+      - id: nav-reference-product_inventory_management-dg
         title: Digital Goods
-        path: /reference/product_manager_dg
-      - id: nav-reference-product_manager_vc
+        path: /reference/product-inventory-management-dg
+      - id: nav-reference-product_inventory_management-vc
         title: Virtual Currency
-        path: /reference/product_manager_vc
+        path: /reference/product-inventory-management-vc
     - id: nav-reference-pingback
       title: Pingback
       path: /reference/pingback-home

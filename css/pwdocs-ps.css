@@ -1,0 +1,89 @@
+.docs-ps-header{
+    display: flex;
+}
+
+.docs-ps-logo{
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+}
+
+.docs-ps-body {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .docs-ps-body{
+        display: block;
+    }
+}
+
+.docs-ps-attributes{
+    flex-basis: 36%;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .docs-ps-attributes{
+        margin: 30px 0 0 0;
+    }
+}
+
+.docs-ps-attributes-body{
+    font-size: 14px;
+    color: #474747;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(33,33,33,.38);
+}
+
+.flags{
+    width: 15px;
+    height: 11px;
+    top: 2px;
+}
+
+.docs-ps-attributes-body table thead{
+    display: none;
+}
+
+.docs-ps-attributes-body table tbody tr:first-child{
+    border-top: none !important;
+}
+
+.docs-ps-attributes-body table tbody tr:last-child {
+    border-bottom: none !important;
+}
+
+.docs-ps-attributes-body table td {
+    padding: 10px 0 !important;
+}
+
+.docs-ps-attributes-body table tr td:first-child{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .doc-content table thead {
+        display: none;
+    }
+    .doc-content table tr{
+        display: table-row !important;
+        border: none;
+    }
+    .doc-content table td{
+        display: table-cell !important;
+    }
+
+    .doc-content table td:before{
+        display: none !important;
+    }
+}
+
+.docs-ps-instructions{
+    flex-basis: 64%;
+}
+
+.docs-ps-instructions .docs-img{
+    margin: 0 30px;
+}

@@ -1,11 +1,11 @@
 ---
 id: development-review
-title: Review
+title: Project Review
 sectionid: docs
 permalink: guides/review-home
 ---
 
-# Project go live
+# Project Review
 
 Your project is always in the sandbox environment when its status is not live, where only the [test payment](/sandbox/test-payment) method is allowed to be used.
 

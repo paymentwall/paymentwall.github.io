@@ -1,11 +1,11 @@
 ---
-id: payments-reference-product_manager_dg
-title: Product Manager - Digital Goods
+id: payments-reference-product_management_dg
+title: Product Inventory Management - Digital Goods
 sectionid: docs
-permalink: reference/product_manager_dg
+permalink: reference/product-inventory-management-dg
 ---
 
-# Product Manager - Digital Goods
+# Product Inventory Management - Digital Goods
 
 It is easier to manage your inventory by using Paymentwall's **Product Manager**. 
 You can add, update or remove products anytime you want without changing the integration or source code of your application. 

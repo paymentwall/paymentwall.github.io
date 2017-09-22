@@ -191,7 +191,7 @@ After validating the *pingback*, your server is always expected to be able to pr
 
 ## Client-side action
 
-In most cases, a complete payment experience is required wherein the end-users can be redirected back to the original application after making a payment. 
+In most cases, a complete payment experience is required wherein the end-users can be redirected back to the original application after making a payment.
 
 There would be a *link* shown up in the payment successful page which is hosted by Paymentwall or our partners if you have ```success_url``` presented as [optional parameter](/apis#section-checkout-optional_parameter) while building the link of *payment page*. Your customers are then able to click it and go back to your applications.
 

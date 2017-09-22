@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us">
+
+{% include docs-head.html %}
+
+<body>
+	{% include svg.html %}
+	<div class="showbox" style="display: none">
+			<div class="loader">
+				<svg class="circular" viewBox="25 25 50 50">
+					<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+				</svg>
+			</div>
+	</div>
+	{% include docs-header.html %}
+	<div class="img-container">
+		<div class="img-container-content">
+		</div>
+	</div>
+	<div class="page-section page-section--doc page-section--light js-main-content">
+		{% include docs-mobile-navigation.html %}
+		<div class="maincontent">
+			<div class="article">
+				<div class="doc-content {{ page.id }}">
+					{{ content }}
+				</div>
+			</div>
+			{% include footer.html %}
+		</div>
+	</div>
+</body>
+</html>

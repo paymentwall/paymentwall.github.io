@@ -45,7 +45,7 @@ A typical payment flow of integrating *checkout API* can be described in 6 steps
 
 ## Step 2: Select the payment method to pay with
 
-For users selecting payment methods on Paymentwall websites, you can assign ```ps=all``` for all [payment methods](https://www.paymentwall.com/payment-methods) in the request for *payment page*.
+For users selecting payment methods on Paymentwall websites, you can assign ```ps=all``` for all [payment methods](/payment-method/credit-card) in the request for *payment page*.
 
 Payment methods, which are displayed in the *payment page*, depend on the user’s IP address and configuration in Payment Systems of your project.
 

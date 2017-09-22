@@ -1,0 +1,42 @@
+<div class="sidebar-holder">
+	<div id="docs-nav">
+		<div class="section-sidebar" id="docs-page-divide">
+			<a class="back-to-doc-home" href="/">Back to overview</a>
+			<hr>
+		</div>
+		{% for section in site.data.docs-mobile-nav %}
+		<div class="section-sidebar" id="{{ section.title }}">
+				<a class="docs-nav-list-link section-sidebar-title js-expand-maintitle-trigger" id="{{ section.id }}"
+            path="{{ section.path }}">{{ section.title }}</a>
+            	{% if section.items %}
+            		<ul class="docs-nav-list">
+                	{% for item in section.items %}
+                		<li>
+                    		<a class="docs-nav-list-link js-expand-subtitle-trigger item" id="{{ item.id }}"
+                       path="{{ item.path }}">{{ item.title }}</a>
+											 {% if item.subitems %}
+											 <ul class="docs-nav-subtitle-list">
+													 {% for subitem in item.subitems %}
+													 <li>
+															 <a class="docs-nav-list-link subitem" id="{{ subitem.id }}"
+																	{% if subitem.path %}
+																	path = "{{ subitem.path }}"
+																	{% elsif subitem.href %}
+																	href = "{{ subitem.href }}"
+																	{% endif %}
+															 >{{ subitem.title }}</a>
+														</li>
+														{% endfor %}
+												</ul>
+												{% endif %}
+                		</li>
+                	{% endfor %}
+            		</ul>
+            	{% endif %}
+		</div>
+		{% endfor %}
+		<div class="section-sidebar" id="section-icon">
+			<a href="javascript:void(0);" style="font-size: 15px; color: #000;" class="icon">&#9776;</a>
+		</div>
+	</div>
+</div>

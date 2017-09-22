@@ -7,7 +7,7 @@ sectionid: docs
 
 # PayAlto
 
-PayAlto is a local payment methods aggregation which includes all the [gateways](https://www.paymentwall.com/payment-methods) provided by our partners. It connects with over 150 local payment methods from 200 countries.  
+PayAlto is a local payment methods aggregation which includes all the [gateways](/payment-method/credit-card) provided by our partners. It connects with over 150 local payment methods from 200 countries.  
 
 ## Included gateway categories
 

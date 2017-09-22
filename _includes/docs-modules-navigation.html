@@ -1,10 +1,10 @@
 <div class="sidebar-holder">
-	<div id="modules-nav">
-		<div class="modules-divide">
+	<div id="docs-nav">
+		<div class="section-sidebar" id="docs-page-divide">
 			<a class="back-to-doc-home" href="/">Back to overview</a>
 			<hr>
 		</div>
-		{% for section in site.data.modules-nav %}
+		{% for section in site.data.docs-modules-nav %}
 		<div class="section-sidebar" id="{{ section.title }}">
 				<a class="docs-nav-list-link section-sidebar-title js-expand-maintitle-trigger" id="{{ section.id }}"
             path="{{ section.path }}">{{ section.title }}</a>
@@ -20,7 +20,7 @@
             	{% endif %}
 		</div>
 		{% endfor %}
-		<div class="modules-section-sidebar" id="section-icon">
+		<div class="section-sidebar" id="section-icon">
 			<a href="javascript:void(0);" style="font-size: 15px; color: #000;" class="icon">&#9776;</a>
 		</div>
 	</div>

@@ -23,7 +23,7 @@ Once you have a project created in [My Projects](https://api.paymentwall.com/dev
 
 * Select **Your API**  as *Virtual Currency*.
 
-* Setup your inventories using [Product Manager](/reference/product_management_vc)
+* Setup your inventories using [Product Inventory Management - Virtual Currency](/reference/product-inventory-management-vc)
 
 * Fill up the **Pingback url** to receive pingback notification.
 

@@ -62,10 +62,16 @@
           title: Cancel a subscription
 - title: MOBIAMO DIRECT
   items:
+    - name: section-mobiamo-token
+      title: Get token
+    - name: section-mobiamo-initiate
+      title: Initiate payment
+    - name: section-mobiamo-process
+      title: Process payment
+    - name: section-mobiamo-get-transaction
+      title: Get transaction details 
     - name: section-mobiamo-pricepoint
       title: Pricepoint
-    - name: section-mobiamo-pinless
-      title: Pinless
 - title: MINT DIRECT
   items:
     - name: section-mint-generate
@@ -74,6 +80,9 @@
       title: Get ePIN balance
     - name: section-mint-redemption
       title: MINT redemption
+      subitems:
+        - name: section-mint-redemption-error_codes
+          title: Error codes
 - title: TOOLS
   items:
     - name: section-tools-cancellation

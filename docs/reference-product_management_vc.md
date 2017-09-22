@@ -1,11 +1,11 @@
 ---
-id: payments-reference-product_manager_vc
-title: Product Manager - Virtual Currency
+id: payments-reference-product_inventory_management_vc
+title: Product Inventory Management - Virtual Currency
 sectionid: docs
-permalink: reference/product_manager_vc
+permalink: reference/product-inventory-management-vc
 ---
 
-# Product Manager - Virtual Currency
+# Product Inventory Management - Virtual Currency
 
 It is easier to manage the virtual economy of your application by using Paymentwall **Product Manager**. 
 You can add, update or remove price points anytime you want without changing the integration or source code of your application.
