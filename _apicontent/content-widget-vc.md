@@ -18,3 +18,5 @@ If you are selling points, coins or credtis, virtual currency API can help you t
 |sign_version <br> *required*<br> **integer**| Signature version. Version 2 employs MD5 and version 3 utilizes SHA256.|
 |sign <br> *required*<br> **string lowercase**| The signature of the widget. Refer to [Signature Calculation](/reference/signature-calculation) for more details.|
 |promo <br>  **array**| Apply promotion to products. Require sign_version 3.|
+
+You can also add [optional parameters](#section-param-optional) for extra needs or [user profile parameters](#section-param-user_profile) for risk scoring.

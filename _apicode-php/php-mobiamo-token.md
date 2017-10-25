@@ -5,7 +5,7 @@ category: section-mobiamo-token
 Endpoint:
 
 ```
-POST https://api.paymentwall.com/pwaccount/?source=pwmobiamo
+POST https://api.paymentwall.com/api/mobiamo/token
 ```
 
 Sample Request

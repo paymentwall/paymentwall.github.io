@@ -253,7 +253,7 @@ After validating the *pingback*, your server is always expected to be able to pr
 
 Configure your project in [merchant dashboard](https://api.paymentwall.com/developers/applications) to make it work properly with *Mobiamo Direct API*.
 
-* Select *Your API* as *Digital Goods* in **Settings**.
+* Select *Your API* as *Checkout API* in **Settings**.
 
 * Fill the *Pingback URL* to receive asynchronous notification in **Settings**.
 

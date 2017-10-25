@@ -18,7 +18,7 @@ Parameter with OWN value are always the one which you have passed to us as custo
 |---|---|
 |**OWN**| Your custom parameter which you passed when build widget. |
 
-To use OWN custom parameter, please add your custom parameter as [addtional parameter](/reference/widgets#additional-parameters).
+To use OWN custom parameter, please add your custom parameter as additional parameter.
 
 Here we added ```my_custom_param``` as a parameter name and ```my custom value``` as a value that we want to get back from pingback request.
 
@@ -28,7 +28,7 @@ Once additional parameter is added, go to **Project** > **Settings** to add cust
     <img src="/textures/pic/reference/pingback/customparameter_sample.png">
 </div>
 
-Done! When you receive pingback, you will find your custom parameter ```my_custom_param``` is also included having ```my custom value``` as a value in it. 
+When you receive pingback, you will find your custom parameter ```my_custom_param``` is also included having ```my custom value``` as a value in it. 
 ```
 http://www.yourserver.com/anypath?goodsid=gold_membershipis_test=1my_custom_param=my custom valueref=b1493096790sign_version=2slength=1speriod=monthtype=0uid=pwuserac785c67092b858c5de5b7981e81a7db
 ```

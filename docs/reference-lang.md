@@ -9,7 +9,7 @@ permalink: reference/lang
 
 List of the language codes (ISO 639-1) which can be used to override the default geo-targeted language of the Paymentwall widget.
 
-You should send these with parameter ```lang``` as [optional parameter](/apis#section-checkout-optional_parameter), e.g. ```lang=tr``` for Turkish.
+You should send these with parameter ```lang``` as [optional parameter](/apis#section-param-optional), e.g. ```lang=tr``` for Turkish.
 
 | Code | Language |
 |---|---|

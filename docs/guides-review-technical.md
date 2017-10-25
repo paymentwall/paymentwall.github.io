@@ -5,15 +5,13 @@ sectionid: docs
 permalink: guides/review/technical
 ---
 
-# Technical Integration Checklist
+# Technical Review
 
-The Technical Integration checklist is on the left side of the pop-up window. Check all the items on the checkbox to make sure that you have completed the basic integration requirements for our products.
+The technical integration checklist is on the left side of the pop-up window. Check all the items on the checkbox to make sure that you have completed the basic integration requirements for our products.
 
 <div class="docs-img">
 	<img src="/textures/pic/guides/review/review-technical-checklist.png" style="width: 30%">
 </div>
-
-> 
 
 Provide us with the URL where the Paymentwall widget is placed on your website along with a test account. If you are using our product on mobile, replace the URL with a downloadable link of your application.
 
@@ -74,8 +72,6 @@ Below is the check points for merchants who are using [Brick](/integration/direc
 
 * Pingbacks are being tracked and the product is being delivered.
 
-## Reference
+## Relevant topics
 
-You should also have the approval from our compliance team to go live your project.
-
-> See [checklist of compliance team](/go_live-compliance).
+> [Website Standards](/guides/review/website-standards).

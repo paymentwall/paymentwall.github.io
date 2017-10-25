@@ -16,7 +16,7 @@ sectionid: docs-ps
 
 <div class="docs-ps-instructions" markdown="1">
 
-Wavegame is an prepaid card (voucher) in Indonesia. There are only 5 different amounts issued: 10000 IDR, 20000 IDR, 50000 IDR, 100000 IDR and 250000 IDR
+Wavegame is an prepaid card (voucher) in Indonesia. There are only 5 different amounts issued: 10,000 IDR, 20,000 IDR, 50,000 IDR, 100,000 IDR and 250,000 IDR
 
 <br>
 
@@ -55,7 +55,7 @@ Wavegame is an prepaid card (voucher) in Indonesia. There are only 5 different a
 |Recurring Payments|No|
 |Mobile UI|No|
 |Open new window|Yes|
-|Min Transaction Limit|0.3 USD or equivalent currencies|
+|Min Transaction Limit|10,000 IDR or equivalent currencies|
 
 ***
 

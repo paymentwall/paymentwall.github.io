@@ -52,7 +52,7 @@ Efectivo is an alternative, cash-based payment method for merchants located in L
 |Refunds|Yes|
 |Onboarding required| No|
 |Recurring Payments|No|
-|Mobile UI|NO|
+|Mobile UI|No|
 |Open new window|Yes|
 |Min Transaction Limit|0.3 USD or equivalent currencies|
 

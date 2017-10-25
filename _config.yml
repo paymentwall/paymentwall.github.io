@@ -61,6 +61,13 @@ defaults:
     values:
       layout: docs
       sectionid: docs
+  # This scope is only for external usage
+  - scope:
+      path: contents
+      type: pages
+    values:
+      layout: contents
+      sectionid: contents
   - scope:
       path: docscode-php
       type: docscode-php

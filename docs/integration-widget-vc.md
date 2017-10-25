@@ -21,7 +21,7 @@ Specify the currency for your application’s virtual cash. Virtual Currency API
 
 Once you have a project created in [My Projects](https://api.paymentwall.com/developers/applications), you can start configure your project at **Settings** section to make it work properly with *Widget API*:
 
-* Select **Your API**  as *Virtual Currency*.
+* Select **Your API**  as *Widget API - Virtual Currency*.
 
 * Setup your inventories using [Product Inventory Management - Virtual Currency](/reference/product-inventory-management-vc)
 
@@ -196,7 +196,7 @@ You should check whether your pingback listener is :
 - filtering wrong signature requests. You can test this by checking **Use a dummy value** feature in Test Pingback Tool.
 
 ## Success Page
-If you would like to redirect the user after a payment is made, you can pass the ```success_url``` and ```failure_url``` parameters as [optional parameter](/apis#section-checkout-optional_parameter) that will be used as the address of landing page after your users made payments.
+If you would like to redirect the user after a payment is made, you can pass the ```success_url``` and ```failure_url``` parameters as [optional parameter](/apis#section-param-optional) that will be used as the address of landing page after your users made payments.
 You can also use client side callback if you want to take more actions.
 
 > To enable client side callback, please contact to devsupport@paymentwall.com with your Paymentwall account email address.
