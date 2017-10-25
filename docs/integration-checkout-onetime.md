@@ -95,7 +95,7 @@ Payment link can be built by ```widget``` object. The configuration difference b
   </div>
 </div>
 
-> If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-checkout-optional_parameter) that will be used as the URL of redirecting displayed to your customer after a payment is made.
+> If you would like to redirect the user after a payment is made, you can pass the ```success_url``` parameter as [optional parameter](/apis#section-param-optional) that will be used as the URL of redirecting displayed to your customer after a payment is made.
 
 You can then embed the payment page into your application by either using *iframe* or opening it with a new browser window.
 
@@ -193,7 +193,7 @@ After validating the *pingback*, your server is always expected to be able to pr
 
 In most cases, a complete payment experience is required wherein the end-users can be redirected back to the original application after making a payment.
 
-There would be a *link* shown up in the payment successful page which is hosted by Paymentwall or our partners if you have ```success_url``` presented as [optional parameter](/apis#section-checkout-optional_parameter) while building the link of *payment page*. Your customers are then able to click it and go back to your applications.
+There would be a *link* shown up in the payment successful page which is hosted by Paymentwall or our partners if you have ```success_url``` presented as [optional parameter](/apis#section-param-optional) while building the link of *payment page*. Your customers are then able to click it and go back to your applications.
 
 Alternatively, [client-side callback](/reference/client-side-callback) is suitable if you have additional requirements about client-side actions once a payment is finished.
 

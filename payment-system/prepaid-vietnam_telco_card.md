@@ -18,7 +18,17 @@ sectionid: docs-ps
 
 Vietnamese Telco card facilitates payment via prepaid scratch cards for gamers and for users of digital products and services. The card includes a card pin and a serial number, which allow users to recharge their games, or gain better access to digital content.
 
-<br>
+The product amount is required to be one of following values:
+
+|Amount|Currency|
+|---|---|
+|10,000|VND|
+|20,000|VND|
+|50,000|VND|
+|100,000|VND|
+|200,000|VND|
+|300,000|VND|
+|500,000|VND|
 
 ***
 
@@ -46,7 +56,7 @@ Vietnamese Telco card facilitates payment via prepaid scratch cards for gamers a
 |Countries| <img class="flags" src="/textures/pic/flags/asia/vietnam.png"> [VN](https://en.wikipedia.org/wiki/Vietnam)|
 |Type|Cash and Prepaid|
 |Processing currencies|[VND](https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng)|
-|Supported currencies|Refer to [currency codes](/reference/currencies)|
+|Supported currencies|Refer to [currency codes](/reference/currencies) but [VND](https://en.wikipedia.org/wiki/Vietnamese_%C4%91%E1%BB%93ng) is recommended|
 |Payment confirmation time|Instant|
 |Payout time frame| NET 30|
 |Chargebacks|No|
@@ -55,7 +65,7 @@ Vietnamese Telco card facilitates payment via prepaid scratch cards for gamers a
 |Recurring Payments|No|
 |Mobile UI|No|
 |Open new window|Yes|
-|Min Transaction Limit|0.3 USD or equivalent currencies|
+|Min Transaction Limit|10,000 VND or equivalent currencies|
 
 ***
 

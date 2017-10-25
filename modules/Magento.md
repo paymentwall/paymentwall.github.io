@@ -70,7 +70,7 @@ Paymentwall's plug-in for Magento can be downloaded **[here](https://github.com/
 
 ```json
 cd <your Magento install dir>
-composer require paymentwall:module-magento2 --no-update
+composer require paymentwall/module-magento2 --no-update
 composer update
 ```
 

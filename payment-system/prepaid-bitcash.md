@@ -1,7 +1,7 @@
 ---
-id: ps-BitCash
-title: Payment Method - bitcash
-permalink: payment-method/BitCash
+id: ps-bitcash
+title: Payment Method - BitCash
+permalink: payment-method/bitcash
 sectionid: docs-ps
 ---
 
@@ -9,15 +9,14 @@ sectionid: docs-ps
     <div class="docs-ps-logo">
         <img src="https://api.paymentwall.com/images/ps_logos/pm_bitcash.png">
     </div>
-    <h1>bitcash</h1>
+    <h1>BitCash</h1>
 </div>
 
 <div class="docs-ps-body" markdown="1">
 
 <div class="docs-ps-instructions" markdown="1">
 
-Game On is a prepaid game card system mainly used in Indonesia. The card is protected by serial and pin numbers.
-
+Bit Cash is prepayment Digital Cash available in internet payment. There is no worry for being illegally used because of its safety and anonymity. Consumers can buy it in about 35,000 shops of convenience stores all over Japan. It is possible to integrate the balance of 2 cards to 1 card.
 <br>
 
 ***

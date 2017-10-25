@@ -1,7 +1,7 @@
 ---
-category: section-checkout-optional_parameter
+category: section-param-optional
 ---
-## Optional Parameter
+## Optional
 
 Optional parameters could be added as additional parameters in either [widget API](#section-widget) or [checkout API](#section-checkout-onetime) for extra needs.
 
@@ -9,7 +9,7 @@ Optional parameters could be added as additional parameters in either [widget AP
 
 | Name | Description |
 |:--|:--|
-|success_url<br> **string**| URL of the page where the end-user should be redirected to after the payment is complete.|
+|success_url<br> **string**| URL of the page where the end-user should be redirected to after the payment is complete. Additionally, ```$ref``` can be added as a placeholder in ```success_url``` to pass transaction id. E.g. https://website.com/thank-you?transaction_id=$ref |
 |failure_url<br> **string**| URL of the page where the end-user should be redirected to after the payment is failed. It is used when the payment cannot be completed.  For credit card, user won’t be redirected to the failure_url page as he may solve some errors by using another card.|
 |pingback_url<br> **string**| Optional URL of pingback listener script where pingbacks should be sent.  It overrides the default Pingback URL which sets up in Project Settings in Merchant Area. Please send request to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) for activating this feature.|
 |lang<br> **string**| Language code to override the default geo-targeted language of the widget. 2 letters. eg: en. See [language codes](/reference/lang).|

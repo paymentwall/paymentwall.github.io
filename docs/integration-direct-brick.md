@@ -30,7 +30,7 @@ Integrating *Brick Direct* only requires 4 steps:
 
 Configure your project in [merchant dashboard](https://api.paymentwall.com/developers/applications) to make it work properly with *Brick*.
 
-* Select *Your API* as *Digital Goods* in **Settings**.
+* Select *Your API* as *Checkout API* in **Settings**.
 
 * Fill the *Pingback url* to receive asynchronous notification in **Settings**.
 

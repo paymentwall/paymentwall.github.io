@@ -54,7 +54,7 @@ zGold-MOLPoints is a prepaid online cash payment solution developed by MOL Globa
 
 |name|description|
 |:--|:--|
-|Countries|<img class="flags" src="/textures/pic/flags/asia/indonesia.png">[ID ](https://en.wikipedia.org/wiki/Indonesia) <img class="flags" src="/textures/pic/flags/asia/malaysia.png">[MY](https://en.wikipedia.org/wiki/Malaysia) <img class="flags" src="/textures/pic/flags/asia/philippines.png">[PH](https://en.wikipedia.org/wiki/Philippines) <img class="flags" src="/textures/pic/flags/asia/singapore.png">[SG](https://en.wikipedia.org/wiki/Singapore) <img class="flags" src="/textures/pic/flags/africa/bahrain.png">[EG](https://en.wikipedia.org/wiki/Egypt) <img class="flags" src="/textures/pic/flags/asia/india.png">[IN](https://en.wikipedia.org/wiki/India)|
+|Countries|<img class="flags" src="/textures/pic/flags/asia/indonesia.png">[ID ](https://en.wikipedia.org/wiki/Indonesia) <img class="flags" src="/textures/pic/flags/asia/malaysia.png">[MY](https://en.wikipedia.org/wiki/Malaysia) <img class="flags" src="/textures/pic/flags/asia/philippines.png">[PH](https://en.wikipedia.org/wiki/Philippines) <img class="flags" src="/textures/pic/flags/asia/singapore.png">[SG](https://en.wikipedia.org/wiki/Singapore) <img class="flags" src="/textures/pic/flags/africa/egypt.png">[EG](https://en.wikipedia.org/wiki/Egypt) <img class="flags" src="/textures/pic/flags/asia/india.png">[IN](https://en.wikipedia.org/wiki/India)|
 |Type|Cash and Prepaid|
 |Processing currencies|[IDR](https://en.wikipedia.org/wiki/Indonesian_rupiah) [MYR](https://en.wikipedia.org/wiki/Malaysian_ringgit) [PHP](https://en.wikipedia.org/wiki/Philippine_peso) [SGD](https://en.wikipedia.org/wiki/Singapore_dollar)|
 |Supported currencies|Refer to [currency codes](/reference/currencies)|

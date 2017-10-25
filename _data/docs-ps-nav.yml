@@ -307,9 +307,6 @@
     - id: nav-ewallet-qiwiwallet
       title: Qiwi Wallet
       path: /payment-method/qiwiwallet
-    - id: nav-ewallet-liqpay
-      title: Liqpay
-      path: /payment-method/liqpay
     - id: nav-ewallet-vtcwallet
       title: VTC Wallet
       path: /payment-method/vtcwallet

@@ -41,17 +41,17 @@ Paymentwall's plug-in for PHPfox can be downloaded **[here](https://github.com/p
 
 ## Setup Paymentwall module on your platform
 
-+ Upload all files from **PaymentwallForPHPFox** directory to your PHPfox **root** folder using an FTP client of your choice.
-
-+ Go to the database (using phpmyadmin) in order to import **sql/paymentwall.sql** into database.  Choose **Import** in the top menu. Under **File to import**, click **Choose File** and select the **sql/paymentwall.sql**. Then click **Go** at the bottom right.
++ Upload all files from **PaymentwallForPHPFox** directory to your **PF.Base/** folder using an FTP client of your choice.
 
 + Run the database updates in **paymentwall_phpfox_db_query.sql**
 
-	- Change the default **dbphpfox** database name to your PHPFox installation's database.
+	- Change the default **`dbphpfox`** database name to your PHPFox installation's database.
 
 	- Change the database table prefix with the one that your are using.
 
 	- Import the SQL into your database.
+
+	- If you are using PHPFox 4.5 or higher, please add **'phpfox.gateway.api.paymentwall' => 'library/phpfox/gateway/api/paymentwall.class.php'**, into file **/PF.Base/include/class_map.config.php and 'gateway.api.paymentwall' => \Phpfox_Gateway_Api_Paymentwall::class, into file /PF.Base/include/package.config.php**.
 
 + On your AdminCP, please go to **Settings** -> **Payment Gateways**
 

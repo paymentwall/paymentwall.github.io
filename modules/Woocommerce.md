@@ -29,7 +29,7 @@ Paymentwall's plug-in for Woocommerce can be downloaded **[here](https://github.
 
 	- Set **Pingback type** to URL.
 
-	- Configure your **Pingback URL** to [http://[your-domain]/modules/gateways/callback/paymentwall.php]()
+	- Configure your **Pingback URL** to [http://[your-domain]/?wc-api=paymentwall_gateway&action=ipn]()
 
 	- Choose the **Pingback Signature Version** to version 3.
 
@@ -61,7 +61,7 @@ Paymentwall's plug-in for Woocommerce can be downloaded **[here](https://github.
 
 ## Support
 
-+ Paymentwall requires Wordpress  4.0 & WooCommerce 2.1+ or higher and is compatible up to Wordpress 4.7 & Woocommerce 2.6.4.
++ Paymentwall requires Wordpress  4.0 & WooCommerce 2.1 or higher and is compatible up to Wordpress 4.8 & Woocommerce 3.2.
 
 + List of available *Payment Methods* can be discovered [here](https://www.paymentwall.com/en/payment-methods).
 

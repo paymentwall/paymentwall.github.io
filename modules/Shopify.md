@@ -17,13 +17,13 @@ To connect Paymentwall with your Shopify store simply follow the 2 easy steps be
 
 ### Project configuration in Paymentwall system
 
-+ Create your project with [Shopify connect button](https://api.paymentwall.com/developers/connect?source=shopify).
++ Step 1: Create your project with [Shopify connect button](https://api.paymentwall.com/developers/connect?source=shopify). In this way, step 4 & step 5 will be done automatically, or you will need to manually configure settings in **My Projects** tab and email us for admin settings.
 
-+ You will be taken to **Paymentwall Account Registration Page**. **Sign Up** if you don't have an account or **Sign In** if you already have one. When you **Sign Up**, use your Shopify webstore URL for the **Website URL** field (e.g. *https://mystore.myshopify.net*).
++ Step 2: You will be taken to **Paymentwall Account Registration Page**. **Sign Up** if you don't have an account or **Sign In** if you already have one. When you **Sign Up**, use your Shopify webstore URL for the **Website URL** field (e.g. *https://mystore.myshopify.net*).
 
-+ You will be taken to your merchant area page with your project already set up (a new project will be created if you had an account before).
++ Step 3: You will be taken to your merchant area page with your project already set up (a new project will be created if you had an account before).
 
-+ Go to **My Projects** tab. You will see that your new project has already been created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on Shopify admin panel.
++ Step 4: Go to **My Projects** tab. You will see that your new project has already been created. ```Project Key``` and ```Secret Key``` will be needed later to finish the project setup on Shopify admin panel.
 
 	- In **Settings** section, please set **Your API type** to ```Digital Goods```.
 
@@ -33,15 +33,23 @@ To connect Paymentwall with your Shopify store simply follow the 2 easy steps be
 
 	- Choose the **Pingback Signature Version** to version 3.
 
+	- Configure **Custom Pingback Parameters**.
+
+	<div class="docs-img">
+	    <img src="/textures/pic/module/shopify/custom_pingback_parameter.png" style="width:80%">
+	</div>
+
 > Remember to save changes at the bottom of **Settings** section.
 
-* In **Widgets** section, create a widget that you prefer. And save changes.
++ Step 5: Send email to  <a href="mailto:integration@paymentwall.com">integration@paymentwall.com</a> to request admin settings. The advised email body is: Please help to set project custom settings for Shopify. Project key: ```your project key```.
+
++ Step 6: In **Widgets** section, create a widget that you prefer. And save changes.
 
 ### Setup Paymentwall module on your platform
 
-+ Please authorize *Paymentwall* on your Shopify store via this [link](https://www.shopify.com/login?redirect=authorize_gateway%2F1030414). 
++ Please authorize *Paymentwall* on your Shopify store via this [link](https://www.shopify.com/login?redirect=authorize_gateway%2F1030414).
 
-+ After you log in to your shop, you will be prompted to add *Paymentwall* as a gateway. 
++ After you log in to your shop, you will be prompted to add *Paymentwall* as a gateway.
 
 + Click the **Add payment gateway** button. Paymentwall should be available on your admin Payments settings page.
 

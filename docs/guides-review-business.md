@@ -1,11 +1,12 @@
 ---
-id: development-review-business
-title: Business Review
+id: development-review-website_standards
+title: Website standards
 sectionid: docs
-permalink: guides/review/business
+permalink: guides/review/website-standards
 ---
 
-<p class="main-title">website standards</p>
+# Website Standards
+
 <div class="js-tab tab">
     <p class="step-title">Make your website compliant</p>
     <p class="step-content">Here is a short visual guide with Visa/MasterCard/ <br> Discover/Amex requirements</p>

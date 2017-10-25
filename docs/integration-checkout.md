@@ -114,7 +114,7 @@ Whenever users make a payment, Paymentwall sends a *client-side callback*, which
 
 ## Step 6: Redirect user to payment success page
 
-If you passed ```success_url``` as an [optional parameter](/apis#section-checkout-optional_parameter) in the request for the *payment page*, an option will show up to redirect your users back to your application.
+If you passed ```success_url``` as an [optional parameter](/apis#section-param-optional) in the request for the *payment page*, an option will show up to redirect your users back to your application.
 
 ***
 
@@ -122,7 +122,7 @@ If you passed ```success_url``` as an [optional parameter](/apis#section-checkou
 
 Configure your project in [merchant dashboard](https://api.paymentwall.com/developers/applications):
 
-* Select **Your API**  as *Digital Goods* in **Settings**.
+* Select **Your API**  as *Checkout API* in **Settings**.
 
 * Fill the **Pingback url** to receive asynchronous notification in **Settings**.
 

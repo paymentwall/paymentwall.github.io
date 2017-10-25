@@ -104,11 +104,11 @@
       path: /guides/review-home
       subitems:
         - id: nav-guides-review-technical
-          title: Technical integration
+          title: Technical Review
           path: /guides/review/technical
-        - id: nav-guides-review-business
-          title: Business
-          path: /guides/review/business
+        - id: nav-guides-review-website_standards
+          title: Website Standards
+          path: /guides/review/website-standards
     - id: nav-guides-spiderpipe
       title: SpiderPipe
       path: /guides/spiderpipe-home
@@ -159,6 +159,9 @@
         - id: nav-reference-pingback-custom_param
           title: Custom Parameters
           path: /reference/pingback/custom-parameter
+    - id: nav-reference-pci_dss_compliance
+      title: PCI DSS Compliance
+      path: /reference/pci-dss-compliance
     - id: nav-reference-signature_calculation
       title: Signature Calculation
       path: /reference/signature-calculation

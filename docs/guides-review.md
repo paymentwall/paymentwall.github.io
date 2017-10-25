@@ -32,11 +32,3 @@ For merchants who are using [Brick](/integration/direct/brick-home), you will ne
 By default, we disable the test payment method on your project immediately once its status is changed to live. 
 
 We recommend you to create another project under your Paymentwall account as staging project.
-
-## Checklist
-
-A checklist form will be opened and asking you to confirm that you have completed associated operations once you submit your project for review.
-
-* [Integration checklist](/guides/review/technical).
-
-* [Business checklist](/guides/review/business).

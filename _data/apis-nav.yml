@@ -14,8 +14,12 @@
       title: Onetime payment
     - name: section-checkout-subscription
       title: Subscription
-    - name: section-checkout-optional_parameter
-      title: Optional Parameter
+- title: ADDITIONAL PARAMETER
+  items:
+    - name: section-param-user_profile
+      title: User Profile
+    - name: section-param-optional
+      title: Optional
 - title: INVOCING DIRECT
   items:
     - name: section-invoicing

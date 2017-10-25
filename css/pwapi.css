@@ -1478,10 +1478,6 @@ p {
 	text-decoration: none;
 }
 
-.api-ref-content{
-	overflow: scroll;
-}
-
 @media only screen and (max-width: 992px) {
 	.api-ref-content {
 		margin-top: 63px;

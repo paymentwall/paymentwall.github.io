@@ -12,7 +12,7 @@ category: section-checkout-onetime
 |widget<br> *required*<br> **string**| Widget code. Can be obtained in the widget sections of your projects.|
 |email<br> *required*<br> **string**| The email of end users. Paymentwall will automatically send a payment receipt to the user once his payment is successfully performed.|
 |timestamp<br> *required*<br> **string**| Unix timestamp of the current date. The limitation of length is 10.|
-|amount<br> *required*<br> **double**| The amount of your product. Default price range is from 0.3 USD to 500 USD or equivalent currency. 2 decimal places are expected.|
+|amount<br> *required*<br> **double**| The amount of your product. The minimum transaction limit is USD 0.3 or equivalent in other currencies.. 2 decimal places are expected.|
 |currencyCode<br> *required*<br> **string**| Currency code of your product. Format by [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217#Active_codes). 3 letters. |
 |ag_name<br> *required*<br> **string**| Your product name. The maximum length is 256.|
 |ag_external_id<br> *required*<br> **string**| ID of your product. Order reference ID could also be set here. We will communicate back to you via the pingback as goodsid parameter. The maximum length is 256. |
@@ -20,3 +20,5 @@ category: section-checkout-onetime
 |ps<br> *required*<br> **string**| It determines which payment method to be shown on payment page.  Required to be in lowercase. Set it to ```all``` if you want to use selection form of payment methods provided by Paymentwall.  Refer to [payment system shortcodes](/reference/ps) to get the payment method code. |
 |sign_version<br> *required*<br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
 |sign<br> *required*<br> **string lowercase**| The signature of widget. Refer to [signature calculation](/reference/signature-calculation) for more details.|
+
+You can also add [optional parameters](#section-param-optional) for extra needs or [user profile parameters](#section-param-user_profile) for risk scoring.

@@ -999,7 +999,7 @@ p {
 }
 
 .doc-content p {
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .doc-content table{
@@ -1152,6 +1152,10 @@ p {
     display: block;
 }
 
+.doc-content p:not(:first-child){
+    padding-top: 10px;
+}
+
 .docs-ul-box {
     display: flex;
 }
@@ -1299,7 +1303,7 @@ p {
 
 .page-footer {
     font-size: 16px;
-    padding: 0 10% 20px 10%;
+    padding: 0 6% 20px 6%;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
