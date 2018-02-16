@@ -12,10 +12,10 @@ widget = Widget(
     'pw_1', 
     [], // Product parts, leave empty for Widget API
     {
-        'email' => 'user@hostname.com',
-        'timestamp' => 'transaction_current_timestamp',
-        'ps' => 'all', // Replace the value of 'ps' with specific payment system short code for Widget API uni
-        'additional_param_name' => 'additional_param_value'
+        'email': 'user@hostname.com',
+        'timestamp': 'transaction_current_timestamp',
+        'ps': 'all', # Replace the value of 'ps' with specific payment system short code for Widget API uni
+        'additional_param_name': 'additional_param_value',
     }
 )
 print(widget.get_url())
